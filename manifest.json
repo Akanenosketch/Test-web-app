@@ -36,10 +36,14 @@
             "file": "local-tests/test_t7_temario.json"
         },
         {
+            "id": "test-t6-t7-temario",
+            "file": "local-tests/preguntas_temas_6_7.json"
+        },        
+        {
             "id": "random-test",
             "file": "local-tests/random_test.json"
         },
-                {
+        {
             "id": "test-practica-1",
             "file": "local-tests/test_practica_1.json"
         },

@@ -1,0 +1,1107 @@
+{
+  "title": "Fundamentos Éticos y Jurídicos de las TIC — Banco completo",
+  "description": "Las 100 preguntas completas. Grado en Ingeniería Informática (GREI)",
+  "author": "Banco de preguntas TIC",
+  "questions": [
+    {
+      "question": "¿Cuál es la característica principal de los derechos morales de autor según el TRLPI?",
+      "options": [
+        "Son transmisibles por herencia sin limitación",
+        "Son irrenunciables e inalienables",
+        "Tienen una duración de 70 años desde la muerte del autor",
+        "Solo corresponden a personas jurídicas"
+      ],
+      "answer": 1,
+      "explanation": "Los derechos morales son inherentes a la persona del autor y están presididos por las notas de irrenunciabilidad e inalienabilidad, lo que los hace intransmisibles e indisponibles. Constituyen la máxima expresión de la soberanía del autor sobre su creación."
+    },
+    {
+      "question": "¿Cuántas facultades reconoce el artículo 14 del TRLPI al autor en materia de derechos morales?",
+      "options": [
+        "Cinco",
+        "Seis",
+        "Siete",
+        "Cuatro"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 14 del TRLPI reconoce siete facultades morales al autor: divulgación, determinación del nombre, paternidad, integridad, rectificación, arrepentimiento y acceso al ejemplar único o raro."
+    },
+    {
+      "question": "¿Cómo se denomina el derecho del autor a decidir si su obra se divulga y en qué forma?",
+      "options": [
+        "Derecho de paternidad",
+        "Derecho de integridad",
+        "Derecho de divulgación o inédito",
+        "Derecho de rectificación"
+      ],
+      "answer": 2,
+      "explanation": "El derecho de divulgación o inédito permite al autor decidir si su obra se divulga y en qué forma, incluyendo la posibilidad de mantenerla inédita indefinidamente."
+    },
+    {
+      "question": "¿Tiene el derecho de paternidad un límite temporal según el TRLPI?",
+      "options": [
+        "Sí, 70 años tras la muerte del autor",
+        "Sí, durante la vida del autor solamente",
+        "No, carece de límite temporal",
+        "Sí, 50 años tras la muerte del autor"
+      ],
+      "answer": 2,
+      "explanation": "El derecho de paternidad carece de límite temporal. Tras el fallecimiento del autor puede ser ejercitado por la persona natural o jurídica que el autor haya designado o, en su defecto, por sus herederos."
+    },
+    {
+      "question": "¿Qué facultad moral permite al autor retirar la obra del comercio por cambio de convicciones?",
+      "options": [
+        "Derecho de rectificación",
+        "Derecho de integridad",
+        "Derecho de arrepentimiento",
+        "Derecho de divulgación"
+      ],
+      "answer": 2,
+      "explanation": "El derecho de arrepentimiento permite al autor retirar la obra del comercio por cambio de sus convicciones morales o intelectuales, pero exige la previa indemnización de daños y perjuicios a los titulares de derechos de explotación."
+    },
+    {
+      "question": "Según el artículo 15 TRLPI, ¿quién puede ejercer los derechos de integridad y paternidad tras el fallecimiento del autor?",
+      "options": [
+        "Exclusivamente el Estado",
+        "Solo los herederos directos de primer grado",
+        "La persona designada por el autor o, en su defecto, los herederos, sin límite de tiempo",
+        "Nadie, se extinguen con la muerte del autor"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 15 TRLPI establece que el ejercicio de los derechos de integridad y paternidad tras la muerte del autor corresponde sin límite de tiempo a la persona natural o jurídica designada expresamente por el autor en disposición de última voluntad o, en su defecto, a los herederos."
+    },
+    {
+      "question": "¿Durante cuánto tiempo puede ejercerse el derecho de divulgación tras la muerte del autor sobre obras no divulgadas?",
+      "options": [
+        "50 años",
+        "25 años",
+        "70 años",
+        "Sin límite temporal"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 15 TRLPI establece que el derecho de divulgación puede ejercerse durante el plazo de setenta años desde la muerte del autor en relación con la obra no divulgada."
+    },
+    {
+      "question": "¿Qué exige el ejercicio del derecho de arrepentimiento como requisito previo?",
+      "options": [
+        "La autorización judicial previa",
+        "La previa indemnización de daños y perjuicios a los titulares de derechos de explotación",
+        "El consentimiento de los herederos",
+        "Ningún requisito previo"
+      ],
+      "answer": 1,
+      "explanation": "El derecho de arrepentimiento, que permite retirar la obra del comercio por cambio de convicciones morales o intelectuales, está condicionado a la previa indemnización de daños y perjuicios a los titulares de derechos de explotación."
+    },
+    {
+      "question": "¿En qué artículo del TRLPI se regulan con carácter general los derechos de explotación?",
+      "options": [
+        "Artículo 14",
+        "Artículo 17",
+        "Artículo 21",
+        "Artículo 10"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 17 TRLPI es el precepto general que recoge los derechos de explotación del autor: reproducción, distribución, comunicación pública y transformación, con una enumeración meramente enunciativa y no cerrada."
+    },
+    {
+      "question": "¿Cómo define el TRLPI la reproducción?",
+      "options": [
+        "La puesta a disposición del público mediante venta o alquiler",
+        "La fijación de la obra que permita su comunicación o la obtención de copias",
+        "Todo acto por el que el público puede acceder a la obra",
+        "La traducción o adaptación de la obra a otra forma"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 18 TRLPI define la reproducción como la fijación de la obra que permita su comunicación o la obtención de copias de toda o parte de ella."
+    },
+    {
+      "question": "¿Qué implica el derecho de distribución según el artículo 19 TRLPI?",
+      "options": [
+        "La fijación de la obra en soporte digital",
+        "La puesta a disposición del público del original o copias en soporte tangible mediante venta, alquiler, préstamo u otra forma",
+        "La comunicación de la obra por medios electrónicos",
+        "La transformación de la obra original en otra diferente"
+      ],
+      "answer": 1,
+      "explanation": "La distribución implica la puesta a disposición del público del original o de las copias de la obra, en un soporte tangible, mediante la venta, el alquiler, el préstamo o cualquier otra forma."
+    },
+    {
+      "question": "¿Qué ocurre con los derechos patrimoniales de autor una vez extinguidos?",
+      "options": [
+        "Pasan a los herederos de manera indefinida",
+        "Corresponden exclusivamente al Estado",
+        "La obra pasa al dominio público",
+        "Se extinguen sin ninguna consecuencia jurídica"
+      ],
+      "answer": 2,
+      "explanation": "La extinción de los derechos patrimoniales supone el paso de la obra al dominio público, de manera que solo en este caso podrán ser utilizadas por cualquiera, siempre que se respeten los derechos morales de paternidad e integridad."
+    },
+    {
+      "question": "¿Qué tipo de enumeración realiza el legislador en el artículo 17 TRLPI respecto a las modalidades de explotación?",
+      "options": [
+        "Cerrada y taxativa",
+        "Meramente enunciativa, no cerrada",
+        "Exhaustiva y definitiva",
+        "Solo ejemplificativa para obras literarias"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 17 TRLPI no realiza un catálogo cerrado de modalidades de explotación, sino una enumeración meramente enunciativa, de modo que cualquier forma de explotación no expresamente nominada también queda protegida."
+    },
+    {
+      "question": "¿Qué comprende el derecho de transformación según el artículo 21 TRLPI?",
+      "options": [
+        "Únicamente la traducción a otro idioma",
+        "Solo la adaptación cinematográfica",
+        "La traducción, adaptación y cualquier modificación que derive en una obra diferente",
+        "La distribución en soportes distintos al original"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 21 TRLPI define la transformación como la traducción, adaptación y cualquier otra modificación en la forma de la obra de la que derive una obra diferente. Dicha transformación ha de suponer un resultado original."
+    },
+    {
+      "question": "¿En qué artículo del TRLPI se define el programa de ordenador?",
+      "options": [
+        "Artículo 10",
+        "Artículo 17",
+        "Artículo 96.1",
+        "Artículo 99"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 96.1 TRLPI define el programa de ordenador como toda secuencia de instrucciones o indicaciones destinadas a ser utilizadas, directa o indirectamente, en un sistema informático para realizar una función o tarea o para obtener un resultado determinado, cualquiera que fuere su forma de expresión y fijación."
+    },
+    {
+      "question": "¿Cuál es el requisito esencial para que un programa de ordenador reciba protección por derecho de autor según el artículo 96.2 TRLPI?",
+      "options": [
+        "Que esté inscrito en el Registro de la Propiedad Intelectual",
+        "Que sea original",
+        "Que haya sido comercializado",
+        "Que tenga utilidad técnica demostrable"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 96.2 TRLPI establece que la protección del derecho de autor solo tendrá lugar si el programa resulta ser original, en el sentido de ser una creación intelectual propia de su autor."
+    },
+    {
+      "question": "¿Qué tipo de originalidad señala la doctrina como requerida en los programas de ordenador?",
+      "options": [
+        "Objetiva y técnica",
+        "Fundamentalmente subjetiva",
+        "Estética y formal",
+        "Industrial e innovadora"
+      ],
+      "answer": 1,
+      "explanation": "La doctrina (Preinfalk Lavagni) señala que la originalidad requerida ha de ser fundamentalmente subjetiva, pues basta con que el autor imprima su sello personal al programa, aunque el resultado sea similar en funcionamiento a otros ya existentes."
+    },
+    {
+      "question": "¿Puede un programa de ordenador creado directamente por una máquina recibir protección de autor?",
+      "options": [
+        "Sí, si cumple el requisito de originalidad",
+        "Sí, si está registrado previamente",
+        "No, la protección solo alcanza a creaciones humanas",
+        "Sí, si la empresa que lo genera lo reivindica"
+      ],
+      "answer": 2,
+      "explanation": "El resultado intelectual protegible solo es posible si se trata de una creación humana, excluyéndose los programas creados directamente por una máquina del ámbito de protección del derecho de autor."
+    },
+    {
+      "question": "¿Qué protege el derecho de autor en relación con los programas de ordenador?",
+      "options": [
+        "Las ideas y principios que sustentan el programa",
+        "La expresión del programa, no las ideas o principios subyacentes",
+        "Únicamente el código fuente",
+        "Solo la interfaz gráfica de usuario"
+      ],
+      "answer": 1,
+      "explanation": "El derecho de autor protege la expresión del programa —tanto código fuente como código objeto—, pero no las ideas o principios subyacentes que están inmersos en el proceso creativo."
+    },
+    {
+      "question": "¿Recibe protección el código objeto de un programa de ordenador?",
+      "options": [
+        "No, solo el código fuente está protegido",
+        "Sí, también el código objeto goza de protección",
+        "Solo si ha sido compilado por el propio autor",
+        "Solo en supuestos de distribución comercial"
+      ],
+      "answer": 1,
+      "explanation": "El programa objeto, que es el código fuente transcrito al código binario comprensible para el ordenador, también es objeto de protección, ya que se trata del mismo programa con un lenguaje o código distinto."
+    },
+    {
+      "question": "¿Se protegen los programas creados con el fin de causar efectos nocivos a sistemas informáticos?",
+      "options": [
+        "Sí, si son originales",
+        "Sí, si están registrados",
+        "No, quedan expresamente excluidos de la protección",
+        "Solo si el autor es persona jurídica"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 96.3 TRLPI excluye expresamente de la protección a los programas derivados creados con el fin de ocasionar efectos nocivos a un sistema informático."
+    },
+    {
+      "question": "¿Influye la función o finalidad del programa en el otorgamiento de protección por el derecho de autor?",
+      "options": [
+        "Sí, solo los programas de aplicación están protegidos",
+        "Sí, depende del valor económico del programa",
+        "No, tanto programas operativos como de aplicación merecen el mismo reconocimiento",
+        "Sí, solo los programas con fines comerciales"
+      ],
+      "answer": 2,
+      "explanation": "El software operativo (que enlaza los elementos hardware) y el de aplicación (orientado al usuario) merecen el mismo tipo de reconocimiento legal desde el punto de vista de la propiedad intelectual, sin atender a su finalidad o funcionalidad."
+    },
+    {
+      "question": "¿En qué supuesto puede una persona jurídica ser reconocida como autora de un programa de ordenador según el TRLPI?",
+      "options": [
+        "Siempre que financie el desarrollo del programa",
+        "Nunca, solo las personas físicas pueden ser autoras",
+        "En el supuesto de obra colectiva recogido en el artículo 97.2 TRLPI",
+        "Cuando el programa supere un umbral mínimo de complejidad técnica"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 97.2 TRLPI permite que una persona jurídica sea reconocida como autora del programa informático cuando se trate de una obra colectiva, siendo la persona que edita y divulga la obra bajo su nombre considerada autora salvo pacto en contrario."
+    },
+    {
+      "question": "En una obra en colaboración, ¿qué se requiere para divulgar o modificar el programa?",
+      "options": [
+        "La decisión de la mayoría de los coautores",
+        "La autorización del editor o empresa distribuidora",
+        "El consentimiento de todos los coautores",
+        "El visto bueno notarial"
+      ],
+      "answer": 2,
+      "explanation": "En la obra en colaboración, para divulgar y modificar la obra se requiere el consentimiento de todos los coautores, tal como establece el artículo 7 TRLPI, aplicable por remisión al régimen del artículo 97.3 TRLPI."
+    },
+    {
+      "question": "¿Cómo califica la doctrina la cesión de derechos al empresario establecida en el artículo 97.4 TRLPI respecto al régimen general del artículo 51?",
+      "options": [
+        "Como una simple presunción iuris tantum",
+        "Como una cesión ab initio y ope legis",
+        "Como una transmisión mortis causa",
+        "Como una cesión completamente voluntaria del trabajador"
+      ],
+      "answer": 1,
+      "explanation": "La doctrina ha considerado que el artículo 97.4 va más allá de la simple presunción de transmisión del artículo 51, pues fija ab initio y ope legis la cesión de los derechos de explotación a favor del empresario, salvo pacto en contrario."
+    },
+    {
+      "question": "En la relación laboral, ¿qué derechos mantiene el trabajador-autor sobre el programa creado en el ejercicio de sus funciones?",
+      "options": [
+        "Todos los derechos, incluidos los de explotación",
+        "Ninguno, todos se transmiten íntegramente al empresario",
+        "Los derechos morales del artículo 14 TRLPI",
+        "Solo el derecho de paternidad registral"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 97.4 TRLPI hace referencia únicamente a los derechos de explotación, de modo que el núcleo de las facultades morales previstas en el artículo 14 TRLPI sigue en manos del trabajador como autor original del programa."
+    },
+    {
+      "question": "En el contrato de arrendamiento de obra para la creación de un programa, ¿qué comprende la 'propiedad' del comitente?",
+      "options": [
+        "Todos los derechos patrimoniales y morales",
+        "Ningún derecho, todos corresponden al autor",
+        "El soporte físico (corpus mechanicum) en que se exterioriza la creación",
+        "Los derechos de distribución exclusivamente"
+      ],
+      "answer": 2,
+      "explanation": "En el arrendamiento de obra, los derechos morales permanecen siempre a favor del creador, de modo que la 'propiedad' del comitente queda limitada al soporte físico (corpus mechanicum) en que se hubiese exteriorizado la creación intelectual."
+    },
+    {
+      "question": "¿Qué postura defiende la doctrina respecto al ejercicio de derechos morales del trabajador-autor frente al empresario?",
+      "options": [
+        "Que deben ejercerse sin ninguna limitación",
+        "Que deben modularse para no frustrar las legítimas expectativas económicas del empresario",
+        "Que se extinguen automáticamente en la relación laboral",
+        "Que corresponden al sindicato del trabajador"
+      ],
+      "answer": 1,
+      "explanation": "La doctrina (Preinfalk Lavagni) defiende la necesidad de conciliar el régimen de intransmisibilidad del derecho moral con la limitación derivada de haber otorgado cesiones de los derechos de explotación, evitando que el ejercicio exorbitante de los derechos morales paralice las iniciativas de explotación del empresario."
+    },
+    {
+      "question": "Según el artículo 99.a) TRLPI, ¿el uso personal de un programa de ordenador requiere autorización del titular?",
+      "options": [
+        "No, el uso personal siempre está exento de autorización",
+        "Sí, cualquier uso incluso personal requiere autorización del titular",
+        "Solo si el uso personal implica hacer más de una copia",
+        "Solo si se realiza con fines comerciales"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 99.a) TRLPI establece que dado el carácter fácilmente reproducible de los programas, el uso en cualquier forma, aunque lo fuera para fines únicamente personales, debe contar con la autorización del titular."
+    },
+    {
+      "question": "¿Qué efecto produce la primera venta de una copia de un programa en la UE sobre el derecho de distribución?",
+      "options": [
+        "Agota el derecho de distribución de esa copia salvo el control del alquiler posterior",
+        "Transfiere todos los derechos al comprador sin restricciones",
+        "No produce ningún efecto sobre los derechos del titular",
+        "Agota también el derecho de alquiler de esa copia"
+      ],
+      "answer": 0,
+      "explanation": "La primera venta en la UE de una copia de un programa por el titular o con su consentimiento agota el derecho de distribución de dicha copia, salvo el derecho de controlar el subsiguiente alquiler del programa o de una copia del mismo."
+    },
+    {
+      "question": "¿Por qué el artículo 99 TRLPI no menciona expresamente el derecho de comunicación pública?",
+      "options": [
+        "Porque no existe tal derecho para los programas",
+        "Porque la amplitud de la reproducción del artículo 99.a) y la Directiva 91/250/CEE no lo preveían en su momento",
+        "Porque está regulado en una directiva específica posterior",
+        "Porque solo aplica a obras audiovisuales"
+      ],
+      "answer": 1,
+      "explanation": "Según la doctrina (Bercovitz), el silencio se debe a la amplitud de los supuestos de reproducción y a que la Directiva 91/250/CEE transpuesta por el legislador no lo preveía, posiblemente porque en aquel momento la diseminación del software a través de la red era prácticamente desconocida."
+    },
+    {
+      "question": "¿Puede impedirse contractualmente la realización de una copia de seguridad según el artículo 100.2 TRLPI?",
+      "options": [
+        "Sí, siempre que se especifique expresamente en la licencia",
+        "No, no puede impedirse cuando resulte necesaria para la utilización del programa",
+        "Sí, si el titular lo considera conveniente",
+        "Depende de la legislación del país del usuario"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 100.2 TRLPI establece que no podrá impedirse por contrato realizar una copia de seguridad por parte del usuario legítimo en cuanto resulte necesaria para dicha utilización."
+    },
+    {
+      "question": "¿Qué se entiende por ingeniería inversa en el contexto del artículo 100.3 TRLPI?",
+      "options": [
+        "La descompilación del programa para crear uno nuevo",
+        "La facultad del usuario legítimo de observar, estudiar o verificar el funcionamiento del programa para determinar las ideas y principios implícitos",
+        "La modificación del código fuente del programa",
+        "La distribución del programa a terceros sin autorización"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 100.3 TRLPI reconoce al usuario legítimo la facultad de observar, estudiar o verificar el funcionamiento del programa sin autorización previa del titular, con el fin de determinar las ideas y principios implícitos en cualquier elemento del programa."
+    },
+    {
+      "question": "¿Qué establece el artículo 100.4 TRLPI respecto a las versiones sucesivas del programa?",
+      "options": [
+        "El autor puede oponerse siempre a las versiones sucesivas",
+        "El autor, salvo pacto en contrario, no puede oponerse a que el cesionario realice versiones sucesivas o programas derivados",
+        "Las versiones sucesivas requieren siempre autorización del autor",
+        "Solo el autor puede crear versiones sucesivas"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 100.4 TRLPI establece que el autor, salvo pacto en contrario, no podrá oponerse a que el cesionario titular de derechos de explotación realice o autorice la realización de versiones sucesivas de su programa ni de programas derivados."
+    },
+    {
+      "question": "¿Qué acto técnico permite el artículo 100.5 TRLPI para conseguir la interoperabilidad?",
+      "options": [
+        "La reproducción masiva del programa para estudio",
+        "La descompilación, que consiste en pasar el código objeto al código fuente",
+        "La modificación de la interfaz gráfica del programa",
+        "La distribución del código fuente a otros desarrolladores"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 100.5 TRLPI permite la descompilación, que es pasar el código objeto del programa al código fuente, cuando sea indispensable para obtener la información necesaria para la interoperabilidad con otros programas creados de forma independiente."
+    },
+    {
+      "question": "¿Cómo se conoce la regla interpretativa general del artículo 40 bis TRLPI aplicable a las excepciones del artículo 100?",
+      "options": [
+        "Regla de la buena fe",
+        "Regla de los tres pasos",
+        "Regla del uso justo",
+        "Principio de proporcionalidad técnica"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 40 bis TRLPI establece la denominada regla de los tres pasos, que sirve como parámetro interpretativo general de todas las excepciones: estas no pueden perjudicar injustificadamente los legítimos intereses del titular ni ser contrarias a una explotación normal del programa."
+    },
+    {
+      "question": "¿Cuál de los siguientes NO es un requisito del artículo 100.5 TRLPI para la descompilación legítima?",
+      "options": [
+        "Que la realice el usuario legítimo o persona autorizada",
+        "Que la información necesaria no esté disponible previamente",
+        "Que se limite a las partes necesarias para la interoperabilidad",
+        "Que el programa descompilado sea de dominio público"
+      ],
+      "answer": 3,
+      "explanation": "Los requisitos del artículo 100.5 son: que la realice el usuario legítimo, que la información no esté disponible previamente y que se limite a las partes necesarias para la interoperabilidad. El dominio público no es un requisito exigido."
+    },
+    {
+      "question": "Cuando la titularidad de un programa corresponde a una persona jurídica, ¿cuál es la duración de los derechos de explotación según el artículo 98.2 TRLPI?",
+      "options": [
+        "50 años desde la creación",
+        "25 años desde la divulgación",
+        "70 años desde el 1 de enero del año siguiente a la divulgación lícita o a la creación si no fue divulgada",
+        "Indefinidamente mientras exista la persona jurídica"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 98.2 TRLPI establece que cuando la titularidad corresponde a una persona jurídica, la duración es de setenta años computados desde el día 1 de enero del año siguiente al de la divulgación lícita del programa o al de su creación si no se hubiera divulgado."
+    },
+    {
+      "question": "¿Cuál es el plazo de prescripción especial de la acción indemnizatoria del artículo 140 TRLPI?",
+      "options": [
+        "Un año",
+        "Tres años",
+        "Cinco años",
+        "Diez años"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 140 TRLPI establece un plazo de prescripción especial de cinco años desde que el legitimado pudo ejercitar la acción indemnizatoria por daño patrimonial derivado de la infracción de los derechos de propiedad intelectual."
+    },
+    {
+      "question": "¿Tiene la inscripción en el Registro de la Propiedad Intelectual efectos constitutivos sobre los derechos de autor?",
+      "options": [
+        "Sí, los derechos nacen con la inscripción",
+        "No, los derechos nacen con la creación de la obra; la inscripción tiene eficacia declarativa",
+        "Sí, pero solo para personas jurídicas",
+        "Depende del tipo de programa"
+      ],
+      "answer": 1,
+      "explanation": "La inscripción en el Registro carece de efectos constitutivos para el nacimiento de los derechos de autor, que surgen con la creación de la obra. La inscripción tiene eficacia declarativa y su trascendencia es a efectos probatorios y de publicidad registral."
+    },
+    {
+      "question": "¿Por qué se ha entendido tradicionalmente que los programas de ordenador no pueden ser objeto de patente?",
+      "options": [
+        "Porque su valor económico es insuficiente para justificar una patente",
+        "Por su falta de carácter técnico al configurarse legalmente como obra literaria",
+        "Porque la ley lo prohíbe de manera expresa e inequívoca",
+        "Porque la UE ha dictado una directiva que lo impide"
+      ],
+      "answer": 1,
+      "explanation": "Se ha entendido que los programas de ordenador no pueden ser objeto de patente porque su falta de carácter técnico, al configurarse legalmente como una obra literaria, los excluye del ámbito de las invenciones patentables (invenciones técnicas con aplicabilidad industrial)."
+    },
+    {
+      "question": "¿Qué postura ha adoptado la Oficina Europea de Patentes respecto a los programas de ordenador?",
+      "options": [
+        "Ha rechazado toda forma de protección industrial de los programas",
+        "Ha admitido protección para programas que resuelvan un problema técnico (invenciones implementadas por ordenador)",
+        "Ha equiparado el software a los modelos de utilidad",
+        "Ha establecido un plazo especial de patente de 20 años para software"
+      ],
+      "answer": 1,
+      "explanation": "La Oficina Europea de Patentes ha admitido que puede otorgarse protección de propiedad industrial respecto al carácter técnico de un programa de ordenador (invenciones implementadas por ordenador) si el programa permite solucionar un problema técnico."
+    },
+    {
+      "question": "¿Qué ocurrió con la propuesta de Directiva europea sobre patentabilidad de las invenciones implementadas en ordenador?",
+      "options": [
+        "Fue aprobada con modificaciones por el Parlamento Europeo",
+        "Fue incorporada al TRLPI español",
+        "No llegó a aprobarse por el Parlamento Europeo",
+        "Fue sustituida por un reglamento de aplicación directa"
+      ],
+      "answer": 2,
+      "explanation": "La propuesta de Directiva del Parlamento Europeo y del Consejo sobre la patentabilidad de las invenciones implementadas en ordenador finalmente no llegó a aprobarse por el Parlamento europeo."
+    },
+    {
+      "question": "¿Cuál es el objetivo principal de las recomendaciones éticas sobre IA?",
+      "options": [
+        "Imponer obligaciones jurídicamente vinculantes a los Estados",
+        "Que los Estados, empresas y profesionales apliquen voluntariamente autolimitaciones para garantizar la dignidad humana y los derechos fundamentales",
+        "Regular exclusivamente el mercado laboral afectado por la automatización",
+        "Establecer sanciones penales para los desarrolladores de IA"
+      ],
+      "answer": 1,
+      "explanation": "Las recomendaciones éticas responden a la necesidad de que, de forma voluntaria, los estados, las empresas y los profesionales apliquen autolimitaciones en la creación y desarrollo de la IA para garantizar la dignidad humana y los derechos fundamentales."
+    },
+    {
+      "question": "¿Es la IA neutral respecto a su influencia sobre las personas?",
+      "options": [
+        "Sí, es completamente neutral",
+        "Solo influye en aspectos económicos",
+        "No, influye en el comportamiento, la forma de ver el mundo e incluso en los procesos cerebrales",
+        "Solo influye en personas mayores de 65 años"
+      ],
+      "answer": 2,
+      "explanation": "La IA no es neutral: influye en nuestro comportamiento, en nuestra forma de ver el mundo y en nuestro cerebro, cambiando las sinapsis y creando nuevas conexiones neuronales. Afecta a la comunicación, la socialización y cada vez más aspectos de la vida."
+    },
+    {
+      "question": "¿Qué es el sesgo algorítmico según la Recomendación de la UNESCO?",
+      "options": [
+        "Un error de programación en el código fuente del algoritmo",
+        "Un reflejo del conjunto de datos utilizados, los métodos de combinación y las prácticas de elaboración de modelos",
+        "La preferencia del programador por determinados lenguajes de programación",
+        "Un fallo técnico exclusivo de los sistemas de reconocimiento facial"
+      ],
+      "answer": 1,
+      "explanation": "El sesgo algorítmico es un reflejo del conjunto de datos que los desarrolladores deciden utilizar, sus métodos de combinación, sus prácticas de elaboración de modelos y la forma en que se aplican e interpretan los resultados, pudiendo reforzar determinados prejuicios o estereotipos."
+    },
+    {
+      "question": "¿Cuál de los siguientes NO es un valor que la Recomendación UNESCO establece que debe garantizarse durante el ciclo de vida de los sistemas de IA?",
+      "options": [
+        "Respeto y promoción de los derechos humanos y la dignidad humana",
+        "Prosperidad del medio ambiente y los ecosistemas",
+        "Maximización del beneficio económico de las empresas tecnológicas",
+        "Vida en sociedades pacíficas, justas e interconectadas"
+      ],
+      "answer": 2,
+      "explanation": "Los cuatro valores que la UNESCO establece son: derechos humanos y dignidad humana, prosperidad del medio ambiente, diversidad e inclusión, y vida en sociedades pacíficas, justas e interconectadas. La maximización del beneficio económico no figura como valor."
+    },
+    {
+      "question": "¿Por qué es importante distinguir la noción de impacto de la tasa de error en los sistemas de IA?",
+      "options": [
+        "Ninguna, ambos conceptos son equivalentes",
+        "Una tasa de error baja puede suponer un enorme impacto en la vida y los derechos de las personas afectadas",
+        "El impacto solo es relevante si la tasa de error supera el 50%",
+        "La tasa de error siempre es más importante que el impacto"
+      ],
+      "answer": 1,
+      "explanation": "Los resultados de los sistemas tienen carácter probabilístico y esa tasa de error, aun respecto de las herramientas más afinadas, puede suponer un enorme impacto en la vida y en los derechos de las personas afectadas, por lo que es muy importante distinguir ambas nociones."
+    },
+    {
+      "question": "¿Para qué usos establece la Recomendación UNESCO que los sistemas de IA no deben utilizarse?",
+      "options": [
+        "Para la gestión automatizada de redes sociales",
+        "Para la calificación social o la vigilancia masiva",
+        "Para la gestión de tráfico urbano",
+        "Para sistemas de recomendación de contenidos culturales"
+      ],
+      "answer": 1,
+      "explanation": "La Recomendación UNESCO establece que en los casos de decisiones con impacto irreversible y, en particular, los sistemas de IA no deben utilizarse con fines de calificación social o vigilancia masiva."
+    },
+    {
+      "question": "¿Qué implica el principio de sostenibilidad de la UNESCO en el ámbito de la IA?",
+      "options": [
+        "Solo evaluar el impacto económico de los sistemas de IA",
+        "Únicamente analizar la rentabilidad financiera de los proyectos",
+        "La evaluación continua de los efectos humanos, sociales, culturales, económicos y ambientales, incluyendo consumo de electricidad y agua",
+        "El número de empleos creados por el sector de la IA"
+      ],
+      "answer": 2,
+      "explanation": "El principio de sostenibilidad implica la evaluación continua de los efectos humanos, sociales, culturales, económicos y ambientales de las tecnologías de la IA, incluyendo por ejemplo el análisis del consumo de electricidad y de agua dulce."
+    },
+    {
+      "question": "¿Qué establece el principio de supervisión y decisión humanas de la UNESCO respecto a la responsabilidad?",
+      "options": [
+        "Que la responsabilidad puede delegarse completamente en el sistema de IA",
+        "Que siempre debe ser posible atribuir la responsabilidad ética y jurídica a personas físicas o jurídicas",
+        "Que solo los ingenieros son responsables de los fallos",
+        "Que la responsabilidad recae exclusivamente en el Estado"
+      ],
+      "answer": 1,
+      "explanation": "El principio establece que siempre ha de ser posible atribuir la responsabilidad ética y jurídica, en cualquier etapa del ciclo de vida de los sistemas de IA, a personas físicas o a entidades jurídicas existentes. Un sistema de IA nunca puede reemplazar la responsabilidad final humana."
+    },
+    {
+      "question": "¿Qué supone la explicabilidad según la Recomendación de la UNESCO?",
+      "options": [
+        "Que los sistemas de IA solo deben explicar sus decisiones a los jueces",
+        "Hacer inteligibles los resultados y facilitar información sobre la entrada, salida y funcionamiento de cada componente algorítmico",
+        "Que el código fuente debe ser de acceso público",
+        "Que los sistemas de IA deben comunicarse en lenguaje natural exclusivamente"
+      ],
+      "answer": 1,
+      "explanation": "La explicabilidad supone hacer inteligibles los resultados de los sistemas de IA y facilitar información sobre ellos en relación con la entrada, salida y funcionamiento de cada componente algorítmico y la forma en que contribuye a los resultados."
+    },
+    {
+      "question": "¿Qué requiere el principio de gobernanza y colaboración adaptativas de la UNESCO?",
+      "options": [
+        "Que solo los gobiernos tomen decisiones sobre la IA",
+        "La participación de múltiples partes interesadas a lo largo del ciclo de vida de los sistemas de IA y una regulación efectiva de los datos",
+        "Que las empresas privadas lideren sin intervención estatal el desarrollo",
+        "La creación de un organismo mundial único de control de la IA"
+      ],
+      "answer": 1,
+      "explanation": "El principio de gobernanza y colaboración adaptativas y de múltiples partes interesadas requiere la participación de las diferentes partes a lo largo del ciclo de vida de los sistemas y la regulación efectiva de los datos, en particular su protección, basada en el respeto al derecho a la privacidad."
+    },
+    {
+      "question": "¿Cuándo la decisión final sobre la actuación del sistema de IA debe ser adoptada por un ser humano según el principio de proporcionalidad?",
+      "options": [
+        "En todos los casos sin excepción",
+        "Solo en decisiones económicas superiores a un millón de euros",
+        "Cuando se entienda que las decisiones tienen un impacto irreversible o pueden implicar decisiones de vida o muerte",
+        "Únicamente en el ámbito judicial"
+      ],
+      "answer": 2,
+      "explanation": "El principio de proporcionalidad establece que en los casos en que se entienda que las decisiones tienen un impacto irreversible o difícil de revertir o que pueden implicar decisiones de vida o muerte, la decisión final debe ser adoptada por un ser humano."
+    },
+    {
+      "question": "¿Cuántos componentes debe satisfacer una IA fiable según las Directrices Éticas?",
+      "options": [
+        "Dos: lícita y ética",
+        "Cuatro: lícita, ética, robusta y auditada",
+        "Tres: lícita, ética y robusta",
+        "Cinco: lícita, ética, robusta, transparente y segura"
+      ],
+      "answer": 2,
+      "explanation": "Las Directrices establecen tres componentes que deben satisfacerse a lo largo de todo el ciclo de vida: la IA debe ser lícita (cumplir la ley), ética (respetar principios y valores éticos) y robusta (segura desde el punto de vista técnico y social)."
+    },
+    {
+      "question": "¿Qué tipo de tecnologías se consideran incompatibles con el derecho a la libertad individual según las Directrices?",
+      "options": [
+        "Las tecnologías de cifrado de datos",
+        "Las tecnologías de reconocimiento de voz con fines de accesibilidad",
+        "Las tecnologías adictivas, manipulativas o que incorporen patrones oscuros o engañosos",
+        "Las tecnologías de traducción automática"
+      ],
+      "answer": 2,
+      "explanation": "Las Directrices establecen que las tecnologías adictivas o manipulativas o las que incorporen patrones oscuros o engañosos no se considerarían compatibles con el derecho a la libertad individual."
+    },
+    {
+      "question": "¿Cómo se denominan los algoritmos cuyo proceso de decisión resulta difícil o imposible de explicar?",
+      "options": [
+        "Algoritmos de código abierto",
+        "Algoritmos de caja negra",
+        "Algoritmos deterministas",
+        "Algoritmos de aprendizaje supervisado"
+      ],
+      "answer": 1,
+      "explanation": "Los algoritmos en los que no siempre resulta posible explicar por qué el modelo ha generado un resultado o una decisión particular se denominan algoritmos de 'caja negra' y requieren especial atención, adoptando medidas de trazabilidad, auditabilidad y comunicación transparente."
+    },
+    {
+      "question": "¿Cuántos requisitos para una IA fiable recogen las Directrices Éticas?",
+      "options": [
+        "Cinco",
+        "Seis",
+        "Ocho",
+        "Siete"
+      ],
+      "answer": 3,
+      "explanation": "Las Directrices Éticas para una IA fiable recogen siete requisitos: (1) acción y supervisión humanas, (2) solidez técnica y seguridad, (3) gestión de la privacidad y los datos, (4) transparencia, (5) diversidad y no discriminación, (6) bienestar social y ambiental, y (7) rendición de cuentas."
+    },
+    {
+      "question": "¿Qué se entiende por 'mando humano' en el primer requisito de las Directrices?",
+      "options": [
+        "La capacidad técnica de apagar el sistema de IA en cualquier momento",
+        "La supervisión de la actividad global del sistema, sus efectos y la capacidad de decidir cómo y cuándo utilizarlo",
+        "La autorización gubernamental previa para el despliegue del sistema",
+        "El control del acceso físico a los servidores del sistema"
+      ],
+      "answer": 1,
+      "explanation": "El mando humano es la capacidad de supervisar la actividad global del sistema de IA (incluidos sus efectos económicos, sociales, jurídicos y éticos), así como la capacidad de decidir cómo y cuándo utilizar el sistema en una situación determinada."
+    },
+    {
+      "question": "¿Contra qué tipos de ataques deben protegerse los sistemas de IA según el requisito de solidez técnica?",
+      "options": [
+        "Solo contra ataques físicos a los centros de datos",
+        "Contra ataques a los datos (envenenamiento), al modelo (fallo del modelo) y a la infraestructura informática",
+        "Únicamente contra el acceso no autorizado a los resultados",
+        "Solo contra ataques de denegación de servicio"
+      ],
+      "answer": 1,
+      "explanation": "Los ataques pueden ir dirigidos contra los datos (envenenamiento de los datos), el modelo (fallo del modelo) o la infraestructura informática subyacente, tanto el software como el hardware. Los sistemas deben protegerse frente a todas estas vulnerabilidades."
+    },
+    {
+      "question": "¿Qué tres elementos comprende el requisito de transparencia según las Directrices?",
+      "options": [
+        "Publicidad, rendición de cuentas y supervisión",
+        "Trazabilidad, explicabilidad y comunicación",
+        "Auditabilidad, fiabilidad y reproducibilidad",
+        "Privacidad, integridad y accesibilidad"
+      ],
+      "answer": 1,
+      "explanation": "El requisito de transparencia comprende tres elementos: la trazabilidad (documentación rigurosa de datos y procesos), la explicabilidad (decisiones comprensibles y rastreables) y la comunicación (los sistemas no deben presentarse como humanos y las personas tienen derecho a saber que interactúan con una IA)."
+    },
+    {
+      "question": "¿Qué exige el requisito de bienestar ambiental durante el desarrollo de sistemas de IA?",
+      "options": [
+        "Que los sistemas se desarrollen en instalaciones con certificación medioambiental",
+        "Valorar el uso de recursos y consumo de energía, dando prioridad a las opciones menos perjudiciales para el medio ambiente",
+        "Que los sistemas utilicen exclusivamente energías renovables",
+        "Compensar el impacto ambiental mediante proyectos de reforestación obligatorios"
+      ],
+      "answer": 1,
+      "explanation": "El requisito de bienestar ambiental exige que el desarrollo de los sistemas de IA se haga de la forma más respetuosa posible con el medio ambiente, valorando durante su desarrollo, despliegue y utilización cuestiones relativas al uso de los recursos y consumo de energía, dando prioridad a las opciones menos perjudiciales."
+    },
+    {
+      "question": "¿Qué se entiende por auditabilidad en el séptimo requisito de rendición de cuentas?",
+      "options": [
+        "La obligación de publicar los ingresos generados por el sistema de IA",
+        "La capacidad para evaluar los algoritmos, los datos y los procesos de diseño",
+        "El derecho de los usuarios a obtener información sobre el precio del servicio",
+        "La obligación de registrar todos los datos de entrenamiento en un repositorio público"
+      ],
+      "answer": 1,
+      "explanation": "La auditabilidad es la capacidad para evaluar los algoritmos, los datos y los procesos de diseño. La evaluación por parte de auditores internos y externos y la disponibilidad de los correspondientes informes contribuyen a la fiabilidad de la tecnología."
+    },
+    {
+      "question": "¿Qué estrategia sugieren las Directrices para garantizar la diversidad de opiniones en el desarrollo de sistemas de IA?",
+      "options": [
+        "Externalizar el desarrollo a países con mayor diversidad poblacional",
+        "La contratación de personas procedentes de diversos contextos, culturas y disciplinas",
+        "Utilizar únicamente datos procedentes de organismos públicos internacionales",
+        "Limitar el número de desarrolladores por proyecto para garantizar la coherencia"
+      ],
+      "answer": 1,
+      "explanation": "Las Directrices señalan que la contratación de personas procedentes de diversos contextos, culturas y disciplinas puede garantizar la diversidad de opiniones y debería fomentarse para combatir los sesgos injustos en los sistemas de IA."
+    },
+    {
+      "question": "¿Quién debe poder acceder a los datos personales según el requisito de gestión de la privacidad?",
+      "options": [
+        "Cualquier empleado de la organización",
+        "Solo el equipo de desarrollo del sistema de IA",
+        "Solo personal debidamente cualificado, con las competencias adecuadas y que necesite acceder a la información pertinente",
+        "Únicamente auditores externos certificados"
+      ],
+      "answer": 2,
+      "explanation": "Solo debería permitirse acceder a los datos personales a personal debidamente cualificado, poseedor de las competencias adecuadas y que necesite acceder a la información pertinente. Deben establecerse protocolos que rijan el acceso a los datos."
+    },
+    {
+      "question": "¿Qué característica principal distingue al CMIA de las recomendaciones éticas sobre IA?",
+      "options": [
+        "Que fue elaborado exclusivamente por expertos en tecnología",
+        "Que es el primer tratado internacional vinculante en materia de IA",
+        "Que solo se aplica a los países miembros de la Unión Europea",
+        "Que regula exclusivamente los sistemas de IA de uso militar"
+      ],
+      "answer": 1,
+      "explanation": "El CMIA es el primer tratado internacional sobre IA, lo que lo convierte en un instrumento muy relevante ya que es vinculante para todos aquellos Estados que lo ratifiquen, a diferencia de las recomendaciones éticas que tienen carácter voluntario."
+    },
+    {
+      "question": "¿Cuándo fue aprobado el Convenio Marco sobre IA del Consejo de Europa?",
+      "options": [
+        "17 de mayo de 2022",
+        "23 de abril de 2023",
+        "17 de mayo de 2024",
+        "13 de junio de 2024"
+      ],
+      "answer": 2,
+      "explanation": "El Convenio Marco del Consejo de Europa sobre Inteligencia Artificial y Derechos Humanos, Democracia y Estado de Derecho fue aprobado el 17 de mayo de 2024."
+    },
+    {
+      "question": "¿Qué permite el principio de innovación segura del CMIA para fomentar el desarrollo de la IA?",
+      "options": [
+        "Eximir de responsabilidad jurídica a los desarrolladores en fase experimental",
+        "El establecimiento de entornos controlados (sandboxes) para desarrollar y probar sistemas bajo supervisión de autoridades competentes",
+        "La libre circulación de sistemas no testados entre los Estados parte",
+        "La financiación pública obligatoria de todos los proyectos de IA innovadores"
+      ],
+      "answer": 1,
+      "explanation": "Para fomentar la innovación y evitar repercusiones negativas, el CMIA insta a cada Parte a que permita, según proceda, el establecimiento de entornos controlados (sandboxes) para desarrollar, experimentar y probar sistemas de inteligencia artificial bajo la supervisión de sus autoridades competentes."
+    },
+    {
+      "question": "¿A qué colectivos presta especial atención el Capítulo VI del CMIA?",
+      "options": [
+        "A los trabajadores del sector tecnológico y a los consumidores",
+        "A las personas con discapacidad y a los niños",
+        "A los ancianos y a las minorías étnicas",
+        "A los profesionales de la salud y a los estudiantes universitarios"
+      ],
+      "answer": 1,
+      "explanation": "El Capítulo VI del CMIA presta especial atención a los derechos de las personas con discapacidad y de los niños, para que se tengan en cuenta sus necesidades y vulnerabilidades específicas en todo el ciclo de vida de los sistemas de IA."
+    },
+    {
+      "question": "¿Qué obligación establece el artículo 20 del CMIA respecto a la alfabetización digital?",
+      "options": [
+        "La obligación de crear centros de formación en IA en cada municipio",
+        "Fomentar y promover la alfabetización y las competencias digitales adecuadas para todos los segmentos de la población",
+        "La obligación de incluir la programación de IA en todos los currículos de educación primaria",
+        "La creación de un título oficial europeo de experto en ética de la IA"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 20 del CMIA establece la obligación de fomentar y promover la alfabetización y las competencias digitales adecuadas para todos los segmentos de la población, incluidas las competencias especializadas para los responsables de identificar, evaluar, prevenir y mitigar los riesgos de los sistemas de IA."
+    },
+    {
+      "question": "¿Cuál es la vocación del CMIA en cuanto a su ámbito de aplicación territorial?",
+      "options": [
+        "Aplicarse exclusivamente a los 27 Estados miembros de la UE",
+        "Aplicarse solo a los países del G20",
+        "Crear un marco regulador no solo para sus 46 Estados miembros, sino ir más allá de las fronteras europeas",
+        "Aplicarse únicamente a los países con legislación avanzada en materia de IA"
+      ],
+      "answer": 2,
+      "explanation": "El CMIA se negocia y aprueba con vocación de crear un marco regulador no solo para sus 46 Estados miembros, sino que pretende ir más allá de las fronteras europeas, como lo demuestra la participación de Estados no europeos en su negociación."
+    },
+    {
+      "question": "¿Qué antecedentes internacionales menciona el texto como referentes del CMIA?",
+      "options": [
+        "El Convenio de Ginebra sobre derecho humanitario",
+        "El Convenio de Budapest sobre ciberdelincuencia de 2001 y el Convenio de 1981 sobre tratamiento de datos personales",
+        "El Acuerdo de París sobre cambio climático",
+        "El Tratado de Lisboa y el RGPD"
+      ],
+      "answer": 1,
+      "explanation": "El texto menciona como antecedentes relevantes el Convenio de Budapest sobre ciberdelincuencia del 2001 y el Convenio de 1981 sobre tratamiento de datos personales, en los que también participaron Estados no europeos."
+    },
+    {
+      "question": "¿Cuántos representantes de la sociedad civil y la industria participaron como observadores en la elaboración del CMIA?",
+      "options": [
+        "25",
+        "46",
+        "68",
+        "100"
+      ],
+      "answer": 2,
+      "explanation": "68 representantes de la sociedad civil y de la industria participaron en el CAI en calidad de observadores, participando en las negociaciones junto con Estados y representantes de otras organizaciones internacionales."
+    },
+    {
+      "question": "¿Qué exige el artículo 16 del CMIA a cada Parte en materia de gestión de riesgos?",
+      "options": [
+        "La creación de una agencia nacional de supervisión de la IA",
+        "Adoptar y mantener medidas para identificar, evaluar, prevenir y mitigar los riesgos de los sistemas de IA para los derechos humanos, la democracia y el Estado de Derecho",
+        "La prohibición de sistemas de IA con tasas de error superiores al 5%",
+        "La elaboración de un inventario anual de todos los sistemas de IA en funcionamiento"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 16 exige a cada Parte que adopte y mantenga medidas para la identificación, evaluación, prevención y mitigación de los riesgos planteados por los sistemas de IA, considerando los impactos reales y potenciales sobre los derechos humanos, la democracia y el Estado de Derecho."
+    },
+    {
+      "question": "¿Cuál de los siguientes principios NO aparece expresamente en el Capítulo III del CMIA?",
+      "options": [
+        "Dignidad humana y autonomía individual",
+        "Rendición de cuentas y responsabilidad",
+        "Libre competencia entre sistemas de IA",
+        "Privacidad y protección de datos personales"
+      ],
+      "answer": 2,
+      "explanation": "Los principios del Capítulo III del CMIA son: dignidad humana y autonomía individual; transparencia y supervisión humanas; rendición de cuentas y responsabilidad; igualdad y no discriminación; privacidad y protección de datos; fiabilidad; e innovación segura. La libre competencia no es un principio del CMIA."
+    },
+    {
+      "question": "¿Cuál es la diferencia fundamental entre las recomendaciones éticas sobre IA y el CMIA?",
+      "options": [
+        "Las recomendaciones tienen carácter vinculante; el Convenio es voluntario",
+        "Las recomendaciones son voluntarias; el Convenio establece obligaciones jurídicamente vinculantes para los Estados que lo ratifiquen",
+        "No existe diferencia sustancial entre ambos instrumentos",
+        "Las recomendaciones son elaboradas por organismos privados; el Convenio por organismos técnicos"
+      ],
+      "answer": 1,
+      "explanation": "A diferencia de las recomendaciones éticas, que tienen carácter voluntario, el CMIA sienta las bases para que puedan exigirse obligaciones jurídicamente vinculantes. Cuando los sistemas de IA puedan interferir en los derechos humanos, la democracia o el Estado de Derecho, tanto en el sector público como en el privado, deberán ajustarse a lo establecido en el Convenio."
+    },
+    {
+      "question": "Un sistema de IA de selección de personal que rechaza sistemáticamente candidatos de una determinada etnia estaría vulnerando principalmente:",
+      "options": [
+        "El principio de sostenibilidad ambiental",
+        "El principio de equidad y no discriminación y el derecho a la igualdad",
+        "El principio de supervisión y decisión humanas",
+        "El principio de transparencia y explicabilidad exclusivamente"
+      ],
+      "answer": 1,
+      "explanation": "Un sistema que genera resultados sesgados por razón de etnia vulnera el principio de equidad y no discriminación, que exige que los actores de la IA promuevan la justicia social, salvaguarden la equidad y luchen contra todo tipo de discriminación. También vulnera el derecho a la igualdad reconocido como fundamento de una IA fiable."
+    },
+    {
+      "question": "Un sistema de IA que toma decisiones médicas de vida o muerte sin intervención humana vulnera principalmente:",
+      "options": [
+        "El principio de equidad y no discriminación",
+        "El principio de proporcionalidad e inocuidad y el de supervisión y decisión humanas",
+        "El principio de sostenibilidad",
+        "El principio de sensibilización y educación"
+      ],
+      "answer": 1,
+      "explanation": "El principio de proporcionalidad establece que en casos de decisiones de vida o muerte la decisión final debe ser adoptada por un ser humano, y el principio de supervisión y decisión humanas establece que un sistema de IA nunca podrá reemplazar la responsabilidad final de los seres humanos."
+    },
+    {
+      "question": "Si un sistema de IA no informa a los usuarios de que están interactuando con una máquina, ¿qué requisito de las Directrices vulnera?",
+      "options": [
+        "El requisito de solidez técnica y seguridad",
+        "El requisito de rendición de cuentas",
+        "El requisito de transparencia, concretamente el elemento de comunicación",
+        "El requisito de bienestar social y ambiental"
+      ],
+      "answer": 2,
+      "explanation": "El elemento de comunicación del requisito de transparencia establece que los sistemas no deberían presentarse a sí mismos como humanos ante los usuarios, puesto que las personas tienen derecho a saber que están interactuando con un sistema de IA."
+    },
+    {
+      "question": "¿Qué implica el principio de 'privacidad desde el diseño' en el contexto de los sistemas de IA?",
+      "options": [
+        "Que la privacidad solo debe garantizarse en la fase de distribución",
+        "Que los requisitos de protección de datos deben incorporarse desde las primeras fases de concepción y diseño del sistema",
+        "Que los sistemas de IA no pueden procesar datos personales bajo ninguna circunstancia",
+        "Que el diseño visual de la interfaz debe ser respetuoso con la imagen de los usuarios"
+      ],
+      "answer": 1,
+      "explanation": "El principio de privacidad desde el diseño, recogido en el artículo 25 del RGPD, exige que los requisitos éticos y técnicos de protección de datos se incorporen desde el mismo instante de la concepción del sistema, no como añadido posterior."
+    },
+    {
+      "question": "¿Cuál es la relación entre la explicabilidad y la transparencia en la Recomendación UNESCO?",
+      "options": [
+        "Son conceptos completamente independientes y sin relación",
+        "La transparencia es una consecuencia automática de la explicabilidad",
+        "La explicabilidad está estrechamente relacionada con la transparencia, pues los resultados y subprocesos deben ser comprensibles y trazables",
+        "La transparencia engloba y sustituye a la explicabilidad en todos los contextos"
+      ],
+      "answer": 2,
+      "explanation": "La Recomendación UNESCO señala que la explicabilidad está estrechamente relacionada con la transparencia, ya que los resultados y los subprocesos que conducen a ellos deberían aspirar a ser comprensibles y trazables, apropiados al contexto."
+    },
+    {
+      "question": "¿Desde qué perspectiva temporal deben integrarse los requisitos éticos en los sistemas de IA?",
+      "options": [
+        "Solo durante la fase de despliegue al usuario final",
+        "Solo durante la fase de uso por el usuario final",
+        "Desde el mismo instante de su concepción, a lo largo de todo el ciclo de vida",
+        "Solo una vez que el sistema ha sido aprobado por las autoridades reguladoras"
+      ],
+      "answer": 2,
+      "explanation": "La complejidad de los sistemas de IA plantea riesgos durante todo el ciclo de vida, desde el momento de su diseño y desarrollo hasta el de su despliegue y uso, por lo que desde el mismo instante de su concepción debe asumirse la necesidad de incorporar requisitos éticos."
+    },
+    {
+      "question": "¿Qué papel tienen los derechos humanos como marco de referencia para el desarrollo tecnológico según Rafael de Asís?",
+      "options": [
+        "Un papel meramente simbólico y declarativo sin consecuencias prácticas",
+        "Constituyen el marco ético, jurídico y político de referencia y son los referentes para regular y guiar el desarrollo tecnológico",
+        "Un papel subsidiario respecto a las consideraciones económicas del mercado",
+        "Un papel exclusivo en el ámbito del derecho internacional público"
+      ],
+      "answer": 1,
+      "explanation": "Rafael de Asís señala que los derechos humanos 'constituyen el marco ético, jurídico y político de referencia para las sociedades contemporáneas y, en este sentido, son los referentes a tener en cuenta a la hora de estudiar los criterios que deben regular y guiar el desarrollo tecnológico'."
+    },
+    {
+      "question": "¿En qué artículo del RGPD se recoge el principio de privacidad desde el diseño?",
+      "options": [
+        "Artículo 5",
+        "Artículo 17",
+        "Artículo 25",
+        "Artículo 32"
+      ],
+      "answer": 2,
+      "explanation": "El principio de privacidad desde el diseño (privacy by design) se recoge en el artículo 25 del Reglamento (UE) 2016/679, Reglamento General de Protección de Datos (RGPD), y debe incorporarse cuando los sistemas de IA utilicen datos de carácter personal."
+    },
+    {
+      "question": "¿Cuál de los siguientes supuestos reflejaría mejor la aplicación del requisito de 'plan de repliegue' en un sistema de IA?",
+      "options": [
+        "Un sistema de IA que se apaga automáticamente ante cualquier consulta no prevista",
+        "Un sistema de conducción autónoma que, ante un fallo, transfiere el control al conductor humano",
+        "Un sistema de IA que borra todos sus datos ante un intento de acceso no autorizado",
+        "Un sistema de IA que redirige solicitudes a un servidor alternativo de mayor capacidad"
+      ],
+      "answer": 1,
+      "explanation": "El plan de repliegue puede significar que los sistemas de IA pasen de un procedimiento basado en estadísticas a otro basado en normas, o que soliciten la intervención de un operador humano antes de proseguir con sus actuaciones. Un sistema de conducción autónoma que transfiere el control al conductor ante un fallo es el ejemplo más representativo."
+    },
+    {
+      "question": "¿En qué se diferencia el derecho de paternidad del derecho de integridad en cuanto a su ejercicio?",
+      "options": [
+        "El de paternidad tiene límite temporal; el de integridad no",
+        "El de integridad tiene límite temporal; el de paternidad no",
+        "Ambos carecen de límite temporal y presentan la misma posibilidad de ejercicio tras la muerte del autor",
+        "Ambos se extinguen con la muerte del autor"
+      ],
+      "answer": 2,
+      "explanation": "Tanto el derecho de paternidad como el de integridad carecen de límite de tiempo y presentan la misma posibilidad de ejercicio tras la muerte del autor, pudiendo ser ejercitados por la persona designada por el autor o, en su defecto, por los herederos."
+    },
+    {
+      "question": "¿Cuál es la finalidad general de los límites establecidos en el artículo 100 TRLPI?",
+      "options": [
+        "Eliminar los derechos del autor sobre el programa",
+        "Permitir al usuario legítimo actos técnicos indispensables para el uso del programa sin que el mercado informático desaparezca",
+        "Facilitar la copia masiva de programas con fines educativos",
+        "Reducir el período de protección de los programas"
+      ],
+      "answer": 1,
+      "explanation": "Los límites del artículo 100 TRLPI responden a la necesidad de que si el usuario no puede usar, reproducir, adaptar o investigar el programa para la interoperabilidad, el propio mercado de la informática acabaría desapareciendo. Son consustanciales a la propia operatividad de todo programa."
+    },
+    {
+      "question": "¿Cuándo comenzaron las primeras respuestas jurídicas ante los riesgos tecnológicos para los derechos de las personas?",
+      "options": [
+        "En la década de los años 90 del siglo XX con internet",
+        "En la primera década del siglo XXI con las redes sociales",
+        "En la década de los años 70 del siglo XX con las primeras leyes de protección de datos",
+        "A partir del año 2016 con el RGPD"
+      ],
+      "answer": 2,
+      "explanation": "Las primeras respuestas jurídicas ante los riesgos tecnológicos surgieron en la década de los años 70 del pasado siglo, cuando se aprobaron las primeras leyes de protección de datos personales: la primera fue la Ley del Land de Hesse de 7 de octubre de 1970, seguida de leyes en Suecia (1973), Alemania, Dinamarca, Austria, Francia, Noruega, Luxemburgo y EE.UU. (1974-1978)."
+    },
+    {
+      "question": "¿Cuál es la referencia del Reglamento de IA de la Unión Europea aprobado en 2024?",
+      "options": [
+        "Reglamento (UE) 2016/679",
+        "Reglamento (UE) 2024/1689",
+        "Reglamento (UE) 2022/2065",
+        "Reglamento (UE) 2019/881"
+      ],
+      "answer": 1,
+      "explanation": "El Reglamento de Inteligencia Artificial de la Unión Europea es el Reglamento (UE) 2024/1689 del Parlamento Europeo y del Consejo, de 13 de junio de 2024, por el que se establecen normas armonizadas en materia de inteligencia artificial."
+    },
+    {
+      "question": "¿Cuál de los siguientes derechos fundamentales recoge el Reglamento de IA de la UE como potencialmente afectado?",
+      "options": [
+        "El derecho de sufragio activo y pasivo",
+        "La presunción de inocencia y los derechos de la defensa",
+        "El derecho a la propiedad privada",
+        "El derecho de huelga"
+      ],
+      "answer": 1,
+      "explanation": "El Reglamento de IA de la UE recoge entre los derechos fundamentales potencialmente afectados: la dignidad humana, la vida privada y familiar, la protección de datos, la no discriminación, la igualdad entre hombres y mujeres, la libertad de expresión y de reunión, la tutela judicial efectiva, la presunción de inocencia y los derechos de la defensa."
+    },
+    {
+      "question": "¿Qué afirmación resume mejor el enfoque del CMIA respecto al desarrollo de la IA?",
+      "options": [
+        "Prohibir el desarrollo de sistemas de IA que puedan suponer cualquier riesgo",
+        "Que la IA es intrínsecamente negativa para los derechos humanos",
+        "Reconocer las oportunidades de la IA para proteger los derechos humanos garantizando al mismo tiempo una adecuada gestión de sus riesgos",
+        "Dejar el desarrollo de la IA exclusivamente en manos del sector privado"
+      ],
+      "answer": 2,
+      "explanation": "El Informe explicativo del CMIA subraya las oportunidades sin precedentes que los sistemas de IA ofrecen para proteger y promover los derechos humanos, la democracia y el Estado de Derecho, reconociendo al mismo tiempo los graves riesgos derivados de determinadas actividades dentro del ciclo de vida de la IA."
+    },
+    {
+      "question": "¿Qué tipo de enumeración de modalidades de explotación recoge el artículo 99 TRLPI para los programas de ordenador?",
+      "options": [
+        "Una enumeración cerrada y exhaustiva",
+        "Solo las modalidades más habituales en el mercado",
+        "Reproducción, transformación y distribución, sin mención expresa de la comunicación pública",
+        "Solo reproducción y distribución"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 99 TRLPI recoge expresamente la reproducción (art. 99.a), la transformación (art. 99.b) y la distribución (art. 99.c), pero no menciona expresamente la comunicación pública, cuya aplicabilidad defiende la doctrina con base en el artículo 17 TRLPI."
+    },
+    {
+      "question": "¿Qué ocurre, según la doctrina, si el ejercicio de los derechos morales por el trabajador-autor limitase seriamente los derechos de explotación cedidos al empresario?",
+      "options": [
+        "El contrato de trabajo se extingue automáticamente",
+        "Se produce una situación que puede resultar contraria al principio de buena fe y la proscripción del abuso de derecho en el marco laboral",
+        "Los derechos morales se transfieren automáticamente al empresario",
+        "El empresario recupera todos los derechos incluidos los morales"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 97.4 TRLPI puede dar lugar a situaciones absolutamente absurdas en el marco de una relación laboral que debe estar presidida por el principio general de buena fe y la proscripción del abuso de derecho, ante el posible ejercicio de las facultades morales por parte del trabajador limitando o anulando seriamente el ejercicio de los derechos de explotación cedidos al empresario."
+    },
+    {
+      "question": "¿Cuántos Estados no europeos participaron como observadores en la elaboración del CMIA?",
+      "options": [
+        "5",
+        "8",
+        "11",
+        "15"
+      ],
+      "answer": 2,
+      "explanation": "Once Estados no europeos participaron como observadores: Argentina, Australia, Canadá, Costa Rica, Estados Unidos, Israel, Japón, México, Perú, Santa Sede y Uruguay."
+    },
+    {
+      "question": "¿Cómo califica la doctrina el límite del artículo 100.4 TRLPI sobre versiones sucesivas?",
+      "options": [
+        "Como una limitación de los derechos patrimoniales del cesionario",
+        "Como una limitación a la facultad moral de exigir el respeto a la integridad de la creación",
+        "Como una renuncia implícita al derecho de paternidad",
+        "Como una cesión tácita de todos los derechos de explotación"
+      ],
+      "answer": 1,
+      "explanation": "Para la doctrina (Preinfalk Lavagni), pese a calificarse legalmente como un límite al derecho de explotación, el artículo 100.4 TRLPI supone propiamente una limitación a la facultad moral de exigir el respeto a la integridad de la creación."
+    },
+    {
+      "question": "¿Qué instrumento internacional sobre datos personales sirvió de precedente al CMIA en cuanto a la participación de Estados no europeos?",
+      "options": [
+        "El RGPD de 2016",
+        "El Convenio 108 de 1981 sobre tratamiento automatizado de datos personales",
+        "La Directiva 95/46/CE",
+        "El Acuerdo Privacy Shield UE-EE.UU."
+      ],
+      "answer": 1,
+      "explanation": "El texto menciona el Convenio de 1981 sobre tratamiento de datos personales como antecedente en el que también participaron Estados no europeos, al igual que el Convenio de Budapest sobre ciberdelincuencia del 2001."
+    },
+    {
+      "question": "¿Qué aspecto del principio de equidad de las Directrices incluye la capacidad de oponerse a las decisiones de los sistemas de IA?",
+      "options": [
+        "El deber de accesibilidad universal",
+        "El derecho a impugnar las decisiones adoptadas por los sistemas de IA y a obtener compensaciones adecuadas",
+        "La obligación de consultar a los usuarios antes del despliegue del sistema",
+        "El derecho a conocer el código fuente del sistema que tomó la decisión"
+      ],
+      "answer": 1,
+      "explanation": "El principio de equidad de las Directrices incluye también la capacidad de oponerse a las decisiones adoptadas por los sistemas de IA y por las personas que los manejan, así como de tratar de obtener compensaciones adecuadas frente a ellas."
+    },
+    {
+      "question": "¿Qué derechos morales resultan directamente operativos en el supuesto de la obra colectiva atribuida a una persona jurídica?",
+      "options": [
+        "Ninguno, las personas jurídicas no pueden ejercer derechos morales",
+        "Solo el derecho de paternidad",
+        "Todos los previstos en el artículo 14 TRLPI, tanto patrimoniales como morales",
+        "Los previstos en el artículo 14 TRLPI, sin distinción, pues el legislador no hace matización al respecto"
+      ],
+      "answer": 3,
+      "explanation": "La titularidad que reconoce el legislador a la persona jurídica en el supuesto de obra colectiva, sin ningún tipo de distinción o matización al respecto, debe suponer la posibilidad de llegar a ejercer no solamente las facultades patrimoniales o de explotación sino también los derechos morales previstos en el artículo 14 TRLPI."
+    },
+    {
+      "question": "En la obra en colaboración, una vez divulgada la obra, ¿puede un coautor rehusar su consentimiento para la explotación?",
+      "options": [
+        "Sí, siempre y sin limitaciones",
+        "No puede rehusar injustificadamente su consentimiento para su explotación",
+        "Solo puede rehusarlo durante los primeros cinco años tras la divulgación",
+        "Solo si ha aportado más del 50% del trabajo creativo"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 7 TRLPI, aplicable a la obra en colaboración, establece que una vez divulgada la obra, ningún coautor puede rehusar injustificadamente su consentimiento para su explotación en la forma en que se divulgó."
+    },
+    {
+      "question": "¿Cuál es la primera ley de protección de datos personales aprobada en el mundo?",
+      "options": [
+        "La ley sueca de protección de datos de 1973",
+        "La Ley del Land de Hesse de 7 de octubre de 1970",
+        "La ley federal alemana de protección de datos de 1978",
+        "El Privacy Act estadounidense de 1974"
+      ],
+      "answer": 1,
+      "explanation": "Según el texto, la primera ley de protección de datos personales del mundo fue la Ley del Land de Hesse de 7 de octubre de 1970, seguida de varias leyes estatales en otros países europeos y en los Estados Unidos."
+    }
+  ]
+}
