@@ -1,0 +1,116 @@
+{
+  "title": "Práctica 6 - Fundamentos Jurídicos y Éticos de las TIC",
+  "description": "Set de preguntas tipo test sobre la responsabilidad de los prestadores de servicios de la sociedad de la información (LSSI - Ley 34/2002), regulación del spam, límites a la libertad de expresión y derecho al honor.",
+  "questions": [
+    {
+      "question": "1. Conforme a la Ley 34/2002 (LSSI), ¿qué artículo vulnera directamente D. Evelio al enviar correos publicitarios diarios a 600 destinatarios sin su autorización previa y expresa?",
+      "options": [
+        "A) El artículo 10, relativo a la información general obligatoria.",
+        "B) El artículo 16, relativo al almacenamiento de datos.",
+        "C) El artículo 21, que prohíbe el envío de comunicaciones publicitarias no solicitadas o expresamente autorizadas.",
+        "D) El artículo 38, que regula el secreto de las comunicaciones."
+      ],
+      "answer": 2,
+      "explanation": "El artículo 21 de la LSSI estipula de forma taxativa la prohibición de realizar envíos masivos o individuales de publicidad por medios electrónicos si el destinatario no los ha solicitado o autorizado previamente."
+    },
+    {
+      "question": "2. ¿En qué caso excepcional permite la LSSI el envío de publicidad por correo electrónico sin contar con una autorización previa explícita del usuario?",
+      "options": [
+        "A) Cuando los correos se envían de forma individualizada y no masiva.",
+        "B) Cuando existe una relación contractual previa lícita y el contenido promocione productos o servicios de la propia empresa que sean similares a los inicialmente contratados.",
+        "C) Cuando la empresa remite los correos exclusivamente a ciudadanos residentes en su misma localidad.",
+        "D) Si los correos se envían fuera del horario laboral y comercial ordinario."
+      ],
+      "answer": 1,
+      "explanation": "La ley contempla una excepción comercial lógica: si ya eres cliente de la empresa y te ofrecen algo similar a lo que compraste, no hace falta consentimiento previo, siempre que te den una vía directa y gratuita para oponerte."
+    },
+    {
+      "question": "3. Si D. Evelio decide continuar con los envíos promocionales amparándose en la excepción del cliente previo, ¿qué requisito formal e irrenunciable debe incluir obligatoriamente en cada correo electrónico?",
+      "options": [
+        "A) El número de identificación fiscal (NIF) de todos los destinatarios.",
+        "B) Una dirección de correo electrónico u otro medio sencillo y gratuito para que el usuario pueda revocar su consentimiento y solicitar la baja.",
+        "C) Un enlace directo a la página web del Boletín Oficial del Estado.",
+        "D) Un código de descuento obligatorio equivalente al menos al 10% del servicio."
+      ],
+      "answer": 1,
+      "explanation": "El artículo 21.2 exige que el prestador ofrezca en cada una de las comunicaciones comerciales un medio sencillo, identificable y gratuito para oponerse al tratamiento de sus datos con fines publicitarios."
+    },
+    {
+      "question": "4. Atendiendo al volumen (600 personas) y la continuidad (tres semanas diarias), ¿cómo califica la LSSI la infracción cometida por D. Evelio?",
+      "options": [
+        "A) Infracción leve.",
+        "B) Infracción grave.",
+        "C) Infracción muy grave.",
+        "D) Delito penal contra la intimidad."
+      ],
+      "answer": 1,
+      "explanation": "El artículo 38.3.c de la LSSI tipifica como infracción grave el envío masivo de comunicaciones comerciales no solicitadas, o su envío insistente o sistemático, cuando no se cumplan los requisitos del artículo 21."
+    },
+    {
+      "question": "5. De acuerdo con el régimen sancionador de la LSSI (Art. 39), ¿a qué sanción económica se enfrenta D. Evelio por la comisión de dicha infracción grave?",
+      "options": [
+        "A) Una multa administrativa de hasta 30.000 euros.",
+        "B) Una multa de 30.001 hasta 150.000 euros.",
+        "C) Una multa de 150.001 hasta 600.000 euros.",
+        "D) Una sanción fija de 500 euros por cada correo enviado."
+      ],
+      "answer": 1,
+      "explanation": "Las infracciones de carácter grave dentro del marco de la LSSI están castigadas con multas que oscilan obligatoriamente entre los 30.001 y los 150.000 euros."
+    },
+    {
+      "question": "6. Ante el bombardeo publicitario de D. Evelio, un usuario afectado desea interponer una denuncia. ¿Ante qué organismo público competente debe tramitarla?",
+      "options": [
+        "A) Ante la Comisión Nacional de los Mercados y la Competencia (CNMC).",
+        "B) Ante la Jefatura Superior de Policía o Guardia Civil.",
+        "C) Ante la Agencia Española de Protección de Datos (AEPD).",
+        "D) Ante el Ministerio de Industria y Turismo exclusivamente."
+      ],
+      "answer": 2,
+      "explanation": "La competencia sancionadora e inspectora para perseguir el spam telefónico o electrónico (infracciones del Art. 21 de la LSSI) está delegada legalmente en la AEPD."
+    },
+    {
+      "question": "7. ¿Qué tipo de prestador de servicios de la sociedad de la información es la entidad 'Meristation Magazine, S.L.' al gestionar una plataforma web que incluye foros de debate públicos para sus usuarios?",
+      "options": [
+        "A) Prestador de servicios de intermediación en la modalidad de operador de acceso a redes.",
+        "B) Prestador de servicios de intermediación en la modalidad de alojamiento o almacenamiento de datos (Hosting).",
+        "C) Prestador de servicios de copia de seguridad periférica.",
+        "D) Empresa de radiodifusión televisiva digital."
+      ],
+      "answer": 1,
+      "explanation": "Al proporcionar un espacio interactivo (foro) donde los propios usuarios suben, almacenan e intercambian contenidos de texto a petición de ellos, la web actúa bajo la figura técnica del prestador de servicios de alojamiento (Art. 16 LSSI)."
+    },
+    {
+      "question": "8. Los comentarios volcados en el foro llamando a D. Evelio 'hijo de puta', 'ladrón', 'chorizo' e instando a 'matarle a hostias' constituyen jurídicamente:",
+      "options": [
+        "A) Un ejercicio legítimo y amparado del derecho a la libertad de expresión y opinión crítica.",
+        "B) Un mero debate comercial tolerado por las costumbres de internet.",
+        "C) Una intromisión ilegítima en su derecho al honor, ya que los insultos desmedidos y las amenazas de violencia física exceden por completo la crítica permitida.",
+        "D) Un supuesto amparado por el derecho a la libre información de carácter público."
+      ],
+      "answer": 2,
+      "explanation": "La libertad de expresión no reconoce un 'derecho al insulto'. Las expresiones injuriosas graves y las amenazas explícitas atentan directamente contra la dignidad y reputación del afectado, configurando un daño ilícito a su honor."
+    },
+    {
+      "question": "9. Como regla general, el artículo 16.1 de la LSSI establece que los prestadores de alojamiento NO son responsables de la información ilícita que suben sus usuarios. ¿Qué condición debe cumplirse para mantener este beneficio de exención de responsabilidad?",
+      "options": [
+        "A) Que cobren una suscripción mensual fija a los usuarios del foro.",
+        "B) Que no tengan conocimiento efectivo de que la actividad o la información es ilícita o lesiona derechos de terceros; o si lo tienen, actúen con diligencia para retirar los datos.",
+        "C) Que obliguen a los usuarios a firmar con su DNI electrónico antes de publicar.",
+        "D) Que los servidores físicos de la empresa estén localizados fuera del territorio de la Unión Europea."
+      ],
+      "answer": 1,
+      "explanation": "Es el principio de inmunidad condicionada: el hosting no es responsable de origen, salvo que tenga 'conocimiento efectivo' del contenido ilícito y no haga nada por retirarlo de forma inmediata."
+    },
+    {
+      "question": "10. En este supuesto práctico real, ¿por qué el juzgado acabó declarando a Meristation Magazine, S.L. civilmente responsable de los comentarios perjudiciales vertidos en su plataforma?",
+      "options": [
+        "A) Porque la empresa escribió directamente los insultos utilizando cuentas corporativas simuladas.",
+        "B) Porque en España está prohibido por completo el uso de foros de discusión en páginas web comerciales.",
+        "C) Porque disponían de moderadores y administradores integrados que no intervinieron, y permitieron que los graves insultos y amenazas permanecieran accesibles durante más de un año.",
+        "D) Únicamente porque D. Evelio no era cliente premium de la revista web."
+      ],
+      "answer": 2,
+      "explanation": "Al contar con moderadores explícitos que pasaron por alto las publicaciones ofensivas, y al mantenerlas en línea durante más de un año, la empresa rompió su deber de diligencia y perdió la exención de responsabilidad al adquirir 'conocimiento efectivo' pasivo de la agresión al derecho al honor."
+    }
+  ]
+}
