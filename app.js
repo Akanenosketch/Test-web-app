@@ -60,6 +60,16 @@ function gradeLabel(pct) {
   return 'Needs Work';
 }
 
+// Fisher-Yates Shuffle Utility
+function shuffleArray(array) {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
 // ════════════════════════════════
 //  JSON SCHEMA VALIDATION
 // ════════════════════════════════
@@ -81,7 +91,6 @@ function validateTest(data) {
 async function loadRepoTests() {
   setState({ loadingOfficial: true });
   try {
-    // Looks for manifest.json in the absolute same relative folder as the page
     const res = await fetch('./manifest.json');
     if (!res.ok) throw new Error(`Could not find local manifest.json (${res.status})`);
     const manifest = await res.json();
@@ -137,7 +146,14 @@ function handleFileImport(file) {
   reader.readAsText(file);
 }
 
-function startTest(test) {
+function startTest(originalTest) {
+  // Randomize questions list configuration per session
+  const shuffledQuestions = shuffleArray(originalTest.questions);
+  const test = {
+    ...originalTest,
+    questions: shuffledQuestions
+  };
+
   const seconds = test.timeLimit ? test.timeLimit * 60 : 0;
   if (state.timerInterval) clearInterval(state.timerInterval);
   let interval = null;
@@ -173,7 +189,6 @@ function selectAnswer(idx) {
   setState({ answers, revealed: true });
 }
 
-// Fixed minor syntax bug here by changing 'i' parameters to match function variables
 function jumpToQuestion(idx) {
   setState({ current: idx, revealed: state.answers[idx] !== null });
 }
@@ -217,7 +232,6 @@ function render() {
 
   if (state.showImport) app.appendChild(renderImportModal());
 
-  // Toasts
   if (state.toasts.length > 0) {
     const tc = document.createElement('div');
     tc.className = 'toast-container';
@@ -252,7 +266,6 @@ function renderHome() {
   const page = document.createElement('div');
   page.className = 'page';
 
-  // Hero
   const hero = document.createElement('div');
   hero.className = 'home-hero';
   hero.innerHTML = `
@@ -264,7 +277,6 @@ function renderHome() {
   page.appendChild(hero);
   hero.querySelector('#btn-import')?.addEventListener('click', () => setState({ showImport: true }));
 
-  // Repository Workspace / Local Tests
   const sec = document.createElement('div');
   sec.innerHTML = `
 <div class="section-header">
@@ -298,7 +310,6 @@ function renderHome() {
     page.appendChild(grid);
   }
 
-  // Imported tests space
   const sec2 = document.createElement('div');
   sec2.innerHTML = `
 <div class="section-header" style="margin-top: 32px;">
@@ -364,7 +375,6 @@ function renderTest() {
   const page = document.createElement('div');
   page.className = 'page-narrow';
 
-  // Header
   const hdr = document.createElement('div');
   hdr.className = 'test-header';
   hdr.innerHTML = `
@@ -375,13 +385,11 @@ function renderTest() {
 </div>`;
   page.appendChild(hdr);
 
-  // Progress
   const pb = document.createElement('div');
   pb.className = 'progress-bar';
   pb.innerHTML = `<div class="progress-fill" style="width:${((current + 1) / total * 100).toFixed(1)}%"></div>`;
   page.appendChild(pb);
 
-  // Question
   const qNum = document.createElement('div');
   qNum.className = 'question-num';
   qNum.textContent = `Question ${current + 1} of ${total}`;
@@ -392,7 +400,6 @@ function renderTest() {
   qText.textContent = q.question;
   page.appendChild(qText);
 
-  // Options
   const opts = document.createElement('div');
   opts.className = 'options';
   const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
@@ -418,15 +425,14 @@ function renderTest() {
   });
   page.appendChild(opts);
 
-  // Explanation
   if (revealed && q.explanation) {
     const exp = document.createElement('div');
     exp.className = 'explanation';
-    exp.innerHTML = `<strong>Explanation</strong>${esc(q.explanation)}`;
+    exp.style.cssText = "margin-top:20px; padding:16px; background:rgba(82,183,136,0.1); border-left:4px solid var(--success); border-radius:4px;";
+    exp.innerHTML = `<strong style="display:block; margin-bottom:4px; color:var(--success);">💡 Explanation:</strong> ${esc(q.explanation)}`;
     page.appendChild(exp);
   }
 
-  // Navigation
   const nav = document.createElement('div');
   nav.className = 'test-nav';
   nav.innerHTML = `
@@ -442,7 +448,6 @@ function renderTest() {
   nav.querySelector('#btn-next')?.addEventListener('click', goNext);
   nav.querySelector('#btn-submit')?.addEventListener('click', submitTest);
 
-  // Jump grid panel
   if (total > 4) {
     const jump = document.createElement('div');
     jump.style.cssText = 'display:flex;flex-wrap:wrap;gap:6px;margin-top:28px;justify-content:center';
@@ -478,7 +483,6 @@ function renderResults() {
   const page = document.createElement('div');
   page.className = 'page-narrow';
 
-  // Score SVG gauge ring
   const r = 54, cx = 70, cy = 70, circumference = 2 * Math.PI * r;
   const filled = circumference * (pct / 100);
 
@@ -534,12 +538,12 @@ function renderResults() {
     <span style="font-size:.78rem;color:var(--muted)">Q${i + 1}</span>
   </div>
   <div class="review-q">${esc(q.question)}</div>
-  <div class="review-answers">
+  <div class="review-answers" style="display:flex; flex-direction:column; gap:4px;">
     ${userAns === null
         ? `<span style="color:var(--muted)">— Skipped</span>`
         : `<span class="review-your ${isCorrect ? 'was-correct' : ''}">Your answer: ${esc(q.options[userAns])}</span>`}
-    ${!isCorrect ? `<span class="review-correct-ans">Correct: ${esc(q.options[q.answer])}</span>` : ''}
-    ${q.explanation ? `<span style="color:var(--muted);margin-top:4px;font-size:.78rem;font-style:italic">${esc(q.explanation)}</span>` : ''}
+    ${!isCorrect ? `<span class="review-correct-ans" style="color:var(--success); font-weight:500;">Correct: ${esc(q.options[q.answer])}</span>` : ''}
+    ${q.explanation ? `<div class="review-explanation" style="margin-top:8px; padding:8px 12px; background:var(--surface2); border-left:3px solid var(--accent); font-size:.82rem; border-radius:2px; color:var(--text); line-height:1.4;"><strong>💡 Explanation:</strong> ${esc(q.explanation)}</div>` : ''}
   </div>`;
     list.appendChild(item);
   });
@@ -567,7 +571,7 @@ function renderImportModal() {
   </div>
 </div>`;
   bd.addEventListener('click', (e) => { if (e.target === bd) setState({ showImport: false }); });
-  bd.querySelector('#close-import').addEventListener('close', () => setState({ showImport: false }));
+  bd.querySelector('#close-import').addEventListener('click', () => setState({ showImport: false }));
 
   const dz = bd.querySelector('#drop-zone');
   const fi = bd.querySelector('#file-input');
@@ -604,7 +608,6 @@ function showManifestHelp() {
   document.getElementById('app').appendChild(bd);
 }
 
-// Escape HTML
 function esc(s) {
   if (!s) return '';
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -614,4 +617,4 @@ function esc(s) {
 //  INIT
 // ════════════════════════════════
 render();
-loadRepoTests(); // Triggers the auto-discovery immediately on open
+loadRepoTests();

@@ -1,0 +1,8 @@
+{
+  "tests": [
+    {
+      "id": "test-t3-temario",
+      "file": "local-tests/test_t3_temario.json"
+    }
+  ]
+}
