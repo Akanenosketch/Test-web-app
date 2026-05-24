@@ -7,10 +7,17 @@
         {
             "id": "test-t2-temario",
             "file": "local-tests/test_t2_temario.json"
+        },        {
+            "id": "test-t2-temario-gem",
+            "file": "local-tests/test_t2_temario_Gem.json"
         },
         {
             "id": "test-t3-temario",
             "file": "local-tests/test_t3_temario.json"
+        },
+        {
+            "id": "test-t3-temario-gem",
+            "file": "local-tests/test_t3_temario_Gem.json"
         },
         {
             "id": "test-t4-temario",
@@ -31,6 +38,34 @@
         {
             "id": "random-test",
             "file": "local-tests/random_test.json"
+        },
+                {
+            "id": "test-practica-1",
+            "file": "local-tests/test_practica_1.json"
+        },
+        {
+            "id": "test-practica-2",
+            "file": "local-tests/test_practica_2.json"
+        },
+        {
+            "id": "test-practica-3",
+            "file": "local-tests/test_practica_3.json"
+        },
+        {
+            "id": "test-practica-4",
+            "file": "local-tests/test_practica_4.json"
+        },
+        {
+            "id": "test-practica-5",
+            "file": "local-tests/test_practica_5.json"
+        },
+        {
+            "id": "test-practica-6",
+            "file": "local-tests/test_practica_6.json"
+        },
+        {
+            "id": "test-practica-1-4",
+            "file": "local-tests/preguntas_practicas_1_4.json"
         }
     ]
 }
