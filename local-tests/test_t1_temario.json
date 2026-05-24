@@ -1,0 +1,776 @@
+{
+  "title": "Tema 1 - Nociones Jurídicas Previas",
+  "description": "Set de 70 preguntas tipo test basadas en los fundamentos éticos y jurídicos de las TIC, fuentes del Derecho y órganos jurisdiccionales.",
+  "questions": [
+    {
+      "question": "1. Según Pérez Luño, ¿qué explica la ubicuidad del Derecho en casi todas las esferas de la vida social?",
+      "options": [
+        "A) la imposición coactiva del estado sobre los ciudadanos.",
+        "B) la mutua y necesaria implicación entre sociedad y derecho.",
+        "C) la naturaleza histórica de las normas jurídicas.",
+        "D) la necesidad de regular el mercado económico."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "2. El texto señala que el Derecho no es un compartimento estanco, sino que:",
+      "options": [
+        "A) es una forma específica de organización social y control social.",
+        "B) es un sistema de normas aislado de la realidad social.",
+        "C) solo regula las relaciones comerciales entre empresas.",
+        "D) es inmutable y no depende del contexto histórico."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: A"
+    },
+    {
+      "question": "3. ¿Cuál es la primera función que debe cumplir cualquier ordenamiento jurídico desde un punto de vista cronológico?",
+      "options": [
+        "A) resolver conflictos judiciales.",
+        "B) establecer y lograr imponer un orden social.",
+        "C) castigar las conductas desviadas.",
+        "D) promover la justicia social."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "4. La función de control social del Derecho se realiza en un doble sentido:",
+      "options": [
+        "A) regulando la economía y la política.",
+        "B) supervisando instituciones sociales/resolviendo conflictos y regulando conductas individuales.",
+        "C) creando leyes orgánicas y leyes ordinarias.",
+        "D) sancionando delitos y premiando buenas conductas exclusivamente."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "5. ¿Qué significa que el Derecho tiene un carácter histórico?",
+      "options": [
+        "A) que sus normas son universales y eternas.",
+        "B) que es producido por seres humanos en contextos específicos y varía según las circunstancias.",
+        "C) que solo estudia las leyes del pasado.",
+        "D) que no puede ser modificado una vez escrito."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "6. La naturaleza del Derecho es normativa, lo que significa que pertenece al mundo del:",
+      "options": [
+        "A) ser (lo que ocurre en la realidad).",
+        "B) deber ser (modelos de comportamiento).",
+        "C) poder (quién manda).",
+        "D) saber (conocimiento científico)."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "7. Las proposiciones que conforman las normas jurídicas son mayoritariamente:",
+      "options": [
+        "A) descriptivas (informan sobre hechos).",
+        "B) prescriptivas (ordenan conductas).",
+        "C) explicativas (detallan causas).",
+        "D) interrogativas (plantean dudas)."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "8. A diferencia de las proposiciones descriptivas, de las normas jurídicas no se puede decir que sean:",
+      "options": [
+        "A) válidas o inválidas.",
+        "B) justas o injustas.",
+        "C) verdaderas o falsas.",
+        "D) eficaces o ineficaces."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: C"
+    },
+    {
+      "question": "9. ¿Qué rasgo del Derecho implica que ante el incumplimiento de una norma se reacciona con una sanción?",
+      "options": [
+        "A) su carácter histórico.",
+        "B) su naturaleza descriptiva.",
+        "C) su carácter coactivo.",
+        "D) su estructura jerárquica."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: C"
+    },
+    {
+      "question": "10. Las \"sanciones positivas\" en el Derecho son:",
+      "options": [
+        "A) castigos físicos leves.",
+        "B) técnicas promocionales que otorgan beneficios para incentivar un comportamiento.",
+        "C) multas económicas que benefician al estado.",
+        "D) la ausencia de sanción ante una infracción."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "11. Según el texto, ¿es el Derecho neutro desde el punto de vista de la Justicia?",
+      "options": [
+        "A) sí, el derecho es puramente técnico y no valora conductas.",
+        "B) no, porque todo sistema jurídico toma posición respecto a determinados valores.",
+        "C) sí, siempre que se aplique por jueces imparciales.",
+        "D) depende de la constitución de cada país."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "12. ¿Qué se entiende por \"fuentes del Derecho\"?",
+      "options": [
+        "A) los libros donde se explican las leyes.",
+        "B) los hechos o actos de los cuales el ordenamiento hace depender la producción de normas.",
+        "C) el origen histórico del derecho romano.",
+        "D) los tribunales de justicia exclusivamente."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "13. La producción normativa originaria da como resultado:",
+      "options": [
+        "A) los reglamentos administrativos.",
+        "B) la norma constitucional (creada por el poder constituyente).",
+        "C) las leyes ordinarias.",
+        "D) las sentencias judiciales."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "14. Las normas que establecen quién tiene la autoridad para producir normas se denominan:",
+      "options": [
+        "A) normas de procedimiento.",
+        "B) normas de competencia.",
+        "C) normas sancionadoras.",
+        "D) normas descriptivas."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "15. En el sistema de fuentes español, la norma suprema es:",
+      "options": [
+        "A) el código civil.",
+        "B) el derecho de la unión europea (en todos los casos).",
+        "C) la constitución de 1978.",
+        "D) la ley orgánica del poder judicial."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: C"
+    },
+    {
+      "question": "16. El principio que establece que una norma inferior no puede contradecir a una superior se llama:",
+      "options": [
+        "A) criterio de competencia.",
+        "B) criterio de especialidad.",
+        "C) criterio de jerarquía normativa.",
+        "D) criterio cronológico."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: C"
+    },
+    {
+      "question": "17. Según el criterio de competencia:",
+      "options": [
+        "A) la norma posterior deroga a la anterior.",
+        "B) se distribuyen las materias que pueden ser reguladas por cada fuente.",
+        "C) la norma especial prevalece sobre la general.",
+        "D) las leyes valen más que los reglamentos."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "18. ¿Qué criterio se aplica cuando una norma posterior de igual o superior rango deroga a una anterior?",
+      "options": [
+        "A) jerárquico.",
+        "B) competencial.",
+        "C) cronológico.",
+        "D) de especialidad."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: C"
+    },
+    {
+      "question": "19. El artículo 9.1 de la Constitución establece que:",
+      "options": [
+        "A) los ciudadanos y los poderes públicos están sujetos a la constitución y al resto del ordenamiento.",
+        "B) el rey es la fuente suprema del derecho.",
+        "C) los jueces pueden modificar las leyes si las consideran injustas.",
+        "D) españa es un estado centralista."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: A"
+    },
+    {
+      "question": "20. Los valores superiores del ordenamiento jurídico español según el artículo 1.1 de la CE son:",
+      "options": [
+        "A) la paz, el orden y el progreso.",
+        "B) la libertad, la justicia, la igualdad y el pluralismo político.",
+        "C) la unidad, la soberanía y la monarquía.",
+        "D) la seguridad, la propiedad y la fe."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "21. Las Leyes Orgánicas (art. 81 CE) se diferencian de las ordinarias porque:",
+      "options": [
+        "A) regulan cualquier materia.",
+        "B) requieren mayoría absoluta del congreso para su aprobación.",
+        "C) son dictadas por el gobierno.",
+        "D) tienen rango inferior a las leyes ordinarias."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "22. ¿Qué materias están reservadas a la Ley Orgánica?",
+      "options": [
+        "A) los presupuestos generales del estado.",
+        "B) el desarrollo de los derechos fundamentales y libertades públicas.",
+        "C) la regulación del tráfico.",
+        "D) las normas de comercio."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "23. Los Decretos-Leyes son normas con rango de ley dictadas por el Gobierno en caso de:",
+      "options": [
+        "A) delegación del parlamento.",
+        "B) extraordinaria y urgente necesidad.",
+        "C) vacaciones parlamentarias.",
+        "D) conflicto bélico exclusivamente."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "24. Los Decretos Legislativos son normas dictadas por el Gobierno:",
+      "options": [
+        "A) por iniciativa propia sin control parlamentario.",
+        "B) previa delegación del parlamento (leyes de bases o de delegación).",
+        "C) para modificar la constitución.",
+        "D) para regular derechos fundamentales."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "25. Según el art. 96 CE, los Tratados Internacionales válidamente celebrados y publicados:",
+      "options": [
+        "A) tienen valor orientativo pero no vinculante.",
+        "B) forman parte del ordenamiento interno.",
+        "C) son inferiores a los reglamentos nacionales.",
+        "D) requieren ser convertidos en ley orgánica para aplicarse."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "26. En caso de conflicto entre un Tratado Internacional y una norma interna (salvo la Constitución):",
+      "options": [
+        "A) prevalece la norma interna.",
+        "B) prevalece el tratado internacional.",
+        "C) deciden los tribunales caso a caso.",
+        "D) se anulan ambas normas."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "27. La Unión Europea ejerce poderes normativos porque:",
+      "options": [
+        "A) españa es un estado federal de europa.",
+        "B) los estados miembros le han cedido competencias (art. 93 ce).",
+        "C) la onu lo exige.",
+        "D) tiene poder militar superior."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "28. ¿Qué norma de la UE es obligatoria en todos sus elementos y directamente aplicable en los Estados miembros?",
+      "options": [
+        "A) la directiva.",
+        "B) el reglamento.",
+        "C) la recomendación.",
+        "D) el dictamen."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "29. La Directiva comunitaria se caracteriza por:",
+      "options": [
+        "A) ser directamente aplicable sin necesidad de transposición.",
+        "B) imponer una obligación de resultado, dejando libertad de medios a los estados.",
+        "C) ser meramente un consejo político.",
+        "D) ir dirigida solo a empresas, no a estados."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "30. ¿Cuándo puede tener \"efecto directo\" una Directiva?",
+      "options": [
+        "A) siempre.",
+        "B) nunca.",
+        "C) cuando no se ha transpuesto correctamente o en plazo.",
+        "D) solo si el parlamento europeo lo autoriza expresamente."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: C"
+    },
+    {
+      "question": "31. Los Reglamentos de la Administración (nacionales) se sitúan jerárquicamente:",
+      "options": [
+        "A) al mismo nivel que la ley.",
+        "B) por encima de la ley.",
+        "C) en una posición inferior a la ley y a la constitución.",
+        "D) al mismo nivel que los tratados internacionales."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: C"
+    },
+    {
+      "question": "32. La potestad reglamentaria del Gobierno se ejerce principalmente a través de:",
+      "options": [
+        "A) leyes orgánicas.",
+        "B) reales decretos y órdenes ministeriales.",
+        "C) decretos-leyes.",
+        "D) bandos municipales."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "33. ¿Qué son los \"centros indirectos de producción normativa\"?",
+      "options": [
+        "A) los parlamentos autonómicos.",
+        "B) grupos de presión que influyen en la creación de normas.",
+        "C) los jueces de primera instancia.",
+        "D) las normas corporativas de empresas."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "34. La función jurisdiccional consiste en:",
+      "options": [
+        "A) crear nuevas leyes.",
+        "B) dirigir la política interior y exterior.",
+        "C) juzgar y hacer ejecutar lo juzgado.",
+        "D) asesorar al rey."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: C"
+    },
+    {
+      "question": "35. Según la Constitución, los jueces y magistrados están sometidos únicamente:",
+      "options": [
+        "A) al gobierno.",
+        "B) al imperio de la ley.",
+        "C) a la voluntad popular expresada en encuestas.",
+        "D) a sus superiores jerárquicos."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "36. El Tribunal Constitucional:",
+      "options": [
+        "A) forma parte del poder judicial.",
+        "B) es el intérprete supremo de la constitución y controla la constitucionalidad de las leyes.",
+        "C) es la última instancia de la jurisdicción ordinaria civil.",
+        "D) depende del ministerio de justicia."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "37. ¿Cuál de los siguientes NO es un orden jurisdiccional de la jurisdicción ordinaria en España?",
+      "options": [
+        "A) civil.",
+        "B) penal.",
+        "C) contencioso-administrativo.",
+        "D) constitucional."
+      ],
+      "answer": 3,
+      "explanation": "Respuesta correcta: D"
+    },
+    {
+      "question": "38. El control de legalidad de la actuación de la Administración corresponde a:",
+      "options": [
+        "A) la jurisdicción social.",
+        "B) la jurisdicción contencioso-administrativa.",
+        "C) el tribunal constitucional.",
+        "D) la jurisdicción penal."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "39. ¿Qué artículo de la Constitución permite la cesión de competencias a organismos supranacionales como la UE?",
+      "options": [
+        "A) artículo 81.",
+        "B) artículo 155.",
+        "C) artículo 93.",
+        "D) artículo 66."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: C"
+    },
+    {
+      "question": "40. Las normas que no contienen sanción, pero otorgan permisos o potestades, son parte de:",
+      "options": [
+        "A) las normas morales exclusivamente.",
+        "B) el carácter institucionalizado y coherente del derecho.",
+        "C) las proposiciones descriptivas.",
+        "D) el derecho internacional únicamente."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "41. ¿Qué tipo de técnica jurídica es una subvención para promover energías renovables?",
+      "options": [
+        "A) técnica disuasoria (sanción negativa).",
+        "B) técnica promocional (sanción positiva).",
+        "C) técnica descriptiva.",
+        "D) técnica coactiva pura."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "42. La validez de un acto normativo depende de:",
+      "options": [
+        "A) que sea justo moralmente.",
+        "B) que se hayan respetado las normas de competencia y procedimiento en su creación.",
+        "C) que sea aceptado por la mayoría de la población.",
+        "D) que no tenga faltas de ortografía."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "43. El Poder Legislativo del Estado reside en:",
+      "options": [
+        "A) el gobierno.",
+        "B) las cortes generales (congreso y senado).",
+        "C) el tribunal supremo.",
+        "D) el jefe del estado."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "44. Las leyes de las Comunidades Autónomas:",
+      "options": [
+        "A) son inferiores a las leyes del estado siempre.",
+        "B) tienen el mismo rango que las leyes del estado, pero se rigen por el principio de competencia.",
+        "C) solo son reglamentos administrativos.",
+        "D) requieren validación del gobierno central."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "45. El Tribunal Europeo de Derechos Humanos (TEDH) pertenece a:",
+      "options": [
+        "A) la unión europea.",
+        "B) el consejo de europa.",
+        "C) la onu.",
+        "D) la otan."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "46. El Derecho se diferencia de otros órdenes normativos (como la moral) porque:",
+      "options": [
+        "A) sus normas son institucionalizadas y coactivas.",
+        "B) persigue el bien individual.",
+        "C) no tiene sanciones.",
+        "D) es voluntario."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: A"
+    },
+    {
+      "question": "47. La \"vacatio legis\" (entrada en vigor) se regula en España en:",
+      "options": [
+        "A) la constitución.",
+        "B) el código penal.",
+        "C) el artículo 2.1 del código civil.",
+        "D) la ley de enjuiciamiento civil."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: C"
+    },
+    {
+      "question": "48. Una norma jurídica deja de estar en vigor por:",
+      "options": [
+        "A) el desuso.",
+        "B) su derogación por una norma posterior de igual o superior rango.",
+        "C) la decisión de un policía.",
+        "D) el cambio de gobierno."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "49. La Constitución tiene una doble naturaleza: política y...",
+      "options": [
+        "A) religiosa.",
+        "B) económica.",
+        "C) jurídica (es una norma obligatoria).",
+        "D) filosófica."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: C"
+    },
+    {
+      "question": "50. ¿Quién elabora la Constitución?",
+      "options": [
+        "A) el poder legislativo ordinario.",
+        "B) el poder ejecutivo.",
+        "C) el poder constituyente.",
+        "D) el poder judicial."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: C"
+    },
+    {
+      "question": "51. El principio de \"limitación del poder\" es característico de:",
+      "options": [
+        "A) los estados absolutos.",
+        "B) el estado de derecho regulado por la constitución.",
+        "C) las dictaduras militares.",
+        "D) el derecho administrativo sancionador."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "52. Las \"leyes de bases\" sirven para:",
+      "options": [
+        "A) que el parlamento delegue en el gobierno la redacción de un texto articulado.",
+        "B) aprobar los estatutos de autonomía.",
+        "C) regular derechos fundamentales.",
+        "D) crear bases de datos jurídicas."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: A"
+    },
+    {
+      "question": "53. La estructura jerárquica de las fuentes es un criterio de:",
+      "options": [
+        "A) justicia material.",
+        "B) coherencia del sistema.",
+        "C) oportunidad política.",
+        "D) eficiencia económica."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "54. ¿Qué es el \"Derecho originario\" de la UE?",
+      "options": [
+        "A) los reglamentos y directivas.",
+        "B) los tratados constitutivos y sus modificaciones.",
+        "C) las decisiones del tjue.",
+        "D) las constituciones nacionales."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "55. Las Decisiones de la UE son obligatorias:",
+      "options": [
+        "A) solo en sus objetivos.",
+        "B) en todos sus elementos para sus destinatarios (particulares o estados).",
+        "C) solo si se transponen.",
+        "D) únicamente para los estados, nunca para particulares."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "56. La Administración Pública:",
+      "options": [
+        "A) es lo mismo que el poder judicial.",
+        "B) ejerce la potestad reglamentaria y la función ejecutiva.",
+        "C) puede dictar leyes orgánicas.",
+        "D) no está sujeta a la ley, solo a la constitución."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "57. Los convenios colectivos son un ejemplo de:",
+      "options": [
+        "A) fuente del derecho creada por particulares/interlocutores sociales.",
+        "B) ley estatal.",
+        "C) reglamento administrativo.",
+        "D) tratado internacional."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: A"
+    },
+    {
+      "question": "58. La función de \"tutelar el Derecho\" corresponde a:",
+      "options": [
+        "A) la policía nacional.",
+        "B) los órganos jurisdiccionales.",
+        "C) los abogados.",
+        "D) los notarios."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "59. Los juzgados son:",
+      "options": [
+        "A) órganos jurisdiccionales colegiados.",
+        "B) órganos jurisdiccionales unipersonales.",
+        "C) órganos administrativos.",
+        "D) parte del legislativo."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "60. Los tribunales son:",
+      "options": [
+        "A) órganos jurisdiccionales unipersonales.",
+        "B) órganos administrativos del estado.",
+        "C) órganos jurisdiccionales colegiados.",
+        "D) instituciones privadas de mediación."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: C"
+    },
+    {
+      "question": "61. El Derecho de las TIC:",
+      "options": [
+        "A) es una rama totalmente independiente sin relación con el resto.",
+        "B) utiliza tanto técnicas disuasorias como promocionales.",
+        "C) no tiene sanciones.",
+        "D) solo se regula por normas internacionales."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "62. ¿Qué significa que una norma sea \"abstracta y de alcance general\"?",
+      "options": [
+        "A) que se dirige a una pluralidad indeterminada de sujetos y situaciones.",
+        "B) que es difícil de entender.",
+        "C) que se aplica a un solo caso concreto.",
+        "D) que no tiene efectos jurídicos."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: A"
+    },
+    {
+      "question": "63. La fuerza jurídica de una norma determina:",
+      "options": [
+        "A) su capacidad para modificar otras normas (jerarquía).",
+        "B) la violencia con la que se aplica.",
+        "C) su longitud y complejidad.",
+        "D) el número de personas que la votaron."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: A"
+    },
+    {
+      "question": "64. El artículo 161 de la CE regula:",
+      "options": [
+        "A) las funciones del gobierno.",
+        "B) las funciones del tribunal constitucional.",
+        "C) la corona.",
+        "D) la reforma constitucional."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "65. ¿Qué tribunal tiene su sede en Luxemburgo y controla el Derecho de la UE?",
+      "options": [
+        "A) tedh.",
+        "B) la haya.",
+        "C) tjue.",
+        "D) tribunal supremo."
+      ],
+      "answer": 2,
+      "explanation": "Respuesta correcta: C"
+    },
+    {
+      "question": "66. Las normas que regulan el procedimiento para producir otras normas son:",
+      "options": [
+        "A) normas de conducta.",
+        "B) normas secundarias o de producción.",
+        "C) normas sancionadoras.",
+        "D) normas morales."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "67. El concepto de \"soberanía\" se asocia tradicionalmente a:",
+      "options": [
+        "A) la ley como expresión de la voluntad popular.",
+        "B) los reglamentos.",
+        "C) las directivas europeas.",
+        "D) las sentencias."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: A"
+    },
+    {
+      "question": "68. ¿Qué ocurre si un Reglamento de la UE entra en conflicto con una ley nacional?",
+      "options": [
+        "A) prevalece la ley nacional por soberanía.",
+        "B) prevalece el reglamento de la ue (primacía).",
+        "C) se aplica la norma más favorable al ciudadano.",
+        "D) se suspende el juicio."
+      ],
+      "answer": 1,
+      "explanation": "Respuesta correcta: B"
+    },
+    {
+      "question": "69. La \"coactividad\" del Derecho implica el uso potencial de:",
+      "options": [
+        "A) la fuerza (legítima).",
+        "B) la persuasión moral.",
+        "C) la educación cívica.",
+        "D) la religión."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: A"
+    },
+    {
+      "question": "70. Según el texto, la jurisdicción ordinaria se divide en:",
+      "options": [
+        "A) civil, penal, contencioso-administrativo y social.",
+        "B) civil, penal y constitucional.",
+        "C) únicamente en unipersonales y colegiados.",
+        "D) civil y mercantil exclusivamente."
+      ],
+      "answer": 0,
+      "explanation": "Respuesta correcta: A"
+    }
+  ]
+}

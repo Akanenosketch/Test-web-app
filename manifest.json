@@ -1,6 +1,14 @@
 {
     "tests": [
         {
+            "id": "test-t1-temario",
+            "file": "local-tests/test_t1_temario.json"
+        },
+        {
+            "id": "test-t2-temario",
+            "file": "local-tests/test_t2_temario.json"
+        },
+        {
             "id": "test-t3-temario",
             "file": "local-tests/test_t3_temario.json"
         },
@@ -19,6 +27,10 @@
         {
             "id": "test-t7-temario",
             "file": "local-tests/test_t7_temario.json"
+        },
+        {
+            "id": "random-test",
+            "file": "local-tests/random_test.json"
         }
     ]
 }
