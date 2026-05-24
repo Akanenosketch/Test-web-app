@@ -1,0 +1,636 @@
+{
+    "title": "Test T3 - temario",
+    "description": "Examen completo sobre el temario de protección de datos (RGPD y LOPDGDD).",
+    "questions": [
+        {
+            "question": "¿En qué contexto sociológico se sitúa la reflexión sobre las medidas para garantizar la privacidad ante el tratamiento de datos personales?",
+            "options": [
+                "La sociedad industrial y el Estado de bienestar",
+                "La sociedad del control y la sociedad de la transparencia",
+                "La sociedad postindustrial y la economía colaborativa",
+                "La sociedad de la información y el mercado único europeo"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Según el Considerando 30 del RGPD, ¿qué pueden dejar las huellas digitales combinadas con identificadores únicos?",
+            "options": [
+                "Únicamente rastros comerciales sin valor identificativo",
+                "Copias de seguridad de los datos de navegación",
+                "Perfiles de las personas físicas que permiten identificarlas",
+                "Registros anónimos de acceso a servicios en línea"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Cómo define la doctrina el Big Data?",
+            "options": [
+                "Un sistema de cifrado para proteger grandes volúmenes de datos personales",
+                "Un fenómeno cultural, tecnológico y académico que maximiza la potencia de cálculo para reunir, analizar y comparar grandes conjuntos de datos",
+                "Una norma técnica internacional para la estandarización del tratamiento de datos",
+                "Un protocolo de comunicación entre servidores de datos gubernamentales"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Por qué el Big Data no siempre es una tecnología neutra?",
+            "options": [
+                "Porque solo puede utilizarse con fines comerciales privados",
+                "Porque su uso está exclusivamente reservado a organismos públicos",
+                "Porque puede manipularse presentando como objetivos y científicos presupuestos altamente ideológicos",
+                "Porque genera automáticamente perfiles discriminatorios sin intervención humana"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Cuál es el principal riesgo derivado de la falta de visibilidad y transparencia en la recolección omnipresente de información?",
+            "options": [
+                "El incremento del coste económico para las empresas tecnológicas",
+                "La obsolescencia acelerada de los dispositivos electrónicos",
+                "Que cada vez sea menos claro quién controla los datos y quién tiene acceso a ellos",
+                "La saturación de las redes de comunicación por exceso de tráfico de datos"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Desde cuándo es aplicable el RGPD en España?",
+            "options": [
+                "25 de mayo de 2016",
+                "5 de diciembre de 2018",
+                "25 de mayo de 2018",
+                "1 de enero de 2019"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué ley española complementa el RGPD en materia de protección de datos y derechos digitales?",
+            "options": [
+                "Ley Orgánica 15/1999, de 13 de diciembre",
+                "Ley Orgánica 3/2018, de 5 de diciembre (LOPDGDD)",
+                "Real Decreto Legislativo 1/1996, de 12 de abril",
+                "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué artículo de la Constitución española tiene rango constitucional en materia de protección de datos?",
+            "options": [
+                "Artículo 10 CE",
+                "Artículo 14 CE",
+                "Artículo 18.4 CE",
+                "Artículo 24 CE"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Cuál de las siguientes normas forma parte del sistema de fuentes en materia de protección de datos personales en España?",
+            "options": [
+                "Directiva 95/46/CE, actualmente en vigor",
+                "El Convenio 108 del Consejo de Europa y su modernización como Convenio 108+",
+                "El Reglamento (UE) 2018/1807 sobre libre circulación de datos no personales",
+                "La Directiva (UE) 2019/1024 sobre datos abiertos"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Según el RGPD, ¿qué premisa general recoge su Preámbulo respecto al tratamiento de datos personales?",
+            "options": [
+                "El tratamiento de datos personales debe estar orientado exclusivamente al desarrollo económico",
+                "El tratamiento de datos personales debe estar concebido para servir a la humanidad",
+                "El tratamiento de datos personales es libre salvo en los casos expresamente prohibidos",
+                "El tratamiento de datos personales es una actividad sujeta exclusivamente a licencia administrativa"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál es la característica esencial de un Reglamento de la UE respecto a los Estados miembros?",
+            "options": [
+                "Es obligatorio solo en los elementos esenciales y debe ser transpuesto",
+                "Es directamente aplicable, obligatorio en todos sus elementos y de alcance general",
+                "Debe ser ratificado por cada Estado miembro para tener eficacia",
+                "Tiene carácter orientativo y puede ser desplazado por la legislación nacional"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "En caso de contradicción entre el RGPD y la normativa española de protección de datos, ¿qué norma prevalece?",
+            "options": [
+                "La LOPDGDD, por ser norma especial posterior",
+                "La Constitución española, por tener rango supremo",
+                "El RGPD, por ser Reglamento europeo de aplicación directa",
+                "La jurisprudencia del Tribunal Constitucional, como intérprete supremo"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Cuál es el objeto principal del RGPD según su artículo primeiro?",
+            "options": [
+                "Regular el mercado digital europeo y favorecer la competencia entre empresas tecnológicas",
+                "Proteger los derechos y libertades fundamentales de las personas físicas, en particular el derecho a la protección de datos, y garantizar la libre circulación de datos en la UE",
+                "Establecer las sanciones aplicables a las infracciones en materia de protección de datos",
+                "Crear un registro europeo unificado de responsables del tratamiento de datos"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál de los siguientes derechos NO figura expresamente en el Considerando 4 del RGPD como derecho que el Reglamento persigue proteger?",
+            "options": [
+                "El derecho a la libertad de empresa",
+                "El derecho a la propiedad intelectual",
+                "El derecho a la tutela judicial efectiva y a un juicio justo",
+                "El derecho a la libertad de pensamiento, de conciencia y de religión"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál es el doble objeto de la LOPDGDD según su artículo primero?",
+            "options": [
+                "Crear la Agencia Española de Protección de Datos y regular sus competencias",
+                "Adaptar el ordenamiento español al RGPD y garantizar los derechos digitales de la ciudadanía conforme al art. 18.4 CE",
+                "Transponer la Directiva 95/46/CE y regular el comercio electrónico",
+                "Establecer el régimen sancionador y definir los derechos de los interesados"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿A qué tratamientos se aplica el RGPD desde el punto de vista territorial?",
+            "options": [
+                "Exclusivamente a los tratamientos realizados en territorio de la UE por entidades establecidas en ella",
+                "Solo a los tratamientos de datos de ciudadanos europeos, con independencia de dónde se realicen",
+                "Al tratamiento en actividades de un establecimiento en la UE y al tratamiento de datos de residentes en la UE por responsables no establecidos en ella cuando ofertan bienes o servicios o controlan su comportamiento",
+                "Únicamente a los tratamientos realizados por empresas con sede en algún Estado miembro de la UE"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Una empresa establecida en Estados Unidos ofrece servicios en línea a ciudadanos residentes en la UE sin cobrarles. ¿Debe cumplir el RGPD?",
+            "options": [
+                "No, porque no está establecida en la UE",
+                "No, porque el servicio es gratuito y no hay transacción económica",
+                "Sí, porque el RGPD se aplica con independencia de si se requiere pago al interesado",
+                "Solo si la empresa tiene alguna sucursal o representación en la UE"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿A qué tipo de ficheros se aplica el RGPD desde el punto de vista material?",
+            "options": [
+                "Solo a ficheros informatizados de titularidad pública",
+                "Exclusivamente a ficheros automatizados de carácter privado",
+                "Tanto a ficheros informatizados como a ficheros manuales, públicos o privados",
+                "Solo a los grandes ficheros con más de mil registros de personas físicas"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Cuál de los siguientes tratamientos está excluido del ámbito de aplicación del RGPD?",
+            "options": [
+                "El tratamiento de datos de clientes por una empresa privada con fines comerciales",
+                "El tratamiento realizado por una persona física en el ejercicio de actividades exclusivamente personales o domésticas",
+                "El tratamiento de datos de empleados por una empresa para gestión de recursos humanos",
+                "El tratamiento de datos de pacientes por un hospital público"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Según el TJUE (asunto Lindqvist), ¿la difusión de datos personales en Internet de modo accesible a un grupo indeterminado de personas puede considerarse actividad exclusivamente personal o doméstica?",
+            "options": [
+                "Sí, siempre que sea realizada por un particular desde su domicilio",
+                "Sí, si los datos publicados son de terceros y no del propio publicante",
+                "No, esta actividad no puede incluirse en la excepción de actividades domésticas",
+                "Sí, si los datos ya eran públicos con anterioridad a su publicación en Internet"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué ocurre con los datos personales de personas fallecidas según la LOPDGDD?",
+            "options": [
+                "Quedan protegidos por el RGPD de forma indefinida tras el fallecimiento",
+                "Quedan excluidos del ámbito de aplicación de la LOPDGDD, aunque familiares o herederos podrán solicitar acceso, rectificación o supresión, salvo prohibición del fallecido",
+                "Pasan automáticamente al dominio público a los tres años del fallecimiento",
+                "Su tratamiento queda prohibido de forma absoluta e indefinida"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué tratamientos se rigen por su propia normativa según la LOPDGDD?",
+            "options": [
+                "Los tratamientos realizados por empresas multinacionales con sede fuera de la UE",
+                "Los tratamientos realizados en el marco de la legislación electoral orgánica, penitenciaria, del Registro Civil y Registros de la Propiedad y Mercantiles",
+                "Los tratamientos realizados por las Fuerzas Armadas en tiempo de paz",
+                "Los tratamientos con fines científicos o estadísticos realizados por universidades públicas"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué se entiende por «dato personal» según el art. 4.1 del RGPD?",
+            "options": [
+                "Solo los datos íntimos que el titular considera confidenciales",
+                "Toda información sobre una persona física identificada o identificable mediante cualquier identificador directo o indirecto",
+                "Exclusivamente los datos contenidos en documentos oficiales como el DNI o pasaporte",
+                "Los datos de carácter económico o patrimonial de una persona física"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Es necesario que el dato personal permita averiguar el nombre del afectado para ser considerado dato personal?",
+            "options": [
+                "Sí, el nombre es siempre el elemento identificador esencial",
+                "Sí, sin nombre no existe identificación posible",
+                "No, basta con que los datos registrados permitan descubrir, por ejemplo, el ADN, origen social o nivel económico del individuo",
+                "Solo si se combina con al menos otro dato identificador adicional"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Cuál de los siguientes elementos NO constituye un ejemplo de dato personal?",
+            "options": [
+                "La huella dactilar de una persona",
+                "La calificación de un estudiante en una asignatura universitaria",
+                "Una estadística agregada sin posibilidad de identificar a personas concretas",
+                "El grupo sanguíneo de un individuo"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué se entiende por «tratamiento» de datos personales según el RGPD?",
+            "options": [
+                "Únicamente las operaciones automatizadas realizadas por sistemas informáticos",
+                "Solo las operaciones de recogida y almacenamiento de datos en bases de datos",
+                "Cualquier operación o conjunto de operaciones sobre datos personales, automatizadas o no, como recogida, registro, consulta, comunicación, supresión, etc.",
+                "Exclusivamente la cesión o comunicación de datos a terceros"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué es un «fichero» según la definición del art. 4.6 del RGPD?",
+            "options": [
+                "Un documento electrónico que contiene datos personales cifrados",
+                "Todo conjunto estructurado de datos personales, accesibles con arreglo a criterios determinados, ya sea centralizado, descentralizado o repartido geográfica o funcionalmente",
+                "Un archivo informático protegido mediante contraseña que contiene información personal",
+                "Una base de datos pública creada por autoridad administrativa competente"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Quién es el «responsable del tratamiento» según el RGPD?",
+            "options": [
+                "La persona física que directamente maneja y consulta los datos en su trabajo diario",
+                "La empresa de tecnología que proporciona los sistemas informáticos de tratamiento",
+                "La persona física o jurídica, autoridad pública u organismo que determina los fines y medios del tratamiento",
+                "El delegado de protección de datos nombrado por la organización"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿En qué se diferencia el «encargado del tratamiento» del «responsable del tratamiento»?",
+            "options": [
+                "El encargado determina los fines del tratamiento; el responsable solo ejecuta las instrucciones",
+                "El encargado trata datos por cuenta del responsable; el responsable determina los fines y medios del tratamiento",
+                "El encargado es siempre una persona física; el responsable puede ser persona jurídica",
+                "El encargado asume responsabilidad exclusiva frente a los interesados; el responsable solo responde ante las autoridades"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué es la «elaboración de perfiles» según el art. 4.4 del RGPD?",
+            "options": [
+                "La creación de contraseñas de acceso personalizadas para los usuarios de un sistema",
+                "El proceso de anonimización de datos para su uso estadístico",
+                "Toda forma de tratamiento automatizado de datos para evaluar aspectos personales como rendimiento, salud, comportamiento, preferencias o ubicación",
+                "La elaboración de informes de auditoría sobre el tratamiento de datos por el responsable"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué doble exigencia determina la licitud del tratamiento de datos personales según el TJUE?",
+            "options": [
+                "Contar con autorización administrativa y haber registrado el fichero ante la AEPD",
+                "Respetar los principios relativos al tratamiento y contar con una base que legitime el tratamiento",
+                "Obtener el consentimiento del interesado y notificárselo a la autoridad de control",
+                "Cumplir el principio de seguridad y contratar a un delegado de protección de datos"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál es la tradición histórica en la que se enmarcan los principios del art. 5 RGPD?",
+            "options": [
+                "La regulación anglosajona de la privacidad (privacy) desde el siglo XIX",
+                "El principio de calidad de los datos, presente desde la Privacy Act estadounidense de 1974",
+                "La jurisprudencia del TEDH sobre el art. 8 del Convenio Europeo de Derechos Humanos",
+                "La Declaración Universal de Derechos Humanos de 1948"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué impone el principio de licitud, lealtad y transparencia respecto a la recogida de datos?",
+            "options": [
+                "Que los datos solo puedan recogerse mediante formularios impresos y firmados",
+                "Que se prohíba la recogida de datos sin consentimiento previo del interesado en todo caso",
+                "Que los datos se recojan sin engaños o falsedades y que su utilización sea conocida por los afectados",
+                "Que todos los datos deban publicarse en un registro público para garantizar la transparencia"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Con qué derecho del interesado está especialmente vinculado el principio de transparencia?",
+            "options": [
+                "El derecho a la indemnización por daños y perjuicios causados por el tratamiento",
+                "El derecho a recibir información completa, clara y sencilla sobre todos los aspectos relevantes del tratamiento y sus consecuencias",
+                "El derecho a exigir la portabilidad de sus datos a otro responsable del tratamiento",
+                "El derecho a la presunción de inocencia en caso de tratamiento de datos penales"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué establece el principio de limitación de la finalidad?",
+            "options": [
+                "Que los datos personales solo pueden recogerse para fines de seguridad nacional",
+                "Que los datos solo podrán recogerse y tratarse con finalidades determinadas, explícitas y legítimas, y no podrán tratarse de manera incompatible con ellas",
+                "Que el número de finalidades para las que pueden usarse los datos queda limitado a un máximo de tres",
+                "Que los datos deben eliminarse una vez cumplida la primera finalidad para la que fueron recogidos"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué finalidades ulteriores NO se consideran incompatibles con los fines iniciales según el principio de limitación de la finalidad?",
+            "options": [
+                "Fines de marketing directo y publicidad comportamental",
+                "Fines de control de los empleados por parte del empleador",
+                "Fines de archivo en interés público, investigación científica, histórica o estadística",
+                "Fines de elaboración de perfiles para la toma de decisiones automatizadas"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Con qué derecho del RGPD conecta directamente el principio de limitación de la finalidad cuando los datos ya no son necesarios?",
+            "options": [
+                "Con el derecho de acceso del art. 15 RGPD",
+                "Con el derecho de portabilidad del art. 20 RGPD",
+                "Con el derecho de supresión del art. 17 RGPD",
+                "Con el derecho de oposición del art. 21 RGPD"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué exige el principio de minimización de datos?",
+            "options": [
+                "Que los datos se almacenen en el menor número de servidores posible",
+                "Que los datos sean adecuados, pertinentes y limitados a lo necesario en relación con los fines para los que son tratados",
+                "Que el responsable del tratamiento destruya los datos en el plazo mínimo posible",
+                "Que solo puedan recogerse datos de personas mayores de edad"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué dos condiciones exige el cumplimiento del principio de exactitud?",
+            "options": [
+                "Que los datos sean legibles y estén almacenados en formato estándar",
+                "Que los datos estén actualizados y que sean exactos respecto a la situación real del interesado",
+                "Que los datos sean verificado por un notario y estén registrados oficialmente",
+                "Que los datos provengan de fuentes oficiales y hayan sido contrastados por el responsable"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuándo no es imputable al responsable del tratamiento la inexactitud de los datos según la LOPDGDD?",
+            "options": [
+                "Nunca; el responsable siempre responde de la exactitud de los datos que trata",
+                "Solo cuando los datos han sido obtenidos de organismos internacionales",
+                "Cuando haya adoptado las medidas razonables para rectificarlos y la inexactitud provenga del afectado, de un mediador, de otro responsable o de un registro público",
+                "Cuando los datos hayan sido recogidos hace más de cinco años"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué establece el principio de limitación del plazo de conservación?",
+            "options": [
+                "Los datos deben conservarse indefinidamente para posibles investigaciones futuras",
+                "Los datos se mantendrán identificando a los interesados solo durante el tiempo necesario para los fines del tratamiento, con excepciones para archivo público, investigación o estadística",
+                "El plazo máximo de conservación de cualquier dato personal es de cinco años",
+                "Los datos deben destruirse en el plazo de un mes desde su recogida"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué obligación informativa recoge el art. 13.2 RGPD respecto al plazo de conservación?",
+            "options": [
+                "El responsable debe publicar el plazo de conservación en el Boletín Oficial del Estado",
+                "El responsable debe informar al interesado del plazo previsto de conservación o, si no es posible, de los criterios utilizados para determinarlo",
+                "El responsable debe solicitar autorización a la autoridad de control para conservar los datos más de un año",
+                "El responsable debe notificar al interesado cuando los datos vayan a ser destruidos"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué tres aspectos básicos debe abarcar la seguridad del tratamiento según el principio de integridad y confidencialidad?",
+            "options": [
+                "Legalidad, proporcionalidad y necesidad",
+                "Autenticación, autorización y auditoría",
+                "Integridad, disponibilidad y confidencialidad de la información",
+                "Cifrado, seudonimización y anonimización"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Entre qué medidas técnicas y organizativas obliga el art. 32 RGPD a aplicar para garantizar la seguridad?",
+            "options": [
+                "Exclusivamente la instalación de antivirus y cortafuegos en todos los equipos",
+                "Seudonimización y cifrado, confidencialidad e integridad de sistemas, capacidad de restaurar el acceso en caso de incidente y procesos de verificación regulares de la eficacia de las medidas",
+                "Solo la contratación de un seguro de responsabilidad civil por brechas de seguridad",
+                "Únicamente la formación anual del personal que accede a los datos"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuándo subsiste el deber de confidencialidad del responsable y del encargado del tratamiento?",
+            "options": [
+                "Solo durante la vigencia de la relación contractual con el interesado",
+                "Solo mientras existan datos personales almacenados en los sistemas",
+                "Incluso después de que haya finalizado la relación con el responsable del tratamiento",
+                "Hasta que la autoridad de control certifique la destrucción de los datos"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué exige el principio de responsabilidad proactiva al responsable del tratamiento?",
+            "options": [
+                "Que registre todos sus ficheros ante la Agencia Española de Protección de Datos",
+                "Que aplique medidas técnicas y organizativas apropiadas para garantizar que el tratamiento es conforme al RGPD y que pueda demostrarlo",
+                "Que solicite autorización previa a la autoridad de control para iniciar cualquier tratamiento",
+                "Que contrate un seguro de responsabilidad civil específico en materia de protección de datos"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué tres condiciones exige el principio de proporcionalidad, según la jurisprudencia del Tribunal Constitucional, a cualquier medida que limite el derecho a la protección de datos?",
+            "options": [
+                "Que sea legal, necesaria y temporal",
+                "Que sea idónea para el fin perseguido, necesaria (no exista medida más moderada con igual eficacia) y que respete el contenido esencial del derecho",
+                "Que sea aprobada por norma con rango de ley, notificada al interesado y revisada anualmente",
+                "Que sea proporcional al daño causado, reversible y controlada por autoridad independiente"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál es el punto de partida para interpretar las bases de licitud del tratamiento según la Carta de Derechos Fundamentales de la UE?",
+            "options": [
+                "El interés legítimo del responsable prevalece sobre el consentimiento del interesado",
+                "Los datos se tratarán sobre la base del consentimiento del interesado u otro fundamento legítimo previsto en la ley",
+                "El tratamiento de datos es libre salvo en los supuestos expresamente prohibidos",
+                "La finalidad estadística o científica siempre justifica el tratamiento de datos personales"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuántas bases de licitud para el tratamiento de datos establece el art. 6 del RGPD?",
+            "options": [
+                "Tres",
+                "Cuatro",
+                "Cinco",
+                "Seis"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "El tratamiento de los datos bancarios de los trabajadores para abonarles el salario mensual se ampara en la base de licitud de:",
+            "options": [
+                "El consentimiento del trabajador",
+                "El interés legítimo del empleador",
+                "La ejecución de un contrato en el que el interesado es parte",
+                "El cumplimiento de una misión de interés público"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué rango normativo exige la LOPDGDD (art. 8) para que el tratamiento pueda basarse en el cumplimiento de una obligación legal o en el ejercicio de poderes públicos?",
+            "options": [
+                "Basta con una instrucción o circular administrativa",
+                "Es suficiente un reglamento de desarrollo aprobado por el Gobierno",
+                "Debe estar previsto en una norma de Derecho de la UE o en una norma con rango de ley",
+                "Solo puede establecerse mediante Ley Orgánica"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿En qué supuesto se ampara el tratamiento de datos necesario para proteger la vida de una persona inconsciente tras un accidente de tráfico?",
+            "options": [
+                "En el interés legítimo del responsable del tratamiento",
+                "En la ejecución de un contrato de prestación de servicios sanitarios",
+                "En la protección de intereses vitales del interesado u otra persona física",
+                "En el cumplimiento de una misión realizada en interés público"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿A qué sector se aplica la base de licitud del interés legítimo del art. 6.1.f) del RGPD?",
+            "options": [
+                "Solo al sector privado, ya que expresamente no se aplica a autoridades públicas en el ejercicio de sus funciones",
+                "Solo al sector público, dado que solo las administraciones tienen intereses legítimos reconocidos por ley",
+                "Indistintamente al sector público y al sector privado sin restricción alguna",
+                "Solo a empresas con más de 250 trabajadores, en virtud de los umbrales del RGPD"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "¿Qué define el RGPD como consentimiento del interesado?",
+            "options": [
+                "La firma manuscrita del interesado en un documento de adhesión al servicio",
+                "Toda manifestación de voluntad libre, específica, informada e inequívoca por la que el interesado acepta mediante declaración o clara acción afirmativa el tratamiento de sus datos",
+                "La ausencia de oposición expresa del interesado en un plazo de 30 días desde la notificación",
+                "El acuerdo tácito derivado del uso continuado de un servicio digital"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué consecuencia tiene según el RGPD que el consentimiento no cumpla todos los requisitos exigidos?",
+            "options": [
+                "El responsable queda obligado a solicitar un nuevo consentimiento en los seis meses siguientes",
+                "El tratamiento realizado queda en situación de irregularidad subsanable",
+                "El control del interesado será meramente ilusorio y el consentimiento no será una base jurídica válida, convirtiendo el tratamiento en una actividad ilícita",
+                "El interesado tiene derecho a exigir una indemnización por daños y perjuicios automáticamente"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué ocurre si el acceso a un servicio se condiciona a que el interesado consienta tratamientos de datos que no son necesarios para la prestación del mismo?",
+            "options": [
+                "El consentimiento es válido porque el interesado tiene la opción de no contratar el servicio",
+                "El consentimiento no será libre y por tanto no será válido como base jurídica",
+                "El consentimiento será válido si el servicio es gratuito para el interesado",
+                "El consentimiento será válido si el interesado es mayor de edad y lo presta por escrito"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Es válido el consentimiento prestado mediante casillas pre-marcadas en un formulario digital?",
+            "options": [
+                "Sí, siempre que el interesado tenga la opción de desmarcarlo antes de enviar el formulario",
+                "Sí, si se acompaña de información clara sobre el tratamiento",
+                "No, porque el silencio o la inacción no pueden considerarse una indicación activa de haber realizado una elección",
+                "Sí, si el formulario ha sido validado por la autoridad de control competente"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Cuál es la edad mínima para prestar el consentimiento válido al tratamiento de datos en España según la LOPDGDD?",
+            "options": [
+                "13 años",
+                "14 años",
+                "16 años",
+                "18 años"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué ocurre con el consentimiento del interesado que desea revocarlo?",
+            "options": [
+                "Solo puede revocarse si ha transcurrido el plazo pactado en el contrato de prestación del servicio",
+                "Puede revocarse en cualquier momento, aunque la revocación no producirá efectos retroactivos",
+                "Puede revocarse únicamente mediante escrito dirigido a la autoridad de control",
+                "La revocación solo es posible si el responsable del tratamiento lo autoriza expresamente"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál es la razón principal por la que las categorías especiales de datos reciben una protección reforzada?",
+            "options": [
+                "Porque su tratamiento es siempre más costoso técnicamente que el de datos ordinarios",
+                "Porque se refieren a cuestiones íntimamente ligadas al núcleo de la personalidad y la dignidad humana, agravando los riesgos de discriminación",
+                "Porque suelen contener errores más frecuentes que requieren mayor supervisión",
+                "Porque son datos cuya veracidad es más difícil de verificar que la de los datos ordinarios"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál de las siguientes categorías de datos fue incorporada como novedad por el RGPD respecto a la anterior Directiva 95/46/CE?",
+            "options": [
+                "Los datos relativos a la salud y la orientación sexual",
+                "Los datos sobre afiliación sindical y convicciones religiosas",
+                "Los datos genéticos y los datos biométricos dirigidos a identificar de manera unívoca a una persona",
+                "Los datos sobre origen étnico o racial y opiniones políticas"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué exige la LOPDGDD respecto al consentimiento para el tratamiento de datos cuya finalidad principal sea identificar la ideología, afiliación sindical, religión u orientación sexual?",
+            "options": [
+                "El consentimiento explícito del afectado es suficiente por sí solo para levantar la prohibición",
+                "El solo consentimiento del afectado no basta; se necesita amparo en otra excepción del art. 9.2 RGPD",
+                "El consentimiento tácito es válido siempre que el afectado haya sido debidamente informado",
+                "No se requiere ningún consentimiento cuando los datos son de acceso público"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué condiciones deben cumplirse simultáneamente para que el tratamiento de datos sensibles sea lícito?",
+            "options": [
+                "Solo es necesario contar con una excepción del art. 9.2 RGPD y el consentimiento del interesado",
+                "Amparo en excepción del art. 9.2, base de legitimación del art. 6, respeto de los principios del art. 5 y ajuste al principio de proporcionalidad",
+                "Basta con el interés legítimo del responsable y la notificación previa a la autoridad de control",
+                "Solo se requiere norma con rango de ley y evaluación de impacto previa al tratamiento"
+            ],
+            "answer": 1
+        }
+    ]
+}
