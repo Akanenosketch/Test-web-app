@@ -1,0 +1,698 @@
+{
+  "title": "Test T4 - Derechos de los Interesados, Procedimientos y Garantías en Protección de Datos",
+  "questions": [
+    {
+      "question": "1. ¿Qué término designa el conjunto de facultades que forman el elemento positivo del derecho fundamental a la protección de datos personales?",
+      "options": [
+        "A) Habeas corpus",
+        "B) Habeas data",
+        "C) Autodeterminación informativa procesal",
+        "D) Derecho de autodisposición patrimonial"
+      ],
+      "answer": 1,
+      "explanation": "El concepto fundamental de 'habeas data' ampara constitucionalmente las facultades del ciudadano para conocer, actualizar, rectificar y controlar las informaciones que le conciernen en bases de datos."
+    },
+    {
+      "question": "2. Según la STC 17/2013, ¿en qué consiste el poder de disposición y control sobre los datos personales?",
+      "options": [
+        "A) En el derecho a destruir los datos cuando ya no sean necesarios para el titular",
+        "B) En la facultad de consentir la recogida, almacenamiento, tratamiento y uso posible de los datos por terceros, sea el Estado o un particular",
+        "C) En el derecho a percibir una remuneración económica por el uso de los datos personales por parte de empresas privadas",
+        "D) En la potestad del titular de impedir cualquier tratamiento de sus datos sin excepción alguna"
+      ],
+      "answer": 1,
+      "explanation": "La jurisprudencia del Tribunal Constitucional perfila este poder como la capacidad del interesado de autorizar o no la traza operativa de su información personal por cualquier agente."
+    },
+    {
+      "question": "3. ¿En qué artículos del RGPD se concretan los derechos que integran el habeas data?",
+      "options": [
+        "A) Artículos 5 a 11 del RGPD",
+        "B) Artículos 12 y siguientes del RGPD",
+        "C) Artículos 24 a 30 del RGPD",
+        "D) Artículos 83 y siguientes del RGPD"
+      ],
+      "answer": 1,
+      "explanation": "El Capítulo III del Reglamento General de Protección de Datos estipula a partir del artículo 12 las condiciones, procedimientos y el desglose de los derechos ejercitables por los ciudadanos."
+    },
+    {
+      "question": "4. ¿Cuál es la función de los derechos reconocidos a los interesados en el RGPD y la LOPDGDD?",
+      "options": [
+        "A) Servir exclusivamente como mecanismo sancionador frente al responsable del tratamiento",
+        "B) Garantizar a las personas un control efectivo sobre sus datos personales y hacer realidad los principios del art. 5 RGPD",
+        "C) Permitir a las autoridades de control acceder a los datos sin restricciones",
+        "D) Establecer obligaciones formales de registro ante la AEPD"
+      ],
+      "answer": 1,
+      "explanation": "La finalidad material de estas prerrogativas consiste en dar herramientas operativas al titular para dotar de eficacia a los principios informadores del tratamiento (exactitud, licitud, lealtad)."
+    },
+    {
+      "question": "5. ¿Cómo debe facilitarse la información al interesado según el art. 12 del RGPD?",
+      "options": [
+        "A) Exclusivamente mediante documento escrito firmado por el responsable del tratamiento",
+        "B) De forma concisa, transparente, inteligible, de fácil acceso y en lenguaje claro y sencillo",
+        "C) Solo a través de medios electrónicos para garantizar su trazabilidad",
+        "D) Mediante notificación notarial siempre que se traten datos sensibles"
+      ],
+      "answer": 1,
+      "explanation": "El estándar normativo impone el deber de mitigar la opacidad técnica y jurídica mediante el uso de canales accesibles y una redacción simple orientada al ciudadano medio."
+    },
+    {
+      "question": "6. ¿Cuándo puede facilitarse la información al interesado de forma verbal según el RGPD?",
+      "options": [
+        "A) Nunca; la información debe facilitarse siempre por escrito o por medios electrónicos",
+        "B) Cuando lo solicite el interesado y siempre que se demuestre su identidad por otros medios",
+        "C) Solo en el caso de que el interesado sea analfabeto o tenga dificultades de comprensión lectora",
+        "D) Únicamente cuando el responsable del tratamiento carezca de medios electrónicos disponibles"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 12.1 del RGPD autoriza excepcionalmente la comunicación oral a petición expresa del propio interesado, supeditada a que la identidad del titular quede plenamente acreditada."
+    },
+    {
+      "question": "7. ¿Cuál de los siguientes datos NO forma parte de la información obligatoria que debe facilitarse al interesado cuando los datos se obtienen directamente de él (art. 13 RGPD)?",
+      "options": [
+        "A) La identidad y los datos de contacto del responsable del tratamiento",
+        "B) Los fines y la base jurídica del tratamiento",
+        "C) El historial crediticio previo del interesado",
+        "D) El plazo durante el cual se conservarán los datos personales"
+      ],
+      "answer": 2,
+      "explanation": "El historial crediticio es una tipología de datos objeto de tratamiento en sí misma, no un requisito informativo sobre las condiciones organizativas o jurídicas del responsable."
+    },
+    {
+      "question": "8. Cuando los datos no se obtienen directamente del interesado, ¿qué información adicional debe facilitarse además de la recogida en el art. 13 RGPD?",
+      "options": [
+        "A) El nombre de todos los empleados que tendrán acceso a los datos",
+        "B) Las categorías de datos que se tratan y la fuente de la que proceden, indicando si provienen de fuentes de acceso público",
+        "C) El importe de las sanciones previstas en caso de incumplimiento de la normativa de protección de datos",
+        "D) La evaluación de impacto realizada antes del inicio del tratamiento"
+      ],
+      "answer": 1,
+      "explanation": "Al existir una captación indirecta (por ejemplo, a través de cesionarios), resulta imperativo detallar al afectado la procedencia originaria del flujo de información y qué tipologías de datos se han capturado (artículo 14 del RGPD)."
+    },
+    {
+      "question": "9. ¿En qué momento debe ponerse la información a disposición del interesado cuando los datos se obtienen directamente de él?",
+      "options": [
+        "A) Dentro del plazo de un mes desde la recogida de los datos",
+        "B) En el momento en que se soliciten los datos, previamente a la recogida o registro",
+        "C) En el plazo de quince días desde el inicio del tratamiento",
+        "D) Antes de la primera comunicación de los datos a un tercero"
+      ],
+      "answer": 1,
+      "explanation": "Para salvaguardar la autodeterminación informativa, las cláusulas informativas de transparencia deben desplegarse con carácter previo o concomitante al acto de captación física de los datos."
+    },
+    {
+      "question": "10. ¿Cuál es el plazo máximo para informar al interesado cuando los datos no se han obtenido de él?",
+      "options": [
+        "A) Quince días desde la obtención de los datos",
+        "B) Seis meses desde el inicio del tratamiento",
+        "C) Un plazo razonable que no podrá ser superior a un mes desde la obtención, o en el momento de la primera comunicación al interesado",
+        "D) Tres meses desde la obtención de los datos o desde la primera comunicación, lo que sea posterior"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 14.3.a) del RGPD acota un umbral de seguridad temporal fijado en un mes como máximo para mitigar la indefensión de quien ignora que sus datos obran en poder de un tercero."
+    },
+    {
+      "question": "11. ¿En cuál de los siguientes supuestos NO es necesario facilitar información al interesado según el art. 14 RGPD?",
+      "options": [
+        "A) Cuando los datos se obtienen de una fuente de acceso público",
+        "B) Cuando el interesado ya dispone de la información o facilitarla resulta imposible o supone un esfuerzo desproporcionado",
+        "C) Cuando el interesado es mayor de edad y tiene plena capacidad de obrar",
+        "D) Cuando el tratamiento se realiza con fines comerciales o de mercadotecnia directa"
+      ],
+      "answer": 1,
+      "explanation": "La norma introduce una exención lógica por redundancia si el titular ya conoce los extremos del tratamiento, o por imposibilidad material/esfuerzo desproporcionado en tratamientos masivos históricos o estadísticos."
+    },
+    {
+      "question": "12. ¿Por qué se afirma que el derecho de información es un requisito inicial e imprescindible del derecho a la autodeterminación informativa?",
+      "options": [
+        "A) Porque sin información el interesado no puede ejercer ninguno de los demás derechos y el poder de disposición sobre los datos no tiene valor real",
+        "B) Porque la información es el único requisito exigido por el RGPD para que el tratamiento sea lícito",
+        "C) Porque la información al interesado equivale automáticamente a su consentimiento al tratamiento",
+        "D) Porque la falta de información únicamente genera responsabilidad disciplinaria para el responsable del tratamiento"
+      ],
+      "answer": 0,
+      "explanation": "La información opera como un presupuesto habilitante indispensable; si el ciudadano desconoce la existencia de un tratamiento, se encuentra materialmente imposibilitado para accionar sus derechos de acceso, rectificación u oposición."
+    },
+    {
+      "question": "13. ¿Puede el responsable del tratamiento no informar al interesado cuando existe una obligación de secreto profesional?",
+      "options": [
+        "A) No, la obligación de informar prevalece siempre sobre el secreto profesional",
+        "B) Sí, cuando los datos personales deban mantener carácter confidencial sobre la base de una obligación de secreto profesional regulada por el Derecho de la UE o de los EM",
+        "C) Solo si el interesado es un menor de edad o una persona incapacitada",
+        "D) Únicamente cuando el secreto profesional esté expresamente reconocido por una norma internacional"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 14.5.d) del RGPD contempla esta salvedad legal para preservar la confidencialidad en relaciones profesionales protegidas estatutariamente (médicos, abogados, etc.)."
+    },
+    {
+      "question": "14. ¿Qué resolución judicial originó el reconocimiento del derecho de acceso como núcleo esencial del derecho del art. 18.4 CE?",
+      "options": [
+        "A) STC 292/2000, de 30 de noviembre",
+        "B) STC 254/1993, de 20 de julio",
+        "C) STC 17/2013, de 31 de enero",
+        "D) STC 58/2018, de 4 de junio"
+      ],
+      "answer": 1,
+      "explanation": "La Sentencia del Tribunal Constitucional 254/1993 supuso uno de los hitos germinales en la delimitación dogmática de las facultades de control e inspección individual frente a ficheros informáticos automatizados."
+    },
+    {
+      "question": "15. ¿Qué debe hacer el responsable del tratamiento en primer lugar cuando el interesado ejerce el derecho de acceso?",
+      "options": [
+        "A) Remitir al interesado una copia completa de todos los datos almacenados sin previa confirmación",
+        "B) Confirmar si se están o no tratando sus datos y, en caso afirmativo, proporcionar acceso a los mismos e información sobre el tratamiento",
+        "C) Solicitar autorización a la autoridad de control antes de atender la solicitud",
+        "D) Exigir al interesado que justifique documentalmente el motivo de su solicitud de acceso"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 15.1 del RGPD bifurca la respuesta: una primera verificación de la existencia de la actividad de tratamiento y, posteriormente, la entrega de los datos y las rúbricas informativas complementarias."
+    },
+    {
+      "question": "16. ¿Cuál es la relación del derecho de acceso con los demás derechos de los arts. 16 a 22 del RGPD?",
+      "options": [
+        "A) El derecho de acceso es independiente y no guarda relación con el ejercicio de los demás derechos",
+        "B) El derecho de acceso constituye la puerta de entrada para poder ejercitar los demás derechos reconocidos en los arts. 16 a 22 RGPD",
+        "C) El derecho de acceso solo puede ejercerse una vez que se hayan agotado los demás derechos",
+        "D) El derecho de acceso sustituye al ejercicio de cualquier otro derecho cuando el interesado ya conoce su contenido"
+      ],
+      "answer": 1,
+      "explanation": "Doctrinalmente se concibe el acceso como un derecho instrumental prioritario, dado que solo conociendo qué datos exactos posee el responsable puede instarse su subsanación, borrado o limitación operativa."
+    },
+    {
+      "question": "17. ¿En qué normativa española se recogen especificaciones sobre las modalidades del ejercicio del derecho de acceso?",
+      "options": [
+        "A) En el Real Decreto de desarrollo del RGPD",
+        "B) En el artículo 13 de la LOPDGDD",
+        "C) En la Guía para el ciudadano de la AEPD",
+        "D) En el artículo 18.4 de la Constitución española"
+      ],
+      "answer": 1,
+      "explanation": "La legislación orgánica española complementa y detalla las previsiones del reglamento europeo a través del artículo 13 de la LOPDGDD, precisando extremos procedimentales del acceso a nivel nacional."
+    },
+    {
+      "question": "18. ¿Con qué principio del art. 5 RGPD está íntimamente relacionado el derecho de rectificación?",
+      "options": [
+        "A) Principio de limitación de la finalidad",
+        "B) Principio de minimización de datos",
+        "C) Principio de exactitud",
+        "D) Principio de limitación del plazo de conservación"
+      ],
+      "answer": 2,
+      "explanation": "El principio de exactitud obliga a mantener los datos actualizados y exactos; el derecho de rectificación (artículo 16) es la herramienta del interesado para compeler al responsable a enmendar datos erróneos."
+    },
+    {
+      "question": "19. ¿Qué puede exigir el interesado respecto a sus datos cuando estos son incompletos, de acuerdo con el art. 16 RGPD?",
+      "options": [
+        "A) Únicamente la supresión de los datos incompletos",
+        "B) La compleción de los datos personales incompletos, inclusive mediante una declaración adicional",
+        "C) La suspensión cautelar del tratamiento hasta que los datos sean completados",
+        "D) La transmisión de los datos incompletos a otro responsable del tratamiento"
+      ],
+      "answer": 1,
+      "explanation": "El derecho de rectificación no se limita a corregir erratas, sino que ampara la potestad de integrar información que falte para evitar que un perfil fragmentado induzca a interpretaciones lesivas o inexactas."
+    },
+    {
+      "question": "20. ¿Cuál es la razón fundamental por la que el simple paso del tiempo puede convertir en inadecuado un tratamiento de datos inicialmente lícito?",
+      "options": [
+        "A) Porque la normativa de protección de datos exige renovar el consentimiento anualmente",
+        "B) Porque el transcurso del tiempo puede hacer incompatible la conservación indefinida de datos con los derechos fundamentales relativos a la vida privada",
+        "C) Porque los datos personales pierden su valor económico con el tiempo",
+        "D) Porque los sistemas informáticos son técnicamente incapaces de mantener datos durante períodos prolongados"
+      ],
+      "answer": 1,
+      "explanation": "La perpetuidad de los registros informáticos choca con la evolución existencial y el libre desarrollo de la personalidad, exigiendo la caducidad y borrado del rastro digital histórico cuando expiran sus fines."
+    },
+    {
+      "question": "21. ¿Cómo define la STC 58/2018 el derecho al olvido?",
+      "options": [
+        "A) Como el derecho a exigir que los motores de búsqueda eliminen resultados sobre la persona cuando esta lo solicite",
+        "B) Como una vertiente del derecho a la protección de datos del art. 18.4 CE y un mecanismo de garantía para los derechos a la intimidad y al honor, aunque se trate de un derecho autónomo",
+        "C) Como el derecho a borrar los datos de carácter personal pasados diez años desde su recogida",
+        "D) Como el derecho a impedir que los medios de comunicación publiquen información sobre el pasado de una persona"
+      ],
+      "answer": 1,
+      "explanation": "La jurisprudencia constitucional española incardina el derecho al olvido en el marco expansivo del artículo 18.4 CE, operando como un escudo protector de la reputación frente al archivo indexado universal."
+    },
+    {
+      "question": "22. ¿De qué principios del RGPD es manifestación directa el derecho al olvido digital?",
+      "options": [
+        "A) Del principio de licitud y del principio de transparencia",
+        "B) Del principio de proporcionalidad (minimización de datos) y del principio de finalidad (limitación de la finalidad)",
+        "C) Del principio de exactitud y del principio de integridad y confidencialidad",
+        "D) Del principio de responsabilidad proactiva y del principio de neutralidad tecnológica"
+      ],
+      "answer": 1,
+      "explanation": "Cuando los fines de una recogida expiran o el volumen de datos resulta redundante u obsoleto, los principios de minimización y especialidad temporal imponen la supresión técnica de los registros."
+    },
+    {
+      "question": "23. Según la STJUE de 13 de mayo de 2014 (asunto Google Spain), ¿cuándo puede devenir incompatible con la normativa un tratamiento inicialmente lícito de datos exactos?",
+      "options": [
+        "A) Cuando el responsable del tratamiento cambia de domicilio o denominación social",
+        "B) Cuando los datos ya no sean necesarios en relación con los fines para los que se recogieron, o sean inadecuados, no pertinentes o excesivos en relación con esos fines y el tiempo transcurrido",
+        "C) Cuando el interesado alcanza la mayoría de edad y los datos fueron recogidos siendo menor",
+        "D) Cuando el responsable del tratamiento transfiere los datos a un tercer país sin nivel de protección adecuado"
+      ],
+      "answer": 1,
+      "explanation": "El histórico fallo del Tribunal de Justicia de la UE determinó que la validez temporal del tratamiento decae si la indexación prolongada rompe la proporcionalidad respecto al fin legítimo primigenio."
+    },
+    {
+      "question": "24. ¿En cuál de los siguientes supuestos NO está el responsable obligado a suprimir los datos según el art. 17.1 RGPD?",
+      "options": [
+        "A) Cuando los datos ya no sean necesarios para los fines para los que fueron recogidos",
+        "B) Cuando el interesado retirar el consentimiento en que se basaba el tratamiento",
+        "C) Cuando el interesado solicite una copia de sus datos en formato estructurado",
+        "D) Cuando el interesado se oponga al tratamiento y no exista otro fundamento jurídico"
+      ],
+      "answer": 2,
+      "explanation": "Solicitar una copia estructurada constituye el cauce específico del ejercicio del derecho de portabilidad, no un supuesto de revocación o cese del tratamiento que active la supresión."
+    },
+    {
+      "question": "25. ¿Qué segunda obligación establece el art. 17.2 RGPD para el responsable que haya hecho públicos los datos y deba suprimirlos?",
+      "options": [
+        "A) Publicar un anuncio en el Boletín Oficial del Estado sobre la supresión de los datos",
+        "B) Adoptar medidas razonables, incluidas técnicas, para informar a otros responsables que traten esos datos de la solicitud de supresión de enlaces, copias o réplicas",
+        "C) Notificar la supresión a la autoridad de control en el plazo de setenta y dos horas",
+        "D) Contratar un servicio de verificación externo que certifique la eliminación completa de los datos"
+      ],
+      "answer": 1,
+      "explanation": "Para conferir efectividad real al borrado en Internet, la norma impone una obligación de arrastre: trasladar de forma proactiva la orden de supresión a los terceros que hayan replicado la información."
+    },
+    {
+      "question": "26. ¿Cuál de los siguientes supuestos constituye una excepción al derecho de supresión según el art. 17.3 RGPD?",
+      "options": [
+        "A) Cuando el interesado haya facilitado los datos para finalidades comerciales",
+        "B) When el responsable tenga interés económico en conservar los datos",
+        "C) Cuando el tratamiento sea necesario para el ejercicio del derecho a la libertad de expresión e información",
+        "D) Cuando los datos procedan de fuentes de acceso público"
+      ],
+      "answer": 2,
+      "explanation": "El derecho al olvido cede ante el interés constitucional prevalente de las libertades informativas y periodísticas, salvaguardando la integridad de los archivos históricos digitales frente a la censura retrospectiva."
+    },
+    {
+      "question": "27. ¿Para qué puede ser necesaria la conservación de datos aun vencido el plazo de la finalidad inicial, según el art. 17.3.e RGPD?",
+      "options": [
+        "A) Para la elaboración de estadísticas de mercado por parte del responsable",
+        "B) Para la formulación, el ejercicio o la defensa de reclamaciones",
+        "C) Para la mejora de los servicios ofrecidos por el responsable del tratamiento",
+        "D) Para el cumplimiento de obligaciones contractuales del responsable con terceros"
+      ],
+      "answer": 1,
+      "explanation": "El responsable ostenta la prerrogativa de retener bloqueados los datos durante los plazos legales de prescripción técnica, garantizando su capacidad de defensa ante eventuales demandas judiciales o administrativas."
+    },
+    {
+      "question": "28. ¿Con qué otros derechos fundamentales está íntimamente relacionado el derecho al olvido, aunque sea un derecho autónomo?",
+      "options": [
+        "A) Con el derecho a la tutela judicial efectiva y el derecho a la presunción de inocencia",
+        "B) Con los derechos a la intimidad y al honor",
+        "C) Con el derecho a la libertad de expresión y el derecho de información",
+        "D) Con el derecho de asociación y el derecho de reunión"
+      ],
+      "answer": 1,
+      "explanation": "El olvido digital actúa como barrera frente al menoscabo de la reputación social (honor) y la intromisión en parcelas del pasado individual que han perdido interés público (intimidad)."
+    },
+    {
+      "question": "29. ¿Cómo define el art. 4 del RGPD la limitación del tratamiento?",
+      "options": [
+        "A) La eliminación definitiva de los datos personales del sistema de tratamiento",
+        "B) El marcado de los datos de carácter personal conservados con el fin de limitar su tratamiento en el futuro",
+        "C) La restricción temporal del acceso del responsable a los datos del interesado",
+        "D) La suspensión cautelar del tratamiento por decisión de la autoridad de control"
+      ],
+      "answer": 1,
+      "explanation": "Definido formalmente en el artículo 4.3 del RGPD, este mecanismo consiste en 'congelar' los datos en los sistemas, suspendiendo temporalmente cualquier otra operación que no sea su mera custodia."
+    },
+    {
+      "question": "30. ¿En cuál de los siguientes casos NO procede solicitar la limitación del tratamiento?",
+      "options": [
+        "A) Cuando el interesado ha impugnado la exactitud de los datos, durante el plazo de verificación",
+        "B) Cuando el tratamiento es ilícito y el interesado se opone a la supresión para conservar la prueba del incumplimiento",
+        "C) Cuando el interesado desea que sus datos sean transferidos a otro responsable del tratamiento",
+        "D) Cuando los datos ya no son necesarios pero el interesado los necesita para la defensa de reclamaciones"
+      ],
+      "answer": 2,
+      "explanation": "La migración o transferencia automatizada directa a un competidor corporativo define exclusivamente el ejercicio de la portabilidad del artículo 20, no la inmovilización de los datos."
+    },
+    {
+      "question": "31. ¿Qué puede hacerse con los datos durante la limitación del tratamiento, además de su conservación?",
+      "options": [
+        "A) Pueden tratarse libremente por el responsable siempre que lo justifique",
+        "B) Solo pueden tratarse con el consentimiento del interesado, para reclamaciones, para proteger derechos de otra persona o para garantizar un interés público importante",
+        "C) Pueden cederse a terceros siempre que sea para finalidades compatibles con la original",
+        "D) Pueden tratarse exclusivamente con fines estadísticos o de investigación científica"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 18.2 del RGPD restringe severamente el uso de datos limitados, permitiendo romper el bloqueo únicamente bajo supuestos tasados de interés público, protección de terceros o defensa procesal."
+    },
+    {
+      "question": "32. ¿Qué obligación tiene el responsable antes de levantar la limitación del tratamiento?",
+      "options": [
+        "A) Solicitar nueva autorización a la autoridad de control competente",
+        "B) Informar al interesado antes de que se levante dicha limitación",
+        "C) Obtener el consentimiento explícito del interesado para el nuevo tratamiento",
+        "D) Realizar una evaluación de impacto que acredite la ausencia de riesgos"
+      ],
+      "answer": 1,
+      "explanation": "Para evitar la indefensión del titular y preservar el principio de transparencia, el artículo 18.3 del RGPD impone la obligación de alertar previamente al interesado de que sus datos volverán a ser procesados de forma ordinaria."
+    },
+    {
+      "question": "33. ¿Cuál es la razón de ser del derecho a la portabilidad de los datos según el Considerando 68 del RGPD?",
+      "options": [
+        "A) Facilitar el cumplimiento del derecho de supresión en entornos digitales",
+        "B) Reforzar aún más el control del interesado sobre sus propios datos cuando el tratamiento se efectúe por medios automatizados",
+        "C) Garantizar a la libre circulación de datos personales en el mercado interior de la UE",
+        "D) Asegurar que los datos personales se conservan en formato seguro y duradero"
+      ],
+      "answer": 1,
+      "explanation": "La portabilidad es un derecho de segunda generación digital concebido para empoderar al usuario, facilitando la migración activa de sus datos entre proveedores de servicios sin trabas técnicas."
+    },
+    {
+      "question": "34. ¿En qué formato debe facilitar el responsable los datos al interesado en el ejercicio del derecho de portabilidad?",
+      "options": [
+        "A) En el formato propio del sistema del responsable, sin obligación de conversión",
+        "B) En formato PDF certificado y con firma electrónica reconocida",
+        "C) En un formato estructurado, de uso común y lectura mecánica",
+        "D) En cualquier formato acordado entre el interesado y el responsable del tratamiento"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 20.1 del RGPD exige un estándar de interoperabilidad técnica (ej. JSON, CSV) que garantice que otras plataformas informáticas puedan procesar e incorporar la información sin fricciones."
+    },
+    {
+      "question": "35. ¿Cuándo puede ejercerse el derecho de portabilidad de datos?",
+      "options": [
+        "A) En cualquier supuesto y con independencia de la base jurídica del tratamiento",
+        "B) Exclusivamente cuando el tratamiento se base en obligación legal o interés público",
+        "C) Cuando el tratamiento se efectúe por medios automatizados y se base en el consentimiento o en un contrato",
+        "D) Solo cuando el responsable del tratamiento sea una empresa privada con más de 250 empleados"
+      ],
+      "answer": 2,
+      "explanation": "La portabilidad exige una doble concurrencia: que los sistemas de tratamiento sean electrónicos (automatizados) y que la legitimación jurídica descanse en la autonomía de la voluntad (consentimiento o relación contractual)."
+    },
+    {
+      "question": "36. Cuando el interesado ejerce el derecho de oposición al tratamiento basado en interés legítimo (art. 6.1.f RGPD), ¿puede el responsable continuar tratando los datos?",
+      "options": [
+        "A) No; el derecho de oposición en este supuesto es absoluto e impide cualquier tratamiento posterior",
+        "B) Sí, cuando el responsable acredite motivos legítimos imperiosos para el tratamiento que prevalezcan sobre los intereses, derechos y libertades del interesado",
+        "C) Solo si la autoridad de control lo autoriza expresamente mediante resolución motivada",
+        "D) Sí, pero únicamente para el cumplimiento de obligaciones legales del responsable"
+      ],
+      "answer": 1,
+      "explanation": "A diferencia del márketing directo, la oposición frente al interés legítimo abre una ponderación de intereses en la que el responsable puede imponerse si demuestra razones de peso preeminentes o fines de defensa jurídica."
+    },
+    {
+      "question": "37. ¿Quién debe demostrar que sus intereses legítimos imperiosos prevalecen sobre los del interesado en el ejercicio del derecho de oposición?",
+      "options": [
+        "A) El interesado, que deberá acreditar el perjuicio concreto que le causa el tratamiento",
+        "B) La autoridad de control, que resolverá mediante resolución motivada",
+        "C) El responsable del tratamiento, según el Considerando 69 del RGPD",
+        "D) El encargado del tratamiento, en su condición de ejecutor material del tratamiento"
+      ],
+      "answer": 2,
+      "explanation": "La carga de la prueba se invierte: es la corporación o entidad la que tiene la obligación legal de justificar y documentar que sus motivos imperiosos desplazan legítimamente las pretensiones del afectado."
+    },
+    {
+      "question": "38. ¿En qué supuesto es el derecho de oposición absoluto, sin posibilidad de que el responsable continúe el tratamiento?",
+      "options": [
+        "A) Cuando el tratamiento se base en el consentimiento del interesado",
+        "B) Cuando el tratamiento se realice con fines de investigación científica o histórica",
+        "C) Cuando el tratamiento se realice con fines de mercadotecnia directa, incluida la elaboración de perfiles relacionada con dicha mercadotecnia",
+        "D) Cuando el tratamiento se base en el cumplimiento de una obligación legal"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 21.2 del RGPD otorga naturaleza incondicional y absoluta a la oposición publicitaria; si el ciudadano rechaza recibir impactos comerciales o perfiles de márketing, el cese del tratamiento debe ser inmediato e inapelable."
+    },
+    {
+      "question": "39. ¿Qué garantiza el art. 22 del RGPD respecto a las decisiones automatizadas?",
+      "options": [
+        "A) Que ninguna organización podrá elaborar perfiles de personas físicas en ningún caso",
+        "B) El derecho del interesado a no ser objeto de una decisión basada únicamente en tratamiento automatizado, incluida la elaboración de perfiles, que produzca efectos jurídicos o le afecte significativamente",
+        "C) Que toda decisión automatizada debe ser revisada por la autoridad de control antes de ejecutarse",
+        "D) Que el interesado puede exigir la destrucción del perfil elaborado sobre su persona en cualquier momento"
+      ],
+      "answer": 1,
+      "explanation": "Este precepto establece una prohibición general estructurada como un derecho: impedir que las máquinas adopten veredictos críticos sobre la vida del ciudadano (denegación de créditos, despidos automatizados) sin mediación de un juicio humano."
+    },
+    {
+      "question": "40. ¿Cuál de los siguientes riesgos asocia el Consejo de Europa a la elaboración de perfiles?",
+      "options": [
+        "A) El riesgo de saturación de los sistemas informáticos por exceso de procesamiento",
+        "B) El riesgo de incluir a personas en categorías predeterminadas sin su conocimiento, con posible discriminación y privación arbitraria del acceso a bienes o servicios",
+        "C) El riesgo de que los datos personales sean utilizados con fines exclusivamente comerciales",
+        "D) El riesgo de que la elaboración de perfiles sustituya a la toma de decisiones humanas en el ámbito judicial"
+      ],
+      "answer": 1,
+      "explanation": "Los marcos de gobernanza alertan frente a la segregación algorítmica y los sesgos que encasillan de manera invisible a colectivos vulnerables, cercenando sus oportunidades vitales."
+    },
+    {
+      "question": "41. ¿En qué supuestos es posible adoptar decisiones automatizadas que afecten significativamente al interesado de forma excepcional?",
+      "options": [
+        "A) Cuando el responsable del tratamiento sea una autoridad pública con competencias legalmente atribuidas",
+        "B) Cuando sea necesario para un contrato, esté autorizado por el Derecho de la UE o los EM, o se base en el consentimiento explícito del interesado",
+        "C) Cuando los datos utilizados para la elaboración del perfil sean exclusivamente datos públicos",
+        "D) Cuando el interesado no haya ejercitado su derecho de oposición en el plazo reglamentario"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 22.2 del RGPD levanta de forma tasada la prohibición general bajo tres cláusulas habilitantes: la habilitación normativa expresa, el consentimiento explícito o la estricta necesidad para la ejecución contractual."
+    },
+    {
+      "question": "42. ¿Qué garantías mínimas debe ofrecer el responsable al interesado en los supuestos excepcionales en que sí es posible adoptar decisiones automatizadas?",
+      "options": [
+        "A) Solo la posibilidad de solicitar la revisión de la decisión ante la autoridad de control",
+        "B) Al menos el derecho a obtener intervención humana por parte del responsable, a expresar su punto de vista y a impugnar la decisión",
+        "C) El derecho a conocer el algoritmo completo utilizado para la elaboración del perfil",
+        "D) Únicamente el derecho a recibir información sobre los datos utilizados para adoptar la decisión"
+      ],
+      "answer": 1,
+      "explanation": "Aunque opere la excepción, el artículo 22.3 del RGPD blinda un núcleo de garantías intangibles: la intervención humana obligatoria de revisión ('human-in-the-loop'), el derecho de réplica y la contradicción del dictamen de la máquina."
+    },
+    {
+      "question": "43. ¿Qué prohíbe expresamente el RGPD en materia de decisiones automatizadas basadas en datos sensibles?",
+      "options": [
+        "A) Permite su uso libremente si el responsable cuenta con la certificación adecuada",
+        "B) Prohíbe la adopción de decisiones automatizadas basadas en datos sensibles salvo que el interesado dé su consentimiento explícito o cuando sea necesario por razones de interés público esencial",
+        "C) Solo las prohíbe cuando los datos sensibles se refieran a menores de dieciséis años",
+        "D) Las prohíbe únicamente en el ámbito de las relaciones laborales y los seguros privados"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 22.4 eleva el rigor restrictivo para categorías especiales de datos (salud, ideología, biometría), vetando su automatización decisoria salvo concurrencia de consentimiento reforzado o interés público de máximo nivel."
+    },
+    {
+      "question": "44. ¿Por qué resulta especialmente importante el principio de transparencia en el ámbito de la elaboración de perfiles?",
+      "options": [
+        "A) Porque permite al responsable justificar el tratamiento ante la autoridad de control",
+        "B) Porque es esencial para que el interesado pueda ejercer el derecho a impugnar las decisiones automatizadas y controlar la lógica del tratamiento",
+        "C) Porque garantiza que los datos utilizados en la elaboración de perfiles sean siempre exactos y actualizados",
+        "D) Porque obliga al responsable a publicar los algoritmos utilizados en un registro público de acceso libre"
+      ],
+      "answer": 1,
+      "explanation": "La transparencia dota de operatividad al derecho a la explicación; sin conocer los criterios lógicos subyacentes que estructuran el perfilado, el afectado se vería sumido en la indefensión procesal."
+    },
+    {
+      "question": "45. ¿Qué tipo de técnicas exige el Considerando 71 del RGPD para garantizar un tratamiento leal y transparente en la elaboración de perfiles?",
+      "options": [
+        "A) Exclusivamente técnicas de anonimización irreversible de los datos utilizados",
+        "B) Procedimientos matemáticos o estadísticos adecuados, con medidas técnicas y organizativas que corrijan inexactitudes y reduzcan el riesgo de error y de efectos discriminatorios",
+        "C) Técnicas de inteligencia artificial certificadas por organismos de normalización europeos",
+        "D) Sistemas de auditoría interna realizados al menos mensualmente por el delegado de protección de datos"
+      ],
+      "answer": 1,
+      "explanation": "El considerando demanda la adopción de una 'higiene matemática' estricta para evitar sesgos discriminatorios inducidos por variables predictivas erróneas o correlaciones espurias."
+    },
+    {
+      "question": "46. ¿Cuál es la regla general respecto al coste del ejercicio de los derechos del interesado?",
+      "options": [
+        "A) El responsable puede cobrar una tasa proporcional al coste administrativo generado",
+        "B) El ejercicio de los derechos es gratuito como norma general",
+        "C) El interesado deberá abonar las tasas establecidas por la AEPD en su normativa interna",
+        "D) Solo el primer ejercicio de cada derecho es gratuito; los sucesivos devengan un canon"
+      ],
+      "answer": 1,
+      "explanation": "El principio de gratuidad (artículo 12.5 del RGPD) garantiza que las barreras pecuniarias no disuadan ni impidan a los ciudadanos velar por la integridad de su derecho fundamental a la protección de datos."
+    },
+    {
+      "question": "47. ¿En qué casos puede el responsable cobrar un canon o negarse a actuar ante una solicitud de derechos?",
+      "options": [
+        "A) Cuando el interesado solicite el ejercicio de más de dos derechos distintos simultáneamente",
+        "B) Cuando las solicitudes sean manifiestamente infundadas o excesivas, especialmente por su carácter repetitivo",
+        "C) Cuando el responsable del tratamiento sea una pequeña empresa con menos de diez empleados",
+        "D) Cuando el derecho solicitado no esté expresamente reconocido en la LOPDGDD"
+      ],
+      "answer": 1,
+      "explanation": "Como válvula de seguridad frente al abuso de derecho, la norma faculta el cobro de un canon estrictamente administrativo o el rechazo motivado si se acreditan conductas de acoso o reiteración injustificada."
+    },
+    {
+      "question": "48. ¿En qué plazo debe responder el responsable del tratamiento a la solicitud de ejercicio de derechos del interesado?",
+      "options": [
+        "A) En el plazo de quince días hábiles desde la recepción de la solicitud",
+        "B) En el plazo de un mes, ampliable a tres si la solicitud es especialmente compleja, notificando la ampliación en el primer mes",
+        "C) En el plazo máximo de dos meses, sin posibilidad de ampliación",
+        "D) En el plazo de seis meses cuando se trate de tratamientos de datos sensibles"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 12.3 del RGPD unifica el estándar europeo en un mes como regla general. La prórroga extraordinaria por complejidad técnica exige una comunicación fundamentada al afectado dentro de esos primeros 30 días."
+    },
+    {
+      "question": "49. ¿Qué información debe facilitar el responsable al interesado si decide no atender su solicitud de ejercicio de derechos?",
+      "options": [
+        "A) Solo las razones de su no actuación",
+        "B) Las razones de su no actuación, la posibilidad de presentar reclamación ante la autoridad de control y de ejercitar acciones judiciales, todo ello en el plazo de un mes",
+        "C) Únicamente la referencia a la norma legal que ampara su negativa a atender la solicitud",
+        "D) La identidad de la autoridad de control competente y el plazo para presentar la reclamación, sin necesidad de motivar la negativa"
+      ],
+      "answer": 1,
+      "explanation": "La denegación de un derecho debe ser un acto administrativo privado motivado que obligatoriamente instruya al ciudadano sobre las vías de tutela que le asisten ante la AEPD o la jurisdicción ordinaria."
+    },
+    {
+      "question": "50. Según la LOPDGDD (art. 12), ¿a quién corresponde probar que se ha cumplido el deber de responder a la solicitud de ejercicio de derechos?",
+      "options": [
+        "A) Al interesado que alega haber presentado la solicitud",
+        "B) La autoridad de control, que actúa como árbitro en el procedimiento",
+        "C) Al responsable del tratamiento",
+        "D) Al encargado del tratamiento, en su condición de ejecutor de las instrucciones del responsable"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 12 de la ley orgánica española consagra explícitamente la inversión de la carga de la prueba en beneficio del ciudadano, obligando al responsable a conservar evidencias del correcto despacho temporal de las solicitudes."
+    },
+    {
+      "question": "51. ¿En cuál de los siguientes supuestos permite el art. 23 RGPD limitar los derechos del interesado?",
+      "options": [
+        "A) Para proteger los intereses comerciales del responsable del tratamiento",
+        "B) Para salvaguardar la seguridad del Estado, la defensa, la seguridad pública, la prevención e investigación penal o intereses públicos importantes, mediante medida necesaria y proporcionada",
+        "C) Para reducir la carga administrativa del responsable del tratamiento en situaciones de elevado volumen de solicitudes",
+        "D) Para proteger los derechos de propiedad intelectual del responsable sobre los sistemas de tratamiento"
+      ],
+      "answer": 1,
+      "explanation": "Los derechos de protección de datos no son absolutos; deceden legítimamente ante intereses públicos nucleares del Estado (como la investigación de delitos o la seguridad nacional), siempre bajo criterios de proporcionalidad e idoneidad legislativa."
+    },
+    {
+      "question": "52. ¿Qué exige en términos prácticos el principio de responsabilidad proactiva del art. 24 RGPD a las organizaciones?",
+      "options": [
+        "A) Inscribir todos los tratamientos de datos en un registro público ante la AEPD",
+        "B) Analizar qué datos tratan, con qué finalidades y qué operaciones llevan a cabo, determinar las medidas adecuadas y poder demostrar su cumplimiento ante interesados y autoridades",
+        "C) Contratar a un auditor externo que certifique anualmente el cumplimiento del RGPD",
+        "D) Obtener la certificación de la AEPD para cada nuevo tratamiento de datos que inicien"
+      ],
+      "answer": 1,
+      "explanation": "La responsabilidad proactiva ('accountability') supone el paso de un modelo de mero cumplimiento formal a una cultura corporativa activa de prevención de riesgos y autoauditoría continua evidenciable."
+    },
+    {
+      "question": "53. ¿Con qué principio está íntimamente conectado el principio de privacidad desde el diseño y por defecto?",
+      "options": [
+        "A) Con el principio de finalidad y el principio de minimización de datos",
+        "B) Con el principio de neutralidad tecnológica, que exige que la protección de datos sea independiente de las técnicas utilizadas",
+        "C) Con el principio de exactitud y el principio de limitación del plazo de conservación",
+        "D) Con el principio de licitud del tratamiento y la base de legitimación"
+      ],
+      "answer": 0,
+      "explanation": "Configurar la privacidad por defecto implica estructurar el software para que, de manera innata, limite la recopilación al mínimo indispensable exigido por los fines específicos del negocio."
+    },
+    {
+      "question": "54. ¿Qué obligación establece el art. 25 RGPD respecto a la «privacidad por defecto»?",
+      "options": [
+        "A) Que los datos personales sean accesibles a todos los empleados del responsable por defecto",
+        "B) Que por defecto solo sean objeto de tratamiento los datos personales necesarios para cada fin específico, sin ser accesibles a un número indeterminado de personas sin intervención activa del usuario",
+        "C) Que por defecto se aplique el máximo nivel de anonimización posible a todos los datos",
+        "D) Que por defecto se solicite el consentimiento explícito para cualquier tratamiento de datos"
+      ],
+      "answer": 1,
+      "explanation": "Este estándar prohíbe configuraciones invasivas preactivadas de fábrica, exigiendo que los sistemas protejan la esfera privada del usuario de forma pasiva a menos que este decida ampliar voluntariamente los accesos."
+    },
+    {
+      "question": "55. ¿Qué información debe contener el registro de actividades de tratamiento del art. 30 RGPD?",
+      "options": [
+        "A) Solo el nombre del responsable, los fines del tratamiento y las categorías de datos",
+        "B) Nombre y contacto del responsable, fines, categorías de interesados y datos, destinatarios, transferencias a terceros países, plazos de supresión y descripción de las medidas de seguridad",
+        "C) Únicamente los datos de contacto del delegado de protección de datos y las medidas de seguridad aplicadas",
+        "D) El historial de todas las solicitudes de ejercicio de derechos recibidas y su resolución"
+      ],
+      "answer": 1,
+      "explanation": "El Registro de Actividades de Tratamiento (RAT) opera como la memoria técnica y jurídica interna de la empresa, detallando minuciosamente el mapa integral del flujo informativo y de seguridad de la organización."
+    },
+    {
+      "question": "56. ¿Qué empresas quedan eximidas de la obligación de llevar el registro de actividades de tratamiento?",
+      "options": [
+        "A) Las empresas con menos de cien empleados y actividad exclusivamente local",
+        "B) Las empresas con menos de 250 personas, salvo que el tratamiento pueda entrañar riesgo para los interesados, no sea ocasional o incluya datos sensibles o penales",
+        "C) Las microempresas con menos de diez empleados en todos los casos",
+        "D) Las empresas no establecidas en la UE que traten datos de ciudadanos europeos"
+      ],
+      "answer": 1,
+      "explanation": "Aunque se exime formalmente a PYMES de menos de 250 empleados por alivio administrativo, en la práctica casi todas están obligadas al realizar tratamientos no ocasionales o procesar datos de personal u operaciones comerciales corrientes."
+    },
+    {
+      "question": "57. ¿Cuál es la razón de ser del plazo de 72 horas establecido para notificar violaciones de seguridad a la AEPD?",
+      "options": [
+        "A) Permitir al responsable ocultar la quiebra técnica ante los medios de comunicación",
+        "B) Facilitar una respuesta coordinada e inmediata con la autoridad policial",
+        "C) Comunicar la quiebra de seguridad en un plazo perentorio que mitigue riesgos sistémicos, salvo que sea improbable que constituya una amenaza para los derechos",
+        "D) Conceder tiempo técnico suficiente para la reconstrucción física de los servidores"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 33 del RGPD impone este estricto límite temporal de 72 horas para que la autoridad supervise la brecha informando proactivamente si se detectan amenazas para los ciudadanos."
+    },
+    {
+      "question": "58. ¿Cuándo NO es obligatorio comunicar la violación de seguridad al interesado afectado?",
+      "options": [
+        "A) Cuando el interesado ya tenga conocimiento de la violación por otros medios",
+        "B) Cuando el responsable haya adoptado medidas adecuadas como el cifrado que hagan ininteligibles los datos para personas no autorizadas, o cuando ya no exista probabilidad del alto riesgo, o cuando suponga un esfuerzo desproporcionado (debiendo optar por comunicación pública)",
+        "C) Cuando la violación de datos afecte a menos de diez interesados",
+        "D) Cuando la violación se produzca por causas de fuerza mayor ajenas al responsable del tratamiento"
+      ],
+      "answer": 1,
+      "explanation": "Si los datos robados contaban con un cifrado robusto de última generación, la información resulta inútil para el atacante, decayendo la obligación de alarmar al titular ante la ausencia material de riesgo real."
+    },
+    {
+      "question": "59. ¿En qué tres supuestos es obligatoria la designación de un Delegado de Protección de Datos?",
+      "options": [
+        "A) Cuando el responsable tiene sede en más de un Estado miembro de la UE; cuando trata datos de ciudadanos extranjeros; y cuando el volumen de datos supera los diez millones de registros",
+        "B) Cuando el tratamiento lo realiza una autoridad u organismo público; cuando las actividades principales requieran observación habitual y sistemática de interesados a gran escala; o cuando se traten a gran escala datos sensibles o penales",
+        "C) Cuando el responsable trate datos de menores; cuando se realicen transferencias internacionales de datos; y cuando se elaboren perfiles de consumidores",
+        "D) Cuando la empresa tenga más de 250 empleados; cuando trate datos con fines de investigación científica; o cuando preste servicios de telecomunicaciones"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 37.1 del RGPD define con carácter imperativo estos tres vectores: sector público, monitorización de conducta a gran escala o tratamiento masivo de categorías especiales de información."
+    },
+    {
+      "question": "60. ¿Qué requisito exige el RGPD para la transmisión de datos personales a terceros países?",
+      "options": [
+        "A) La autorización previa de la AEPD en todos los casos",
+        "B) Un nivel de protección adecuado, evaluado por la Comisión Europea; si existe tal nivel, la transferencia no requiere autorización previa",
+        "C) El consentimiento explícito del interesado en todos los supuestos de transferencia internacional",
+        "D) La firma de un acuerdo bilateral entre España y el país de destino ratificado por las Cortes Generales"
+      ],
+      "answer": 1,
+      "explanation": "Las decisiones de adecuación de la Comisión Europea operan como un pasaporte jurídico: asimilan normativamente el tercer país al espacio económico europeo, liberando el flujo internacional de datos sin necesidad de visados adicionales de la AEPD."
+    },
+    {
+      "question": "61. ¿A qué institución corresponde evaluar si un tercer país ofrece un nivel de protección adecuado de los datos personales?",
+      "options": [
+        "A) A la Agencia Española de Protección de Datos",
+        "B) Al Supervisor Europeo de Protección de Datos",
+        "C) A la Comisión Europea",
+        "D) Al Tribunal de Justicia de la Unión Europea"
+      ],
+      "answer": 2,
+      "explanation": "Es competencia exclusiva del colegio de comisarios de la Comisión Europea la emisión de las Decisiones de Adecuación tras ponderar las leyes, estado de derecho y garantías del país importador."
+    },
+    {
+      "question": "62. ¿Con qué principio actúa la Agencia Española de Protección de Datos en el desempeño de sus funciones?",
+      "options": [
+        "A) Con el principio de subordinación jerárquica al Ministerio de Justicia",
+        "B) Con total independencia, sin admitir instrucciones externas directas o indirectas",
+        "C) Con el principio de coordinación con las autoridades de protección de datos de los demás Estados miembros",
+        "D) Con el principio de subsidiariedad respecto a los órganos judiciales ordinarios"
+      ],
+      "answer": 1,
+      "explanation": "El estatuto orgánico de las autoridades de control exige plena neutralidad e independencia del poder político y de intereses mercantiles, operando con separación funcional absoluta para garantizar la efectividad del derecho."
+    },
+    {
+      "question": "63. ¿Cuál es la razón de ser de la Agencia Española de Protección de Datos y dónde se recogen sus funciones?",
+      "options": [
+        "A) Gestionar el registro de los ficheros de datos personales y establecer las tasas aplicables a su inscripción; sus funciones se recogen en el art. 24 RGPD",
+        "B) Brindar las garantías específicas para el derecho a la protección de datos a través de la vigilancia del respeto al sistema de protección de datos; sus funciones se recogen en el art. 77 LOPDGDD",
+        "C) Imponer sanciones administrativas a los responsables del tratamiento que infrinjan el RGPD; sus funciones se recogen en el art. 83 RGPD",
+        "D) Asesorar al Gobierno en materia de protección de datos y elaborar propuestas legislativas; sus funciones se recogen en el art. 8 de la Carta de Derechos Fundamentales de la UE"
+      ],
+      "answer": 1,
+      "explanation": "La LOPDGDD define a la AEPD como la autoridad estatal de supervisión encargada de articular la tutela proactiva de la ciudadanía y fiscalizar el estricto cumplimiento normativo público y privado."
+    }
+  ]
+}
