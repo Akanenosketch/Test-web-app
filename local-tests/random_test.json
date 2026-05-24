@@ -1,0 +1,226 @@
+{
+  "title": "Recopilación de Preguntas de Examen: Nociones Básicas y RGPD",
+  "description": "Banco de preguntas de exámenes de privacidad y protección de datos que recopila supuestos prácticos, análisis del ámbito de aplicación del RGPD, legitimación, derechos de los interesados, tratamientos en el ámbito laboral (Caso Riders) y el régimen de consentimiento de menores en el marco normativo de la LOPDGDD.",
+  "questions": [
+    {
+      "question": "1. Que los valores de la Carta de derechos fundamentales son jurídicamente vinculantes significa:",
+      "options": [
+        "A) Que estás sujeto a ellos, tanto la Unión Europea, como los Estados miembros, cuando aplican el Derecho de la Unión.",
+        "B) Que están sujetos a ellos solo la Unión Europea, pero no son obligatorios para los Estados miembros.",
+        "C) Que están sujetos a ellos los Estados miembros cuando aplican el Derecho de la Unión, pero no la Unión Europea.",
+        "D) Ninguna es correcta."
+      ],
+      "answer": 0,
+      "explanation": "De acuerdo con el artículo 51 de la Carta de los Derechos Fundamentales de la UE, sus disposiciones están dirigidas tanto a las instituciones y órganos de la Unión como a los Estados miembros únicamente cuando apliquen el Derecho de la Unión."
+    },
+    {
+      "question": "2. Jorge graba a sus hijos durante la representación de una obra de teatro en el festival de navidad del colegio. En la grabación se ve, además de a sus hijos, a los niños que participan en la obra y, ocasionalmente, al profesor de teatro del colegio. En esa grabación, de acuerdo con lo previsto en el artículo 4 del RGPD:",
+      "options": [
+        "A) Tendrían la condición de interesados todas las personas que aparecen en el video menos sus hijos.",
+        "B) Ninguna es correcta.",
+        "C) Tendrían la condición de interesados todas las personas que aparecen en el video.",
+        "D) Jorge tendría la condición de interesado puesto que es él el que realiza el video."
+      ],
+      "answer": 2,
+      "explanation": "Según el artículo 4.1 del RGPD, 'interesado' o 'afectado' es cualquier persona física identificada o identificable. Dado que todos los que aparecen en la grabación (hijos, otros niños y el profesor) son personas físicas identificables, todos ostentan la condición de interesados."
+    },
+    {
+      "question": "3. Jorge graba a sus hijos durante la representación de una obra de teatro en el festival de navidad del colegio. En la grabación se ve, además de a sus hijos, a los niños que participan en la obra y, ocasionalmente, al profesor de teatro del colegio. En esa grabación, de acuerdo con lo previsto en el artículo 4 del RGPD:",
+      "options": [
+        "A) Jorge sería el responsable del tratamiento.",
+        "B) El colegio sería el responsable del tratamiento.",
+        "C) El profesor de teatro sería el responsable del tratamiento.",
+        "D) Ninguna es correcta."
+      ],
+      "answer": 0,
+      "explanation": "Al ser la persona física que decide de forma unilateral realizar la grabación y capturar las imágenes mediante su propio dispositivo, Jorge determina los fines y medios del tratamiento, adquiriendo técnicamente la condición de responsable (Art. 4.7 RGPD)."
+    },
+    {
+      "question": "4. Jorge graba a sus hijos durante la representación de una obra de teatro en el festival de navidad del colegio. En la grabación se ve, además de a sus hijos, a los niños que participan en la obra y, ocasionalmente, al profesor de teatro del colegio. De acuerdo con lo previsto en el RGPD, ¿estaría este tratamiento de datos excluido del ámbito de aplicación de este reglamento?",
+      "options": [
+        "A) No, puesto que aparecen datos de menores de edad que gozan de una especial protección.",
+        "B) Sí, puesto que se trata de un tratamiento de datos efectuado por una persona física en el ejercicio de actividades exclusivamente personales o domésticas.",
+        "C) No, puesto que además de sus hijos aparecen terceras personas (otros niños y el profesor).",
+        "D) Sí, puesto que se trata de un tratamiento con fines periodísticos."
+      ],
+      "answer": 1,
+      "explanation": "El artículo 2.2.c) del RGPD excluye del ámbito de aplicación los tratamientos efectuados por personas físicas en el marco de actividades exclusivamente personales o domésticas (la denominada 'excepción doméstica'), siempre que la difusión no se abra de forma indiscriminada a un público masivo en Internet."
+    },
+    {
+      "question": "5. ¿Qué pasaría si Jorge decidiera subir el vídeo de la función de navidad a su perfil público de Instagram?",
+      "options": [
+        "A) El tratamiento seguiría excluido del RGPD por aplicación de la excepción doméstica.",
+        "B) El tratamiento pasaría a estar plenamente sujeto al RGPD al perder la naturaleza exclusivamente personal o doméstica.",
+        "C) Estaría prohibido en todo caso al tratarse de datos sensibles de menores.",
+        "D) Solo requeriría la autorización verbal del profesor de teatro."
+      ],
+      "answer": 1,
+      "explanation": "La jurisprudencia comunitaria (como el Asunto Ryneš) determina que cuando una grabación que contiene datos de terceros se publica en una plataforma accesible a un número indeterminado de personas (perfil público), decae la excepción doméstica, quedando el tratamiento íntegramente sometido al RGPD."
+    },
+    {
+      "question": "6. Una multinacional del sector textil utiliza un software basado en Inteligencia Artificial que analiza los patrones de compra de sus usuarios registrados para predecir qué prendas tendrán mayor éxito en la próxima temporada. De acuerdo con el RGPD, este tratamiento constituye:",
+      "options": [
+        "A) Un tratamiento automatizado con fines estadísticos exento del principio de transparencia.",
+        "B) Una elaboración de perfiles con arreglo al artículo 4.4 del RGPD.",
+        "C) Una cesión encubierta de datos a las fábricas de confección.",
+        "D) Un tratamiento ilícito al basarse en predicciones y no en hechos ciertos."
+      ],
+      "answer": 1,
+      "explanation": "El artículo 4.4 del RGPD define la 'elaboración de perfiles' como cualquier forma de tratamiento automatizado de datos personales consistente en utilizar estos datos para evaluar determinados aspectos personales de una persona física, en particular para analizar o predecir aspectos relativos a sus preferencias personales, intereses o comportamiento económico."
+    },
+    {
+      "question": "7. El responsable del tratamiento de datos de una cadena de gimnasios contrata a una empresa externa para que gestione exclusivamente el mantenimiento informático y la base de datos de los socios, siguiendo estrictamente sus instrucciones directas. En este escenario, la empresa informática externa actúa como:",
+      "options": [
+        "A) Corresponsable del tratamiento.",
+        "B) Responsable del tratamiento.",
+        "C) Tercero autorizado.",
+        "D) Encargado del tratamiento."
+      ],
+      "answer": 3,
+      "explanation": "De conformidad con el artículo 4.8 del RGPD, la entidad externa que trata datos personales por cuenta del responsable y vinculada a las directrices e instrucciones específicas de este ostenta la condición legal de encargado del tratamiento."
+    },
+    {
+      "question": "8. De acuerdo con el Reglamento General de Protección de Datos (RGPD), ¿cuál de los siguientes elementos NO tiene la consideración de 'dato de categoría especial' (datos sensibles)?",
+      "options": [
+        "A) Los datos relativos a la condena en un juicio de faltas o antecedentes penales.",
+        "B) Los datos que revelen el origen étnico o racial de una persona.",
+        "C) Los datos biométricos dirigidos a identificar de manera unívoca a una persona física.",
+        "D) Los datos relativos a la orientación sexual de un individuo."
+      ],
+      "answer": 0,
+      "explanation": "El artículo 9.1 del RGPD enumera los datos de categoría especial (origen, ideología, religión, biométricos, salud, orientación sexual). Los datos relativos a condenas e infracciones penales no se integran en el art. 9, sino que disponen de una regulación segregada y restrictiva en el artículo 10 del RGPD."
+    },
+    {
+      "question": "9. Una clínica de fisioterapia desea tratar los historiales clínicos de sus pacientes para llevar a cabo el correcto seguimiento de sus lesiones. ¿Cuál es la base de legitimación principal aplicable a este tratamiento del artículo 6 y qué excepción del artículo 9 del RGPD levanta la prohibición de tratar datos de salud?",
+      "options": [
+        "A) Interés legítimo del responsable (Art. 6.1.f) y fines de investigación histórica (Art. 9.2.j).",
+        "B) Ejecución de un contrato en el que el interesado es parte (Art. 6.1.b) y asistencia sanitaria o tratamiento de tipo médico (Art. 9.2.h).",
+        "C) Cumplimiento de una obligación legal (Art. 6.1.c) y consentimiento explícito del afectado (Art. 9.2.a).",
+        "D) Interés vital del interesado (Art. 6.1.d) y datos que se han hecho manifiestamente públicos (Art. 9.2.e)."
+      ],
+      "answer": 1,
+      "explanation": "La prestación del servicio solicitado por el paciente articula la base contractual del artículo 6.1.b), mientras que el levantamiento de la prohibición de procesar datos médicos encuentra amparo directo en el artículo 9.2.h) del RGPD para fines de asistencia sanitaria o tratamientos médicos."
+    },
+    {
+      "question": "10. Nota de discrepancia en plantilla original: Una empresa toma fotografías de sus empleados durante la jornada laboral en las oficinas y las difunde a través de un canal de mensajería corporativo para fomentar el espíritu de equipo. La plantilla original de soluciones del documento califica este hecho como 'una recogida de consentimiento obligado' (Opción B). No obstante, de acuerdo con el artículo 4 del RGPD, la captura, almacenamiento y difusión de imágenes de personas físicas identificadas constituye técnicamente:",
+      "options": [
+        "A) Un uso inocuo de la imagen que no requiere aplicación normativa.",
+        "B) Un supuesto de consentimiento tácito válido en el entorno de trabajo.",
+        "C) Un derecho discrecional del empresario al amparo de su poder de dirección.",
+        "D) Un tratamiento de datos personales de pleno derecho bajo el ámbito del RGPD."
+      ],
+      "answer": 3,
+      "explanation": "Atendiendo a los criterios estrictos del artículo 4 del RGPD y de las autoridades de control, las imágenes de los trabajadores son datos de carácter personal. Por tanto, su captación y difusión por una app interna es una actividad de tratamiento que requiere una base legal válida, independientemente de la nota que figurase en la plantilla de examen original."
+    },
+    {
+      "question": "11. ¿Cuál es el límite de edad establecido con carácter general por el Reglamento General de Protección de Datos (RGPD) en su artículo 8 para que un menor pueda prestar válidamente su consentimiento en servicios de la sociedad de la información de forma autónoma?",
+      "options": [
+        "A) 14 años.",
+        "B) 16 años.",
+        "C) 18 años.",
+        "D) 12 años."
+      ],
+      "answer": 1,
+      "explanation": "El artículo 8.1 del RGPD fija la edad de consentimiento digital por defecto en los 16 años, si bien otorga un margen de flexibilidad a los Estados miembros para rebajar dicho límite por ley hasta un mínimo de 13 años."
+    },
+    {
+      "question": "12. Caso RIDERS S.L.: La plataforma de reparto a domicilio 'Riders S.L.' cuenta con una plantilla de 315 repartidores contratados y emplea algoritmos automatizados avanzados para realizar la asignación de pedidos, cálculo de tiempos y penalizaciones horarias de sus trabajadores. A la luz del RGPD y la legislación española aplicable, la dirección de la empresa:",
+      "options": [
+        "A) Está exenta de llevar el Registro de Actividades de Tratamiento al operar mediante una App móvil.",
+        "B) Está obligada a llevar el Registro de Actividades de Tratamiento (RAT) al superar los 250 trabajadores y, además, debe realizar de forma preceptiva una Evaluación de Impacto relativa a la Protección de Datos (EIPD).",
+        "C) Solo debe recabar el consentimiento de los clientes que piden comida a domicilio.",
+        "D) Puede tratar los perfiles algorítmicos en la más estricta confidencialidad empresarial sin informar al comité de empresa."
+      ],
+      "answer": 1,
+      "explanation": "Al rebasar el umbral de 250 trabajadores (Art. 30 RGPD), Riders S.L. tiene la obligación imperativa de documentar su RAT. Asimismo, al implementar algoritmos predictivos automatizados que evalúan el rendimiento laboral y aplican sanciones o asignaciones (perfilado con efectos significativos), se vuelve obligatoria la realización de una Evaluación de Impacto (EIPD)."
+    },
+    {
+      "question": "13. Un usuario ejercita su derecho de supresión ('derecho al olvido') ante una entidad bancaria con la que canceló todas sus cuentas hace una semana. El banco comunica al cliente que no puede borrar de forma definitiva e inmediata sus datos históricos debido a que debe conservarlos para atender posibles responsabilidades legales y fiscales durante los plazos de prescripción. Según la normativa, el banco debe proceder a:",
+      "options": [
+        "A) Destruir físicamente los servidores de inmediato para no desobedecer al interesado.",
+        "B) El bloqueo de los datos personales con arreglo al artículo 32 de la LOPDGDD.",
+        "C) Ignorar la petición del usuario sin realizar ninguna comunicación interna.",
+        "D) Modificar los datos del cliente sustituyéndolos por un pseudónimo aleatorio."
+      ],
+      "answer": 1,
+      "explanation": "La Ley Orgánica 3/2018 (LOPDGDD) determina en su artículo 32 que cuando el interesado solicita la supresión de sus datos, el responsable debe proceder a su bloqueo, quedando estos almacenados de forma restringida y a disposición exclusiva de jueces, tribunales, el Ministerio Fiscal o las Administraciones Públicas para la depuración de responsabilidades, impidiendo cualquier tratamiento ordinario."
+    },
+    {
+      "question": "14. El principio de 'Privacidad por defecto' establecido en el artículo 25.2 del RGPD exige específicamente al responsable que:",
+      "options": [
+        "A) Todos los tratamientos de datos personales se externalicen a encargados certificados.",
+        "B) Por defecto, se traten únicamente los datos personales que sean necesarios para cada uno de los fines específicos del tratamiento.",
+        "C) Los datos se mantengan ocultos a los ojos de la autoridad de control estatal.",
+        "D) Se aplique una clave de cifrado asimétrico simétrica a todo documento en soporte papel."
+      ],
+      "answer": 1,
+      "explanation": "La privacidad por defecto impone la obligación técnica y organizativa de asegurar que, de forma automatizada e innata, el sistema solo recopile, procese y conserve el volumen mínimo de datos estrictamente indispensable para el propósito específico, limitando además su accesibilidad."
+    },
+    {
+      "question": "15. ¿Qué naturaleza jurídica tiene la Agencia Española de Protección de Datos (AEPD)?",
+      "options": [
+        "A) Es una dirección general dependiente de forma jerárquica del Ministerio de la Presidencia.",
+        "B) Es una sociedad mercantil estatal con fines de lucro encargada de la recaudación de multas.",
+        "C) Es una autoridad de control independiente, dotada de personalidad jurídica propia y plena capacidad pública y privada, de acuerdo con la LOPDGDD.",
+        "D) Es un órgano consultivo sin potestades de inspección ni capacidad sancionadora."
+      ],
+      "answer": 2,
+      "explanation": "El estatuto legal de la AEPD la configura como una autoridad administrativa independiente con total autonomía del Gobierno y del sector privado, dotada de potestades de inspección, investigación e imposición de sanciones para velar por el cumplimiento normativo."
+    },
+    {
+      "question": "16. Cuando el tratamiento de datos personales se fundamenta en el consentimiento del interesado (Art. 6.1.a del RGPD), el responsable debe ser capaz de demostrar que el afectado consintió de forma válida. Con respecto a la revocación de dicho consentimiento, el RGPD establece que:",
+      "options": [
+        "A) El interesado solo puede retirar el consentimiento si alega una causa justificada ante un tribunal.",
+        "B) El interesado tendrá derecho a retirar su consentimiento en cualquier momento, y será tan fácil retirar el consentimiento como darlo.",
+        "C) El consentimiento es irrevocable una vez que se han iniciado las operaciones de tratamiento.",
+        "D) La retirada del consentimiento surte efectos retroactivos sobre la licitud de los tratamientos previos."
+      ],
+      "answer": 1,
+      "explanation": "El artículo 7.3 del RGPD blinda la facultad de revocación del interesado en cualquier momento. Además, introduce la exigencia de simetría procedimental: retirar el consentimiento no puede estar sujeto a mayores trabas o complejidades que las requeridas para su otorgamiento original."
+    },
+    {
+      "question": "17. Según el artículo 7 de la Ley Orgánica 3/2018 (LOPDGDD), ¿a partir de qué edad se considera válido en España el consentimiento prestado por un menor para el tratamiento de sus datos personales de forma autónoma?",
+      "options": [
+        "A) 16 años.",
+        "B) 14 años.",
+        "C) 13 años.",
+        "D) 15 años."
+      ],
+      "answer": 1,
+      "explanation": "Haciendo uso de la habilitación contenida en el RGPD, el legislador español fijó en el artículo 7 de la LOPDGDD los 14 años como el límite de edad legal para que un menor consienta de manera autónoma. Por debajo de esta edad, se requiere el concurso y autorización de los titulares de la patria potestad o tutela."
+    },
+    {
+      "question": "18. Cuando se produce una violación de la seguridad de los datos personales que entrañe un riesgo para los derechos y libertades de las personas físicas, el responsable del tratamiento debe notificarla a la autoridad de control competente (AEPD) sin dilación indebida y, de ser posible, a más tardar:",
+      "options": [
+        "A) En el plazo de 24 horas desde que se detectó la brecha.",
+        "B) En el plazo de 48 horas desde que tuvo conocimiento de ella.",
+        "C) En el plazo de 72 horas desde que tenga constancia de ella.",
+        "D) En el plazo de un mes natural desde el incidente."
+      ],
+      "answer": 2,
+      "explanation": "El artículo 33.1 del RGPD acota un umbral temporal estricto de 72 horas como máximo para trasladar la notificación de la quiebra de seguridad a la autoridad administrativa, salvo que sea improbable que dicha brecha comprometa los derechos de los afectados."
+    },
+    {
+      "question": "19. Si una gran corporación de telecomunicaciones es objeto de una brecha de seguridad que expone contraseñas y datos bancarios de miles de clientes, existiendo una alta probabilidad de que sufran fraudes económicos o suplantaciones de identidad (alto riesgo), el responsable del tratamiento debe de forma obligatoria:",
+      "options": [
+        "A) Comunicar la violación de seguridad al interesado sin dilación indebida, en un lenguaje claro y sencillo.",
+        "B) Esperar a recibir una orden formal de la AEPD antes de avisar a los clientes.",
+        "C) Notificar el suceso únicamente a las entidades financieras colaboradoras.",
+        "D) Ocultar la incidencia para evitar daños reputacionales y caídas en la bolsa."
+      ],
+      "answer": 0,
+      "explanation": "El artículo 34.1 del RGPD preceptúa que si la brecha de seguridad genera una situación tipificada como de 'alto riesgo' para la esfera de los derechos de las personas físicas, el responsable debe comunicar la incidencia directamente a los propios afectados de forma rápida para que puedan adoptar medidas defensivas."
+    },
+    {
+      "question": "20. El tratamiento de datos de menores de 14 años en el ordenamiento español, cuando no se cuenta con la correspondiente autorización de los padres o tutores legales, se considera:",
+      "options": [
+        "A) Un tratamiento lícito provisional hasta que el menor alcance la madurez.",
+        "B) Un tratamiento plenamente válido si beneficia materialmente al menor.",
+        "C) Un tratamiento ilícito que vulnera las disposiciones del artículo 7 de la LOPDGDD.",
+        "D) Un supuesto de amparo automático bajo el principio de interés legítimo corporativo."
+      ],
+      "answer": 2,
+      "explanation": "En virtud del marco normativo del artículo 7 de la LOPDGDD, todo tratamiento de información de un menor de 14 años desprovisto de la cobertura y ratificación expresa de sus guardadores legales carece de base jurídica válida, deviniendo en un tratamiento ilícito sancionable."
+    }
+  ]
+}

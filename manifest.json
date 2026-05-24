@@ -23,6 +23,10 @@
         {
             "id": "test-t7-temario",
             "file": "local-tests/test_t7_temario.json"
+        },
+        {
+            "id": "random-test",
+            "file": "local-tests/random_test.json"
         }
     ]
 }
