@@ -1,6 +1,10 @@
 {
     "tests": [
         {
+            "id": "test-t1-temario",
+            "file": "local-tests/test_t1_temario.json"
+        },
+        {
             "id": "test-t2-temario",
             "file": "local-tests/test_t2_temario.json"
         },
