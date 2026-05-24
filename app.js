@@ -1,41 +1,4 @@
 // ════════════════════════════════
-//  PRINT STYLES (injected once)
-// ════════════════════════════════
-(function injectPrintStyles() {
-  const s = document.createElement('style');
-  s.textContent = `
-    @media print {
-      body * { visibility: hidden !important; }
-      #print-area, #print-area * { visibility: visible !important; }
-      #print-area {
-        position: fixed; inset: 0;
-        background: #fff; color: #111;
-        font-family: Georgia, serif;
-        padding: 32px 40px;
-        overflow: visible;
-      }
-      .print-question { margin-bottom: 24px; page-break-inside: avoid; }
-      .print-q-text { font-size: 13px; font-weight: bold; margin-bottom: 6px; }
-      .print-badge { display: inline-block; padding: 1px 8px; border-radius: 3px; font-size: 10px; font-weight: bold; margin-bottom: 6px; }
-      .print-badge-wrong   { background: #fde; color: #c00; }
-      .print-badge-skipped { background: #ffe; color: #850; }
-      .print-answer { font-size: 12px; margin: 2px 0; }
-      .print-answer-wrong   { color: #c00; }
-      .print-answer-correct { color: #060; font-weight: bold; }
-      .print-answer-skipped { color: #850; }
-      .print-explanation { font-size: 11.5px; color: #333; margin-top: 8px; padding: 8px 12px; border-left: 3px solid #999; background: #f8f8f8; }
-      .print-header { border-bottom: 2px solid #111; margin-bottom: 24px; padding-bottom: 12px; }
-      .print-header h1 { font-size: 18px; margin-bottom: 4px; }
-      .print-header p  { font-size: 12px; color: #555; }
-      .print-stats { display: flex; gap: 24px; margin-bottom: 24px; font-size: 12px; }
-      .print-stats span { font-weight: bold; }
-      .print-section-title { font-size: 14px; font-weight: bold; margin-bottom: 16px; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
-    }
-  `;
-  document.head.appendChild(s);
-})();
-
-// ════════════════════════════════
 //  STATE
 // ════════════════════════════════
 const state = {
@@ -276,57 +239,145 @@ function removeCustomTest(id) {
 // ════════════════════════════════
 function exportPDF() {
   const { test, answers, elapsedSeconds } = state;
-  const total    = test.questions.length;
-  const correct  = answers.filter((a, i) => typeof a === 'number' && a === test.questions[i].answer).length;
-  const wrong    = answers.filter((a, i) => typeof a === 'number' && a !== test.questions[i].answer).length;
-  const skipped  = answers.filter(a => a === 'skip' || a === null).length;
-  const pct      = Math.round((correct / total) * 100);
+  const total   = test.questions.length;
+  const correct = answers.filter((a, i) => typeof a === 'number' && a === test.questions[i].answer).length;
+  const wrong   = answers.filter((a, i) => typeof a === 'number' && a !== test.questions[i].answer).length;
+  const skipped = answers.filter(a => a === 'skip' || a === null).length;
+  const pct     = Math.round((correct / total) * 100);
 
-  // Collect questions that need review (wrong or skipped/unanswered)
   const reviewItems = test.questions
     .map((q, i) => ({ q, i, status: getAnswerStatus(i), answer: answers[i] }))
     .filter(item => item.status === 'wrong' || item.status === 'skipped' || item.status === 'unanswered');
 
-  // Remove old print area if any
-  document.getElementById('print-area')?.remove();
+  const questionsHTML = reviewItems.map(({ q, i, status, answer }) => {
+    const isWrong    = status === 'wrong';
+    const badgeStyle = isWrong
+      ? 'background:#fce8e8;color:#b91c1c;border:1px solid #f5c6c6;'
+      : 'background:#fef9e7;color:#92400e;border:1px solid #f9e4a0;';
+    const badgeText  = isWrong ? '✗ Wrong' : '— Skipped';
+    const userLine   = typeof answer === 'number'
+      ? `<p style="margin:4px 0;color:#b91c1c;font-size:12px;">Your answer: ${esc(q.options[answer])}</p>`
+      : `<p style="margin:4px 0;color:#92400e;font-size:12px;">Skipped — no answer given</p>`;
+    const explanationHTML = q.explanation
+      ? `<div style="margin-top:10px;padding:10px 14px;background:#f0f7ff;border-left:3px solid #3b82f6;border-radius:2px;">
+           <p style="margin:0 0 3px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#1d4ed8;">Explanation</p>
+           <p style="margin:0;font-size:12px;color:#1e293b;line-height:1.6;">${esc(q.explanation)}</p>
+         </div>`
+      : '';
+    return `
+      <div style="margin-bottom:20px;padding:14px 16px;border:1px solid #e2e8f0;border-radius:6px;page-break-inside:avoid;">
+        <span style="display:inline-block;padding:2px 8px;border-radius:3px;font-size:10px;font-weight:700;margin-bottom:8px;${badgeStyle}">${badgeText}</span>
+        <span style="margin-left:8px;font-size:10px;color:#94a3b8;">Q${i + 1}</span>
+        <p style="margin:0 0 8px;font-size:13px;font-weight:600;color:#0f172a;line-height:1.5;">${esc(q.question)}</p>
+        ${userLine}
+        <p style="margin:4px 0;color:#15803d;font-size:12px;font-weight:600;">✓ Correct: ${esc(q.options[q.answer])}</p>
+        ${explanationHTML}
+      </div>`;
+  }).join('');
 
-  const area = document.createElement('div');
-  area.id = 'print-area';
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Results — ${esc(test.title)}</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px; color: #0f172a;
+      background: #fff;
+      padding: 40px 48px;
+      max-width: 760px; margin: 0 auto;
+    }
+    @media print {
+      body { padding: 24px 32px; }
+      @page { margin: 1.5cm; }
+    }
 
-  area.innerHTML = `
-    <div class="print-header">
-      <h1>${esc(test.title)}</h1>
-      <p>Results report — generated ${new Date().toLocaleString()}</p>
-    </div>
-    <div class="print-stats">
-      <div>Score: <span>${pct}% (${correct}/${total})</span></div>
-      <div>Correct: <span style="color:#060">${correct}</span></div>
-      <div>Wrong: <span style="color:#c00">${wrong}</span></div>
-      <div>Skipped: <span style="color:#850">${skipped}</span></div>
-      <div>Time: <span>${formatTime(elapsedSeconds)}</span></div>
-    </div>
-    <div class="print-section-title">Questions to review (${reviewItems.length})</div>
-    ${reviewItems.map(({ q, i, status, answer }) => {
-      const badgeCls  = status === 'wrong' ? 'print-badge-wrong' : 'print-badge-skipped';
-      const badgeTxt  = status === 'wrong' ? '✗ Wrong' : '— Skipped';
-      const userLine  = typeof answer === 'number'
-        ? `<div class="print-answer print-answer-wrong">Your answer: ${esc(q.options[answer])}</div>`
-        : `<div class="print-answer print-answer-skipped">Skipped</div>`;
-      return `
-        <div class="print-question">
-          <span class="print-badge ${badgeCls}">${badgeTxt}</span>
-          <div class="print-q-text">Q${i + 1}. ${esc(q.question)}</div>
-          ${userLine}
-          <div class="print-answer print-answer-correct">✓ Correct: ${esc(q.options[q.answer])}</div>
-          ${q.explanation ? `<div class="print-explanation">${esc(q.explanation)}</div>` : ''}
-        </div>`;
-    }).join('')}
-  `;
+    /* Header */
+    .header { border-bottom: 2px solid #0f172a; padding-bottom: 14px; margin-bottom: 24px; }
+    .header h1 { font-size: 20px; font-weight: 700; color: #0f172a; margin-bottom: 3px; }
+    .header p  { font-size: 11px; color: #64748b; }
 
-  document.body.appendChild(area);
-  window.print();
-  // Remove after print dialog closes
-  setTimeout(() => area.remove(), 1000);
+    /* Score */
+    .score-row { display: table; width: 100%; border-collapse: collapse; margin-bottom: 24px; }
+    .score-cell { display: table-cell; width: 20%; text-align: center; padding: 14px 8px;
+                  border: 1px solid #e2e8f0; vertical-align: middle; }
+    .score-cell:first-child { border-radius: 6px 0 0 6px; }
+    .score-cell:last-child  { border-radius: 0 6px 6px 0; }
+    .score-n { font-size: 22px; font-weight: 700; line-height: 1; }
+    .score-l { font-size: 10px; color: #64748b; margin-top: 3px; text-transform: uppercase; letter-spacing: .05em; }
+    .score-n.blue  { color: #2563eb; }
+    .score-n.green { color: #15803d; }
+    .score-n.red   { color: #b91c1c; }
+    .score-n.amber { color: #92400e; }
+    .score-n.gray  { color: #475569; }
+
+    /* Progress bar */
+    .bar-wrap { margin-bottom: 24px; }
+    .bar-row { display: table; width: 100%; margin-bottom: 6px; }
+    .bar-label { display: table-cell; width: 56px; font-size: 11px; color: #64748b; vertical-align: middle; }
+    .bar-track { display: table-cell; vertical-align: middle; padding: 0 8px; }
+    .bar-bg { height: 8px; background: #f1f5f9; border-radius: 99px; overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 99px; }
+    .bar-pct { display: table-cell; width: 32px; font-size: 11px; color: #64748b;
+               vertical-align: middle; text-align: right; }
+
+    /* Section title */
+    .section-title { font-size: 13px; font-weight: 700; color: #0f172a;
+                     border-bottom: 1px solid #e2e8f0; padding-bottom: 6px; margin-bottom: 16px; }
+
+    /* No review */
+    .all-correct { text-align: center; padding: 32px; border: 1px solid #bbf7d0;
+                   background: #f0fdf4; border-radius: 8px; color: #15803d; font-size: 14px; }
+
+    /* Footer */
+    .footer { margin-top: 36px; padding-top: 12px; border-top: 1px solid #e2e8f0;
+              font-size: 10px; color: #94a3b8; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>${esc(test.title)}</h1>
+    <p>Results report &mdash; ${new Date().toLocaleString()}</p>
+  </div>
+
+  <div class="score-row">
+    <div class="score-cell"><div class="score-n blue">${pct}%</div><div class="score-l">Score</div></div>
+    <div class="score-cell"><div class="score-n green">${correct}</div><div class="score-l">Correct</div></div>
+    <div class="score-cell"><div class="score-n red">${wrong}</div><div class="score-l">Wrong</div></div>
+    <div class="score-cell"><div class="score-n amber">${skipped}</div><div class="score-l">Skipped</div></div>
+    <div class="score-cell"><div class="score-n gray">${formatTime(elapsedSeconds)}</div><div class="score-l">Time</div></div>
+  </div>
+
+  <div class="bar-wrap">
+    ${[
+      { label: 'Correct', n: correct, color: '#22c55e' },
+      { label: 'Wrong',   n: wrong,   color: '#ef4444' },
+      { label: 'Skipped', n: skipped, color: '#f59e0b' },
+    ].map(({ label, n, color }) => `
+      <div class="bar-row">
+        <div class="bar-label">${label}</div>
+        <div class="bar-track"><div class="bar-bg"><div class="bar-fill" style="width:${(n/total*100).toFixed(1)}%;background:${color};"></div></div></div>
+        <div class="bar-pct">${n}</div>
+      </div>`).join('')}
+  </div>
+
+  ${reviewItems.length === 0
+    ? `<div class="all-correct">🎉 All answers correct — nothing to review!</div>`
+    : `<div class="section-title">Questions to review (${reviewItems.length})</div>${questionsHTML}`
+  }
+
+  <div class="footer">SleepyTest &mdash; exported ${new Date().toLocaleString()}</div>
+</body>
+</html>`;
+
+  const win = window.open('', '_blank', 'width=820,height=700');
+  if (!win) { toast('Pop-up blocked — allow pop-ups and try again', 'error'); return; }
+  win.document.write(html);
+  win.document.close();
+  // Give the browser a moment to render before opening print dialog
+  win.onload = () => { win.focus(); win.print(); };
 }
 
 // ════════════════════════════════
@@ -764,7 +815,7 @@ function renderImportModal() {
   bd.className = 'modal-backdrop open';
   bd.innerHTML = `
 <div class="modal">
-  <h2>Upload File</h2>
+  <h2>📂 Upload File</h2>
   <p>Import standalone JSON files into your local staging session.</p>
   <div class="drop-zone" id="drop-zone">
     <div class="icon">📄</div>
