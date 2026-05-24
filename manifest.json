@@ -1,8 +1,24 @@
 {
-  "tests": [
-    {
-      "id": "test-t3-temario",
-      "file": "local-tests/test_t3_temario.json"
-    }
-  ]
+    "tests": [
+        {
+            "id": "test-t3-temario",
+            "file": "local-tests/test_t3_temario.json"
+        },
+        {
+            "id": "test-t4-temario",
+            "file": "local-tests/test_t4_temario.json"
+        },
+        {
+            "id": "test-t5-temario",
+            "file": "local-tests/test_t5_temario.json"
+        },
+        {
+            "id": "test-t6-temario",
+            "file": "local-tests/test_t6_temario.json"
+        },
+        {
+            "id": "test-t7-temario",
+            "file": "local-tests/test_t7_temario.json"
+        }
+    ]
 }
