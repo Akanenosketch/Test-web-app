@@ -1,611 +1,677 @@
 {
-    "title": "Test T5 - LSSI y Marco Regulatorio de Internet",
-    "description": "Examen exhaustivo sobre la Ley de Servicios de la Sociedad de la Información, libertades informativas, responsabilidad de intermediarios y retención de datos.",
-    "questions": [
-        {
-            "question": "¿Qué directiva europea transpone en España la Ley 34/2002 (LSSI)?",
-            "options": [
-                "La Directiva 95/46/CE sobre protección de datos personales",
-                "La Directiva 2000/31/CE relativa a determinados aspectos jurídicos de los servicios de la sociedad de la información y el comercio electrónico",
-                "La Directiva 2002/58/CE sobre privacidad en las comunicaciones electrónicas",
-                "La Directiva 2004/48/CE relativa al respeto de los derechos de propiedad intelectual"
-            ],
-            "answer": 1,
-            "explanation": "La LSSI constituye la transposición principal al ordenamiento jurídico español de la Directiva 2000/31/CE del Parlamento Europeo y del Consejo, conocida como la Directiva sobre el comercio electrónico."
-        },
-        {
-            "question": "¿Qué norma ha completado y modificado la Directiva 2000/31/CE sobre comercio electrónico?",
-            "options": [
-                "El Reglamento (UE) 2016/679 (RGPD)",
-                "La Ley Orgánica 3/2018 (LOPDGDD)",
-                "El Reglamento (UE) 2022/2065 de Servicios Digitales (RSD)",
-                "La Directiva (UE) 2019/790 sobre derechos de autor en el mercado único digital"
-            ],
-            "answer": 2,
-            "explanation": "El Reglamento de Servicios Digitales (RSD o DSA) de 2022 actualiza las normas de la Directiva 2000/31/CE, especialmente en lo relativo a la responsabilidad de los intermediarios y la moderación de contenidos en plataformas."
-        },
-        {
-            "question": "¿Cuál es la definición legal de «servicios de la sociedad de la información» recogida en el Anexo de la LSSI?",
-            "options": [
-                "Todo servicio prestado de forma gratuita a través de Internet por una empresa establecida en España",
-                "Todo servicio prestado normalmente a título oneroso, a distancia, por vía electrónica y a petición individual del destinatario, incluidos los no remunerados que constituyan actividad económica para el prestador",
-                "Solo los servicios de comercio electrónico que impliquen una transacción económica entre el prestador y el usuario",
-                "Exclusivamente los servicios ofrecidos por operadores de telecomunicaciones y proveedores de acceso a Internet"
-            ],
-            "answer": 1,
-            "explanation": "El Anexo de la LSSI sigue el criterio europeo: exige que el servicio se preste a distancia, por vía electrónica, a petición individual y que represente una actividad económica (directa por pago o indirecta por publicidad/patrocinio)."
-        },
-        {
-            "question": "¿Cuál de los siguientes NO es un ejemplo de servicio de la sociedad de la información según la Exposición de Motivos de la LSSI?",
-            "options": [
-                "El suministro de información por vía electrónica, como el de los periódicos en línea",
-                "El alojamiento en servidores de información o aplicaciones facilitadas por terceros",
-                "Los servicios prestados por abogados y procuradores a través de Internet",
-                "La descarga de archivos de vídeo o audio a petición individual del usuario"
-            ],
-            "answer": 2,
-            "explanation": "Los servicios profesionales tradicionales prestados de forma presencial no se consideran servicios de la sociedad de la información, a menos que toda la interacción y la entrega del servicio se instrumenten íntegramente por vía electrónica a distancia."
-        },
-        {
-            "question": "¿Qué se entiende por «prestador de servicios» según la LSSI?",
-            "options": [
-                "Solo las personas jurídicas con domicilio social en España que presten servicios en Internet",
-                "La persona física o jurídica que proporciona un servicio de la sociedad de la información",
-                "Exclusivamente los operadores de telecomunicaciones y los proveedores de acceso a Internet",
-                "Las plataformas digitales con más de un millón de usuarios activos en la Unión Europea"
-            ],
-            "answer": 1,
-            "explanation": "El término engloba a cualquier sujeto (físico o jurídico) que ponga a disposición de los usuarios un servicio de la sociedad de la información, ya sea un blog monetizado, una tienda online o una gran plataforma."
-        },
-        {
-            "question": "¿Cuándo se presume que un prestador de servicios está establecido en España a efectos de la LSSI?",
-            "options": [
-                "Cuando ofrezca sus servicios en idioma español, independientemente de su domicilio",
-                "Cuando el prestador o alguna de sus sucursales esté inscrito en el Registro Mercantil u otro registro público español",
-                "Cuando más del 50 % de sus usuarios activos residan en territorio español",
-                "Cuando haya obtenido ingresos superiores a 10 millones de euros en el mercado español"
-            ],
-            "answer": 1,
-            "explanation": "El art. 2 de la LSSI establece que se presumirá el establecimiento en España cuando el prestador se encuentre inscrito en el Registro Mercantil o en otro registro público similar en el que fuera obligatoria la inscripción."
-        },
-        {
-            "question": "¿En qué supuesto se aplica la LSSI a un prestador establecido en otro Estado miembro de la UE?",
-            "options": [
-                "En todo caso, con independencia de la localización del destinatario y de la materia",
-                "Solo cuando el prestador ofrezca servicios de comercio electrónico con entrega física de productos en España",
-                "Cuando el destinatario de los servicios radique en España y los servicios afecten a las materias recogidas en el art. 3 LSSI",
-                "Únicamente cuando el prestador tenga un establecimiento permanente en territorio español"
-            ],
-            "answer": 2,
-            "explanation": "Con arreglo al principio de país de origen, la LSSI se aplica a prestadores de la UE excepcionalmente si el destinatario está en España y se ven afectadas materias críticas como el orden público, la salud pública o la protección de consumidores (art. 3)."
-        },
-        {
-            "question": "¿Qué obligaciones de la LSSI se aplican a los prestadores establecidos en Estados no pertenecientes a la UE ni al EEE?",
-            "options": [
-                "Ninguna, ya que la LSSI solo es aplicable a prestadores de la UE",
-                "Se les aplican los artículos 7.2 y 11.2, y, cuando dirijan sus servicios específicamente a España, las obligaciones generales de la Ley siempre que no sean contrarias a las normas internacionales aplicables",
-                "Se les aplica íntegramente la LSSI con independencia de que dirijan sus servicios a España o no",
-                "Solo se les aplican las normas sobre comunicaciones comerciales electrónicas y cookies"
-            ],
-            "answer": 1,
-            "explanation": "El art. 4 de la LSSI determina que a los prestadores de terceros países se les aplican ciertas reglas de intermediación y las generales de la ley cuando dirijan de forma inequívoca sus actividades al mercado español."
-        },
-        {
-            "question": "¿Cuáles de los siguientes profesionales quedan expresamente excluidos del ámbito de aplicación de la LSSI?",
-            "options": [
-                "Los médicos y farmacéuticos que ofrezcan servicios de telemedicina",
-                "Los periodistas y medios de comunicación que publiquen contenidos en Internet",
-                "Los notarios, registradores de la propiedad y mercantiles, abogados y procuradores",
-                "Los operadores de telecomunicaciones que actúen también como proveedores de contenidos"
-            ],
-            "answer": 2,
-            "explanation": "El art. 5 de la LSSI y directivas europeas excluyen de este marco específico aquellas actividades que forman parte del ejercicio de la fe pública (notarios y registradores), manteniendo sus normativas corporativas e institucionales propias."
-        },
-        {
-            "question": "¿Cuál fue una de las principales críticas que recibió la Ley 34/2002 por parte de las asociaciones de internautas?",
-            "options": [
-                "Que establecía sanciones excesivamente leves para los prestadores de servicios que incumplieran sus obligaciones",
-                "Que suponía un ataque a la libertad y a los derechos de los usuarios de la red y mercantilizaba toda la actividad desarrollada en Internet",
-                "Que no incluía ninguna regulación sobre el uso de cookies ni las comunicaciones comerciales electrónicas",
-                "Que no contemplaba ningún régimen de responsabilidad para los prestadores de servicios de intermediación"
-            ],
-            "answer": 1,
-            "explanation": "Históricamente, durante su tramitación en 2002, los colectivos de internautas criticaron que la LSSI otorgaba potestades de cierre administrativo e imponía un fuerte control que asimilaba toda la actividad de la red a una mera relación comercial."
-        },
-        {
-            "question": "¿Cuál es el principio general que rige la prestación de servicios de la sociedad de la información según la LSSI y la Directiva 2000/31/CE?",
-            "options": [
-                "El principio de autorización previa, con excepciones tasadas para actividades de bajo riesgo",
-                "El principio de libre prestación de servicios, sin sometimiento a autorización previa",
-                "El principio de control previo por parte de la autoridad de supervisión competente",
-                "El principio de licencia obligatoria para todos los prestadores de servicios de intermediación"
-            ],
-            "answer": 1,
-            "explanation": "El artículo 6 de la LSSI consagra el principio de que la prestación de servicios de la sociedad de la información no estará sujeta a autorización previa, garantizando la libertad de establecimiento y de empresa en el entorno digital."
-        },
-        {
-            "question": "¿Cuándo se exige autorización previa para prestar servicios de la sociedad de la información?",
-            "options": [
-                "Siempre que los servicios se presten a ciudadanos residentes en la Unión Europea",
-                "Cuando el servicio tenga más de cien mil usuarios activos en España",
-                "Cuando la actividad también requiera autorización en el mundo físico, como la venta de fármacos, seguros o productos financieros",
-                "Cuando el prestador esté establecido fuera del Espacio Económico Europeo"
-            ],
-            "answer": 2,
-            "explanation": "La LSSI aclara que los regímenes de autorización previa del mundo analógico o físico (como licencias bancarias, sanitarias o de juego) se trasladan y aplican igualmente si esos mismos servicios se canalizan a través de Internet."
-        },
-        {
-            "question": "¿Cuál de los siguientes principios NO justifica la restricción de la libre prestación de servicios conforme al art. 8 LSSI?",
-            "options": [
-                "La salvaguarda del orden público y la investigación penal",
-                "La protección de la salud pública y de los consumidores",
-                "La maximización de los beneficios económicos del mercado interior digital",
-                "La protección de la juventud y de la infancia"
-            ],
-            "answer": 2,
-            "explanation": "Las razones económicas puestas de forma aislada nunca justifican la restricción o cierre de un servicio de Internet. Solo razones de orden público, seguridad, salud pública, defensa nacional o protección del consumidor legitiman la medida."
-        },
-        {
-            "question": "¿Qué requisitos deben cumplir las medidas de restricción adoptadas por la autoridad competente al amparo del art. 8 LSSI?",
-            "options": [
-                "Deben ser urgentes, definitivas y ejecutivas sin posibilidad de recurso",
-                "Deben ser objetivas, proporcionadas y no discriminatorias, respetando las normas de procedimiento aplicables",
-                "Deben adoptarse exclusivamente por resolución judicial, con independencia de la materia afectada",
-                "Deben notificarse previamente al prestador con al menos treinta días de antelación"
-            ],
-            "answer": 1,
-            "explanation": "Cualquier restricción dictada por un órgano administrativo o judicial al amparo del artículo 8 debe superar el juicio de proporcionalidad, ser objetiva ante la gravedad del peligro y ser aplicada de forma no discriminatoria."
-        },
-        {
-            "question": "¿Quién puede ordenar el secuestro o la restricción de páginas de Internet cuando pueda resultar afectada la libertad de expresión o de información?",
-            "options": [
-                "El Ministerio de Asuntos Económicos y Transformación Digital",
-                "La Agencia Española de Protección de Datos",
-                "Solo la autoridad judicial competente",
-                "Cualquier órgano administrativo con competencias en materia de telecomunicaciones"
-            ],
-            "answer": 2,
-            "explanation": "De acuerdo con el artículo 20.5 de la Constitución Española y el artículo 8 de la LSSI, las medidas que afecten a la libertad de expresión o información (secuestro de publicaciones o cierre de webs de contenidos) están reservadas en exclusiva a la autoridad judicial."
-        },
-        {
-            "question": "¿Por qué se afirma que las libertades de expresión e información son «garantías institucionales» y no solo derechos fundamentales individuales?",
-            "options": [
-                "Porque solo pueden ser ejercidas por los medios de comunicación acreditados como tales por el Estado",
-                "Porque aseguran el mantenimiento de una comunicación pública libre, condición de realización efectiva del principio democrático y del pluralismo ideológico",
-                "Porque están garantizadas exclusivamente frente a los poderes públicos, sin eficacia alguna en las relaciones entre particulares",
-                "Porque su titularidad corresponde exclusivamente a los periodistas profesionales en el ejercicio de su función"
-            ],
-            "answer": 1,
-            "explanation": "El Tribunal Constitucional ha reiterado que estos derechos no solo protegen un ámbito individual, sino que garantizan la existencia de una opinión pública libre, pilar indispensable para el pluralismo político en un Estado democrático."
-        },
-        {
-            "question": "Según la STC 6/1981, ¿cuál es la relación entre las libertades de expresión e información y el principio democrático?",
-            "options": [
-                "Son libertades subordinadas al principio de seguridad nacional, que prevalece sobre ellas en todo caso",
-                "Son condición de realización efectiva del principio de legitimidad democrática, al asegurar el mantenimiento de una comunicación pública libre",
-                "Son derechos de titularidad exclusiva del Estado, que los delega en los medios de comunicación para su ejercicio",
-                "Son libertades de carácter meramente declarativo sin efecto vinculante sobre los poderes públicos"
-            ],
-            "answer": 1,
-            "explanation": "La histórica Sentencia del Tribunal Constitucional 6/1981 fijó que sin libertades informativas libres la base del principio democrático quiebra, al no poder conformarse la ciudadanía un criterio político o de control de los poderes públicos."
-        },
-        {
-            "question": "¿Qué diferencia existe entre la libertad de expresión y la libertad de información recogidas en el art. 20 CE?",
-            "options": [
-                "La libertad de expresión es un derecho solo reconocido a los periodistas; la libertad de información corresponde a todos los ciudadanos",
-                "La libertad de expresión ampara la emisión de juicios y opiniones; la libertad de información garantiza la manifestación de hechos noticiables",
-                "La libertad de expresión se ejerce exclusivamente por escrito; la libertad de información puede ejercerse por cualquier medio",
-                "La libertad de expresión está sujeta al requisito de veracidad; la libertad de información no tiene ningún límite constitucional"
-            ],
-            "answer": 1,
-            "explanation": "La delimitación doctrinal estriba en el objeto: la libertad de expresión protege pensamientos, ideas u opiniones (subjetivas), mientras que la libertad de información ampara la difusión de hechos que aspiren a ser veraces y contrastables (objetivos)."
-        },
-        {
-            "question": "¿Qué exige el requisito constitucional de veracidad en el ejercicio de la libertad de información?",
-            "options": [
-                "Una rigurosa y absoluta exactitud en el contenido de la información publicada",
-                "Una especial diligencia profesional del informador para contrastar los hechos con datos objetivos, excluyendo invenciones o rumores",
-                "La obtención de declaraciones expresas de todas las personas mencionadas en la información",
-                "La verificación de los hechos mediante fuentes oficiales o gubernamentales en todo caso"
-            ],
-            "answer": 1,
-            "explanation": "El Tribunal Constitucional aclara que 'veracidad' no equivale a una verdad matemática inmutable, sino a la exigencia de que el informador despliegue una diligencia debida en la comprobación de la noticia antes de lanzarla."
-        },
-        {
-            "question": "¿Cómo actúa la veracidad de una información respecto al derecho a la intimidad?",
-            "options": [
-                "La veracidad legitima siempre la intromisión en la intimidad, igual que lo hace respecto al honor",
-                "La veracidad actúa en sentido contrario respecto a la intimidad: una información veraz no justifica por sí sola la intromisión en este derecho",
-                "La veracidad es irrelevante respecto al derecho a la intimidad, que nunca puede ser limitado por informaciones verídicas",
-                "La veracidad solo tiene relevancia constitucional en el ámbito del derecho al honor, sin ninguna incidencia en la intimidad"
-            ],
-            "answer": 1,
-            "explanation": "A diferencia del derecho al honor (donde probar la verdad excluye en gran medida el carácter ilícito), revelar hechos veraces pero íntimos de una persona (como su historial médico o relaciones personales) puede constituir una intromisión ilegítima si carece de interés público."
-        },
-        {
-            "question": "¿Qué distinción fundamental establece la doctrina constitucional respecto al requisito de interés general de la información?",
-            "options": [
-                "Entre información de interés nacional e información de interés local o autonómico",
-                "Entre el 'interés público' —que aporta a la formación de la opinión pública— y el 'interés del público' —que satisface la mera curiosidad—",
-                "Entre información que afecta a personas públicas, siempre amparada por el art. 20 CE, e información sobre personas privadas, nunca amparada",
-                "Entre información difundida por medios de comunicación acreditados e información difundida por ciudadanos particulares"
-            ],
-            "answer": 1,
-            "explanation": "Solo la información de relevancia o interés público (asuntos de trascendencia colectiva o institucional) goza de la protección prevalente del artículo 20 de la CE; el cotilleo o el morbo que alimenta el simple interés del público no goza de tal primacía."
-        },
-        {
-            "question": "¿Ampara la libertad de expresión el uso de expresiones intrínsecamente vejatorias, injuriosas u ofensivas aunque se refieran a personajes públicos?",
-            "options": [
-                "Sí, porque las personas públicas tienen una mayor tolerancia al escrutinio público y a la crítica sin límites",
-                "Sí, siempre que las expresiones sean verídicas y tengan relevancia pública",
-                "No, porque tales expresiones en nada contribuyen a la formación de la opinión pública libre y no están amparadas por el art. 20 CE",
-                "Solo si las expresiones se dirigen contra cargos o autoridades públicas en el ejercicio de sus funciones"
-            ],
-            "answer": 2,
-            "explanation": "La Constitución Española no ampara el derecho al insulto. Las expresiones absolutamente desvinculadas de la crítica o la opinión legítima que resulten directamente vejatorias e injuriosas caen fuera del amparo del artículo 20."
-        },
-        {
-            "question": "¿Cuál es la peculiaridad de Internet respecto a otros medios de comunicación en relación con la difusión de contenidos lesivos para los derechos de las personas?",
-            "options": [
-                "Que permite la identificación inmediata del responsable de la publicación y facilita la cuantificación del daño",
-                "Que posibilita que desde cualquier lugar del mundo se tenga acceso a ese contenido, convirtiéndolo en universal, con un efecto multiplicador del daño",
-                "Que sus contenidos tienen una duración limitada y desaparecen automáticamente pasado un cierto tiempo",
-                "Que la difusión de contenidos en Internet está sujeta a control previo por parte de los operadores de la red"
-            ],
-            "answer": 1,
-            "explanation": "La inmediatez, la permanencia de los datos en caché y el alcance global multiplican de forma geométrica el menoscabo a los derechos al honor o a la intimidad, haciendo mucho más difícil revertir la difamación."
-        },
-        {
-            "question": "Según la sentencia del TJUE de 25 de octubre de 2011, ¿ante qué juez puede reclamar la totalidad del daño sufrido la persona lesionada en sus derechos por contenidos publicados en Internet?",
-            "options": [
-                "Exclusivamente ante el juez del Estado donde está establecido el emisor de la noticia en Internet",
-                "Ante el juez del Estado donde el contenido ha sido publicado y es accesible por primera vez",
-                "Ante el juez del lugar en que tiene su centro de intereses, donde la lesión puede ser mejor valorada",
-                "Solo ante el Tribunal de Justicia de la Unión Europea, como órgano competente en litigios transfronterizos"
-            ],
-            "answer": 2,
-            "explanation": "En el famoso asunto eDate Advertising y Martínez, el TJUE flexibilizó los foros de competencia judicial y dictaminó que la víctima puede interponer una demanda por la totalidad del daño ante los tribunales de su propio centro de intereses (su residencia habitual)."
-        },
-        {
-            "question": "¿Qué permite el art. 8.2 LSSI respecto a la identificación del responsable de una conducta que vulnere derechos de propiedad intelectual?",
-            "options": [
-                "Que la AEPD identifique al responsable sin necesidad de autorización judicial",
-                "Que los órganos competentes requieran a los prestadores de servicios la cesión de datos de identificación del responsable, previa autorización judicial",
-                "Que cualquier titular de derechos de propiedad intelectual acceda directamente a los datos de identificación del infractor",
-                "Que los prestadores de servicios de intermediación procedan a la identificación por iniciativa propia y sin necesidad de requerimiento"
-            ],
-            "answer": 1,
-            "explanation": "Para salvaguardar el secreto de las comunicaciones y la protección de datos, la revelación de la IP o la identidad de un usuario a un órgano administrativo/comisión requiere el previo control y autorización judicial."
-        },
-        {
-            "question": "¿Con qué carácter debe facilitarse la información obligatoria del art. 10 LSSI a los usuarios?",
-            "options": [
-                "Con carácter periódico, al menos una vez al año, mediante comunicación electrónica",
-                "De forma permanente, fácil, directa y gratuita, a través de medios electrónicos",
-                "Solo cuando el usuario la solicite expresamente, en un plazo máximo de quince días hábiles",
-                "Mediante notificación previa al inicio de cada sesión de navegación en el sitio web"
-            ],
-            "answer": 1,
-            "explanation": "La LSSI exige el conocido 'Aviso Legal'. Este debe ser accesible permanentemente (normalmente implementado en el pie de página de la web) sin que el usuario deba pagar o registrarse para consultarlo."
-        },
-        {
-            "question": "¿Cuál de los siguientes datos NO figura entre los de obligatoria publicación para los prestadores de servicios según el art. 10 LSSI?",
-            "options": [
-                "El nombre o denominación social y el domicilio del prestador",
-                "La dirección de correo electrónico u otro medio de contacto directo y efectivo",
-                "El número de empleados de la empresa y su volumen anual de facturación",
-                "El número de identificación fiscal del prestador"
-            ],
-            "answer": 2,
-            "explanation": "Los datos sobre el personal contratado o volumen financiero no forman parte de las obligaciones generales de transparencia informativa de cara al usuario que impone el art. 10 de la LSSI."
-        },
-        {
-            "question": "¿Qué información adicional deben facilitar los prestadores de servicios que ejerzan una profesión regulada?",
-            "options": [
-                "Solo el número de colegiado y el colegio profesional al que pertenezcan",
-                "Los datos del colegio profesional, el número de colegiado, el título académico oficial, las normas profesionales aplicables y los medios para conocerlas",
-                "El seguro de responsabilidad profesional contratado y su cobertura mínima",
-                "La experiencia profesional acreditada y el listado de clientes relevantes de los últimos cinco años"
-            ],
-            "answer": 1,
-            "explanation": "El artículo 10.1.c obliga a los profesionales que ejerzan profesiones reguladas (médicos, abogados, etc.) a incorporar todos los datos de colegiación y títulos académicos con el fin de proteger al consumidor frente al intrusismo."
-        },
-        {
-            "question": "¿Qué información específica exige el art. 12.bis LSSI sobre seguridad a los proveedores de servicios de intermediación?",
-            "options": [
-                "La lista completa de incidentes de seguridad sufridos en los últimos doce meses",
-                "Los medios técnicos que aumenten la seguridad de la información (protección contra virus, filtros de contenidos, restricción de spam) y las responsabilidades por uso ilícito de Internet",
-                "El nombre y datos de contacto del responsable de seguridad informática de la empresa",
-                "El certificado de cumplimiento de los estándares ISO 27001 de seguridad de la información"
-            ],
-            "answer": 1,
-            "explanation": "Este artículo impone una obligación de divulgación de herramientas preventivas para que los usuarios puedan proteger sus equipos y conocer las buenas prácticas en la red."
-        },
-        {
-            "question": "¿Qué deber impone el art. 36 LSSI a todos los prestadores de servicios de la sociedad de la información?",
-            "options": [
-                "El deber de inscribir todos sus ficheros de datos ante la Agencia Española de Protección de Datos",
-                "El deber general de colaboración: facilitar al Ministerio y órganos competentes toda la información y colaboración precisas y permitir el acceso a sus instalaciones",
-                "El deber de contratar un seguro de responsabilidad civil para cubrir los daños que puedan causar a los usuarios",
-                "El deber de publicar anualmente un informe de transparencia con información sobre solicitudes de las autoridades"
-            ],
-            "answer": 1,
-            "explanation": "El deber de colaboración obliga a los prestadores a suministrar la información requerida por los ministerios u órganos administrativos sancionadores facultados legalmente."
-        },
-        {
-            "question": "¿Qué son los «servicios de intermediación» según el Anexo de la LSSI?",
-            "options": [
-                "Los servicios prestados por agentes o intermediarios comerciales que actúan en nombre de terceros en transacciones electrónicas",
-                "Los servicios a través de los cuales se facilita la prestación o utilización de otros servicios de la sociedad de la información o el acceso a la información: provisión de acceso, transmisión de datos, copia temporal, alojamiento e instrumentos de búsqueda y enlaces",
-                "Los servicios financieros de intermediación en la compraventa de activos digitales y criptomonedas",
-                "Las plataformas de intermediación laboral y reclutamiento de personal que operan exclusivamente por vía electrónica"
-            ],
-            "answer": 1,
-            "explanation": "Los intermediarios son el tejido conductor de Internet. No generan el contenido, sino que proveen la infraestructura técnica (Mera conducción/ISP, Caching, Hosting o Motores de búsqueda)."
-        },
-        {
-            "question": "¿Qué obligación específica impone el art. 11 LSSI a los prestadores de servicios de intermediación cuando un órgano competente ordena la interrupción o retirada de contenidos?",
-            "options": [
-                "Deben notificar al prestador del contenido ilícito con antelación mínima de 48 horas antes de proceder a su retirada",
-                "Deben suspender el correspondiente servicio de intermediación utilizado para la provisión del servicio o de los contenidos cuya interrupción o retirada hayan sido ordenados",
-                "Deben publicar en su sitio web un aviso público sobre la retirada del contenido y las razones de la misma",
-                "Deben conservar copia del contenido retirado durante al menos cinco años a disposición de las autoridades"
-            ],
-            "answer": 1,
-            "explanation": "El artículo 11 prescribe el acatamiento forzoso: si una autoridad legal o juez ordena retirar un contenido, el intermediario que sirve de infraestructura debe ejecutar el bloqueo de forma obligatoria."
-        },
-        {
-            "question": "¿Qué sanción establece el art. 38 LSSI para el incumplimiento del deber de colaboración de los prestadores de servicios de intermediación?",
-            "options": [
-                "Infracción leve, con multa de hasta 30.000 euros",
-                "Infracción grave, con multa de entre 30.001 y 150.000 euros",
-                "Infracción muy grave, con multa de entre 150.001 y 600.000 euros",
-                "Infracción penal, perseguible de oficio por el Ministerio Fiscal"
-            ],
-            "answer": 2,
-            "explanation": "No colaborar o ignorar las órdenes dictadas por las autoridades de interrupción de servicios se califica formalmente en el art. 38.2 como una infracción muy grave con multas de cuantía elevada."
-        },
-        {
-            "question": "¿En qué formato deben facilitarse los contenidos a los usuarios que los soliciten en ejercicio de la portabilidad de datos no personales?",
-            "options": [
-                "En el formato nativo del sistema del proveedor, sin obligación de conversión",
-                "En formato PDF firmado electrónicamente por el prestador del servicio",
-                "En un formato estructurado, de uso común y lectura mecánica",
-                "En formato impreso, cuando el usuario así lo solicite expresamente"
-            ],
-            "answer": 2,
-            "explanation": "En sintonía con las directrices digitales y el RGPD, los esquemas modernos de portabilidad exigen formatos interoperables estándar (como JSON, CSV o XML) que se consideren de lectura mecánica."
-        },
-        {
-            "question": "¿Qué datos deben conservar los operadores de servicios de comunicaciones electrónicas de acuerdo con la Ley 25/2007?",
-            "options": [
-                "El contenido íntegro de todas las comunicaciones electrónicas realizadas por sus clientes",
-                "Los datos de tráfico y localización necesarios para rastrear el origen y destino de comunicaciones, fecha, hora, duración, tipo de comunicación, equipo utilizado y localización del equipo móvil; pero no el contenido de las comunicaciones",
-                "Exclusivamente los datos de facturación de sus clientes y el registro de llamadas de tarificación adicional",
-                "Solo los datos de identificación del abonado y su dirección de instalación, sin incluir datos de tráfico"
-            ],
-            "answer": 1,
-            "explanation": "La Ley 25/2007 de conservación de datos obliga a retener metadatos de conexión para la investigación de delitos graves, prohibiendo expresamente almacenar el contenido real de los mensajes o las llamadas (el audio o texto)."
-        },
-        {
-            "question": "¿Cuál es el plazo general de conservación de los datos de tráfico y conexión previsto en la Ley 25/2007?",
-            "options": [
-                "Seis meses desde la fecha de la comunicación",
-                "Doce meses desde la fecha en que se haya producido la comunicación",
-                "Veinticuatro meses desde la fecha en que se haya producido la comunicación",
-                "Cinco años, en aplicación del plazo general de prescripción de infracciones graves"
-            ],
-            "answer": 1,
-            "explanation": "El artículo 5 de dicha ley estipula un periodo de retención obligatorio de doce meses desde la fecha de la comunicación, aunque reglamentariamente se puede flexibilizar en una horquilla de entre 6 meses y 2 años."
-        },
-        {
-            "question": "¿Quiénes son los «agentes facultados» a los que pueden cederse los datos conservados conforme a la Ley 25/2007?",
-            "options": [
-                "Cualquier organismo público que los solicite mediante escrito motivado",
-                "Las empresas privadas de seguridad debidamente acreditadas y con contrato de prestación de servicios con el operador",
-                "Los miembros de las Fuerzas y Cuerpos de Seguridad en funciones de policía judicial, los funcionarios de la Dirección Adjunta de Vigilancia Aduanera y el personal del CNI",
-                "Los jueces y magistrados de los tribunales de justicia que tramiten procedimientos penales"
-            ],
-            "answer": 2,
-            "explanation": "La ley tasa taxativamente quiénes son agentes facultados: agentes policiales que actúen como policía judicial, Vigilancia Aduanera y la Inteligencia del CNI (bajo mandatos legales pertinentes)."
-        },
-        {
-            "question": "¿Por qué prohíbe la Ley 25/2007 comunicar al interesado la cesión de sus datos a los agentes facultados?",
-            "options": [
-                "Porque la normativa de protección de datos impide cualquier comunicación relativa al tratamiento de datos con fines de seguridad",
-                "Porque si esta cesión se comunicase al interesado podrían frustrarse los fines de detección, investigación y enjuiciamiento del delito",
-                "Porque los datos cedidos son de carácter estadístico y no identifican a ninguna persona concreta",
-                "Porque la Constitución prohíbe expresamente cualquier limitación del secreto de las comunicaciones con fines de investigación"
-            ],
-            "answer": 1,
-            "explanation": "Para garantizar el éxito de la investigación criminal contra el crimen organizado o terrorismo, se impone un estricto deber de secreto al operador de telecomunicaciones, eludiendo el derecho de información del titular."
-        },
-        {
-            "question": "¿Cuáles son los cuatro requisitos que el Tribunal Europeo de Derechos Humanos exige para que la conservación de datos de tráfico sea compatible con el art. 8 del CEDH?",
-            "options": [
-                "Que sea rápida, eficaz, gratuita y controlada por un órgano independiente",
-                "Que esté prevista por ley (accesible y previsible), persiga un fin legítimo, sea necesaria en una sociedad democrática (proporcional) y no suponga vigilancia exploratoria o general a gran escala",
-                "Que sea aprobada por el Parlamento, supervisada por el poder judicial, limitada en el tiempo y restringida a los delitos más graves",
-                "Que cuente con el consentimiento del interesado, sea temporal, esté cifrada y sea revisada periódicamente por la autoridad de control"
-            ],
-            "answer": 1,
-            "explanation": "La jurisprudencia del TEDH (y del TJUE en casos como Digital Rights Ireland) tumba medidas indiscriminadas e impone un test de proporcionalidad estricto: base legal clara, fin legítimo, necesidad social e inexistencia de monitorización masiva."
-        },
-        {
-            "question": "¿Qué implica el requisito de que la medida limitativa del derecho a la vida privada esté «prevista por la ley» según el TEDH?",
-            "options": [
-                "Que la medida esté recogida en una norma con rango de ley orgánica aprobada por el Parlamento",
-                "No solo que la medida tenga base legal en el Derecho interno, sino también que la norma sea accesible al interesado y previsible, permitiéndole regular su conducta",
-                "Que la medida sea aprobada por unanimidad en el Consejo de Ministros y publicada en el Boletín Oficial del Estado",
-                "Que la medida esté ratificada por los tratados internacionales de derechos humanos suscritos por el Estado"
-            ],
-            "answer": 1,
-            "explanation": "El concepto formal de 'ley' para el TEDH incluye cualidades materiales: la ciudadanía debe conocer la ley y anticipar las circunstancias y consecuencias en las que el Estado puede irrumpir en su intimidad."
-        },
-        {
-            "question": "Según el TEDH, ¿qué implica el requisito de que la injerencia sea «necesaria en una sociedad democrática»?",
-            "options": [
-                "Que la medida sea apoyada por la mayoría de los ciudadanos en una consulta popular",
-                "Que responda a una necesidad social imperiosa y sea proporcionada al fin legítimo perseguido, lo que exige ponderación y juicio de proporcionalidad",
-                "Que la injerencia sea de duración indefinida para garantizar su efectividad a largo plazo",
-                "Que la medida sea adoptada por consenso de todos los Estados miembros del Consejo de Europa"
-            ],
-            "answer": 1,
-            "explanation": "Significa que la medida estatal coercitiva deber ser idónea, necesaria y proporcional; es decir, que no haya otra alternativa menos invasiva para lograr la protección del bien común."
-        },
-        {
-            "question": "¿Qué nivel mínimo de accesibilidad deben satisfacer los sitios web según la Ley 11/2023 y el RD 1112/2018?",
-            "options": [
-                "El nivel básico de los criterios de accesibilidad reconocidos, suficiente para los usuarios con necesidades especiales",
-                "El nivel avanzado de los criterios de accesibilidad, aplicable únicamente a sitios web del sector público",
-                "El nivel medio de los criterios de accesibilidad al contenido generalmente reconocidos, tomando como referencia la norma UNE 139803",
-                "El nivel óptimo de accesibilidad definido por las directrices WCAG 3.0 del W3C"
-            ],
-            "answer": 2,
-            "explanation": "La normativa española de accesibilidad en el sector público y comercio obliga a incorporar las pautas armonizadas a nivel europeo basándose en la norma técnica UNE 139803 (equivalente a WCAG AA)."
-        },
-        {
-            "question": "¿Cuáles son las cuatro características que deben reunir los contenidos de los sitios web para cumplir los requisitos de accesibilidad?",
-            "options": [
-                "Seguros, actualizados, multilingües y compatibles con dispositivos móviles",
-                "Perceptibles, operables, comprensibles y robustos",
-                "Gratuitos, transparentes, interoperables y reutilizables",
-                "Cifrados, autenticados, trazables y auditables"
-            ],
-            "answer": 1,
-            "explanation": "Son los cuatro pilares fundamentales del estándar W3C/WCAG: Perceptibilidad (vía sentidos), Operabilidad (navegación fluida), Comprensibilidad (lectura inteligible) y Robustez (compatibilidad técnica)."
-        },
-        {
-            "question": "¿Qué establece el art. 15 de la Directiva 2000/31/CE y el art. 8 del RSD respecto a la supervisión de contenidos?",
-            "options": [
-                "Que los prestadores deben supervisar activamente todos los contenidos que transmitan o almacenen",
-                "Que no se impone a los prestadores de servicios intermediarios ninguna obligación general de supervisar los datos transmitidos o almacenados ni de buscar activamente actividades ilícitas",
-                "Que los prestadores deben supervisar únicamente los contenidos denunciados por los usuarios",
-                "Que solo las plataformas de muy gran tamaño deben implementar sistemas de supervisión general de contenidos"
-            ],
-            "answer": 1,
-            "explanation": "Es el principio de 'no monitorización general'. Los intermediarios técnicos no tienen la obligación policial o editorial preventiva de escanear todo lo que suben los usuarios para buscar delitos."
-        },
-        {
-            "question": "¿En qué consistía la medida que el Presidente del Tribunal de primera instancia de Bruselas ordenó a Scarlet Extended SA en 2007 y que motivó la consulta al TJUE?",
-            "options": [
-                "Que publicara un aviso en su sitio web sobre las infracciones de derechos de autor detectadas en su red",
-                "Que bloqueara el acceso de sus clientes a determinados sitios web que alojaran contenido ilícito",
-                "Que impidiera cualquier envío o recepción por sus clientes mediante redes «peer to peer» de archivos que reprodujeran obras del repertorio de SABAM",
-                "Que implementara un sistema de registro de la identidad de todos los usuarios antes de permitirles acceder a su red"
-            ],
-            "answer": 2,
-            "explanation": "La entidad de gestión SABAM pretendía obligar al ISP (Scarlet) a instalar un filtro universal sobre todo el tráfico P2P de sus abonados para frenar de raíz las descargas no autorizadas."
-        },
-        {
-            "question": "¿Por qué concluyó el TJUE en el asunto Scarlet Extended que el sistema de filtrado ordenado vulneraba la normativa europea?",
-            "options": [
-                "Porque el sistema de filtrado supondría una supervisión activa generalizada de todas las comunicaciones de todos los clientes del proveedor, prohibida por el art. 15 de la Directiva 2000/31/CE",
-                "Porque el sistema de filtrado no era técnicamente viable y por tanto la medida era imposible de cumplir",
-                "Porque la orden judicial no había sido adoptada por un órgano jurisdiccional con competencia para ello según el Derecho de la UE",
-                "Porque el sistema de filtrado únicamente podía establecerse con el consentimiento previo de todos los usuarios afectados"
-            ],
-            "answer": 0,
-            "explanation": "El TJUE falló que dicho filtro requería supervisar el 100% de los datos de todos los usuarios de forma indefinida, rompiendo el veto a la monitorización general e invadiendo la privacidad de los internautas."
-        },
-        {
-            "question": "En el asunto Netlog/SABAM (TJUE, 16/02/2012), ¿qué derechos fundamentales consideró el Tribunal que vulneraría el sistema general de filtrado impuesto a la red social?",
-            "options": [
-                "El derecho a la propiedad privada y el derecho a la tutela judicial efectiva",
-                "El principio de libertad de empresa, el derecho a la protección de datos personales y la libertad de recibir o comunicar informaciones",
-                "El derecho al secreto de las comunicaciones y el derecho a la presunción de inocencia",
-                "El derecho a la igualdad y no discriminación y el derecho a la libre circulación de servicios en el mercado interior"
-            ],
-            "answer": 1,
-            "explanation": "El TJUE reiteró que imponer estos filtros masivos a las redes sociales rompe el equilibrio de derechos: asfixia la libertad de empresa del hosting por costes y conculca los derechos de privacidad e información de la ciudadanía."
-        },
-        {
-            "question": "¿Bajo qué condiciones son responsables los operadores de redes y proveedores de acceso por la información transmitida (art. 14 LSSI)?",
-            "options": [
-                "Cuando no hayan adoptado las medidas técnicas necesarias para garantizar la seguridad de las comunicaciones",
-                "Cuando hayan originado la transmisión, modificado los datos más allá de la manipulación técnica estrictamente necesaria, o seleccionado los datos o sus destinatarios",
-                "Cuando los contenidos transmitidos vulneren derechos de propiedad intelectual de terceros, con independencia de su actuación",
-                "Cuando no hayan notificado a la AEPD los ficheros que contengan datos de sus usuarios registrados"
-            ],
-            "answer": 1,
-            "explanation": "En la 'mera conducción' (merely conduit), el operador es un conducto neutro. Solo pierde la inmunidad si interviene alterando activamente el mensaje o decidiendo a quién va dirigido."
-        },
-        {
-            "question": "¿Qué servicio regula el art. 15 LSSI y cuándo queda exento de responsabilidad el prestador?",
-            "options": [
-                "El servicio de alojamiento de datos (hosting); queda exento si no tiene conocimiento efectivo de la ilicitud",
-                "El servicio de transmisión de datos (mera conducción); queda exento cuando no origina ni modifica la información transmitida",
-                "El servicio de copia temporal de los datos solicitados por los usuarios (caching/proxys); queda exento mientras no modifique la información, respete las normas de actualización, no interfiera en tecnologías de seguimiento y retire la información cuando tenga conocimiento efectivo de que ha sido retirada del origen o lo ha ordenado un órgano competente",
-                "El servicio de búsqueda e indexación de contenidos; queda exento siempre que los contenidos indexados sean accesibles públicamente"
-            ],
-            "answer": 2,
-            "explanation": "El art. 15 regula el 'caching' o copia temporal para optimizar la velocidad de la red, fijando las condiciones de neutralidad técnica que debe mantener el prestador para no heredar responsabilidad."
-        },
-        {
-            "question": "¿Cuándo pierde el prestador de servicios de alojamiento de datos la exención de responsabilidad del art. 16 LSSI?",
-            "options": [
-                "Cuando el número de usuarios de su plataforma supere el millón de usuarios activos en España",
-                "Cuando tenga conocimiento efectivo de que la actividad o la información almacenada es ilícita o lesiona bienes o derechos de terceros y no actúe con diligencia para retirarlos o impedir el acceso",
-                "Cuando los contenidos almacenados superen una determinada cuota de almacenamiento fijada reglamentariamente",
-                "Cuando no cuente con los mecanismos técnicos necesarios para identificar y eliminar contenidos ilícitos de forma automática"
-            ],
-            "answer": 1,
-            "explanation": "Es el núcleo del régimen de responsabilidad ('puerto seguro'): un hosting (como YouTube o un foro) no responde por lo que suben sus usuarios a menos que tenga 'conocimiento efectivo' de la infracción y sea negligente en retirarlo."
-        },
-        {
-            "question": "Según la sentencia del TS de 19/12/2009 (asunto putasgae.org), ¿cómo puede obtenerse el «conocimiento efectivo» de la ilicitud de los contenidos por parte del prestador de servicios de alojamiento?",
-            "options": [
-                "Solo mediante declaración expresa de un órgano administrativo o judicial que comunique formalmente la ilicitud al prestador",
-                "También a través de hechos o circunstancias que permitan inferir lógicamente la ilicitud, como el propio dominio del sitio web u otros indicios reveladores",
-                "Únicamente cuando el titular de los derechos vulnerados se lo notifique directamente al prestador por escrito",
-                "Solo cuando la autoridad de control haya dictado resolución firme y se la haya comunicado al prestador del servicio"
-            ],
-            "answer": 1,
-            "explanation": "El Tribunal Supremo español aclaró en el caso 'putasgae' que el conocimiento efectivo no nace exclusivamente de resoluciones judiciales, sino que puede inferirse si la ilegalidad es flagrante, palmaria y notoria."
-        },
-        {
-            "question": "¿Qué particularidad introduce la LSSI en su art. 17 respecto al régimen de la Directiva 2000/31/CE en materia de responsabilidad?",
-            "options": [
-                "Suprime el régimen de responsabilidad para los prestadores de servicios de alojamiento de datos",
-                "Establece, como innovación española, el régimen de responsabilidad para los prestadores que faciliten enlaces a contenidos o instrumentos de búsqueda, que no figuraba en la Directiva",
-                "Impone una obligación general de supervisión para los buscadores y plataformas de mayor tamaño",
-                "Extiende la responsabilidad de los operadores de redes a los contenidos de sus clientes en todo caso"
-            ],
-            "answer": 1,
-            "explanation": "La Directiva europea no incluyó reglas específicas de responsabilidad para los motores de búsqueda y agregadores de enlaces. España cubrió este vacío regulando los buscadores de forma explícita en el art. 17 de la LSSI."
-        },
-        {
-            "question": "Cuál es el primer requisito legal para el envío de comunicaciones comerciales por vía electrónica según la LSSI?",
-            "options": [
-                "Que el prestador esté inscrito en el registro de prestadores de servicios de la sociedad de la información",
-                "Que estén claramente identificadas como comunicaciones comerciales, debiendo incluir al inicio del mensaje la palabra «publicidad» o «publi»",
-                "Que el destinatario sea mayor de dieciocho años y haya aceptado las condiciones generales del servicio",
-                "Que el prestador haya obtenido previamente la certificación de la AEPD como entidad autorizada para realizar comunicaciones comerciales"
-            ],
-            "answer": 1,
-            "explanation": "El art. 20 de la LSSI exige de forma imperativa la transparencia publicitaria: los correos comerciales o SMS deben ser identificados inmediatamente por el receptor mediante la palabra 'publicidad' o su abreviatura."
-        },
-        {
-            "question": "¿En qué supuesto permite la LSSI el envío de comunicaciones comerciales electrónicas sin el consentimiento previo del destinatario?",
-            "options": [
-                "Cuando el prestador sea una empresa de menos de diez trabajadores y los envíos no superen los cien por año",
-                "Cuando exista una relación contractual previa con el destinatario, los datos se hayan obtenido lícitamente y las comunicaciones se refieran a productos o servicios similares a los inicialmente contratados, ofreciendo siempre la opción de oposición",
-                "Cuando el destinatario sea una persona jurídica, ya que el régimen de protección solo se aplica a personas físicas",
-                "Cuando el prestador esté establecido fuera de la UE y los destinatarios sean exclusivamente ciudadanos españoles"
-            ],
-            "answer": 1,
-            "explanation": "Es la excepción del art. 21.2 LSSI (basada en el interés legítimo). Si ya es cliente tuyo y le vendiste algo, puedes mandarle ofertas de productos similares sin pedir consentimiento previo, siempre que le dejes darse de baja de forma sencilla."
-        },
-        {
-            "question": "¿Qué tipifica el art. 38.3 LSSI como infracción grave en materia de comunicaciones comerciales electrónicas?",
-            "options": [
-                "El envío aislado de un correo electrónico publicitario sin el consentimiento previo del destinatario",
-                "El envío masivo e injustificado de comunicaciones comerciales no solicitadas (spam) o la insistencia reiterada en dichos envíos a usuarios que hubieran solicitado la baja del servicio",
-                "No incluir el número de identificación fiscal (NIF) de la empresa en el cuerpo del correo publicitario",
-                "Realizar promociones comerciales u ofertas de descuento en un sitio web sin registrar las bases ante notario"
-            ],
-            "answer": 1,
-            "explanation": "El spam esporádico puede ser considerado leve, pero el envío masivo continuo o ignorar de manera sistemática los derechos de revocación u oposición de los usuarios escala a la categoría de infracción grave en el régimen sancionador."
-        }
-    ]
+  "title": "Test T5 - LSSI y Marco Regulatorio de Internet",
+  "description": "Examen sobre la Ley de Servicios de la Sociedad de la Información (LSSI), libertades informativas, responsabilidad de intermediarios, retención de datos y el Reglamento de Servicios Digitales (RSD).",
+  "questions": [
+    {
+      "question": "¿Qué directiva europea transpone en España la Ley 34/2002 (LSSI)?",
+      "options": [
+        "A) La Directiva 95/46/CE sobre protección de datos personales",
+        "B) La Directiva 2000/31/CE relativa a determinados aspectos jurídicos de los servicios de la sociedad de la información y el comercio electrónico",
+        "C) La Directiva 2002/58/CE sobre privacidad en las comunicaciones electrónicas",
+        "D) La Directiva 2004/48/CE relativa al respeto de los derechos de propiedad intelectual"
+      ],
+      "answer": 1,
+      "explanation": "La LSSI tiene como objeto principal incorporar al derecho español la Directiva 2000/31/CE (Directiva sobre el comercio electrónico), la cual establece las reglas fundamentales del mercado interior para los servicios digitales."
+    },
+    {
+      "question": "¿Qué norma ha completado y modificado la Directiva 2000/31/CE sobre comercio electrónico?",
+      "options": [
+        "A) El Reglamento (UE) 2016/679 (RGPD)",
+        "B) La Ley Orgánica 3/2018 (LOPDGDD)",
+        "C) El Reglamento (UE) 2022/2065 de Servicios Digitales (RSD)",
+        "D) La Directiva (UE) 2019/790 sobre derechos de autor en el mercado único digital"
+      ],
+      "answer": 2,
+      "explanation": "El Reglamento de Servicios Digitales (RSD o DSA) de 2022 actualiza, completa y moderniza las reglas de la Directiva 2000/31/CE, manteniendo los principios de exención de responsabilidad de intermediarios pero añadiendo nuevas obligaciones de transparencia y diligencia."
+    },
+    {
+      "question": "¿Cuál es la definición legal de «servicios de la sociedad de la información» recogida en el Anexo de la LSSI?",
+      "options": [
+        "A) Todo servicio prestado de forma gratuita a través de Internet por una empresa establecida en España",
+        "B) Todo servicio prestado normalmente a título oneroso, a distancia, por vía electrónica y a petición individual del destinatario, incluidos los no remunerados que constituyan actividad económica para el prestador",
+        "C) Solo los servicios de comercio electrónico que impliquen una transacción económica entre el prestador y el usuario",
+        "D) Exclusivamente los servicios de operadores de telecomunicaciones y proveedores de acceso"
+      ],
+      "answer": 1,
+      "explanation": "La definición legal exige cuatro condiciones: que se preste a distancia, por vía electrónica, a petición individual del usuario y que suponga una actividad económica para el prestador (la cual puede financiarse de forma indirecta, por ejemplo, mediante publicidad)."
+    },
+    {
+      "question": "¿Cuál de los siguientes NO es un ejemplo de servicio de la sociedad de la información según la Exposición de Motivos de la LSSI?",
+      "options": [
+        "A) El suministro de información por vía electrónica, como el de los periódicos en línea",
+        "B) El alojamiento en servidores de información o aplicaciones facilitadas por terceros",
+        "C) Los servicios prestados por abogados y procuradores a través de Internet",
+        "D) La descarga de archivos de vídeo o audio a petición individual del usuario"
+      ],
+      "answer": 2,
+      "explanation": "Según la normativa, las actividades profesionales tradicionales en las que la relación con el cliente se realiza en el plano físico no entran en este concepto de forma directa. La opción C, según la clave, se descarta dentro del catálogo de ejemplos puros o se ve sujeta a su legislación específica analógica."
+    },
+    {
+      "question": "¿Qué se entiende por «prestador de servicios» según la LSSI?",
+      "options": [
+        "A) Solo las personas jurídicas con domicilio social en España que presten servicios en Internet",
+        "B) La persona física o jurídica que proporciona un servicio de la sociedad de la información",
+        "C) Exclusivamente los operadores de telecomunicaciones y los proveedores de acceso a Internet",
+        "D) Las plataformas digitales con más de un millón de usuarios activos en la Unión Europea"
+      ],
+      "answer": 1,
+      "explanation": "El término engloba a cualquier sujeto, ya sea una persona física (como un autónomo o blogger que monetiza una web) o una persona jurídica, que ponga a disposición un servicio regulado en esta ley."
+    },
+    {
+      "question": "¿Cuándo se presume que un prestador de servicios está establecido en España a efectos de la LSSI?",
+      "options": [
+        "A) Cuando ofrezca sus servicios en idioma español, independientemente de su domicilio",
+        "B) Cuando el prestador o alguna de sus sucursales esté inscrito en el Registro Mercantil u otro registro público español",
+        "C) Cuando más del 50 % de sus usuarios activos residan en territorio español",
+        "D) Cuando haya obtenido ingresos superiores a 10 millones de euros en el mercado español"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 2 de la LSSI asocia la presunción legal de establecimiento en territorio español a la inscripción formal en un registro público de comercio o de empresas en España."
+    },
+    {
+      "question": "¿En qué supuesto se aplica la LSSI a un prestador establecido en otro Estado miembro de la UE?",
+      "options": [
+        "A) En todo caso, con independencia de la localización del destinatario y de la materia",
+        "B) Solo cuando el prestador ofrezca servicios de comercio electrónico con entrega física de productos en España",
+        "C) Cuando el destinatario de los servicios radique en España y los servicios afecten a las materias recogidas en el art. 3 LSSI",
+        "D) Únicamente cuando el prestador tenga un establecimiento permanente en territorio español"
+      ],
+      "answer": 2,
+      "explanation": "Rige el principio de país de origen. No obstante, el art. 3 LSSI prevé excepciones tasadas en las que España puede intervenir y aplicar su ley a prestadores de la UE por motivos como la protección del orden público, salud pública, seguridad nacional o consumidores."
+    },
+    {
+      "question": "¿Qué obligaciones de la LSSI se aplican a los prestadores establecidos en Estados no pertenecientes a la UE ni al EEE?",
+      "options": [
+        "A) Ninguna, ya que la LSSI solo es aplicable a prestadores establecidos en la UE",
+        "B) Se les aplican los artículos 7.2 y 11.2, y, cuando dirijan sus servicios específicamente a España, las obligaciones generales de la Ley siempre que no sean contrarias a las normas internacionales aplicables",
+        "C) Se les aplica íntegramente la LSSI con independencia de que dirijan sus servicios a España o no",
+        "D) Solo se les aplican las normas sobre comunicaciones comerciales electrónicas y cookies"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 4 regula la aplicación a prestadores de fuera del Espacio Económico Europeo cuando dirijan de forma activa o evidente sus servicios al mercado español, salvaguardando tratados internacionales."
+    },
+    {
+      "question": "¿Cuáles de los siguientes profesionales quedan expresamente excluidos del ámbito de aplicación de la LSSI?",
+      "options": [
+        "A) Los médicos y farmacéuticos que ofrezcan servicios de telemedicina",
+        "B) Los periodistas y medios de comunicación que publiquen contenidos en Internet",
+        "C) Los notarios, registradores de la propiedad y mercantiles, abogados y procuradores",
+        "D) Los operadores de telecomunicaciones que actúen también como proveedores de contenidos"
+      ],
+      "answer": 2,
+      "explanation": "El art. 5 de la LSSI estipula la exclusión de las actividades realizadas por los notarios y los registradores en el ejercicio de sus funciones públicas de fe pública, y la normativa preserva regímenes particulares para ciertos aspectos de la representación jurídica."
+    },
+    {
+      "question": "¿Cuál fue una de las principales críticas que recibió la Ley 34/2002 por parte de las asociaciones de internautas?",
+      "options": [
+        "A) Que establecía sanciones excesivamente leves para los prestadores de servicios que incumplieran sus obligaciones",
+        "B) Que suponía un ataque a la libertad y a los derechos de los usuarios de la red y mercantilizaba toda la actividad desarrollada en Internet",
+        "C) Que no incluía ninguna regulación sobre el uso de cookies ni las comunicaciones comerciales electrónicas",
+        "D) Que no contemplaba ningún régimen de responsabilidad para los prestadores de servicios de intermediación"
+      ],
+      "answer": 1,
+      "explanation": "Durante su promulgación en 2002, colectivos civiles criticaron que el texto inicial mercantilizaba la Red y abría la puerta a cierres o controles gubernamentales que amenazaban la naturaleza libre y abierta del Internet de los ciudadanos."
+    },
+    {
+      "question": "¿Cuál es el principio general que rige la prestación de servicios de la sociedad de la información según la LSSI y la Directiva 2000/31/CE?",
+      "options": [
+        "A) El principio de autorización previa, con excepciones tasadas para actividades de bajo riesgo",
+        "B) El principio de libre prestación de servicios, sin sometimiento a autorización previa",
+        "C) El principio de control previo por parte de la autoridad de supervisión competente",
+        "D) El principio de licencia obligatoria para todos los prestadores de servicios de intermediación"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 6 establece el principio de libre prestación de servicios, de forma que no se requiere autorización ni licencia gubernamental específica previa para abrir un sitio web o un negocio en Internet."
+    },
+    {
+      "question": "¿Cuándo se exige autorización previa para prestar servicios de la sociedad de la información?",
+      "options": [
+        "A) Siempre que los servicios se presten a ciudadanos residentes en la Unión Europea",
+        "B) Cuando el servicio tenga más de cien mil usuarios activos en España",
+        "C) Cuando la actividad también requiera autorización en el mundo físico, como la venta de fármacos, seguros o productos financieros",
+        "D) Cuando el prestador esté establecido fuera del Espacio Económico Europeo"
+      ],
+      "answer": 2,
+      "explanation": "Internet no elude las regulaciones del mundo analógico. Si una actividad (como la banca, la medicina o los seguros) requiere licencias administrativas específicas en el ámbito presencial, también las requerirá si se presta online."
+    },
+    {
+      "question": "¿Cuál de los siguientes principios NO justifica la restricción de la libre prestación de servicios conforme al art. 8 LSSI?",
+      "options": [
+        "A) La salvaguarda del orden público y la investigación penal",
+        "B) La protección de la salud pública y de los consumidores",
+        "C) La maximización de los beneficios económicos del mercado interior digital",
+        "D) La protección de la juventud y de la infancia"
+      ],
+      "answer": 2,
+      "explanation": "El artículo 8 enumera los bienes jurídicos protegidos que legitiman la restricción de servicios (salud, infancia, orden público, defensa nacional). Los meros intereses comerciales o económicos privados no justifican la interrupción o restricción estatal de un servicio."
+    },
+    {
+      "question": "¿Qué requisitos deben cumplir las medidas de restricción adoptadas por la autoridad competente al amparo del art. 8 LSSI?",
+      "options": [
+        "A) Deben ser urgentes, definitivas y ejecutivas sin posibilidad de recurso",
+        "B) Deben ser objetivas, proporcionadas y no discriminatorias, respetando las normas de procedimiento aplicables",
+        "C) Deben adoptarse exclusivamente por resolución judicial, con independencia de la materia afectada",
+        "D) Deben notificarse previamente al prestador con al menos treinta días de antelación"
+      ],
+      "answer": 1,
+      "explanation": "Toda medida restrictiva adoptada por una autoridad debe observar escrupulosamente los principios generales de proporcionalidad, objetividad en la persecución del fin y no discriminación."
+    },
+    {
+      "question": "¿Quién puede ordenar el secuestro o la restricción de páginas de Internet cuando pueda resultar afectada la libertad de expresión o de información?",
+      "options": [
+        "A) El Ministerio de Asuntos Económicos y Transformación Digital",
+        "B) La Agencia Española de Protección de Datos",
+        "C) Solo la autoridad judicial competente",
+        "D) Cualquier órgano administrativo con competencias en materia de telecomunicaciones"
+      ],
+      "answer": 2,
+      "explanation": "En virtud del artículo 20.5 de la Constitución Española, el secuestro de publicaciones o el bloqueo de contenidos que afecten de lleno a la libertad de información/expresión está estrictamente reservado a la autoridad judicial."
+    },
+    {
+      "question": "¿Por qué se afirma que las libertades de expresión e información son «garantías institucionales» y no solo derechos fundamentales individuales?",
+      "options": [
+        "A) Porque solo pueden ser ejercidas por los medios de comunicación acreditados como tales por el Estado",
+        "B) Porque aseguran el mantenimiento de una comunicación pública libre, condición de realización efectiva del principio democrático y del pluralismo ideológico",
+        "C) Porque están garantizadas exclusivamente frente a los poderes públicos, sin eficacia alguna en las relaciones entre particulares",
+        "D) Porque su titularidad corresponde exclusivamente a los periodistas profesionales en el ejercicio de su función"
+      ],
+      "answer": 1,
+      "explanation": "Su vertiente institucional radica en que actúan como una pieza indispensable de la propia arquitectura democrática del Estado, permitiendo una ciudadanía informada capaz de participar políticamente en el debate social."
+    },
+    {
+      "question": "Según la STC 6/1981, ¿cuál es la relación entre las libertades de expresión e información y el principio democrático?",
+      "options": [
+        "A) Son libertades subordinadas al principio de seguridad nacional, que prevalece sobre ellas en todo caso",
+        "B) Son condición de realización efectiva del principio de legitimidad democrática, al asegurar el mantenimiento de una comunicación pública libre",
+        "C) Son derechos de titularidad exclusiva del Estado, que los delega en los medios de comunicación para su ejercicio",
+        "D) Son libertades de carácter meramente declarativo sin efecto vinculante sobre los poderes públicos"
+      ],
+      "answer": 1,
+      "explanation": "La histórica STC 6/1981 consagró el valor preferente de estas libertades no solo como derechos individuales, sino como la garantía de una opinión pública libre que actúa como sustento del pluralismo y la democracia."
+    },
+    {
+      "question": "¿Qué diferencia existe entre la libertad de expresión y la libertad de información recogidas en el art. 20 CE?",
+      "options": [
+        "A) La libertad de expresión es un derecho solo reconocido a los periodistas; la libertad de información corresponde a todos los ciudadanos",
+        "B) La libertad de expresión ampara la emisión de juicios y opiniones; la libertad de información garantiza la manifestación de hechos noticiables",
+        "C) La libertad de expresión se ejerce exclusivamente por escrito; la libertad de información puede ejercerse por cualquier medio",
+        "D) La libertad de expresión está sujeta al requisito de veracidad; la libertad de información no tiene ningún límite constitucional"
+      ],
+      "answer": 1,
+      "explanation": "La distinción formal clásica de la doctrina estriba en su objeto: la libertad de expresión protege la difusión de pensamientos, pareceres y juicios de valor de carácter subjetivo, mientras que la de información se centra en narrar hechos objetivos con trascendencia pública."
+    },
+    {
+      "question": "¿Qué exige el requisito constitucional de veracidad en el ejercicio de la libertad de información?",
+      "options": [
+        "A) Una rigurosa y absoluta exactitud en el contenido de la información publicada",
+        "B) Una especial diligencia profesional del informador para contrastar los hechos con datos objetivos, excluyendo invenciones o rumores",
+        "C) La obtención de declaraciones expresas de todas las personas mencionadas en la información",
+        "D) La verificación de los hechos mediante fuentes oficiales o gubernamentales en todo caso"
+      ],
+      "answer": 1,
+      "explanation": "La 'veracidad' constitucional no exige que el hecho relatado sea una verdad matemática e incontestable, sino que el informador haya empleado una diligencia razonable y contrastada en comprobar la fuente, evitando bulos y rumores."
+    },
+    {
+      "question": "¿Cómo actúa la veracidad de una información respecto al derecho a la intimidad?",
+      "options": [
+        "A) La veracidad legitima siempre la intromisión en la intimidad, igual que lo hace respecto al honor",
+        "B) La veracidad actúa en sentido contrario respecto a la intimidad: una información veraz no justifica por sí sola la intromisión en este derecho",
+        "C) La veracidad es irrelevante respecto al derecho a la intimidad, que nunca puede ser limitado por informaciones verídicas",
+        "D) La veracidad solo tiene relevancia constitucional en el ámbito del derecho al honor, sin ninguna incidencia en la intimidad"
+      ],
+      "answer": 1,
+      "explanation": "A diferencia del derecho al honor (donde la verdad es causa de exoneración), el derecho a la intimidad protege el ámbito reservado de la persona. Divulgar datos íntimos verdaderos pero irrelevantes públicamente sigue constituyendo una violación del derecho."
+    },
+    {
+      "question": "¿Qué distinción fundamental establece la doctrina constitucional respecto al requisito de interés general de la información?",
+      "options": [
+        "A) Entre información de interés nacional e información de interés local o autonómico",
+        "B) Entre el 'interés público' —que aporta a la formación de la opinión pública— y el 'interés del público' —que satisface la mera curiosidad—",
+        "C) Entre información que afecta a personas públicas, siempre amparada por el art. 20 CE, e información sobre personas privadas, nunca amparada",
+        "D) Entre información difundida por medios de comunicación acreditados e información difundida por ciudadanos particulares"
+      ],
+      "answer": 1,
+      "explanation": "La prevalencia de la libertad de información requiere que lo narrado posea relevancia pública por su temática o protagonistas ('interés público'). El morbo o chismorreo que meramente despierta curiosidad ('interés del público') no tiene esa especial protección."
+    },
+    {
+      "question": "¿Ampara la libertad de expresión el uso de expresiones intrínsecamente vejatorias, injuriosas u ofensivas aunque se refieran a personajes públicos?",
+      "options": [
+        "A) Sí, porque las personas públicas tienen una mayor tolerancia al escrutinio público y a la crítica sin límites",
+        "B) Sí, siempre que las expresiones sean verídicas y tengan relevancia pública",
+        "C) No, porque tales expresiones en nada contribuyen a la formación de la opinión pública libre y no están amparadas por el art. 20 CE",
+        "D) Solo si las expresiones se dirigen contra cargos o autoridades públicas en el ejercicio de sus funciones"
+      ],
+      "answer": 2,
+      "explanation": "La jurisprudencia del Tribunal Constitucional reitera firmemente que la Constitución no ampara el 'derecho al insulto'. Las descalificaciones innecesarias e intrínsecamente injuriosas quedan fuera de la esfera legítima del art. 20."
+    },
+    {
+      "question": "¿Cuál es la peculiaridad de Internet respecto a otros medios de comunicación en relación con la difusión de contenidos lesivos para los derechos de las personas?",
+      "options": [
+        "A) Que permite la identificación inmediata del responsable de la publicación y facilita la cuantificación del daño",
+        "B) Que posibilita que desde cualquier lugar del mundo se tenga acceso a ese contenido, convirtiéndolo en universal, con un efecto multiplicador del daño",
+        "C) Que sus contenidos tienen una duración limitada y desaparecen automáticamente pasado un cierto tiempo",
+        "D) Que la difusión de contenidos en Internet está sujeta a control previo por parte de los operadores de la red"
+      ],
+      "answer": 1,
+      "explanation": "La accesibilidad transfronteriza e instantánea de la red confiere un carácter global y exponencial a cualquier lesión contra el honor o la intimidad, cronificando y amplificando el daño en el tiempo (por la memoria digital o caché)."
+    },
+    {
+      "question": "Según la sentencia del TJUE de 25 de octubre de 2011, ¿ante qué juez puede reclamar la totalidad del daño sufrido la persona lesionada en sus derechos por contenidos publicados en Internet?",
+      "options": [
+        "A) Exclusivamente ante el juez del Estado donde está establecido el emisor de la noticia en Internet",
+        "B) Ante el juez del Estado donde el contenido ha sido publicado y es accesible por primera vez",
+        "C) Ante el juez del lugar en que tiene su centro de intereses, donde la lesión puede ser mejor valorada",
+        "D) Solo ante el Tribunal de Justicia de la Unión Europea, como órgano competente en litigios transfronterizos"
+      ],
+      "answer": 2,
+      "explanation": "En la STJUE eDate Advertising, el Tribunal dispuso que, debido al daño ubicuo de Internet, la persona afectada puede demandar por la totalidad del daño sufrido en el país donde radica su propio 'centro de intereses' (su residencia habitual)."
+    },
+    {
+      "question": "¿Qué permite el art. 8.2 LSSI respecto a la identificación del responsable de una conducta que vulnere derechos de propiedad intelectual?",
+      "options": [
+        "A) Que la AEPD identifique al responsable sin necesidad de autorización judicial",
+        "B) Que los órganos competentes requieran a los prestadores de servicios la cesión de datos de identificación del responsable, previa autorización judicial",
+        "C) Que cualquier titular de derechos de propiedad intelectual acceda directamente a los datos de identificación del infractor",
+        "D) Que los prestadores de servicios de intermediación procedan a la identificación por iniciativa propia y sin necesidad de requerimiento"
+      ],
+      "answer": 1,
+      "explanation": "A fin de equilibrar la persecución de infracciones comerciales y el derecho a la protección de datos personales y secreto de las telecomunicaciones, se introdujo el mecanismo de requerimiento bajo un indispensable control judicial previo."
+    },
+    {
+      "question": "¿Con qué carácter debe facilitarse la información obligatoria del art. 10 LSSI a los usuarios?",
+      "options": [
+        "A) Con carácter periódico, al menos una vez al año, mediante comunicación electrónica",
+        "B) De forma permanente, fácil, directa y gratuita, a través de medios electrónicos",
+        "C) Solo cuando el usuario la solicite expresamente, en un plazo máximo de quince días hábiles",
+        "D) Mediante notificación previa al inicio de cada sesión de navegación en el sitio web"
+      ],
+      "answer": 1,
+      "explanation": "El art. 10 impone el deber general de información (los datos mínimos de identidad del titular de la web, CIF, etc.), y exige que se proporcione de manera directa, permanente y accesible sin coste."
+    },
+    {
+      "question": "¿Cuál de los siguientes datos NO figura entre los de obligatoria publicación para los prestadores de servicios según el art. 10 LSSI?",
+      "options": [
+        "A) El nombre o denominación social y el domicilio del prestador",
+        "B) La dirección de correo electrónico u otro medio de contacto directo y efectivo",
+        "C) El número de empleados de la empresa y su volumen anual de facturación",
+        "D) El número de identificación fiscal del prestador"
+      ],
+      "answer": 2,
+      "explanation": "La LSSI exige datos identificativos básicos, datos registrales, precios y canales de contacto directo. Los datos estructurales como la facturación interna de la mercantil o la cantidad de empleados son ajenos a esta obligación de cara al usuario."
+    },
+    {
+      "question": "¿Qué información adicional deben facilitar los prestadores de servicios que ejerzan una profesión regulada?",
+      "options": [
+        "A) Solo el número de colegiado y el colegio profesional al que pertenezcan",
+        "B) Los datos del colegio profesional, el número de colegiado, el título académico oficial, las normas profesionales aplicables y los medios para conocerlas",
+        "C) El seguro de responsabilidad profesional contratado y su cobertura mínima",
+        "D) La experiencia profesional acreditada y el listado de clientes relevantes de los últimos cinco años"
+      ],
+      "answer": 1,
+      "explanation": "El art. 10.1.c establece requisitos rigurosos para las profesiones colegiadas (médicos, abogados), requiriendo que figuren los datos de adscripción, títulos y acceso a los códigos de conducta profesionales vigentes."
+    },
+    {
+      "question": "¿Qué información específica exige el art. 12.bis LSSI sobre seguridad a los proveedores de servicios de intermediación?",
+      "options": [
+        "A) La lista completa de incidentes de seguridad sufridos en los últimos doce meses",
+        "B) Los medios técnicos que aumenten la seguridad de la información (protección contra virus, filtros de contenidos, restricción de spam) y las responsabilidades por uso ilícito de Internet",
+        "C) El nombre y datos de contacto del responsable de seguridad informática de la empresa",
+        "D) El certificado de cumplimiento de los estándares ISO 27001 de seguridad de la información"
+      ],
+      "answer": 1,
+      "explanation": "Este artículo obliga a los prestadores de intermediación a informar al público sobre las herramientas o software que sirven para mitigar riesgos informáticos y proteger sus equipos y datos personales."
+    },
+    {
+      "question": "¿Qué deber impone el art. 36 LSSI a todos los prestadores de servicios de la sociedad de la información?",
+      "options": [
+        "A) El deber de inscribir todos sus ficheros de datos ante la Agencia Española de Protección de Datos",
+        "B) El deber general de colaboración: facilitar al Ministerio y órganos competentes toda la información y colaboración precisas y permitir el acceso a sus instalaciones",
+        "C) El deber de contratar un seguro de responsabilidad civil para cubrir los daños que puedan causar a los usuarios",
+        "D) El deber de publicar anualmente un informe de transparencia con información sobre solicitudes de las autoridades"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 36 consagra el deber general de colaboración con los ministerios o entes reguladores para facilitar inspecciones, aportar datos obligatorios y permitir que la administración ejerza sus funciones de control."
+    },
+    {
+      "question": "¿Qué son los «servicios de intermediación» según el Anexo de la LSSI?",
+      "options": [
+        "A) Los servicios prestados por agentes o intermediarios comerciales que actúan en nombre de terceros en transacciones electrónicas",
+        "B) Los servicios a través de los cuales se facilita la prestación o utilización de otros servicios de la sociedad de la información o el acceso a la información: provisión de acceso, transmisión de datos, copia temporal, alojamiento e instrumentos de búsqueda y enlaces",
+        "C) Los servicios financieros de intermediación en la compraventa de activos digitales y criptomonedas",
+        "D) Las plataformas de intermediación laboral y reclutamiento de personal que operan exclusivamente por vía electrónica"
+      ],
+      "answer": 1,
+      "explanation": "Los intermediarios son los encargados de proveer los canales técnicos. Incluye los proveedores de internet (ISP), las memorias caché (caching), los servidores (hosting) y los motores de búsqueda."
+    },
+    {
+      "question": "¿Qué obligación específica impone el art. 11 LSSI a los prestadores de servicios de intermediación cuando un órgano competente ordena la interrupción o retirada de contenidos?",
+      "options": [
+        "A) Deben notificar al prestador del contenido ilícito con antelación mínima de 48 horas antes de proceder a su retirada",
+        "B) Deben suspender el correspondiente servicio de intermediación utilizado para la provisión del servicio o de los contenidos cuya interrupción o retirada hayan sido ordenados",
+        "C) Deben publicar en su sitio web un aviso público sobre la retirada del contenido y las razones de la misma",
+        "D) Deben conservar copia del contenido retirado durante al menos cinco años a disposición de las autoridades"
+      ],
+      "answer": 1,
+      "explanation": "El art. 11 obliga a los intermediarios técnicos a acatar las resoluciones dictadas por las autoridades facultadas, lo que se traduce en suspender o bloquear de forma técnica el acceso a datos declarados ilícitos."
+    },
+    {
+      "question": "¿Qué sanción establece el art. 38 LSSI para el incumplimiento del deber de colaboración de los prestadores de servicios de intermediación?",
+      "options": [
+        "A) Infracción leve, con multa de hasta 30.000 euros",
+        "B) Infracción grave, con multa de entre 30.001 y 150.000 euros",
+        "C) Infracción muy grave, con multa de entre 150.001 y 600.000 euros",
+        "D) Infracción penal, perseguible de oficio por el Ministerio Fiscal"
+      ],
+      "answer": 2,
+      "explanation": "Ignorar deliberadamente o negarse a colaborar frente a requerimientos administrativos u órdenes gubernamentales firmes de retirada/bloqueo de contenidos se califica como infracción 'muy grave' en el artículo 38.2 de la LSSI."
+    },
+    {
+      "question": "¿En qué formato deben facilitarse los contenidos a los usuarios que los soliciten en ejercicio de la portabilidad de datos no personales?",
+      "options": [
+        "A) En el formato nativo del sistema del proveedor, sin obligación de conversión",
+        "B) En formato PDF firmado electrónicamente por el prestador del servicio",
+        "C) En un formato estructurado, de uso común y lectura mecánica",
+        "D) En formato impreso, cuando el usuario así lo solicite expresamente"
+      ],
+      "answer": 2,
+      "explanation": "En concordancia con los estándares informáticos de portabilidad y el Reglamento Europeo de Datos, se exige la exportación de la información en formatos normalizados interoperables de uso común (como JSON o XML)."
+    },
+    {
+      "question": "¿Qué datos deben conservar los operadores de servicios de comunicaciones electrónicas de acuerdo con la Ley 25/2007?",
+      "options": [
+        "A) El contenido íntegro de todas las comunicaciones electrónicas realizadas por sus clientes",
+        "B) Los datos de tráfico y localización necesarios para rastrear el origen y destino de comunicaciones, fecha, hora, duración, tipo de comunicación, equipo utilizado y localización del equipo móvil; pero no el contenido de las comunicaciones",
+        "C) Exclusivamente los datos de facturación de sus clientes y el registro de llamadas de tarificación adicional",
+        "D) Solo los datos de identificación del abonado y su dirección de instalación, sin incluir datos de tráfico"
+      ],
+      "answer": 1,
+      "explanation": "La Ley 25/2007 impone la retención de los metadatos generados en la conexión con fines exclusivos de lucha criminal. Almacenar el contenido íntimo o los mensajes de audio/texto violaría flagrantemente la confidencialidad."
+    },
+    {
+      "question": "¿Cuál es el plazo general de conservación de los datos de tráfico y conexión previsto en la Ley 25/2007?",
+      "options": [
+        "A) Seis meses desde la fecha de la comunicación",
+        "B) Doce meses desde la fecha en que se haya producido la comunicación",
+        "C) Veinticuatro meses desde la fecha en que se haya producido la comunicación",
+        "D) Cinco años, en aplicación del plazo general de prescripción de infracciones graves"
+      ],
+      "answer": 1,
+      "explanation": "La ley fija el plazo estándar de retención forzosa en doce meses desde el momento de realizarse el tráfico de datos, modulable reglamentariamente entre un mínimo de 6 meses y un máximo de 2 años."
+    },
+    {
+      "question": "¿Quiénes son los «agentes facultados» a los que pueden cederse los datos conservados conforme a la Ley 25/2007?",
+      "options": [
+        "A) Cualquier organismo público que los solicite mediante escrito motivado",
+        "B) Las empresas privadas de seguridad debidamente acreditadas y con contrato de prestación de servicios con el operador",
+        "C) Los miembros de las Fuerzas y Cuerpos de Seguridad en funciones de policía judicial, los funcionarios de la Dirección Adjunta de Vigilancia Aduanera y el personal del CNI",
+        "D) Los jueces y magistrados de los tribunales de justicia que tramiten procedimientos penales"
+      ],
+      "answer": 2,
+      "explanation": "La ley tasa los agentes que pueden tener acceso legítimo a dicha base de metadatos: la policía judicial oficial, agentes de Vigilancia Aduanera y miembros autorizados del Centro Nacional de Inteligencia (CNI)."
+    },
+    {
+      "question": "¿Por qué prohíbe la Ley 25/2007 comunicar al interesado la cesión de sus datos a los agentes facultados?",
+      "options": [
+        "A) Porque la normativa de protección de datos impide cualquier comunicación relativa al tratamiento de datos con fines de seguridad",
+        "B) Porque si esta cesión se comunicase al interesado podrían frustrarse los fines de detección, investigación y enjuiciamiento del delito",
+        "C) Porque los datos cedidos son de carácter estadístico y no identifican a ninguna persona concreta",
+        "D) Porque la Constitución prohíbe expresamente cualquier limitación del secreto de las comunicaciones con fines de investigación"
+      ],
+      "answer": 1,
+      "explanation": "Informar al sospechoso o investigado de que sus conexiones están siendo fiscalizadas arruinaría la eficacia de la investigación policial y judicial en curso en casos de terrorismo o delincuencia grave."
+    },
+    {
+      "question": "¿Cuáles son los cuatro requisitos que el Tribunal Europeo de Derechos Humanos exige para que la conservación de datos de tráfico sea compatible con el art. 8 del CEDH?",
+      "options": [
+        "A) Que sea rápida, eficaz, gratuita y controlada por un órgano independiente",
+        "B) Que esté prevista por ley (accesible y previsible), persiga un fin legítimo, sea necesaria en una sociedad democrática (proporcional) y no suponga vigilancia exploratoria o general a gran escala",
+        "C) Que sea aprobada por el Parlamento, supervisada por el poder judicial, limitada en el tiempo y restringida a los delitos más graves",
+        "D) Que cuente con el consentimiento del interesado, sea temporal, esté cifrada y sea revisada periódicamente por la autoridad de control"
+      ],
+      "answer": 1,
+      "explanation": "El TEDH impone un test constitucional de proporcionalidad robusto: base legal clara y previsible, un fin legítimo tasado, estricta necesidad en democracia y rechazo a las capturas generalizadas o indiscriminadas indiscriminadas de datos sin indicios."
+    },
+    {
+      "question": "¿Qué implica el requisito de que la medida limitativa del derecho a la vida privada esté «prevista por la ley» según el TEDH?",
+      "options": [
+        "A) Que la medida esté recogida en una norma con rango de ley orgánica aprobada por el Parlamento",
+        "B) No solo que la medida tenga base legal en el Derecho interno, sino también que la norma sea accesible al interesado y previsible, permitiéndole regular su conducta",
+        "C) Que la medida sea aprobada por unanimidad en el Consejo de Ministros y publicada en el Boletín Oficial del Estado",
+        "D) Que la medida esté ratificada por los tratados internacionales de derechos humanos suscritos por el Estado"
+      ],
+      "answer": 1,
+      "explanation": "Para el TEDH, la calidad de la ley exige que el texto normativo interno sea público (accesible) y que exponga de manera nítida los supuestos y límites en que la autoridad puede actuar (previsible)."
+    },
+    {
+      "question": "Según el TEDH, ¿qué implica el requisito de que la injerencia sea «necesaria en una sociedad democrática»?",
+      "options": [
+        "A) Que la medida sea apoyada por la mayoría de los ciudadanos en una consulta popular",
+        "B) Que responda a una necesidad social imperiosa y sea proporcionada al fin legítimo perseguido, lo que exige ponderación y juicio de proporcionalidad",
+        "C) Que la injerencia sea de duración indefinida para garantizar su efectividad a largo plazo",
+        "D) Que la medida sea adoptada por consenso de todos los Estados miembros del Consejo de Europa"
+      ],
+      "answer": 1,
+      "explanation": "Supone la superación de un estricto test de idoneidad y equilibrio. La medida debe resolver una urgencia social ineludible empleando el cauce que menos menoscabo infiera al derecho invadido."
+    },
+    {
+      "question": "¿Qué nivel mínimo de accesibilidad deben satisfacer los sitios web según la Ley 11/2023 y el RD 1112/2018?",
+      "options": [
+        "A) El nivel básico de los criterios de accesibilidad reconocidos, suficiente para los usuarios con necesidades especiales",
+        "B) El nivel avanzado de los criterios de accesibilidad, aplicable únicamente a sitios web del sector público",
+        "C) El nivel medio de los criterios de accesibilidad al contenido generalmente reconocidos, tomando como referencia la norma UNE 139803",
+        "D) El nivel óptimo de accesibilidad definido por las directrices WCAG 3.0 del W3C"
+      ],
+      "answer": 2,
+      "explanation": "El Real Decreto 1112/2018 y las reformas asociadas incorporan las pautas del estándar técnico europeo, que en España se plasma en la norma UNE 139803, alineada con el nivel de conformidad medio (AA) de las WCAG."
+    },
+    {
+      "question": "¿Cuáles son las cuatro características que deben reunir los contenidos de los sitios web para cumplir los requisitos de accesibilidad?",
+      "options": [
+        "A) Seguros, actualizados, multilingües y compatibles con dispositivos móviles",
+        "B) Perceptibles, operables, comprensibles y robustos",
+        "C) Gratuitos, transparentes, interoperables y reutilizables",
+        "D) Cifrados, autenticados, trazables y auditables"
+      ],
+      "answer": 1,
+      "explanation": "Son los cuatro pilares fundamentales dictados por el W3C en las directrices de accesibilidad (WCAG): el contenido debe ser captable por los sentidos (perceptible), manejable técnicamente (operable), inteligible (comprensible) y compatible en el futuro (robusto)."
+    },
+    {
+      "question": "¿Qué establece el art. 15 de la Directiva 2000/31/CE y el art. 8 del RSD respecto a la supervisión de contenidos?",
+      "options": [
+        "A) Que los prestadores deben supervisar activamente todos los contenidos que transmitan o almacenen",
+        "B) Que no se impone a los prestadores de servicios intermediarios ninguna obligación general de supervisar los datos transmitidos o almacenados ni de buscar activamente actividades ilícitas",
+        "C) Que los prestadores deben supervisar únicamente los contenidos denunciados por los usuarios",
+        "D) Que solo las plataformas de muy gran tamaño deben implementar sistemas de supervisión general de contenidos"
+      ],
+      "answer": 1,
+      "explanation": "Ambas normas prohíben taxativamente imponer una obligación de monitorización general activa. Los hostings e ISPs no actúan como editores preventivos ni censores de todo lo que los internautas alojan en sus plataformas."
+    },
+    {
+      "question": "¿En qué consistía la medida que el Presidente del Tribunal de primera instancia de Bruselas ordenó a Scarlet Extended SA en 2007 y que motivó la consulta al TJUE?",
+      "options": [
+        "A) Que publicara un aviso en su sitio web sobre las infracciones de derechos de autor detectadas en su red",
+        "B) Que bloqueara el acceso de sus clientes a determinados sitios web que alojaran contenido ilícito",
+        "C) Que impidiera cualquier envío o recepción por sus clientes mediante redes «peer to peer» de archivos que reprodujeran obras del repertorio de SABAM",
+        "D) Que implementara un sistema de registro de la identidad de todos los usuarios antes de permitirles acceder a su red"
+      ],
+      "answer": 2,
+      "explanation": "La sociedad de gestión belga (SABAM) pretendía forzar judicialmente al ISP (Scarlet) a implementar un sistema de filtrado masivo que interceptara e impidiera de forma permanente los intercambios P2P de música y cine de sus clientes."
+    },
+    {
+      "question": "¿Por qué concluyó el TJUE en el asunto Scarlet Extended que el sistema de filtrado ordenado vulneraba la normativa europea?",
+      "options": [
+        "A) Porque el sistema de filtrado supondría una supervisión activa generalizada de todas las comunicaciones de todos los clientes del proveedor, prohibida por el art. 15 de la Directiva 2000/31/CE",
+        "B) Porque el sistema de filtrado no era técnicamente viable y por tanto la medida era imposible de cumplir",
+        "C) Porque la orden judicial no había sido adoptada por un órgano jurisdiccional con competencia para ello según el Derecho de la UE",
+        "D) Porque el sistema de filtrado únicamente podía establecerse con el consentimiento previo de todos los usuarios afectados"
+      ],
+      "answer": 0,
+      "explanation": "El TJUE estimó que obligar al filtrado universal exigiría vigilar preventivamente todo el tráfico de la totalidad de los usuarios. Esto vulnera la prohibición de supervisión general del art. 15 de la Directiva de Comercio Electrónico."
+    },
+    {
+      "question": "En el asunto Netlog/SABAM (TJUE, 16/02/2012), ¿qué derechos fundamentales consideró el Tribunal que vulneraría el sistema general de filtrado impuesto a la red social?",
+      "options": [
+        "A) El derecho a la propiedad privada y el derecho a la tutela judicial efectiva",
+        "B) El principio de libertad de empresa, el derecho a la protección de datos personales y la libertad de recibir o comunicar informaciones",
+        "C) El derecho al secreto de las comunicaciones y el derecho a la presunción de inocencia",
+        "D) El derecho a la igualdad y no discriminación y el derecho a la libre circulación de servicios en el mercado interior"
+      ],
+      "answer": 1,
+      "explanation": "El TJUE concluyó que la medida lesionaba la libertad de empresa del hosting por el gran desembolso técnico y, simultáneamente, los derechos de los usuarios a su intimidad (datos personales) y a la libertad de comunicación."
+    },
+    {
+      "question": "¿Bajo qué condiciones son responsables los operadores de redes y proveedores de acceso por la información transmitida (art. 14 LSSI)?",
+      "options": [
+        "A) Cuando no hayan adoptado las medidas técnicas necesarias para garantizar la seguridad de las comunicaciones",
+        "B) Cuando hayan originado la transmisión, modificado los datos más allá de la manipulación técnica estrictamente necesaria, o seleccionado los datos o sus destinatarios",
+        "C) Cuando los contenidos transmitidos vulneren derechos de propiedad intelectual de terceros, con independencia de su actuación",
+        "D) Cuando no hayan notificado a la AEPD los ficheros que contengan datos de sus usuarios registrados"
+      ],
+      "answer": 1,
+      "explanation": "Para el servicio de 'mere conduit', el operador queda amparado por el puerto seguro de inmunidad a menos que pierda su rol técnico neutro e intervenga activamente editando el paquete de datos o seleccionando los receptores."
+    },
+    {
+      "question": "¿Qué servicio regula el art. 15 LSSI y cuándo queda exento de responsabilidad el prestador?",
+      "options": [
+        "A) El servicio de alojamiento de datos (hosting); queda exento si no tiene conocimiento efectivo de la ilicitud",
+        "B) El servicio de transmisión de datos (mera conducción); queda exento cuando no origina ni modifica la información transmitida",
+        "C) El servicio de copia temporal de los datos solicitados por los usuarios (caching/proxys); queda exento mientras no modifique la información, respete las normas de actualización, no interfiera en tecnologías de seguimiento y retire la información cuando tenga conocimiento efectivo de que ha sido retirada del origen o lo ha ordenado un órgano competente",
+        "D) El servicio de búsqueda e indexación de contenidos; queda exento siempre que los contenidos indexados sean accesibles públicamente"
+      ],
+      "answer": 2,
+      "explanation": "El art. 15 detalla las condiciones técnicas exhaustivas para el caching, asegurando la exención mientras el intermediario se limite a agilizar el tráfico de la red de forma neutra y retire las copias si la fuente original fue dada de baja."
+    },
+    {
+      "question": "¿Cuándo pierde el prestador de servicios de alojamiento de datos la exención de responsabilidad del art. 16 LSSI?",
+      "options": [
+        "A) Cuando el número de usuarios de su plataforma supere el millón de usuarios activos en España",
+        "B) Cuando tenga conocimiento efectivo de que la actividad o la información almacenada es ilícita o lesiona bienes o derechos de terceros y no actúe con diligencia para retirarlos o impedir el acceso",
+        "C) Cuando los contenidos almacenados superen una determinada cuota de almacenamiento fijada reglamentariamente",
+        "D) Cuando no cuente con los mecanismos técnicos necesarios para identificar y eliminar contenidos ilícitos de forma automática"
+      ],
+      "answer": 1,
+      "explanation": "La exención de responsabilidad en el hosting (art. 16) expira en el preciso instante en que adquiere un 'conocimiento efectivo' (vía judicial, administrativa o evidencia clara) de que alberga material delictivo o lesivo y no procede de inmediato a su retirada."
+    },
+    {
+      "question": "Según la sentencia del TS de 19/12/2009 (asunto putasgae.org), ¿cómo puede obtenerse el «conocimiento efectivo» de la ilicitud de los contenidos por parte del prestador de servicios de alojamiento?",
+      "options": [
+        "A) Solo mediante declaración expresa de un órgano administrativo o judicial que comunique formalmente la ilicitud al prestador",
+        "B) También a través de hechos o circunstancias que permitan inferir lógicamente la ilicitud, como el propio dominio del sitio web u otros indicios reveladores",
+        "C) Únicamente cuando el titular de los derechos vulnerados se lo notifique directamente al prestador por escrito",
+        "D) Solo cuando la autoridad de control haya dictado resolución firme y se la haya comunicado al prestador del servicio"
+      ],
+      "answer": 1,
+      "explanation": "El Tribunal Supremo fijó que el conocimiento no brota únicamente de notificaciones administrativas oficiales, sino que hechos palmarios o nombres de dominios evidentemente lesivos generan un conocimiento lógico que rompe la pasividad del hosting."
+    },
+    {
+      "question": "¿Qué particularidad introduce la LSSI en su art. 17 respecto al régimen de la Directiva 2000/31/CE en materia de responsabilidad?",
+      "options": [
+        "A) Suprofile el régimen de responsabilidad para los prestadores de servicios de alojamiento de datos",
+        "B) Establece, como innovación española, el régimen de responsabilidad para los prestadores que faciliten enlaces a contenidos o instrumentos de búsqueda, que no figuraba en la Directiva",
+        "C) Impone una obligación general de supervisión para los buscadores y plataformas de mayor tamaño",
+        "D) Extiende la responsabilidad de los operadores de redes a los contenidos de sus clientes en todo caso"
+      ],
+      "answer": 1,
+      "explanation": "La Directiva europea omitió el papel de los motores de búsqueda y agregadores. La LSSI española legisló de forma pionera la asimilación de los buscadores y enlaces a las condiciones de exención del hosting en su art. 17."
+    },
+    {
+      "question": "¿Cuál es el primer requisito legal para el envío de comunicaciones comerciales por vía electrónica según la LSSI?",
+      "options": [
+        "A) Que el prestador esté inscrito en el registro de prestadores de servicios de la sociedad de la información",
+        "B) Que estén claramente identificadas como comunicaciones comerciales, debiendo incluir al inicio del mensaje la palabra «publicidad» o «publi»",
+        "C) Que el destinatario sea mayor de dieciocho años y haya aceptado las condiciones generales del servicio",
+        "D) Que el prestador haya obtenido previamente la certificación de la AEPD como entidad autorizada para realizar comunicaciones comerciales"
+      ],
+      "answer": 1,
+      "explanation": "El art. 20 prescribe la identificación nítida de la publicidad en red, obligando al remitente a colocar de entrada el término 'publicidad' o 'publi' para salvaguardar la transparencia de cara al consumidor."
+    },
+    {
+      "question": "¿En qué supuesto permite la LSSI el envío de comunicaciones comerciales electrónicas sin el consentimiento previo del destinatario?",
+      "options": [
+        "A) Cuando el prestador sea una empresa de menos de diez trabajadores y los envíos no superen los cien por año",
+        "B) Cuando exista una relación contractual previa con el destinatario, los datos se hayan obtenido lícitamente y las comunicaciones se refieran a productos o servicios similares a los inicialmente contratados, ofreciendo siempre la opción de oposición",
+        "C) Cuando el destinatario sea una persona jurídica, ya que el régimen de protección solo se aplica a personas físicas",
+        "D) Cuando el prestador esté establecido fuera de la UE y los destinatarios sean exclusivamente ciudadanos españoles"
+      ],
+      "answer": 1,
+      "explanation": "Es la excepción de clientela del art. 21.2. Si existe un vínculo comercial previo, la empresa puede remitir publicidad sobre su propio sector similar siempre que dé al cliente un cauce sencillo y gratuito para oponerse."
+    },
+    {
+      "question": "¿Qué tipifica el art. 38.3 LSSI como infracción grave en materia de comunicaciones comerciales electrónicas?",
+      "options": [
+        "A) El envío de una sola comunicación comercial sin identificarla como publicidad",
+        "B) El envío masivo de comunicaciones comerciales o el envío de más de tres al mismo destinatario en un año cuando no se cumplan los requisitos del art. 21 LSSI",
+        "C) El uso de datos personales obtenidos sin consentimiento para realizar envíos de comunicaciones comerciales a menos de cien destinatarios",
+        "D) El envío de comunicaciones comerciales a destinatarios menores de edad sin consentimiento de sus representantes legales"
+      ],
+      "answer": 1,
+      "explanation": "El art. 38.3.c de la ley eleva a la categoría de infracción grave la remisión masiva e indiscriminada de spam, o la desatención contumaz de los derechos de baja de los destinatarios."
+    },
+    {
+      "question": "¿A qué organismo corresponde la potestad sancionadora en materia de infracciones relacionadas con el envío de comunicaciones comerciales electrónicas no solicitadas?",
+      "options": [
+        "A) Al Ministerio de Asuntos Económicos y Transformación Digital",
+        "B) A la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales",
+        "C) A la Agencia Española de Protección de Datos (AEPD)",
+        "D) A la Comisión Nacional de los Mercados y la Competencia (CNMC)"
+      ],
+      "answer": 2,
+      "explanation": "Aunque la LSSI es una norma de comercio electrónico, el control específico del spam y la imposición de multas por envíos masivos o vulneración del art. 21 está encomendado legalmente a la AEPD."
+    },
+    {
+      "question": "¿Qué condición establece el art. 22.2 LSSI para que los prestadores puedan utilizar cookies u otros dispositivos similares en los equipos de los usuarios?",
+      "options": [
+        "A) Que hayan registrado el tipo de cookies utilizadas ante la autoridad de supervisión competente",
+        "B) Que el usuario haya dado su consentimiento después de que se le haya facilitado información clara y completa sobre su utilización y los fines del tratamiento",
+        "C) Que las cookies solo se utilicen con fines técnicos y de seguridad, nunca con fines de publicidad o seguimiento del comportamiento",
+        "D) Que las cookies tengan una duración máxima de treinta días y sean eliminadas automáticamente al término de la sesión"
+      ],
+      "answer": 1,
+      "explanation": "Es la base del 'Banner de Cookies': el artículo 22.2 exige un consentimiento informado y activo basado en una información transparente acerca del uso y finalidades de los rastreadores."
+    },
+    {
+      "question": "Según el Dictamen GT29 4/2012, ¿cuál de los siguientes tipos de cookies está exenta del requisito de consentimiento?",
+      "options": [
+        "A) Las cookies de publicidad comportamental que permiten personalizar los anuncios para cada usuario",
+        "B) Las cookies de seguimiento de terceros utilizadas para elaborar perfiles de navegación entre distintos sitios web",
+        "C) Las cookies de autenticación o identificación de usuario (únicamente de sesión) y las cookies de seguridad del usuario",
+        "D) Las cookies de análisis estadístico de audiencias que identifican de forma individual a los visitantes del sitio web"
+      ],
+      "answer": 2,
+      "explanation": "El antiguo Grupo de Trabajo del Artículo 29 fijó que las cookies estrictamente necesarias para prestar el servicio pedido (iniciar sesión en la web, carrito de la compra o seguridad básica) no precisan consentimiento."
+    },
+    {
+      "question": "¿Desde cuándo es plenamente aplicable el Reglamento de Servicios Digitales (RSD)?",
+      "options": [
+        "A) Desde el 4 de octubre de 2022, fecha de su publicación en el Diario Oficial de la UE",
+        "B) Desde el 25 de mayo de 2023, en aplicación del plazo de transposición de doce meses",
+        "C) Desde el 17 de febrero de 2024",
+        "D) Desde el 1 de enero de 2025, fecha de entrada en vigor del régimen sancionador"
+      ],
+      "answer": 2,
+      "explanation": "El Reglamento (UE) 2022/2065 (DSA) pasó a ser de obligado y pleno cumplimiento para todas las plataformas intermediarias del mercado europeo a partir del 17 de febrero de 2024."
+    },
+    {
+      "question": "¿Qué prohíbe expresamente el RSD en materia de publicidad y datos de los usuarios?",
+      "options": [
+        "A) La publicidad personalizada basada en el historial de compras del usuario en la propia plataforma",
+        "B) La publicidad dirigida a menores y el uso de datos personales sensibles (género, orientación sexual, raza, religión o convicciones políticas) para personalizar anuncios publicitarios",
+        "C) La publicidad basada en la localización geográfica aproximada del usuario",
+        "D) La publicidad de productos o servicios no relacionados con el contenido visitado por el usuario en la plataforma"
+      ],
+      "answer": 1,
+      "explanation": "El RSD introduce estrictas prohibiciones éticas: veta el microtargeting publicitario enfocado en menores de edad y prohíbe perfilar anuncios basándose en categorías de datos especialmente protegidos (datos sensibles)."
+    },
+    {
+      "question": "¿Qué sanción máxima puede imponerse a las empresas con más de 45 millones de usuarios activos que incumplan el RSD?",
+      "options": [
+        "A) Multa de hasta 10.000.000 euros o el 2 % de su volumen de negocios mundial, lo que sea mayor",
+        "B) Multa de hasta el 4 % de su volumen de negocios mundial anual",
+        "C) Multa de hasta el 6 % de su volumen de negocios mundial",
+        "D) Suspensión temporal del servicio por un período de entre treinta y noventa días"
+      ],
+      "answer": 2,
+      "explanation": "Para garantizar la efectividad frente a las llamadas VLOPs (Plataformas en Línea de Muy Gran Tamaño), el RSD faculta la imposición de sanciones severas de hasta el 6% de la facturación global anual de la corporación infractora."
+    }
+  ]
 }
