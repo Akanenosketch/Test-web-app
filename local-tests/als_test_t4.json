@@ -1,0 +1,278 @@
+{
+  "title": "Clases y objetos en Python",
+  "description": "Examen tipo test basado en los contenidos del Tema 4 de la Universidad de Vigo ESEI.",
+  "author": "Universidad de Vigo ESEI",
+  "timeLimit": 30,
+  "questions": [
+    {
+      "question": "¿Cómo se concatenan dos conjuntos sin repetir elementos?",
+      "options": [
+        "s1 + s2",
+        "set(s1) | set(s2)",
+        "s1 & s2",
+        "list(s1) + list(s2)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se define una clase en Python?",
+      "options": [
+        "class NombreClase {}",
+        "class NombreClase:",
+        "def NombreClase():",
+        "object NombreClase:"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se llama el constructor de una clase?",
+      "options": ["__new__", "__create__", "__init__", "__build__"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué parámetro siempre recibe el constructor como mínimo?",
+      "options": ["cls", "this", "self", "me"],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se accede a los atributos de un objeto dentro de la clase?",
+      "options": [
+        "this.atributo",
+        "object.atributo",
+        "self.atributo",
+        "cls.atributo"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué prefijo se usa para indicar atributos privados en Python?",
+      "options": ["_", "__", "#", "private_"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es una propiedad (@property)?",
+      "options": [
+        "Un método estático",
+        "Un método que actúa como atributo con getter",
+        "Una variable global",
+        "Un alias de clase"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma correcta de crear un setter para una propiedad nombre?",
+      "options": ["@nombre.set", "@nombre.setter", "@set.nombre", "@property.setter"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué se usa para crear métodos estáticos?",
+      "options": ["@static", "@staticmethod", "@classmethod", "@noself"],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la diferencia entre método estático y método de instancia?",
+      "options": [
+        "El estático usa cls",
+        "El estático no recibe self",
+        "El estático no se puede llamar",
+        "No hay diferencia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve isinstance(5, int)?",
+      "options": ["False", "None", "True", "Error"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve isinstance('hola', int)?",
+      "options": ["True", "False", "None", "Error"],
+      "answer": 1
+    },
+    {
+      "question": "¿A qué equivale obj.__dict__['x']?",
+      "options": ["obj.x()", "obj.x", "obj['x']", "obj->x"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace __str__(self)?",
+      "options": [
+        "Convierte a número",
+        "Define la representación textual del objeto",
+        "Inicializa el objeto",
+        "Destruye el objeto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método especial se usa para el operador >?",
+      "options": ["__greater__", "__gt__", "__more__", "__cmp__"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método especial se usa para el operador ==?",
+      "options": ["__equal__", "__same__", "__eq__", "__cmp__"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método especial define el operador +?",
+      "options": ["__plus__", "__sum__", "__add__", "__concat__"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método especial define el operador - ?",
+      "options": ["__minus__", "__sub__", "__rest__", "__diff__"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método especial define el operador * ?",
+      "options": ["__times__", "__product__", "__mul__", "__mult__"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método especial define la división entera //?",
+      "options": ["__idiv__", "__floordiv__", "__intdiv__", "__div__"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método especial define len(obj)?",
+      "options": ["__size__", "__count__", "__length__", "__len__"],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué método especial define obj[i]?",
+      "options": ["__index__", "__get__", "__getitem__", "__access__"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método especial define obj[i] = x?",
+      "options": ["__setitem__", "__assign__", "__set__", "__put__"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué método especial define x in obj?",
+      "options": ["__has__", "__search__", "__in__", "__contains__"],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué hace la función dir(obj)?",
+      "options": [
+        "Muestra el directorio de archivos",
+        "Lista los miembros del objeto/clase",
+        "Borra el objeto",
+        "Copia el objeto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace callable(miembro)?",
+      "options": [
+        "Comprueba si es un método llamable",
+        "Lista los parámetros",
+        "Llama al método",
+        "Devuelve el tipo"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Cuándo se llama __getattr__(self, nombre)?",
+      "options": [
+        "Al crear el objeto",
+        "Cuando se accede a un atributo que no existe",
+        "Al destruir el objeto",
+        "Al imprimir el objeto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se importa un módulo llamado math en Python?",
+      "options": ["include math", "require math", "import math", "use math"],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se accede a la función sqrt del módulo math?",
+      "options": ["math->sqrt()", "math.sqrt()", "sqrt(math)", "math[sqrt]()"],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se sabe si un archivo Python se está ejecutando directamente?",
+      "options": [
+        "if __file__ == '__main__':",
+        "if __name__ == '__main__':",
+        "if main():",
+        "if __run__:"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué clase de Python equivale a los enteros?",
+      "options": ["integer", "Integer", "int", "INT"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué clase representa números reales?",
+      "options": ["real", "double", "float", "decimal"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué clase representa booleanos?",
+      "options": ["boolean", "Boolean", "bool", "BOOL"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué atributo especial almacena los miembros de un objeto?",
+      "options": ["__members__", "__attrs__", "__dict__", "__vars__"],
+      "answer": 2
+    },
+    {
+      "question": "¿Se pueden añadir métodos a una clase en tiempo de ejecución?",
+      "options": [
+        "No",
+        "Sí",
+        "Solo en Python 2",
+        "Solo métodos estáticos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace raise AttributeError('msg')?",
+      "options": [
+        "Imprime el error",
+        "Lanza una excepción AttributeError",
+        "Registra el error",
+        "Ignora el error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve __name__ dentro de un módulo importado?",
+      "options": [
+        "'__main__'",
+        "El nombre del módulo",
+        "None",
+        "El nombre del archivo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método especial define el módulo % ?",
+      "options": ["__mod__", "__percent__", "__remainder__", "__rest__"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace @property sobre un método?",
+      "options": [
+        "Lo hace estático",
+        "Lo convierte en un atributo de solo lectura por defecto",
+        "Lo hace privado",
+        "Lo hace abstracto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la clase del módulo numbers para cualquier número?",
+      "options": ["numbers.Any", "numbers.Number", "numbers.Numeric", "numbers.All"],
+      "answer": 1
+    }
+  ]
+}

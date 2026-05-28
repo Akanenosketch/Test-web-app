@@ -1,0 +1,283 @@
+{
+  "title": "Listas y diccionarios en Python",
+  "description": "Examen tipo test basado en los contenidos del Tema 2 de la Universidad de Vigo ESEI.",
+  "author": "Universidad de Vigo ESEI",
+  "timeLimit": 30,
+  "questions": [
+    {
+      "question": "¿Cómo se crea una lista vacía?",
+      "options": ["list()", "[]", "()", "{}"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve l[-1] para l=[1,2,3]?",
+      "options": ["1", "-1", "3", "Error"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve l[1:3] para l=[1,2,3,4]?",
+      "options": ["[1,2]", "[2,3]", "[2,3,4]", "[1,2,3]"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace l+=[4] si l=[1,2,3]?",
+      "options": [
+        "Añade la lista [4] como un elemento",
+        "Añade el elemento 4",
+        "Suma 4 a todos los elementos",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve 4 in [1,2,3]?",
+      "options": ["True", "False", "None", "Error"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve [1,2]+[3,4]?",
+      "options": ["[1,2,3,4]", "[4,6]", "[[1,2],[3,4]]", "Error"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace [1,2,3]*2?",
+      "options": ["[2,4,6]", "[1,2,3,1,2,3]", "[[1,2,3],[1,2,3]]", "Error"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué función devuelve el tamaño de una lista?",
+      "options": ["size()", "count()", "length()", "len()"],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué hace enumerate([1,2,3])?",
+      "options": [
+        "Devuelve solo índices",
+        "Devuelve pares (índice, elemento)",
+        "Devuelve solo elementos",
+        "Convierte a diccionario"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la sintaxis de comprensión de lista para filtrar pares?",
+      "options": [
+        "[x if x%2==0 for x in l]",
+        "[x for x in l if x%2==0]",
+        "filter(x%2==0, l)",
+        "[x%2==0 for x in l]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se crea un diccionario vacío?",
+      "options": ["dict[]", "{}", "set()", "()"],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se accede al valor con clave 'a' en un diccionario d?",
+      "options": ["d.a", "d[a]", "d['a']", "d->a"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve d.get('clave') si la clave no existe?",
+      "options": ["Error", "False", "0", "None"],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué método devuelve todos los pares clave-valor de un diccionario?",
+      "options": ["d.pairs()", "d.items()", "d.entries()", "d.tuples()"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método devuelve solo las claves?",
+      "options": ["d.keys()", "d.names()", "d.index()", "d.claves()"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué método devuelve solo los valores?",
+      "options": ["d.vals()", "d.data()", "d.values()", "d.items()"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace del d[1] en un diccionario?",
+      "options": [
+        "Elimina el diccionario",
+        "Elimina la clave 1 y su valor",
+        "Pone el valor a None",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se simula un switch en Python?",
+      "options": [
+        "Con elif encadenados",
+        "Con un diccionario",
+        "Con select/case",
+        "Con match únicamente"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace d.clear()?",
+      "options": [
+        "Elimina el diccionario",
+        "Borra todos los elementos",
+        "Reinicia las claves",
+        "Devuelve copia vacía"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve min({'a':1, 'b':2})?",
+      "options": ["1", "'a'", "{'a':1}", "Error"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace l.count(4) si l=[1,4,2,4]?",
+      "options": ["Devuelve 2", "Devuelve True", "Devuelve [4,4]", "Devuelve 4"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué devuelve l[0:-1:2] para l=[1,2,3,4,5]?",
+      "options": ["[1,3]", "[1,3,5]", "[2,4]", "[1,2,3,4]"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace del l[0:2] para l=[1,2,3,4]?",
+      "options": [
+        "Elimina los dos últimos",
+        "Elimina los dos primeros",
+        "Devuelve [1,2]",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma preferida de recorrer un diccionario con clave y valor?",
+      "options": [
+        "for k in d.keys()",
+        "for k,v in d.items()",
+        "for v in d.values()",
+        "for k,v in d"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve [float(x) for x in [1,2,3] if x%3==0]?",
+      "options": ["[3.0]", "[1.0,2.0,3.0]", "[]", "[0.0]"],
+      "answer": 0
+    },
+    {
+      "question": "¿Pueden anidarse las comprensiones de listas?",
+      "options": ["No", "Solo dos niveles", "Sí", "Solo en Python 3"],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es el resultado de range(3)?",
+      "options": ["[1,2,3]", "[0,1,2]", "[0,1,2,3]", "[1,2]"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace for x in l directamente?",
+      "options": [
+        "Itera sobre índices",
+        "Itera sobre elementos",
+        "Itera sobre pares",
+        "Itera sobre copias"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve max([3,1,4,1.5])?",
+      "options": ["1", "3", "4", "5"],
+      "answer": 2
+    },
+    {
+      "question": "¿Se pueden mezclar tipos en una lista?",
+      "options": [
+        "No, deben ser homogéneos",
+        "Solo números y cadenas",
+        "Sí, los elementos pueden ser de distinto tipo",
+        "Solo en Python 3"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se añade un elemento al final de una lista l con el operador +=?",
+      "options": [
+        "l += elemento",
+        "l += [elemento]",
+        "l += (elemento)",
+        "l += {elemento}"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve list(enumerate(['a','b'], 1))?",
+      "options": [
+        "[(0,'a'), (1,'b')]",
+        "[(1,'a'), (2,'b')]",
+        "[('a',1), ('b',2)]",
+        "[1,2]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Para obtener [44,55,66,77] de l=[11,22,33,44,55,66,77,88,99], ¿qué expresión es correcta?",
+      "options": ["l[3:7]", "l[3:]", "l[:7]-l[:3]", "l[4:8]"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace l[::-1]?",
+      "options": [
+        "Elimina todos los elementos",
+        "Devuelve la lista al revés",
+        "Devuelve el último elemento",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la diferencia entre d[clave] y d.get(clave)?",
+      "options": [
+        "No hay diferencia",
+        "d[clave] lanza error si no existe; get devuelve None",
+        "get es más lento",
+        "d[clave] devuelve None si no existe"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se comprueba si una clave existe en un diccionario?",
+      "options": ["d.has(clave)", "clave in d", "d.exists(clave)", "clave == d"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace {1: fn1, 2: fn2}[2]()?",
+      "options": [
+        "Crea un diccionario",
+        "Llama a fn2",
+        "Llama a fn1",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método divide una cadena usando espacios por defecto?",
+      "options": ["split()", "divide()", "partition()", "separate()"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace '\\\\n'.join(['a','b'])?",
+      "options": ["'a\\\\nb'", "'ab'", "['a','b']", "Error"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué construye list(range(5))?",
+      "options": ["[1,2,3,4,5]", "[0,1,2,3,4]", "[0,1,2,3,4,5]", "range(5)"],
+      "answer": 1
+    }
+  ]
+}

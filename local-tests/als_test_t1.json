@@ -1,0 +1,238 @@
+{
+  "title": "Introducción a la programación en Python",
+  "description": "Examen tipo test basado en los contenidos del Tema 1 de la Universidad de Vigo ESEI.",
+  "author": "Universidad de Vigo ESEI",
+  "timeLimit": 30,
+  "questions": [
+    {
+      "question": "¿Qué año se creó Python?",
+      "options": ["1985", "1991", "1998", "2001"],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el punto de entrada de un programa Python?",
+      "options": [
+        "La función main()",
+        "El método __init_",
+        "La primera instrucción fuera de función/método",
+        "La función start()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué función se usa para mostrar texto en consola?",
+      "options": ["input()", "show()", "print()", "display()"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué función se usa para leer texto desde teclado?",
+      "options": ["read()", "scan()", "input()", "raw()"],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es el tipo devuelto por input()?",
+      "options": ["int", "float", "bool", "str"],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué operador se usa para potencia en Python?",
+      "options": ["^", "**", "pow", "M"],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál de estos operadores NO existe en Python?",
+      "options": ["+=", "-=", "++", "*="],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve 8% 3?",
+      "options": ["2", "1", "3", "0"],
+      "answer": 0
+    },
+    {
+      "question": "¿Cómo se inicia un comentario en Python?",
+      "options": ["//", "/*", "#", "--"],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se indica un bloque de código en Python?",
+      "options": ["Con llaves {}", "Con BEGIN/END", "Con indentación", "Con paréntesis ()"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué valor especial devuelve una función que no retorna nada?",
+      "options": ["null", "undefined", "None", "void"],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la forma correcta de asignación múltiple?",
+      "options": [
+        "i = 4; j = 5.8",
+        "i, j = 4, 5.8",
+        "i = 4 | j = 5.8",
+        "i := 4 j := 5.8"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace str(5)?",
+      "options": [
+        "Convierte 5 a booleano",
+        "Convierte 5 a lista",
+        "Convierte 5 a cadena",
+        "Convierte 5 a float"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace int('78')?",
+      "options": [
+        "Devuelve el carácter '78'",
+        "Lanza excepción",
+        "Devuelve el entero 78",
+        "Devuelve 7.8"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve len('Python')?",
+      "options": ["5", "6", "7", "4"],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la sintaxis correcta de un if en Python?",
+      "options": ["if (n > 0) {}", "if n > 0", "if n > 0 then", "if n > 0:"],
+      "answer": 3
+    },
+    {
+      "question": "¿Para qué sirve elif?",
+      "options": [
+        "Fin de bucle",
+        "Condición encadenada evitando indentación excesiva",
+        "Equivale a else",
+        "Inicia un bucle"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la sintaxis de un bucle while?",
+      "options": ["while n < 10 do:", "while (n < 10):", "while n < 10;", "while n < 10 then:"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace range(1, 10, 2)?",
+      "options": [
+        "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "[1, 3, 5, 7, 9]",
+        "[2, 4, 6, 8, 10]",
+        "[1, 2, 3, 4, 5]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se define una función en Python?",
+      "options": ["function nombre():", "def nombre():", "func nombre():", "define nombre():"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué palabra clave se usa para devolver un valor?",
+      "options": ["give", "send", "return", "yield"],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se documenta una función con docstring?",
+      "options": ["Con // al inicio", "Con /* */", "Con triple comillas \"\"\"", "Con # al inicio"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué prefijo se usa para parámetros en docstrings?",
+      "options": [":arg:", ":param:", ":var:", ":input:"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué prefijo se usa para el retorno en docstrings?",
+      "options": [":out:", ":result:", ":return:", ":output:"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué función muestra la documentación de una función?",
+      "options": ["doc()", "info()", "help()", "man()"],
+      "answer": 2
+    },
+    {
+      "question": "¿Los parámetros de tipo lista se pasan por...?",
+      "options": ["valor", "copia", "referencia", "nombre"],
+      "answer": 2
+    },
+    {
+      "question": "¿Los parámetros de tipo número se pasan por...?",
+      "options": ["referencia", "valor (copia)", "puntero", "nombre"],
+      "answer": 1
+    },
+    {
+      "question": "¿Puede Python devolver más de un valor desde una función?",
+      "options": ["No", "Si, separados por comas", "Solo con listas", "Solo con tuplas"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué excepción lanza Python con indentación inconsistente?",
+      "options": ["SyntaxError", "IndentationError", "TabError", "BlockError"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué versión de Python acepta solo espacios como indentación?",
+      "options": ["Python 1", "Python 2", "Python 3", "Ambas versiones"],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es el operador de división entera en Python 3?",
+      "options": ["+", "//", "%", "/"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve 4 / 2 en Python 3?",
+      "options": ["2", "2.0", "Error", "4"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace abs(-5)?",
+      "options": ["Devuelve -5", "Devuelve 5", "Devuelve 0", "Lanza excepción"],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuáles son los tres tipos básicos de Python mencionados en el tema 1?",
+      "options": ["int, float, str", "números, cadenas, listas", "bool, str, list", "int, str, dict"],
+      "answer": 0
+    },
+    {
+      "question": "¿Cómo se concatenan cadenas?",
+      "options": ["Con &", "Con +", "Con .", "Con ,"],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se repite una cadena n veces?",
+      "options": ["cadena * n", "cadena n", "cadena + n", "cadena ^ n"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace 'Hola'[0:2]?",
+      "options": ["'Hol'", "'Ho'", "'la'", "'H'"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace 'PyTHon'.lower()?",
+      "options": ["'PYTHON'", "'python'", "'Python'", "'pyTHon'"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace 'PyTHon'.upper()?",
+      "options": ["'PYTHON'", "'python'", "'Python'", "'pyTHon'"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace 'PyTHon'.capitalize()?",
+      "options": ["'PYTHON'", "'python'", "'Python'", "'pyTHon'"],
+      "answer": 2
+    }
+  ]
+}

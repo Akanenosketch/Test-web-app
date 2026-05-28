@@ -1,0 +1,218 @@
+{
+  "title": "Tuplas y conjuntos en Python",
+  "description": "Examen tipo test basado en los contenidos del Tema 3 de la Universidad de Vigo ESEI.",
+  "author": "Universidad de Vigo ESEI",
+  "timeLimit": 30,
+  "questions": [
+    {
+      "question": "¿Cuál es el resultado de [x*2 for x in [1,2,3]]?",
+      "options": ["[1,2,3]", "[2,4,6]", "[1,4,9]", "[3,6,9]"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es una tupla en Python?",
+      "options": [
+        "Una lista mutable",
+        "Una secuencia inmutable",
+        "Un diccionario ordenado",
+        "Un conjunto sin repetidos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se crea una tupla vacía?",
+      "options": ["{}", "[]", "()", "set()"],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se crea una tupla con un solo elemento?",
+      "options": ["(1)", "(1,)", "[1]", "{1}"],
+      "answer": 1
+    },
+    {
+      "question": "¿Se pueden modificar los elementos de una tupla?",
+      "options": [
+        "Sí",
+        "No",
+        "Solo en Python 3",
+        "Solo con métodos especiales"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Se puede obtener un slice de una tupla?",
+      "options": ["No", "Solo con list()", "Sí", "Solo en Python 2"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve (1,2,3) + (4,5,6)?",
+      "options": ["[1,2,3,4,5,6]", "(1,2,3,4,5,6)", "(5,7,9)", "Error"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve (4,5,6) * 2?",
+      "options": [
+        "(8,10,12)",
+        "(4,5,6,4,5,6)",
+        "[(4,5,6), (4,5,6)]",
+        "Error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es el desempaquetado de tuplas?",
+      "options": [
+        "Convertir tupla a lista",
+        "Extraer valores individuales en variables",
+        "Ordenar la tupla",
+        "Copiar la tupla"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace x, y = (3,4)?",
+      "options": [
+        "Crea una lista",
+        "Asigna x=3 e y=4",
+        "Crea un diccionario",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuándo es obligatorio usar paréntesis al devolver una tupla?",
+      "options": [
+        "Nunca",
+        "Siempre al devolverla desde una función",
+        "Solo con más de 2 elementos",
+        "Solo en Python 3"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué es un conjunto (set) en Python?",
+      "options": [
+        "Una lista con índices",
+        "Una secuencia sin elementos repetidos",
+        "Un diccionario sin valores",
+        "Una tupla ordenada"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se crea un conjunto vacío?",
+      "options": ["{}", "[]", "()", "set()"],
+      "answer": 3
+    },
+    {
+      "question": "¿Por qué {} no crea un conjunto vacío?",
+      "options": [
+        "Es un error de sintaxis",
+        "Crea un diccionario vacío",
+        "Crea una tupla",
+        "Crea una lista"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve {1,2,3} | {3,4,5}?",
+      "options": ["{3}", "{1,2,4,5}", "{1,2,3,4,5}", "Error"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve {1,2,3} & {3,4,5}?",
+      "options": ["{3}", "{1,2,4,5}", "{1,2,3,4,5}", "Error"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué devuelve {1,2,3} - {3,4,5}?",
+      "options": ["{1,2}", "{4,5}", "{1,2,4,5}", "Error"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué devuelve {1,2,3} ^ {3,4,5}?",
+      "options": ["{3}", "{1,2,4,5}", "{1,2,3,4,5}", "Error"],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se eliminan duplicados de una lista l usando conjuntos?",
+      "options": ["list(sort(l))", "set(l)", "l.unique()", "dict(l)"],
+      "answer": 1
+    },
+    {
+      "question": "¿Es posible indexar directamente un conjunto?",
+      "options": [
+        "Sí",
+        "No, hay que convertirlo a lista primero",
+        "Solo con índice 0",
+        "Solo en Python 3"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Qué hace set([1,1,1,2,2,3])?",
+      "options": ["[1,2,3]", "(1,2,3)", "{1,2,3}", "Error"],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuántos elementos tiene {1,1,2,2,3}?",
+      "options": ["5", "4", "3", "2"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve min({3,1,4})?",
+      "options": ["3", "4", "1", "Error"],
+      "answer": 2
+    },
+    {
+      "question": "Qué operación de conjuntos equivale a la unión?",
+      "options": ["&", "^", "|", "-"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué operación de conjuntos equivale a la intersección?",
+      "options": ["&", "^", "|", "-"],
+      "answer": 0
+    },
+    {
+      "question": "¿Se puede usar for directamente sobre un conjunto?",
+      "options": [
+        "No",
+        "Sí",
+        "Solo con enumerate",
+        "Solo convirtiendo a tupla"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve (1,2,3)[1:2]?",
+      "options": ["(2,)", "(1,2)", "[2]", "2"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace t.count(4) para t=(1,4,2,4)?",
+      "options": [
+        "Devuelve True",
+        "Devuelve 2",
+        "Devuelve [4,4]",
+        "Devuelve 4"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la diferencia principal entre lista y tupla?",
+      "options": [
+        "La lista admite más tipos",
+        "La tupla es inmutable",
+        "La lista tiene más métodos especiales",
+        "No hay diferencia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué función convierte una lista en conjunto?",
+      "options": ["frozenset()", "set()", "tuple()", "dict()"],
+      "answer": 1
+    }
+  ]
+}
