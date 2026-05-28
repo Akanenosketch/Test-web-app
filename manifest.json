@@ -2,74 +2,23 @@
     "tests": [
         {
             "id": "test-t1-temario",
-            "file": "local-tests/test_t1_temario.json"
+            "file": "local-tests/als_test_t1.json"
         },
         {
             "id": "test-t2-temario",
-            "file": "local-tests/test_t2_temario.json"
-        },        {
-            "id": "test-t2-temario-gem",
-            "file": "local-tests/test_t2_temario_Gem.json"
+            "file": "local-tests/als_test_t2.json"
         },
         {
             "id": "test-t3-temario",
-            "file": "local-tests/test_t3_temario.json"
-        },
-        {
-            "id": "test-t3-temario-gem",
-            "file": "local-tests/test_t3_temario_Gem.json"
+            "file": "local-tests/als_test_t3.json"
         },
         {
             "id": "test-t4-temario",
-            "file": "local-tests/test_t4_temario.json"
+            "file": "local-tests/als_test_t4.json"
         },
         {
             "id": "test-t5-temario",
-            "file": "local-tests/test_t5_temario.json"
-        },
-        {
-            "id": "test-t6-temario",
-            "file": "local-tests/test_t6_temario.json"
-        },
-        {
-            "id": "test-t7-temario",
-            "file": "local-tests/test_t7_temario.json"
-        },
-        {
-            "id": "test-t6-t7-temario",
-            "file": "local-tests/preguntas_temas_6_7.json"
-        },        
-        {
-            "id": "random-test",
-            "file": "local-tests/random_test.json"
-        },
-        {
-            "id": "test-practica-1",
-            "file": "local-tests/test_practica_1.json"
-        },
-        {
-            "id": "test-practica-2",
-            "file": "local-tests/test_practica_2.json"
-        },
-        {
-            "id": "test-practica-3",
-            "file": "local-tests/test_practica_3.json"
-        },
-        {
-            "id": "test-practica-4",
-            "file": "local-tests/test_practica_4.json"
-        },
-        {
-            "id": "test-practica-5",
-            "file": "local-tests/test_practica_5.json"
-        },
-        {
-            "id": "test-practica-6",
-            "file": "local-tests/test_practica_6.json"
-        },
-        {
-            "id": "test-practica-1-4",
-            "file": "local-tests/preguntas_practicas_1_4.json"
+            "file": "local-tests/als_test_t5.json"
         }
     ]
 }

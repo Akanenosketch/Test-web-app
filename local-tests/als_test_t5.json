@@ -1,0 +1,193 @@
+{
+  "title": "Composición, herencia y polimorfismo en Python",
+  "description": "Examen tipo test basado en los contenidos del Tema 5 de la Universidad de Vigo ESEI.",
+  "author": "Universidad de Vigo ESEI",
+  "timeLimit": 30,
+  "questions": [
+    {
+      "question": "¿Cuál es la clase del módulo numbers para enteros?",
+      "options": ["numbers.Integer", "numbers.Int", "numbers.Integral", "numbers.Whole"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace numbers.Real?",
+      "options": ["Solo enteros", "Números reales", "Solo flotantes", "Solo complejos"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es la composición en POO?",
+      "options": [
+        "Una clase hereda de otra",
+        "Una clase contiene objetos de otra clase como atributos",
+        "Dos clases implementan la misma interfaz",
+        "Una clase reescribe métodos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la diferencia entre composición y asociación en UML?",
+      "options": [
+        "No hay diferencia",
+        "En composición los objetos contenidos no existen sin el contenedor",
+        "En asociación los objetos son inmutables",
+        "En composición se usa herencia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se indica que una clase hereda de otra en Python?",
+      "options": ["class Hijo extends Padre:", "class Hijo(Padre):", "class Hijo inherits Padre:", "class Hijo: Padre"],
+      "answer": 1
+    },
+    {
+      "question": "¿Python soporta herencia múltiple?",
+      "options": ["No", "Sí", "Solo con interfaces", "Solo en Python 3"],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se indica herencia múltiple?",
+      "options": ["class C(A, B):", "class C extends A, B:", "class C(A) and (B):", "class C: A, B"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace super().__init__() en Python 3?",
+      "options": ["Crea una nueva clase", "Llama al constructor de la superclase", "Destruye el objeto", "Inicializa atributos estáticos"],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la diferencia entre super().__init__() y Padre.__init__(self,...)?",
+      "options": [
+        "No hay diferencia",
+        "super() solo funciona en Python 3",
+        "Padre.__init__ no necesita self",
+        "super() llama al padre incorrecto"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué es el polimorfismo?",
+      "options": [
+        "Una clase con múltiples constructores",
+        "Usar un objeto correctamente sin conocer su clase exacta",
+        "Heredar de múltiples clases",
+        "Crear objetos dinámicamente"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se logra el polimorfismo en Python?",
+      "options": [
+        "Con interfaces explícitas",
+        "Automáticamente al reescribir métodos en clases derivadas",
+        "Con casting",
+        "Con decoradores"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué módulo permite generar números pseudoaleatorios?",
+      "options": ["math", "random", "numbers", "time"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace random.choice([p1, p2])?",
+      "options": ["Devuelve siempre p1", "Devuelve al azar p1 o p2", "Mezcla p1 y p2", "Devuelve None"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace random.seed(valor)?",
+      "options": ["Genera un número", "Inicia la semilla de aleatoriedad", "Ordena la secuencia", "Resetea el módulo"],
+      "answer": 1
+    },
+    {
+      "question": "¿Todas las llamadas en Python se enlazan en tiempo de...?",
+      "options": ["compilación", "ejecución", "importación", "carga"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué atributo especial indica la clase de un objeto?",
+      "options": ["__type__", "__class__", "__kind__", "__instance__"],
+      "answer": 1
+    },
+    {
+      "question": "¿Se puede cambiar __class__ de un objeto en tiempo de ejecución?",
+      "options": ["No", "Sí", "Solo en Python 2", "Solo para clases internas"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace Empleado.__str__(self) dentro de una subclase?",
+      "options": [
+        "Llama al __str__ de la subclase",
+        "Llama al __str__ de Empleado explícitamente",
+        "Lanza error",
+        "Devuelve None"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué característica de POO engloba a la encapsulación?",
+      "options": ["Composición", "Polimorfismo", "Herencia", "Todas forman el modelo POO"],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué método se reescribe para personalizar str(objeto)?",
+      "options": ["__repr__", "__str__", "__format__", "__text__"],
+      "answer": 1
+    },
+    {
+      "question": "En la herencia, ¿qué pasa si la subclase no reescribe __init__?",
+      "options": ["Usa el __init__ de la superclase", "Lanza error", "Usa un __init__ vacío", "No se puede instanciar"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué palabra clave usa Python para omitir el cuerpo de una clase vacía?",
+      "options": ["skip", "empty", "pass", "none"],
+      "answer": 2
+    },
+    {
+      "question": "¿Puede una subclase reescribir propiedades heredadas?",
+      "options": ["No", "Sí", "Solo atributos, no propiedades", "Solo métodos normales"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es la ligadura dinámica?",
+      "options": [
+        "Vincular métodos en tiempo de compilación",
+        "Seleccionar el método correcto en tiempo de ejecución",
+        "Crear clases en tiempo de ejecución",
+        "Cambiar el tipo de una variable"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿En Python, la ligadura dinámica es...?",
+      "options": ["Opcional", "Automática para todas las llamadas", "Solo para métodos especiales", "Solo para clases derivadas"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué representa la flecha con triángulo hueco en UML?",
+      "options": ["Composición", "Asociación", "Herencia", "Dependencia"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué representa el diamante relleno en UML?",
+      "options": ["Herencia", "Asociación", "Composición fuerte", "Interfaz"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace time.clock() en el ejemplo de polimorfismo?",
+      "options": ["Pausa el programa", "Devuelve el tiempo actual para semilla aleatoria", "Mide rendimiento", "Formatea la hora"],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es el nombre correcto del método para eliminar un elemento por índice?",
+      "options": ["__remove__", "__del__", "__delitem__", "__pop__"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace isinstance(obj, Empleado) si obj es instancia de Auxiliar(Empleado)?",
+      "options": ["False", "True", "Error", "None"],
+      "answer": 1
+    }
+  ]
+}
