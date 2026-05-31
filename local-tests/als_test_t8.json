@@ -1,0 +1,387 @@
+{
+  "title": "Test Tema 8 — Programación Funcional",
+  "description": "Test sobre funciones lambda, car/cdr, map, filter, reduce y recursividad en Python.",
+  "author": "ESEI - Universidad de Vigo",
+  "questions": [
+    {
+      "question": "¿Cuál es el vehículo principal que proporciona Python para soportar el paradigmade programación funcional?",
+      "options": [
+        "Clases y Objetos.",
+        "Estructuras if-else .",
+        "Funciones lambda.",
+        "Bucles for y while ."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué característica básica deben respetar las lambdas en la programaciónfuncional?",
+      "options": [
+        "Uso de variables globales para mantener el estado.",
+        "Funciones matemáticas sin estado ni permiso de mutabilidad.",
+        "El uso obligatorio de la sentencia return .",
+        "La capacidad de modificar los argumentos pasados."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dada la siguiente sintaxis, ¿qué afirmación es correcta sobre las funcioneslambda? lambda [arg1 [, arg2]]: <expresión>",
+      "options": [
+        "Requieren la palabra clave return para devolver un valor.",
+        "La sentencia return está implícita y se devuelve el resultado de la expresión.",
+        "Solo pueden aceptar un único argumento.",
+        "No pueden ser pasadas como argumentos a otras funciones."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué permite que las funciones sean \"ciudadanas de primera clase\" en Python?",
+      "options": [
+        "Que pueden ser compiladas antes de la ejecución.",
+        "Que pueden ser pasadas como parámetros a otras funciones.",
+        "Que solo pueden definirse dentro de clases.",
+        "Que siempre devuelven un valor booleano."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Si queremos simular el comportamiento de LISP en Python, ¿qué devuelven lasfunciones car(l) y cdr(l) respectivamente?",
+      "options": [
+        "El último elemento y el resto de la lista.",
+        "La longitud de la lista y el primer elemento.",
+        "El primer elemento de la lista y el resto de la lista.",
+        "El resto de la lista y el primer elemento. 7. ¿Qué es un \"predicado\" en el contexto de la función filter() ? 8. ¿Cuál es la principal diferencia entre reduce() y las funciones map() o filter() ?9. Para programar utilizando únicamente lambdas sin estructuras for o while , ¿qué técnica es necesaria emplear para procesar listas?10. Según el documento, ¿con qué técnica se pueden emular map() y filter() paraganar rendimiento?11. Dada la siguiente implementación recursiva de una función para convertir unalista en cadena, ¿qué representa el \"caso base\"? list_to_str = lambda l: \"\" if not l else str(l[0]) if len(l) == 1 else str(l[0]) + \", \" +list_to_str(l[1:])"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué función built-in se utiliza para aplicar una función a cada uno de loselementos de una lista?",
+      "options": [
+        "filter()",
+        "reduce()",
+        "sorted()",
+        "map()"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué es un \"predicado\" en el contexto de la función filter() ?",
+      "options": [
+        "Una función que siempre devuelve una lista.",
+        "Una función que devuelve un valor booleano según el parámetro pasado.",
+        "El primer elemento procesado por la función.",
+        "Una función lambda que no acepta argumentos."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la principal diferencia entre reduce() y las funciones map() o filter() ?",
+      "options": [
+        "reduce() siempre devuelve una lista.",
+        "reduce() no acepta funciones lambda como parámetro.",
+        "reduce() devuelve un único valor en lugar de una colección.",
+        "reduce() es una función built-in y no requiere importar módulos."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Para programar utilizando únicamente lambdas sin estructuras for o while , ¿qué técnica es necesaria emplear para procesar listas?",
+      "options": [
+        "Herencia múltiple.",
+        "Recursividad y el operador if de Python.",
+        "Variables de control de bucle.",
+        "List comprehension exclusivamente."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Según el documento, ¿con qué técnica se pueden emular map() y filter() paraganar rendimiento?",
+      "options": [
+        "Usando bucles while tradicionales.",
+        "Mediante comprensión de listas.",
+        "Utilizando punteros de C.",
+        "Importando el módulo functools ."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dada la siguiente implementación recursiva de una función para convertir unalista en cadena, ¿qué representa el \"caso base\"? list_to_str = lambda l: \"\" if not l else str(l[0]) if len(l) == 1 else str(l[0]) + \", \" +list_to_str(l[1:])",
+      "options": [
+        "Cuando la lista l es igual a None .",
+        "Cuando la lista contiene solamente un elemento, retornando dicho elemento comocadena.",
+        "Cuando se concatena el primer elemento con la llamada recursiva.",
+        "El uso de la barra invertida para partir la línea de código. 12. ¿Cómo se define la función cdr(l) para simular el comportamiento de LISP en Python?13. Si utilizamos la función reduce() para calcular la distancia total al centro de una lista de objetos Punto (lpts), ¿por qué es recomendable pasar un tercer parámetro (0)? print(reduce(lambda d, p: d + p.dist_centro(), lpts, 0))14. ¿Cuál es el resultado de ejecutar el siguiente código basado en el documento? l = [11, 12, 13, 14, 15]; f1 = lambda x: x * 2; print(list(map(f1, l))) 15. En el contexto de funciones lambda recursivas, ¿qué operador se utiliza parasustituir las estructuras de decisión tradicionales como if-else de bloque? 16. ¿Cómo se implementaría la función map(f, l) utilizando únicamente las funciones de estilo LISP car y cdr ? 17. Dada la clase Alumno con la propiedad nota , ¿qué hace el siguiente código? filter(lambda x: x.nota >= 5, notasAlumnos)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se define la función cdr(l) para simular el comportamiento de LISP en Python?",
+      "options": [
+        "lambda l: None if l == None or l == [] else l[0] .",
+        "lambda l: [] if l == None or l == [] else l[1:] .",
+        "lambda l: l[:-1] if l else [] .",
+        "lambda l: len(l) ."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Si utilizamos la función reduce() para calcular la distancia total al centro de una lista de objetos Punto (lpts), ¿por qué es recomendable pasar un tercer parámetro (0)? print(reduce(lambda d, p: d + p.dist_centro(), lpts, 0))",
+      "options": [
+        "Porque reduce() no funciona con listas de más de dos elementos sin un valor inicial.",
+        "Para que el acumulado d comience en 0 y la función acepte un valor numérico y unobjeto Punto desde la primera iteración.",
+        "Para indicar que la lista debe recorrerse en orden inverso.",
+        "Porque el módulo functools exige siempre tres parámetros."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el resultado de ejecutar el siguiente código basado en el documento? l = [11, 12, 13, 14, 15]; f1 = lambda x: x * 2; print(list(map(f1, l)))",
+      "options": [
+        "[11, 12, 13, 14, 15, 11, 12, 13, 14, 15] .",
+        "[22, 24, 26, 28, 30] .",
+        "130 .",
+        "True ."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En el contexto de funciones lambda recursivas, ¿qué operador se utiliza parasustituir las estructuras de decisión tradicionales como if-else de bloque?",
+      "options": [
+        "El operador ternario <exp_si_cierto> if <condición> else <exp_si_falso> .",
+        "El uso de bucles while anidados.",
+        "La sentencia switch-case .",
+        "No es posible realizar decisiones dentro de una lambda."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Cómo se implementaría la función map(f, l) utilizando únicamente las funciones de estilo LISP car y cdr ?",
+      "options": [
+        "[] if l == [] else [f(l)] .",
+        "[] if l == None or l == [] else [f(car(l))] + map(f, cdr(l)) .",
+        "f(car(l)) + cdr(l) .",
+        "reduce(f, l) . 18. Según el documento, ¿cuál es una de las razones principales para utilizar lacomprensión de listas en lugar de map() y filter() ? 19. ¿Cuál es el origen teórico de las funciones lambda en Python?20. En una función lambda, ¿cómo se devuelve un valor al terminar la ejecución?21. ¿Qué utilidad tiene el parámetro key en la función sorted() ?22. Para implementar recursividad en una lambda, ¿qué técnica es necesaria ante lafalta de bucles?23. ¿Qué sucede si se aplica la función filter() con un predicado que siempre devuelve False ?"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dada la clase Alumno con la propiedad nota , ¿qué hace el siguiente código? filter(lambda x: x.nota >= 5, notasAlumnos)",
+      "options": [
+        "Calcula la media de las notas de todos los alumnos.",
+        "Devuelve una lista con los objetos de aquellos alumnos que han aprobado.",
+        "Borra a los alumnos que tienen una nota inferior a 5.",
+        "Ordena a los alumnos de mayor a menor nota."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Según el documento, ¿cuál es una de las razones principales para utilizar lacomprensión de listas en lugar de map() y filter() ?",
+      "options": [
+        "La comprensión de listas permite usar estados mutables.",
+        "map() y filter() están obsoletos en Python 3.",
+        "Se gana en rendimiento y claridad de código.",
+        "La comprensión de listas no requiere el uso de funciones lambda."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es el origen teórico de las funciones lambda en Python?",
+      "options": [
+        "El álgebra de Boole.",
+        "El cálculo lambda, un modelo para la formalización de funciones.",
+        "La arquitectura de Von Neumann.",
+        "El desarrollo del lenguaje C++."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En una función lambda, ¿cómo se devuelve un valor al terminar la ejecución?",
+      "options": [
+        "Usando la sentencia explícita return .",
+        "Guardando el resultado en una variable global.",
+        "La expresión se devuelve de forma implícita",
+        "Las funciones lambda no pueden devolver valores."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué utilidad tiene el parámetro key en la función sorted() ?",
+      "options": [
+        "Define la contraseña de acceso a la lista.",
+        "Indica el número de elementos a ordenar.",
+        "Recibe una función que define el criterio de ordenación para cada elemento.",
+        "Es un parámetro obligatorio para cualquier lista de números."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Para implementar recursividad en una lambda, ¿qué técnica es necesaria ante lafalta de bucles?",
+      "options": [
+        "Llamar a la propia función dentro de su definición utilizando operadorescondicionales.",
+        "Usar la sentencia yield .",
+        "Importar el módulo math .",
+        "Definir una clase auxiliar. 24. Dada la lista l = [10, 20, 30] , ¿qué devuelve reduce(lambda x, y: x + y, l) ? 25. ¿Cuál es la sintaxis correcta del operador if dentro de una expresión lambda?26. ¿Qué módulo de la biblioteca estándar de Python contiene la función reduce() ? 27. ¿Cómo se define la función car(l) para obtener el primer elemento de una listaestilo LISP?28. Según el documento, ¿cómo se comportan map() y filter() respecto al tipo dedato que devuelven?29. ¿Qué representa la expresión l[1:] en el contexto de la simulación de LISP?"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué sucede si se aplica la función filter() con un predicado que siempre devuelve False ?",
+      "options": [
+        "Se produce un error de ejecución.",
+        "Devuelve la lista original completa.",
+        "Devuelve una lista vacía.",
+        "Devuelve None ."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Dada la lista l = [10, 20, 30] , ¿qué devuelve reduce(lambda x, y: x + y, l) ?",
+      "options": [
+        "[10, 20, 30] .",
+        "60 .",
+        "[30, 20, 10] .",
+        "3 ."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la sintaxis correcta del operador if dentro de una expresión lambda?",
+      "options": [
+        "if <condición>: <exp1> else: <exp2> .",
+        "<condición> ? <exp1> : <exp2> .",
+        "<exp_si_cierto> if <condición> else <exp_si_falso> .",
+        "select <condición> case <exp1> case <exp2> ."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué módulo de la biblioteca estándar de Python contiene la función reduce() ?",
+      "options": [
+        "math .",
+        "functools .",
+        "sys .",
+        "itertools ."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se define la función car(l) para obtener el primer elemento de una listaestilo LISP?",
+      "options": [
+        "lambda l: l[1:] .",
+        "lambda l: l[-1] .",
+        "lambda l: None if l == None or l == [] else l[0] .",
+        "lambda l: len(l) ."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Según el documento, ¿cómo se comportan map() y filter() respecto al tipo dedato que devuelven?",
+      "options": [
+        "Devuelven siempre un único valor escalar.",
+        "Devuelven siempre una lista (o iterable).",
+        "No devuelven nada (procedimientos).",
+        "Devuelven un diccionario."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué representa la expresión l[1:] en el contexto de la simulación de LISP?",
+      "options": [
+        "El primer elemento ( car ). 30. En una función recursiva, ¿qué ocurre si no se provee un \"caso base\"?31. ¿Cuál es el resultado de filter(lambda x: x % 3 == 0, [1, 2, 3, 4, 5, 6]) ? 32. ¿Qué significa que Python es un lenguaje \"multiparadigma\"?33. ¿Cómo se implementa la función reverse(l) usando recursividad y LISP?34. ¿Qué función se usaría para sumar todos los elementos de una lista en una solalínea?35. Dada la clase Punto , ¿cómo se define una lambda que calcule el cuadrado de la coordenada _x ?",
+        "El último elemento.",
+        "El resto de la lista ( cdr ).",
+        "La lista invertida."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En una función recursiva, ¿qué ocurre si no se provee un \"caso base\"?",
+      "options": [
+        "El programa termina correctamente.",
+        "La recursión sería infinita (hasta agotar la pila).",
+        "El compilador da un error de sintaxis.",
+        "Se ejecuta solo una vez."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el resultado de filter(lambda x: x % 3 == 0, [1, 2, 3, 4, 5, 6]) ?",
+      "options": [
+        "[1, 2, 4, 5] .",
+        "[3, 6] .",
+        "[2, 4, 6] .",
+        "9 ."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué significa que Python es un lenguaje \"multiparadigma\"?",
+      "options": [
+        "Que solo admite programación orientada a objetos.",
+        "Que soporta varios estilos como el procedural, orientado a objetos y funcional.",
+        "Que solo funciona en múltiples sistemas operativos.",
+        "Que requiere varios compiladores diferentes."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se implementa la función reverse(l) usando recursividad y LISP?",
+      "options": [
+        "lambda l: l.reverse() .",
+        "lambda l: [] if l == [] else reverse(cdr(l)) + [car(l)] .",
+        "lambda l: l[::-1] .",
+        "lambda l: car(l) + cdr(l) ."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué función se usaría para sumar todos los elementos de una lista en una solalínea?",
+      "options": [
+        "map() .",
+        "filter() .",
+        "reduce() .",
+        "sorted() ."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Dada la clase Punto , ¿cómo se define una lambda que calcule el cuadrado de la coordenada _x ? b) El último elemento.c) El resto de la lista ( cdr ).d) La lista invertida.",
+      "options": [
+        "lambda p: p._x 2 .",
+        "def cuadrado(p): return p._x * p._x . 36. En la función reduce(f, l, inicial) , ¿qué papel juega el tercer parámetro inicial ? 37. ¿Cuál es la salida de map(lambda x: x * x, range(1, 4)) ? 38. ¿Qué técnica funcional se muestra para imprimir nombres de alumnos aprobadosen una sola expresión?",
+        "lambda p: math.sqrt(p._x) .",
+        "Punto.x 2 ."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En la función reduce(f, l, inicial) , ¿qué papel juega el tercer parámetro inicial ?",
+      "options": [
+        "Es el número de veces que se repite la función.",
+        "Es el valor que toma el acumulado en la primera invocación de f .",
+        "Es una condición de parada.",
+        "Indica el índice donde empieza la lista."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la salida de map(lambda x: x * x, range(1, 4)) ?",
+      "options": [
+        "[1, 2, 3] .",
+        "[1, 4, 9] .",
+        "[1, 8, 27] .",
+        "6 ."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué técnica funcional se muestra para imprimir nombres de alumnos aprobadosen una sola expresión? c) lambda p: math.sqrt(p._x) .d) Punto.x 2 .",
+      "options": [
+        "Un bucle for con un if .",
+        "La combinación de reduce() y filter() .",
+        "Una serie de sentencias print() individuales.",
+        "El uso de diccionarios anidados."
+      ],
+      "answer": 1
+    }
+  ]
+}

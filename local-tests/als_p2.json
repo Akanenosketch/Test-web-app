@@ -1,0 +1,207 @@
+{
+  "title": "Parcial 2 — Programación Funcional",
+  "description": "Preguntas sobre lambdas, map, filter, reduce y recursividad.",
+  "author": "ESEI - Universidad de Vigo",
+  "questions": [
+    {
+      "question": "Un jugador de bolos quiere contar la puntuación que va consiguiendo, por lo que va colocando la puntuación obtenida en cada tirada en una lista, por ejemplo l = [1, 4, 8, 10, 5, 6, 10]. Quiere crear la función cuenta_plenos(l), que evalúa la cantidad de veces que ha obtenido un pleno (10 puntos).",
+      "options": [
+        "cuenta_plenos = lambda l: len(list(filter(lambda x: x == 10, l)))",
+        "cuenta_plenos = lambda l: reduce(lambda x, y: 0 if x != 10 else x + y, l)",
+        "cuenta_plenos = lambda l: list(filter(lambda x: x == 10, l))",
+        "cuenta_plenos = lambda l: map(lambda x: x == 10, l)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Si queremos visualizar el segundo elemento de una lista l, utilizando car y cdr...",
+      "options": [
+        "print(cdr(car(l)))",
+        "print(car(cdr(l)))",
+        "print((l.car().cdr())",
+        "print((l.cdr().car())"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Un jugador de bolos lleva las puntuaciones realizadas en una lista l, por ejemplo l = [1, 2, 3, 10]. Quiere contar el número de veces que ha hecho un pleno (10 pts.). Para ello desarrolla la función cuenta_plenos(l).",
+      "options": [
+        "Todas son correctas",
+        "cuenta_plenos = lambda l: reduce(lambda x, y: x + y, l) // 10",
+        "cuenta_plenos = lambda l: 0 if not l else 1 + cuenta_plenos(l[1:]) if l[0] == 10 else cuenta_plenos(l[1:])",
+        "cuenta_plenos = lambda l: len(list(filter(lambda x: x == 10, l)))"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Dado el siguiente diccionario que lleva el número de infectados por gripe en Galicia: infectados = {\"pontevedra\": 200, \"coruña\": 300, \"lugo\": 130, \"ourense\": 120}, ¿Qué función lambda devuelve una lista con el nombre de aquellas provincias con un número de infectados mayor que 'min', sobre la lista de claves de 'infectados': infectados_gt_min(list(infectados.keys()), 200)?",
+      "options": [
+        "infectados_gt_min = lambda lk, min: if infectados[lk[0]] >= min: lk[0]",
+        "infectados_gt_min = lambda lk, min: [] if not lk else [lk[0]] + infectados_gt_min(lk[1:], min) if infectados[lk[0]] >= min else []",
+        "infectados_gt_min = lambda lk, min: [] if not lk else [lk[0]] + infectados_gt_min(lk[1:], min) if infectados[lk[0]] >= min else infectados_gt_min(lk[1:], min)",
+        "infectados_gt_min = lambda lk, min: [] if not lk else [] if infectados[lk[0]] < min else [lk[0]]+ infectados_gt_min(lk[1:], min)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se puede crear una función lambda “map”, que aplique una segunda función a los elementos de una lista?",
+      "options": [
+        "l.map = lambda f: f(self.pop(0)) + map(f, self.pop(1...))",
+        "map = lambda f, l: f(l[0]) + map(f, l[1:])",
+        "lambda map(f, l): f(l[0]) + map(f, l[1:])",
+        "l.map = lambda f: f(l[0]) + map(f, l[1:])"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Para una empresa se guarda en una lista el dinero en ventas por mes en miles de euros, de manera que la lista tiene doce posiciones. Por ejemplo, l_ventas = [2, 4, 5, 10, 3, 7, 4, 3, 2, 7, 9, 10]. Desea obtener el valor final del resultado en euros de haber repercutido el IVA del 21%.",
+      "options": [
+        "iva_repercutido = lambda l: map(lambda x: x * 210, l)",
+        "iva_repercutido = lambda l: map(lambda x: x * .21, l) * 1000",
+        "iva_repercutido = lambda l: reduce(lambda x, y: x * .21 + y * .21, l) * 1000",
+        "iva_repercutido = lambda l: reduce(lambda x, y: x + y, l) * 210"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Dado el siguiente diccionario que lleva el número de infectados por gripe en Galicia: infectados = {\"pontevedra\": 200, \"coruña\": 300, \"lugo\": 130, \"ourense\": 120}, ¿Cómo conseguir el número más pequeño de infectados sobre la lista de valores de 'infectados' si infectados_values = list(infectados.values()): min_infectados(infectados_values, max(infectados_values))?",
+      "options": [
+        "min_infectados = lambda l, min: min if l == [] else min_infectados(l[1:], min) if l[0] >= min else min_infectados(l[1:], min)",
+        "min_infectados = lambda l, min: min if l == [] else min_infectados(l[1:], min) if l[0] >= min else min_infectados(l[1:], l[0])",
+        "min_infectados = lambda l, min: min - max(l)",
+        "min_infectados = lambda l, min: min if l == [] else l[0] if len(l) == 1 else min_infectados(l[1:], min)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se puede crear una función “filter”, que devuelva los elementos de una lista l pasada por parámetro, que cumplan el predicado (devuelve True o False), también pasado por parámetro, p?",
+      "options": [
+        "lambda filter(p, l): (x for x in l if f(x))",
+        "filter = lambda f, l: (x for x in l if f(x))",
+        "list.filter = lambda self, f: (x for x in self if f(x))",
+        "lambda filter(f, l): (f(x) for x in l if f(x))"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "La criba de Eratóstenes para calcular los números primos (tomando entre 1 y 100), consiste en empezar por 2 e ir tachando los siguientes elementos de la lista sumando 2; hacer lo mismo con el 3, con el 5, etc. Si creamos las listas l2 = list(range(4, 100, 2)), l3 = list(range(6, 100, 3)), l5 = list(range(10, 100, 5)), y l7 = list(range(14, 100, 7)), estaríamos simulando parcialmente la criba de Eratóstenes. Para obtener entonces los números primos entre 1 y 100…",
+      "options": [
+        "print(list(filter(lambda x: x % 2 +3 + 5 + 7, range(2, 100))))",
+        "print(list(filter(lambda x: x not in l2 or x not in l3 or x not in l5 or x not in l7, range(2, 100))))",
+        "print(list(filter(lambda x: x not in l2 + l3 + l5 + l7, range(2, 100))))",
+        "print(list(filter(lambda x: x not in (l2, l3, l5, l7), range(2, 100))))"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Una empresa mantiene en su ERP una lista de objetos de la clase Empleado, que incluye propiedades de solo lectura: nombre, email, edad y salario. Si deseamos conocer el importe total que la empresa debe pagar en sueldos para directivos (empleados que cobran más de 1500€…)",
+      "options": [
+        "sueldos = lambda l: reduce(lambda x, y: x + y, map(lambda p: p.salario, filter(lambda p: p.salario > 1500, l)))",
+        "sueldos = lambda l: reduce(lambda x, y: x + y, filter(lambda p: p.salario > 1500, map(lambda p: p.salario), l)))",
+        "sueldos = lambda l: reduce(lambda x, y: x + y, map(lambda p: p.salario, map(lambda p: p.salario > 1500, l)))",
+        "sueldos = lambda l: reduce(lambda x, y: x + y, filter(lambda p: p.salario > 1500, l))"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Dada la clase Carrera (que guarda una lista de tiempos y una distancia, y tiene propiedades de solo lectura para ambas), si deseamos escribir los datos del objeto t1 en formato json en el archivo ya abierto f…",
+      "options": [
+        "json.dump(t1.__dict__, f)",
+        "json.dump(dir(t1), f",
+        "json.dump(t1._lista_tiempos, f)",
+        "json.dump(t1, f)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Dado el siguiente diccionario que lleva el número de infectados por gripe en Galicia: infectados = {\"pontevedra\": 200, \"coruña\": 300, \"lugo\": 130, \"ourense\": 120}, ¿Cómo conseguir el número total de infectados sobre la lista de valores de 'infectados': total_infectados(infectados.values())?",
+      "options": [
+        "total_infectados = lambda lv: 0 if not lv else lv[0] + total_infectados(lv[1:])",
+        "total_infectados = lambda lv: x = lv[0]; x += total_infectados(lv[1:]); return x",
+        "total_infectados = lambda lv: lv[0] + total_infectados(lv[1:])",
+        "total_infectados = lambda lv: 0 if not lv else lv[0] else total_infectados(lv[1:])"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Una empresa mantiene en su ERP una lista de objetos de la clase Empleado, que incluye propiedades de solo lectura: nombre, email, edad y salario. Desea obtener un listado con los empleados cercanos de jubilarse (edad superior a 60 años).",
+      "options": [
+        "listado_jubilacion_posible = lambda l: reduce(lambda stre1, stre2: stre1 + \"\\n\" + stre2, filter(lambda e: e.edad > 60, map(str, l)))",
+        "listado_jubilacion_posible = lambda l: map(str, filter(lambda e: e.edad > 60, l))",
+        "listado_jubilacion_posible = lambda l: reduce(lambda stre1, stre2: stre1 + \"\\n\" + stre2, filter(lambda e: e.edad > 60, l))",
+        "listado_jubilacion_posible = lambda l: reduce(lambda stre1, stre2: stre1 + \"\\n\" + stre2, map(str, filter(lambda e: e.edad > 60, l)))"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Dada una lista l = range(0, 100, 3), obtenemos los números de 0 a 100 múltiplos de 3. Deseamos desechar los valores pares, y para ello queremos utilizar la función filter.",
+      "options": [
+        "l_sin_pares = lambda l: l - filter(lambda x: x % 2 == 0, l)",
+        "l_sin_pares = lambda l: filter(lambda x: x % 2 != 0, l[3:])",
+        "l_sin_pares = lambda l: filter(lambda x: x % 2 != 0, l)",
+        "l_sin_pares = lambda l: filter(lambda x: x % 2 == 0, l)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Dada la clase Carrera (que guarda una lista de tiempos y una distancia, y tiene propiedades de solo lectura para ambas), y queremos acceder a la propiedad distancia pero la tecla '.' de nuestro ordenador se ha roto...",
+      "options": [
+        "dir(t1)[\"_distancia\"]",
+        "getattr(t1, \"distancia\")",
+        "getattr(t1, \"distancia\")[0]",
+        "t1[1]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dada la clase Carrera (que guarda una lista de tiempos y una distancia, y tiene propiedades de solo lectura para ambas), deseamos almacenar el objeto t1 de dichas clase en el archivo ya abierto f utilizando pickle.",
+      "options": [
+        "pickle.dump(list(t1), f)",
+        "pickle.dump(str(t1._lista_tiempos), f)",
+        "pickle.dump(t1, f)",
+        "pickle.dump(t1._lista_tiempos, f)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Si queremos visualizar al atributo x del objeto p1 perteneciente a la clase Punto...",
+      "options": [
+        "print(p1.__dict__[\"x\"])",
+        "print(p1.x)",
+        "Todas con correctas.",
+        "print(getattr(p1, \"x\"))"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Una terna pitagórica es una terna o tupla de tres elementos x, y y z, que cumple que x² + y² = z². Dada una lista l de ternas con múltiples elementos, ¿cómo se pueden filtrar las ternas pitagóricas?",
+      "options": [
+        "filter(lambda t: t[0] ** 2 + t[1] ** 2 == t[2] ** 2, map(lambda x: dict(x), l))",
+        "filter(lambda t: t[0] * 2 + t[1] * 2 == t[2] * 2, l)",
+        "reduce(lambda t1, t2: (t1.x + t2.x, t1.y + t2.y, t1.z + t2.z), filter(lambda t: t[0] ** 2 + t[1] ** 2 == t[2] ** 2, l))",
+        "filter(lambda t: t[0] ** 2 + t[1] ** 2 == t[2] ** 2, l)"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Supongamos un objeto p1, y las clases Pedido, Preparado y Enviado. El objeto p1 fue creado de la clase Pedido, pero entonces se intenta ejecutar la instrucción: p1.__class__ = Preparado...",
+      "options": [
+        "Se lanza la excepción LookUpError, al pretender cambiar la clase a la que pertenece el objeto p.",
+        "Se lanza la excepción AttributeError, pues no existe un atributo __class__.",
+        "La clase del objeto p pasa a ser Preparado.",
+        "Se lanza la excepción MemoryError, por hacer un uso inadecuado de la memoria."
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Los resultados de la liguilla escolar se guardan en una lista de pares con los resultados de goles, por ejemplo l_res = [(2, 1), (0, 0), (3, 2)]. Se desea una función que cuente los empates.",
+      "options": [
+        "cuenta_empates = lambda l: reduce(lambda par1, par2: par1 == par2, l)",
+        "cuenta_empates = lambda l: sum(lambda par: par[0]) == sum(lambda par: par[1])",
+        "cuenta_empates = lambda l: len(list(map(lambda par: par.x == par.y, l)))",
+        "cuenta_empates = lambda l: len(list(filter(lambda par: par[0] == par[1], l)))"
+      ],
+      "answer": 3
+    }
+  ]
+}

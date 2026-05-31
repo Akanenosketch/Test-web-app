@@ -1,0 +1,3204 @@
+{
+  "title": "Mock Exam — Programación Web con Flask",
+  "description": "Examen tipo test sobre HTML5, CSS, JavaScript y Flask (Temas 10, 12–16). 319 preguntas.",
+  "questions": [
+    {
+      "question": "¿Cuáles son las dos partes principales de una aplicación web?",
+      "options": [
+        "Frontend y backend",
+        "Cliente y servidor",
+        "HTML y CSS",
+        "Navegador y base de datos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué lenguaje de marcado se usa para mostrar resultados al usuario en aplicaciones web?",
+      "options": [
+        "CSS",
+        "JavaScript",
+        "HTML",
+        "Python"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la función de CSS en una aplicación web?",
+      "options": [
+        "Programar la lógica de negocio",
+        "Maquetar páginas HTML con colores, márgenes, etc.",
+        "Enviar datos al servidor",
+        "Gestionar sesiones"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es JavaScript en el contexto de las aplicaciones web?",
+      "options": [
+        "Un lenguaje de servidor",
+        "Un lenguaje comprendido directamente por el navegador",
+        "Un lenguaje de marcado",
+        "Un gestor de base de datos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Por qué es necesario controlar errores en el cliente además de en el servidor?",
+      "options": [
+        "Para reducir el código del servidor",
+        "Para una experiencia más amigable y evitar tráfico innecesario",
+        "Porque el servidor no puede detectar errores",
+        "Para usar menos memoria"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el otro nombre de JavaScript según el texto?",
+      "options": [
+        "TypeScript",
+        "ECMAScript",
+        "NodeScript",
+        "WebScript"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se crea un archivo HTML visualizable en el navegador?",
+      "options": [
+        "Con extensión .py",
+        "Con extensión .html",
+        "Con extensión .css",
+        "Con extensión .js"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué etiqueta abarca la totalidad del documento HTML?",
+      "options": [
+        "<body>",
+        "<head>",
+        "<html>",
+        "<page>"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué etiqueta contiene lo que realmente se visualiza en la página?",
+      "options": [
+        "<head>",
+        "<title>",
+        "<meta>",
+        "<body>"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué etiqueta se usa para el título que aparece en la ventana del navegador?",
+      "options": [
+        "<h1>",
+        "<header>",
+        "<title>",
+        "<caption>"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se escriben los comentarios en HTML?",
+      "options": [
+        "// comentario",
+        "/* comentario */",
+        "# comentario"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué etiqueta indica un encabezado de primer nivel?",
+      "options": [
+        "<h1>",
+        "<header>",
+        "<title>",
+        "<h0>"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué etiqueta indica un párrafo en HTML?",
+      "options": [
+        "<br>",
+        "<div>",
+        "<p>",
+        "<span>"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué etiqueta indica un salto de línea en HTML?",
+      "options": [
+        "<p>",
+        "<nl>",
+        "<enter>",
+        "<br>"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué etiqueta se usa para crear divisiones en el contenido de la página?",
+      "options": [
+        "<section>",
+        "<div>",
+        "<span>",
+        "<area>"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Para qué se usa el atributo id en una etiqueta div?",
+      "options": [
+        "Para aplicar estilos globales",
+        "Para diferenciar divisiones y aplicar CSS o JS",
+        "Para indicar el idioma",
+        "Para enlazar archivos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué etiqueta se usa para listas sin orden?",
+      "options": [
+        "<ol>",
+        "<li>",
+        "<dl>",
+        "<ul>"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué etiqueta se usa para listas ordenadas numéricamente?",
+      "options": [
+        "<ul>",
+        "<li>",
+        "<ol>",
+        "<nl>"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué etiqueta se usa para cada punto de una lista?",
+      "options": [
+        "<item>",
+        "<li>",
+        "<point>",
+        "<entry>"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué etiqueta permite añadir una imagen en HTML?",
+      "options": [
+        "<image>",
+        "<pic>",
+        "<img>",
+        "<photo>"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué atributo de <img> indica la ruta o URL de la imagen?",
+      "options": [
+        "href",
+        "alt",
+        "title",
+        "src"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué atributo de <img> muestra texto alternativo si la imagen no carga?",
+      "options": [
+        "src",
+        "title",
+        "alt",
+        "href"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué atributo de <img> muestra un texto al pasar el cursor encima?",
+      "options": [
+        "alt",
+        "src",
+        "title",
+        "hint"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué etiqueta se usa para crear hiperenlaces?",
+      "options": [
+        "<link>",
+        "<href>",
+        "<a>",
+        "<url>"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué atributo de la etiqueta <a> indica la URL a enlazar?",
+      "options": [
+        "src",
+        "ref",
+        "url",
+        "href"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Cómo se indica la codificación UTF-8 en una página HTML?",
+      "options": [
+        "<meta charset=\"utf-8\" />",
+        "<encoding>utf-8</encoding>",
+        "<charset>utf-8</charset>",
+        "<head charset=\"utf-8\">"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Cómo se vincula un archivo CSS externo desde HTML?",
+      "options": [
+        "<style src=\"estilos.css\">",
+        "<css href=\"estilos.css\">",
+        "<link href=\"estilos.css\" type=\"text/css\" rel=\"stylesheet\" />",
+        "<include css=\"estilos.css\">"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se escriben los comentarios en CSS?",
+      "options": [
+        "// comentario",
+        "# comentario",
+        "/* comentario */"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Cómo se aplica CSS a todos los encabezados h1?",
+      "options": [
+        "#h1 { }",
+        ".h1 { }",
+        "h1 { }",
+        "*h1 { }"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se aplica CSS a un div cuyo id es 'mensaje'?",
+      "options": [
+        ".mensaje { }",
+        "*mensaje { }",
+        "#mensaje { }",
+        "mensaje { }"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué propiedad CSS cambia el color del fondo?",
+      "options": [
+        "color",
+        "text-color",
+        "foreground",
+        "background-color"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué propiedad CSS cambia el color del texto?",
+      "options": [
+        "font-color",
+        "text",
+        "color",
+        "background-color"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué propiedad CSS establece la fuente en cursiva?",
+      "options": [
+        "font-weight: italic",
+        "font-style: italic",
+        "text-style: italic",
+        "font: italic"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué propiedad CSS establece el texto en negrita?",
+      "options": [
+        "font-style: bold",
+        "text-weight: bold",
+        "font-weight: bold",
+        "bold: true"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué propiedad CSS establece un margen interior?",
+      "options": [
+        "margin",
+        "border",
+        "padding",
+        "spacing"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué propiedad CSS establece un margen exterior?",
+      "options": [
+        "padding",
+        "border",
+        "spacing",
+        "margin"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Dónde es recomendable colocar el código JavaScript en un archivo HTML?",
+      "options": [
+        "Al final del body",
+        "En cualquier lugar",
+        "En el head",
+        "En un div aparte"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Por qué es mejor usar window.onload en JavaScript?",
+      "options": [
+        "Para cargar CSS antes que JS",
+        "Para asegurar que la página esté completamente cargada antes de ejecutar código",
+        "Para evitar errores de sintaxis",
+        "Para cargar imágenes automáticamente"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace document.getElementById(i",
+      "options": [
+        "en JavaScript?",
+        "Crea un elemento nuevo",
+        "Busca el elemento HTML con ese id",
+        "Elimina el elemento",
+        "Modifica el CSS del elemento"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace document.createElement(tag) en JavaScript?",
+      "options": [
+        "Busca un elemento existente",
+        "Elimina un elemento",
+        "Crea un nuevo elemento HTML",
+        "Modifica un atributo"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace document.createTextNode(str)?",
+      "options": [
+        "Crea un elemento div",
+        "Crea un nodo de texto con el contenido dado",
+        "Modifica el body",
+        "Elimina texto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace eltoPadre.appendChild(elto)?",
+      "options": [
+        "Elimina elto de eltoPadre",
+        "Inserta elto como primer subelemento",
+        "Inserta elto como último subelemento de eltoPadre",
+        "Reemplaza el contenido de eltoPadre"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve eltoPadre.firstChild?",
+      "options": [
+        "El último subelemento",
+        "El padre del elemento",
+        "El primer subelemento o null",
+        "El número de hijos"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve elto.nextSibling?",
+      "options": [
+        "El elemento padre",
+        "El elemento anterior",
+        "El siguiente elemento hermano o null",
+        "El primer hijo"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se declara una variable en JavaScript?",
+      "options": [
+        "let nombre = valor;",
+        "variable nombre = valor;",
+        "var nombre = valor;",
+        "dim nombre = valor"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿JavaScript comprueba tipos en tiempo de compilación?",
+      "options": [
+        "Sí, siempre",
+        "Solo para números",
+        "No, es dinámico",
+        "Solo para cadenas"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se define una función en JavaScript?",
+      "options": [
+        "def nombre() { }",
+        "function nombre() { }",
+        "func nombre() { }",
+        "define nombre() { }"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es una función anónima en JavaScript?",
+      "options": [
+        "Una función sin cuerpo",
+        "Una función sin nombre, asignable a una variable",
+        "Una función privada",
+        "Una función que no devuelve nada"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se itera 10 veces en JavaScript?",
+      "options": [
+        "for i in range(10):",
+        "for(var i=1; i<=10; ++i) { }",
+        "while(10) { }",
+        "repeat(10) { }"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se accede a la herramienta de consola de errores en Chrome?",
+      "options": [
+        "Menú Archivo",
+        "Con F5",
+        "Click derecho → Inspeccionar elemento → Console",
+        "Menú Ayuda"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace document.write(str)?",
+      "options": [
+        "Añade texto al final",
+        "Sustituye el contenido del body por la cadena",
+        "Añade al head",
+        "Escribe en la consola"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué propiedad de un elemento HTML permite cambiar su contenido HTML interno?",
+      "options": [
+        "element.value",
+        "element.text",
+        "element.innerHTML",
+        "element.src"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace element.style.display = 'none'?",
+      "options": [
+        "Muestra el elemento",
+        "Oculta el elemento",
+        "Cambia el color",
+        "Elimina el elemento del DOM"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace element.style.display = 'block'?",
+      "options": [
+        "Oculta el elemento",
+        "Hace el texto negrita",
+        "Muestra el elemento como bloque",
+        "Centra el elemento"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se envía un formulario HTML al servidor?",
+      "options": [
+        "Con un botón type='reset'",
+        "Con un botón type='submit'",
+        "Con un botón type='button'",
+        "Con un enlace <a>"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el atributo onSubmit de un formulario?",
+      "options": [
+        "Define el color al enviar",
+        "Ejecuta una función JS al enviar el formulario",
+        "Indica el servidor destino",
+        "Valida automáticamente los campos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué ocurre si la función onSubmit devuelve false?",
+      "options": [
+        "Se envía de todas formas",
+        "Se recarga la página",
+        "El formulario no se envía al servidor",
+        "Se muestra un error del navegador"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué tipo de input se usa para una caja de texto?",
+      "options": [
+        "type=\"button\"",
+        "type=\"submit\"",
+        "type=\"checkbox\"",
+        "type=\"text\""
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué atributo HTML identifica un elemento para JavaScript?",
+      "options": [
+        "class",
+        "name",
+        "id",
+        "tag"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Para qué sirve el atributo class en HTML?",
+      "options": [
+        "Identifica un elemento único",
+        "Agrupa elementos por función para CSS o JS",
+        "Indica el servidor",
+        "Define el idioma"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Para qué sirve el atributo name en HTML?",
+      "options": [
+        "Para JavaScript",
+        "Para CSS",
+        "Para identificar datos enviados al servidor",
+        "Para el navegador"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve document.getElementsByClassName(s)?",
+      "options": [
+        "Un elemento",
+        "Un vector de elementos con esa clase",
+        "null siempre",
+        "El primer elemento con esa clase"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace parseInt('42', 10)?",
+      "options": [
+        "Convierte a float",
+        "Convierte la cadena '42' a entero en base 10",
+        "Devuelve '42'",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve isNaN('hola')?",
+      "options": [
+        "false",
+        "0",
+        "true",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se borra el contenido de un div?",
+      "options": [
+        "dvTabla.remove()",
+        "dvTabla.clear()",
+        "dvTabla.innerHTML = ''",
+        "dvTabla.content = null"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace element.focus()?",
+      "options": [
+        "Oculta el elemento",
+        "Selecciona visualmente el elemento (lo pone en foco)",
+        "Mueve el elemento",
+        "Elimina el elemento"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace element.value = ''?",
+      "options": [
+        "Elimina el elemento",
+        "Borra el contenido de un campo de texto",
+        "Oculta el campo",
+        "Resetea el estilo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué etiqueta HTML permite embeber código JavaScript directamente?",
+      "options": [
+        "<javascript>",
+        "<code>",
+        "<script>",
+        "<js>"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué atributo del input guarda el texto introducido por el usuario?",
+      "options": [
+        "innerHTML",
+        "src",
+        "content",
+        "value"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué hace eltoPadre.insertBefore(elto1, elto2)?",
+      "options": [
+        "Inserta elto1 después de elto2",
+        "Inserta elto2 antes de elto1 dentro de eltoPadre",
+        "Elimina elto1",
+        "Mueve elto2 al final Tema 12: Plantillas JINJA2"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué problema resuelve el uso de plantillas JINJA2 en Flask?",
+      "options": [
+        "Reemplaza el servidor web",
+        "Separa la lógica de negocio de la vista HTML",
+        "Gestiona la base de datos",
+        "Controla los usuarios"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se instala JINJA2 con pip?",
+      "options": [
+        "pip install jinja",
+        "pip install jinja2",
+        "pip add jinja2",
+        "install jinja2"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿En qué directorio deben guardarse las plantillas JINJA2 para Flask?",
+      "options": [
+        "static/",
+        "views/",
+        "html/",
+        "templates/"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué función de Flask devuelve una plantilla renderizada?",
+      "options": [
+        "flask.send_file()",
+        "flask.send_from_directory()",
+        "flask.render_template()",
+        "flask.return_template()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se pasa una variable 'name' a una plantilla con render_template?",
+      "options": [
+        "flask.render_template(\"t.html\", name)",
+        "flask.render_template(\"t.html\", name=name)",
+        "flask.render_template(\"t.html\", {\"name\": name})",
+        "flask.render_template(\"t.html\", **{\"name\": name})"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Cómo se insertan variables en una plantilla JINJA2?",
+      "options": [
+        "[[ variable ]]",
+        "<% variable %>",
+        "{{ variable }}"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Cómo se insertan instrucciones de control en JINJA2?",
+      "options": [
+        "{{ instruccion }}",
+        "<% instruccion %>",
+        "{% instruccion %}",
+        "[% instruccion %]"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se escriben comentarios en JINJA2?",
+      "options": [
+        "{# comentario #}",
+        "{{ # comentario # }}",
+        "{% comment %}{% endcomment %}"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué es autoescape en JINJA2?",
+      "options": [
+        "Una función de formateo",
+        "Un filtro para mayúsculas",
+        "Una protección contra XSS que escapa código HTML peligroso",
+        "Un método de compresión"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué significa XSS?",
+      "options": [
+        "Extra Style Sheet",
+        "Cross-site scripting",
+        "eXtended Server Script",
+        "External Script Source"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se desactiva el autoescape en un bloque JINJA2?",
+      "options": [
+        "{% noescape %}...{% endnoescape %}",
+        "{% autoescape false %}...{% endautoescape %}",
+        "{{ raw }}...{{ endraw }}",
+        "{% unsafe %}...{% endunsafe %}"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la sintaxis de un filtro en JINJA2?",
+      "options": [
+        "{{ variable -> filtro }}",
+        "{{ variable | filtro }}",
+        "{{ filtro(variable) }}",
+        "{{ variable.filtro }}"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el filtro lower en JINJA2?",
+      "options": [
+        "Elimina espacios",
+        "Convierte a mayúsculas",
+        "Convierte a minúsculas",
+        "Capitaliza"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace el filtro upper en JINJA2?",
+      "options": [
+        "Convierte a minúsculas",
+        "Elimina espacios",
+        "Convierte a mayúsculas",
+        "Trunca el texto"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace el filtro capitalize en JINJA2?",
+      "options": [
+        "Todas las palabras en mayúscula inicial",
+        "Convierte todo a mayúsculas",
+        "Solo la primera letra en mayúscula",
+        "Convierte a minúsculas"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace el filtro title en JINJA2?",
+      "options": [
+        "Primera letra del texto en mayúscula",
+        "Todas las palabras con primera letra en mayúscula",
+        "Convierte a mayúsculas",
+        "Cuenta palabras"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el filtro trim en JINJA2?",
+      "options": [
+        "Elimina vocales",
+        "Trunca a 5 caracteres",
+        "Elimina espacios delante y detrás",
+        "Centra el texto"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace el filtro truncate(s, x) en JINJA2?",
+      "options": [
+        "Elimina los primeros x caracteres",
+        "Trunca s a x caracteres",
+        "Cuenta x palabras",
+        "Redondea a x decimales"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el filtro wordcount en JINJA2?",
+      "options": [
+        "Cuenta caracteres",
+        "Cuenta palabras",
+        "Cuenta líneas",
+        "Cuenta párrafos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el filtro length en JINJA2?",
+      "options": [
+        "Devuelve el número de caracteres de una cadena",
+        "Devuelve el número de elementos de una lista",
+        "Devuelve el tamaño en bytes",
+        "Trunca la lista"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el filtro first en JINJA2?",
+      "options": [
+        "Devuelve el último de una lista",
+        "Ordena una lista",
+        "Invierte una lista",
+        "Devuelve el primero de una lista"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué hace el filtro last en JINJA2?",
+      "options": [
+        "Devuelve el primero",
+        "Devuelve el último de una lista",
+        "Elimina el último",
+        "Invierte"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el filtro random en JINJA2?",
+      "options": [
+        "Ordena aleatoriamente",
+        "Devuelve un elemento al azar de la lista",
+        "Baraja la lista",
+        "Devuelve None al azar"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el filtro reverse en JINJA2?",
+      "options": [
+        "Ordena la lista",
+        "Devuelve el último elemento",
+        "Convierte la lista en su inversa",
+        "Elimina duplicados"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace el filtro sum en JINJA2?",
+      "options": [
+        "Cuenta elementos",
+        "Suma los elementos de una lista",
+        "Devuelve el máximo",
+        "Concatena cadenas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el filtro abs en JINJA2?",
+      "options": [
+        "Calcula el cuadrado",
+        "Redondea",
+        "Calcula el valor absoluto",
+        "Convierte a entero"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace el filtro round en JINJA2?",
+      "options": [
+        "Redondea un valor real a entero",
+        "Trunca a dos decimales",
+        "Devuelve el entero inferior",
+        "Convierte a float"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace el filtro int en JINJA2?",
+      "options": [
+        "Convierte a float",
+        "Convierte una cadena a entero",
+        "Convierte a booleano",
+        "Redondea"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el filtro float en JINJA2?",
+      "options": [
+        "Convierte a entero",
+        "Convierte una cadena a real",
+        "Redondea",
+        "Convierte a booleano"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el filtro replace(s1, s2, s3) en JINJA2?",
+      "options": [
+        "Divide una cadena",
+        "Reemplaza ocurrencias de s2 por s3 en s1",
+        "Cuenta ocurrencias",
+        "Elimina caracteres"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se abre un bloque for en JINJA2?",
+      "options": [
+        "{{ for x in lista }}",
+        "<% for x in lista %>",
+        "{% for x in lista %}",
+        "[for x in lista]"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se cierra un bloque for en JINJA2?",
+      "options": [
+        "{% end %}",
+        "{% endfor %}",
+        "{{ /for }}",
+        "[/for]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué variable de bucle indica si es la primera iteración en JINJA2?",
+      "options": [
+        "loop.index == 1",
+        "loop.first",
+        "loop.start",
+        "loop.begin"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué variable de bucle indica si es la última iteración en JINJA2?",
+      "options": [
+        "loop.end",
+        "loop.finish",
+        "loop.last",
+        "loop.final"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace loop.index en JINJA2?",
+      "options": [
+        "Índice desde 0",
+        "Índice desde 1",
+        "Índice desde el final",
+        "Número total de iteraciones"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace loop.index0 en JINJA2?",
+      "options": [
+        "Índice desde 1",
+        "Índice desde 0",
+        "Índice desde el final",
+        "True si índice es 0"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace loop.length en JINJA2?",
+      "options": [
+        "Índice actual",
+        "True si es la última",
+        "Número de iteraciones totales",
+        "Longitud del elemento actual"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Para qué sirve el else dentro de un for en JINJA2?",
+      "options": [
+        "Se ejecuta en cada iteración",
+        "Se ejecuta si el bucle lanza error",
+        "Se ejecuta cuando el bucle no recorrió ningún elemento",
+        "Se ejecuta en la última iteración"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se aplica un filtro dentro de un bucle for en JINJA2?",
+      "options": [
+        "{% for x in lista if x > 0 %}",
+        "{% for x in lista | filter %}",
+        "[for x in lista if x > 0]",
+        "{{ for x in lista if x > 0 }}"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Cómo se hereda de una plantilla base en JINJA2?",
+      "options": [
+        "{% parent \"esqueleto.html\" %}",
+        "{% base \"esqueleto.html\" %}",
+        "{% import \"esqueleto.html\" %}",
+        "{% extends \"esqueleto.html\" %}"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Cómo se define un bloque reemplazable en la plantilla padre en JINJA2?",
+      "options": [
+        "{% block nombre %}...{% endblock %}",
+        "{{ block nombre }}...{{ endblock }}",
+        "[block nombre]...[/block]",
+        "<block>...</block>"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Es necesario cambiar el código de app.py para usar herencia de plantillas?",
+      "options": [
+        "Sí, hay que indicar la plantilla padre",
+        "No, JINJA2 resuelve la herencia automáticamente",
+        "Sí, hay que pasar la plantilla padre como parámetro",
+        "Solo si hay más de dos niveles"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se abre un bloque if en JINJA2?",
+      "options": [
+        "{{ if condicion }}",
+        "[if condicion]",
+        "{% if condicion %}",
+        "<% if condicion %>"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se cierra un bloque if en JINJA2?",
+      "options": [
+        "{% end %}",
+        "{% /if %}",
+        "{% endif %}",
+        "{{ endif }}"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la sintaxis de un test en JINJA2?",
+      "options": [
+        "{% if variable == test %}",
+        "{% if variable is test %}",
+        "{% if test(variable) %}",
+        "{{ variable | test }}"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué test de JINJA2 comprueba si una variable está definida?",
+      "options": [
+        "exists(v)",
+        "defined(v)",
+        "isset(v)",
+        "notNone(v)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué test de JINJA2 comprueba si un número es par?",
+      "options": [
+        "even(v)",
+        "iseven(v)",
+        "pair(v)",
+        "even"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué test de JINJA2 comprueba si un número es impar?",
+      "options": [
+        "odd(v)",
+        "isodd(v)",
+        "impar(v)",
+        "noteven(v)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué test de JINJA2 comprueba si una variable es None?",
+      "options": [
+        "none(v)",
+        "isnull(v)",
+        "null(v)",
+        "empty(v)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué test de JINJA2 comprueba si una expresión es un número?",
+      "options": [
+        "integer(v)",
+        "isnumber(v)",
+        "number(v)",
+        "numeric(v) Tema 13: Almacenamiento (Redis + Sirope)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué test equalto hace en JINJA2?",
+      "options": [
+        "True si v1 < v2",
+        "True si v1 y v2 son el mismo objeto",
+        "True si v1 == v2",
+        "True si v1 != v2"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué test sameas hace en JINJA2?",
+      "options": [
+        "True si v1 == v2",
+        "True si v1 y v2 apuntan a la misma dirección de memoria",
+        "True si v1 > v2",
+        "True si son del mismo tipo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Se puede acceder a métodos de objetos desde JINJA2?",
+      "options": [
+        "No",
+        "Solo a atributos",
+        "Solo a métodos estáticos",
+        "Sí, de la misma forma que en Python"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Cómo se accede al primer carácter del nombre en JINJA2?",
+      "options": [
+        "{{persona.nombre.first()}}",
+        "{{persona.nombre[0]}}",
+        "{{persona.nombre|first}}",
+        "Ambas b y c son correctas"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué tipo de base de datos es Redis?",
+      "options": [
+        "Base de datos relacional",
+        "Base de datos basada en pares clave-valor",
+        "Base de datos de documentos",
+        "Base de datos en grafo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué módulo Python conecta directamente con Redis?",
+      "options": [
+        "sirope",
+        "redis",
+        "flask-redis",
+        "redis-py"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué módulo Python permite manejar objetos directamente sobre Redis?",
+      "options": [
+        "redis",
+        "flask",
+        "sirope",
+        "pickle"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se instalan redis y sirope con pip?",
+      "options": [
+        "pip install database",
+        "pip install redis",
+        "pip install redis sirope",
+        "pip install nosql"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se arranca Redis en local?",
+      "options": [
+        "$ redis-start",
+        "$ start redis",
+        "$ redis-server &",
+        "$ redis &"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace el comando ping en Redis CLI?",
+      "options": [
+        "Para el servidor",
+        "Lista las claves",
+        "Comprueba la conexión con el servidor",
+        "Muestra estadísticas"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué responde Redis al comando ping?",
+      "options": [
+        "OK",
+        "ALIVE",
+        "CONNECTED",
+        "PONG"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué comando Redis guarda un valor en un campo de una clave?",
+      "options": [
+        "set",
+        "put",
+        "store",
+        "hset"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué comando Redis recupera el valor de un campo de una clave?",
+      "options": [
+        "get",
+        "fetch",
+        "retrieve",
+        "hget"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué comando Redis recupera todos los campos de una clave?",
+      "options": [
+        "hgetall",
+        "getall",
+        "keys",
+        "dump"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué comando Redis muestra las claves que cumplen un patrón?",
+      "options": [
+        "list",
+        "find",
+        "show",
+        "keys"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Dónde trabaja Redis principalmente (en memoria o en disco)?",
+      "options": [
+        "Solo en disco",
+        "Solo en memoria",
+        "Continuamente en memoria, sincronizando al disco periodicamente",
+        "Siempre en ambos simultáneamente"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se guarda un objeto en Sirope?",
+      "options": [
+        "Sirope().store(obj)",
+        "Sirope().save(obj)",
+        "Sirope().put(obj)",
+        "Sirope().add(obj)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve Sirope.save(obj)?",
+      "options": [
+        "True si fue exitoso",
+        "El objeto guardado",
+        "Un OID",
+        "None"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué es un OID en Sirope?",
+      "options": [
+        "Un índice numérico simple",
+        "Un identificador único de objeto en el almacenamiento",
+        "Un nombre de tabla",
+        "Una clave Redis"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se carga un objeto de Sirope conociendo su OID?",
+      "options": [
+        "Sirope().get(oi",
+        "Sirope().fetch(oi",
+        "Sirope().load(oi",
+        "Sirope().find(oi"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve Sirope.load(oi",
+      "options": [
+        "si no encuentra el objeto?",
+        "False",
+        "Error siempre",
+        "None",
+        "0"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace Sirope.enumerate(cls)?",
+      "options": [
+        "Devuelve el número de objetos",
+        "Devuelve un iterador para todos los objetos de esa clase",
+        "Borra todos los objetos",
+        "Lista las clases guardadas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace Sirope.filter(cls, pre",
+      "options": [
+        "?",
+        "Borra objetos que no cumplen el predicado",
+        "Devuelve un iterador de objetos de la clase que cumplen el predicado",
+        "Cuenta objetos",
+        "Ordena por predicado"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace Sirope.find_first(cls, pre",
+      "options": [
+        "?",
+        "Devuelve todos los que cumplen el predicado",
+        "Devuelve None o el primer objeto que cumple el predicado",
+        "Lanza error si no encuentra",
+        "Devuelve una lista"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace Sirope.load_last(cls, n)?",
+      "options": [
+        "Carga los n primeros objetos",
+        "Carga todos los objetos",
+        "Devuelve un iterador con los n últimos objetos de la clase",
+        "Borra los últimos n objetos"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace Sirope.load_all(cls)?",
+      "options": [
+        "Carga solo el primero",
+        "Devuelve un iterador para todos los objetos de la clase",
+        "Carga solo los últimos 10",
+        "Cuenta todos los objetos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace Sirope.delete(oi",
+      "options": [
+        "?",
+        "Desactiva el objeto",
+        "Borra el objeto con ese OID",
+        "Crea una copia del objeto",
+        "Renombra el objeto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace Sirope.exists(oi",
+      "options": [
+        "?",
+        "Crea el objeto si no existe",
+        "Devuelve True/False según exista un objeto con ese OID",
+        "Lanza error si no existe",
+        "Devuelve el objeto o None"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace Sirope.num_objs(cls)?",
+      "options": [
+        "Devuelve el OID del último objeto",
+        "Devuelve el número de objetos almacenados para esa clase",
+        "Lista los OIDs",
+        "Elimina objetos duplicados"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace Sirope.multi_delete(oids)?",
+      "options": [
+        "Borra el primer OID de la lista",
+        "Borra todos los objetos correspondientes a la lista de OIDs",
+        "Crea copias de los objetos",
+        "Desactiva los objetos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace Sirope.multi_load(oids)?",
+      "options": [
+        "Carga solo el primero",
+        "Guarda una lista de objetos",
+        "Devuelve un iterador para todos los objetos de la lista de OIDs",
+        "Borra y recarga los objetos"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace safe_from_oid(oi",
+      "options": [
+        "?",
+        "Encripta el OID",
+        "Construye un identificador seguro para usar en URL",
+        "Convierte OID a entero",
+        "Verifica que el OID es válido"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace oid_from_safe(safe)?",
+      "options": [
+        "Encripta la cadena",
+        "A partir de un identificador seguro, obtiene el OID",
+        "Crea un nuevo OID",
+        "Valida la cadena"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿En qué se basan las referencias seguras de Sirope?",
+      "options": [
+        "MD5",
+        "SHA-256",
+        "UUID versión 4",
+        "Base64"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué atributo adquiere un objeto tras ser guardado en Sirope?",
+      "options": [
+        "__id__",
+        "__key__",
+        "__oid__",
+        "__ref__"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué tipos de datos soporta Sirope directamente (elige el que NO es soportado)?",
+      "options": [
+        "int, float, str",
+        "bool, bytes",
+        "datetime.date, datetime.datetime",
+        "object genérico sin restricción"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué es un DTO?",
+      "options": [
+        "Data Transfer Object: objeto plano para almacenamiento",
+        "Database Table Object",
+        "Dynamic Type Object",
+        "Data Type Override"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Por qué los DTOs solo deben contener tipos simples?",
+      "options": [
+        "Por rendimiento",
+        "Para que Sirope pueda serializarlos correctamente",
+        "Por limitaciones de Redis",
+        "Por convención del profesor"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se relacionan objetos de distintas clases en Sirope?",
+      "options": [
+        "Con herencia",
+        "Con claves foráneas",
+        "Guardando listas de OIDs",
+        "Con referencias directas"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué función Flask permite enviar mensajes al usuario desde el servidor?",
+      "options": [
+        "flask.message()",
+        "flask.notify()",
+        "flask.flash()",
+        "flask.alert()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se acceden a los mensajes flash desde una plantilla JINJA2?",
+      "options": [
+        "flask.messages()",
+        "get_flash_messages()",
+        "get_flashed_messages()",
+        "flash.get()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Por qué es obligatorio controlar errores en el servidor además de en el cliente?",
+      "options": [
+        "El servidor es más rápido",
+        "Un atacante podría saltarse las validaciones del cliente",
+        "El cliente no puede validar",
+        "El servidor tiene más memoria"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace flask.redirect(path)?",
+      "options": [
+        "Renderiza una plantilla",
+        "Devuelve un error 404",
+        "Redirige al usuario a otra URL",
+        "Cierra la aplicación"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace srp.load_last(MessageDto, 10)?",
+      "options": [
+        "Carga los 10 primeros mensajes",
+        "Carga todos los mensajes",
+        "Devuelve un iterador con los 10 últimos mensajes",
+        "Borra los 10 últimos"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace flask.request.form.get('campo')?",
+      "options": [
+        "Obtiene el valor del campo del formulario POST o None si no existe",
+        "Lanza error si el campo no existe",
+        "Modifica el campo del formulario",
+        "Lista todos los campos"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Para qué se necesita SECRET_KEY en Flask?",
+      "options": [
+        "Para cifrar contraseñas",
+        "Para conectar con Redis",
+        "Para usar flash() y otras funcionalidades de sesión",
+        "Para iniciar el servidor"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Dónde se recomienda guardar la SECRET_KEY en una aplicación Flask?",
+      "options": [
+        "Directamente en el código",
+        "En una variable de entorno solo",
+        "En un archivo config.json no subido al gestor de versiones",
+        "En la base de datos"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo carga Flask la configuración desde un archivo JSON?",
+      "options": [
+        "fapp.config.load(\"config.json\")",
+        "fapp.config.from_file(\"config.json\", load=json.loa",
+        "fapp.settings.from_json(\"config.json\")",
+        "fapp.configure(\"config.json\")"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Por qué las claves en config.json deben estar en mayúsculas?",
+      "options": [
+        "Por convención de JSON",
+        "Por requisito de Flask para la configuración",
+        "Por claridad visual",
+        "Por compatibilidad con Redis"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace list(srp.load_last(MessageDto, 10)) en get_index()?",
+      "options": [
+        "Guarda 10 mensajes",
+        "Devuelve los 10 últimos mensajes como lista",
+        "Borra los más antiguos",
+        "Ordena los mensajes Tema 14: Gestión de usuarios"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace @app.route('/', methods=['GET','POST'])?",
+      "options": [
+        "Solo acepta GET",
+        "Solo acepta POST",
+        "La ruta acepta tanto GET como POST",
+        "Crea dos rutas separadas"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se comprueba el método HTTP en Flask?",
+      "options": [
+        "flask.request.type",
+        "flask.method",
+        "flask.request.method",
+        "flask.http.method"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué módulo Flask gestiona las sesiones de usuario?",
+      "options": [
+        "flask-user",
+        "flask-auth",
+        "flask-login",
+        "flask-session"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se instala flask-login?",
+      "options": [
+        "pip install flask-user",
+        "pip install login-flask",
+        "pip install flask-login",
+        "pip install flask.login"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué clase de flask-login gestiona las sesiones de usuario?",
+      "options": [
+        "SessionManager",
+        "UserManager",
+        "LoginManager",
+        "AuthManager"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿De qué clase debe heredar nuestra clase User para funcionar con flask-login?",
+      "options": [
+        "flask_login.User",
+        "flask_login.UserBase",
+        "flask_login.UserMixin",
+        "flask_login.BaseUser"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método de UserMixin es obligatorio sobrescribir según el texto?",
+      "options": [
+        "is_authenticated",
+        "get_id()",
+        "is_active",
+        "is_anonymous"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve get_id() en UserMixin?",
+      "options": [
+        "Un entero",
+        "El OID del usuario",
+        "El identificador del usuario como cadena",
+        "El email encriptado"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve is_authenticated por defecto en UserMixin?",
+      "options": [
+        "False",
+        "None",
+        "True",
+        "Depende del login"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve is_anonymous por defecto en UserMixin?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "Depende del login"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve is_active por defecto en UserMixin?",
+      "options": [
+        "False",
+        "None",
+        "True",
+        "Depende del email"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Por qué no se deben guardar contraseñas en claro?",
+      "options": [
+        "Son muy largas",
+        "Cualquier vulnerabilidad expone todas las contraseñas",
+        "Redis no las soporta",
+        "Flask no las acepta"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué módulo se usa para hashear contraseñas en Flask?",
+      "options": [
+        "hashlib",
+        "bcrypt",
+        "werkzeug.security",
+        "cryptography"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué función genera el hash de una contraseña?",
+      "options": [
+        "hash_password()",
+        "encrypt_password()",
+        "generate_password_hash()",
+        "make_hash()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué función verifica si una contraseña coincide con su hash?",
+      "options": [
+        "verify_password()",
+        "match_hash()",
+        "compare_password()",
+        "check_password_hash()"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Por qué el hash de werkzeug es 'cambiante'?",
+      "options": [
+        "Para ser más lento",
+        "Para evitar tablas de equivalencia (rainbow tables)",
+        "Para usar menos memoria",
+        "Por defecto del sistema"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace flask_login.login_user(usr)?",
+      "options": [
+        "Crea el usuario",
+        "Hace login del usuario en la sesión",
+        "Verifica la contraseña",
+        "Guarda el usuario en Redis"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace flask_login.logout_user()?",
+      "options": [
+        "Elimina el usuario",
+        "Cierra la sesión del usuario actual",
+        "Borra la contraseña",
+        "Redirige a /login"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el decorador @login_required?",
+      "options": [
+        "Pide contraseña al desarrollador",
+        "Exige que el usuario esté autenticado para acceder a esa ruta",
+        "Registra el acceso en logs",
+        "Encripta la respuesta"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el método user_loader de LoginManager?",
+      "options": [
+        "Crea nuevos usuarios",
+        "Permite a flask-login cargar un usuario a partir de su identificador",
+        "Gestiona contraseñas",
+        "Lista todos los usuarios"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el método unauthorized_handler?",
+      "options": [
+        "Crea un usuario anónimo",
+        "Gestiona el acceso a rutas sin autenticación",
+        "Muestra todos los usuarios",
+        "Genera contraseñas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace current_user en flask-login?",
+      "options": [
+        "Crea un nuevo usuario",
+        "Devuelve el usuario actualmente autenticado",
+        "Lista usuarios activos",
+        "Cierra la sesión"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué ocurre si current_user.is_anonymous es True en el ejemplo?",
+      "options": [
+        "Se redirige al login",
+        "Se crea un usuario nuevo",
+        "Se hace logout y se devuelve None",
+        "Se muestra error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace create_app() en el ejemplo de MessageBoard?",
+      "options": [
+        "Crea solo el objeto Flask",
+        "Crea Flask, LoginManager y Sirope en un solo lugar",
+        "Inicia Redis",
+        "Genera la SECRET_KEY"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Por qué se recomienda usar create_app()?",
+      "options": [
+        "Para ocultar credenciales",
+        "Para reunir la creación de objetos en un solo lugar y organizar el código",
+        "Para acelerar la carga",
+        "Por requisito de Flask"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se genera una SECRET_KEY aleatoria en Python?",
+      "options": [
+        "random.uuid()",
+        "uuid.uuid4().hex",
+        "secrets.key()",
+        "os.urandom()"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Para qué sirve uuid versión 4?",
+      "options": [
+        "Para identificar objetos en Redis",
+        "Para generar identificadores únicos basados en el azar",
+        "Para encriptar contraseñas",
+        "Para firmar tokens"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace lmanager.init_app(fapp)?",
+      "options": [
+        "Crea la aplicación Flask",
+        "Registra el LoginManager con la aplicación Flask",
+        "Inicia Redis",
+        "Configura las rutas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el flujo cuando un usuario envía email y contraseña por primera vez?",
+      "options": [
+        "Se rechaza porque no existe",
+        "Se busca, si no existe se crea y guarda, si existe se verifica la contraseña",
+        "Se borra el usuario anterior",
+        "Se envía confirmación por email"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace flask.flash() en el flujo de errores?",
+      "options": [
+        "Envía un email",
+        "Guarda el mensaje en una cola para mostrarlo al usuario",
+        "Lanza una excepción",
+        "Redirige inmediatamente"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se muestran los mensajes flash en la plantilla?",
+      "options": [
+        "Con {{ flash_messages }}",
+        "Con {% messages %}{% endmessages %}",
+        "Con get_flashed_messages() en un bloque JINJA2",
+        "Con {{ get_flash() }}"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Es necesario iniciar redis-server antes de ejecutar la aplicación?",
+      "options": [
+        "No, Sirope lo inicia automáticamente",
+        "Sí, debe estar funcionando en segundo plano",
+        "Solo en producción",
+        "Solo en Windows"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método de UserDto busca un usuario por email?",
+      "options": [
+        "UserDto.search(s, email)",
+        "UserDto.get(email)",
+        "UserDto.find(s, email)",
+        "UserDto.load(email)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace find_first(UserDto, lambda u: u.email == email)?",
+      "options": [
+        "Lista todos los usuarios",
+        "Devuelve el primer UserDto cuyo email coincide",
+        "Crea un usuario nuevo",
+        "Elimina el usuario Tema 15: Organización y Blueprints"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Por qué el método __eq__ de UserMixin compara get_id()?",
+      "options": [
+        "Para ordenar usuarios",
+        "Para determinar si dos objetos User son el mismo usuario",
+        "Para verificar contraseñas",
+        "Para buscar en Redis"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo llama Flask a las funciones que gestionan rutas?",
+      "options": [
+        "Controllers",
+        "Handlers",
+        "Views (vistas)",
+        "Routes"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué es un Blueprint en Flask?",
+      "options": [
+        "Una plantilla JINJA2",
+        "Un mecanismo para separar y organizar distintas funcionalidades de la aplicación",
+        "Un archivo de configuración",
+        "Un tipo de base de datos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué ventaja tienen los Blueprints?",
+      "options": [
+        "Aceleran la ejecución",
+        "Permiten dividir funcionalidades manteniendo el proyecto manejable",
+        "Cifran las rutas",
+        "Sustituyen a JINJA2"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se crea un Blueprint en Flask?",
+      "options": [
+        "flask.Blueprint(nombre, __name__)",
+        "flask.blueprints.Blueprint(nombre, __name__)",
+        "Blueprint.create(nombre)",
+        "flask.register(nombre)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué parámetro indica el prefijo de URL de un Blueprint?",
+      "options": [
+        "base_url",
+        "url_prefix",
+        "prefix",
+        "route_prefix"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué parámetro indica el directorio de plantillas de un Blueprint?",
+      "options": [
+        "templates_dir",
+        "html_folder",
+        "template_folder",
+        "views_dir"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué parámetro indica el directorio de archivos estáticos de un Blueprint?",
+      "options": [
+        "assets_folder",
+        "public_folder",
+        "resources_folder",
+        "static_folder"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Cómo se registra un Blueprint en la aplicación Flask principal?",
+      "options": [
+        "fapp.add_blueprint(blprnt)",
+        "fapp.register_blueprint(blprnt)",
+        "fapp.use_blueprint(blprnt)",
+        "fapp.include(blprnt)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué decorador se usa en el Blueprint para definir rutas?",
+      "options": [
+        "@blprnt.url()",
+        "@blprnt.add_route()",
+        "@blprnt.route()",
+        "@blprnt.path()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace @flask_login.login_required sobre una ruta de Blueprint?",
+      "options": [
+        "Registra el acceso",
+        "Exige autenticación para acceder",
+        "Encripta la respuesta",
+        "Inicia sesión automáticamente"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se busca un usuario por email parcial en la función results()?",
+      "options": [
+        "UserDto.filter(email)",
+        "srp.find_first(UserDto, lambda u: txt_search.strip() in u.email)",
+        "srp.search(UserDto, email)",
+        "UserDto.find_all(email)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace srp.multi_load(usr.oids_messages)?",
+      "options": [
+        "Guarda los mensajes del usuario",
+        "Carga todos los mensajes cuyo OID está en la lista del usuario",
+        "Busca mensajes por texto",
+        "Elimina mensajes leídos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué contiene extensions.py en la estructura organizada?",
+      "options": [
+        "Las plantillas HTML",
+        "Los modelos de datos",
+        "El acceso a módulos comunes como Sirope y LoginManager",
+        "Las rutas principales"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué subdirectorio contiene los objetos del almacenamiento?",
+      "options": [
+        "views/",
+        "core/",
+        "static/",
+        "model/"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Para qué sirve __init__.py dentro de un directorio Python?",
+      "options": [
+        "Ejecuta el módulo automáticamente",
+        "Indica que el directorio es un paquete Python",
+        "Guarda la configuración",
+        "Define las rutas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace flask.send_from_directory(static_folder, 'search.html')?",
+      "options": [
+        "Renderiza la plantilla",
+        "Envía el archivo estático search.html desde static_folder",
+        "Redirige a search.html",
+        "Guarda search.html"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué URL genera un Blueprint con url_prefix='/search' y ruta '/'?",
+      "options": [
+        "/",
+        "//search",
+        "/search/",
+        "search"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se añade un OID de mensaje al usuario en el ejemplo de organización?",
+      "options": [
+        "usr.messages.append(oi",
+        "usr.add_message_oid(msg_oi",
+        "srp.link(usr, msg_oi",
+        "usr.oids.add(msg_oi"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Por qué se guarda el usuario de nuevo tras añadir el OID?",
+      "options": [
+        "Para crear un nuevo usuario",
+        "Para que los cambios (lista de OIDs actualizad",
+        "queden persistidos",
+        "Redis lo requiere",
+        "Flask lo requiere"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué problema resuelve comprobar self.__dict__.get('_messages_oids') en UserDto?",
+      "options": [
+        "Evita duplicados",
+        "Compatibilidad con usuarios ya guardados que no tienen la lista",
+        "Mejora el rendimiento",
+        "Evita errores de tipo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace la ruta /logout en el ejemplo?",
+      "options": [
+        "Elimina el usuario",
+        "Llama a logout_user() y redirige a /",
+        "Cierra el servidor",
+        "Borra los mensajes"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace flask_login.logout_user() seguido de flask.redirect('/')?",
+      "options": [
+        "Cierra la sesión y va a inicio",
+        "Elimina el usuario y redirige",
+        "Crea un usuario anónimo y va a inicio",
+        "Redirige sin cerrar sesión"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué archivo contiene los gestores de rutas principales en la estructura organizada?",
+      "options": [
+        "extensions.py",
+        "config.json",
+        "__init__.py",
+        "app.py"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Para qué sirve instance_relative_config=True en flask.Flask()?",
+      "options": [
+        "Para habilitar Blueprints",
+        "Para buscar config.json en la carpeta de instancia",
+        "Para activar el modo debug",
+        "Para habilitar JINJA2 Tema 16: Bootstrap"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace fapp.config.from_json('config.json')?",
+      "options": [
+        "Crea config.json",
+        "Carga la configuración desde config.json",
+        "Valida el JSON",
+        "Guarda la configuración"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿En qué año fue creado Bootstrap?",
+      "options": [
+        "2005",
+        "2008",
+        "2010",
+        "2015"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Por quién fue creado Bootstrap?",
+      "options": [
+        "Los creadores de Facebook",
+        "Un diseñador de Twitter",
+        "El equipo de Google",
+        "Mozilla Foundation"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la característica más notable de Bootstrap?",
+      "options": [
+        "Manejo de bases de datos",
+        "Capacidad responsive (adaptación automática a distintas pantallas)",
+        "Gestión de usuarios",
+        "Generación de PDFs"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué significa que un framework sea responsive?",
+      "options": [
+        "Que responde rápido a peticiones HTTP",
+        "Que se adapta automáticamente a diferentes tamaños de pantalla",
+        "Que tiene animaciones",
+        "Que maneja peticiones asíncronas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se añade Bootstrap a una página HTML?",
+      "options": [
+        "pip install bootstrap",
+        "npm install bootstrap",
+        "Enlazando el CSS desde CDN en el head",
+        "Importando en app.py"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace la segunda etiqueta meta con name='viewport' en Bootstrap?",
+      "options": [
+        "Define el idioma",
+        "Relaciona con la capacidad responsive de Bootstrap para móviles",
+        "Establece el título",
+        "Define el charset"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Es necesario el JavaScript de Bootstrap para todos los casos?",
+      "options": [
+        "Sí, siempre",
+        "No, solo para ciertas características como menús desplegables o carruseles",
+        "Solo en móviles",
+        "Solo en producción"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es un contenedor en Bootstrap?",
+      "options": [
+        "Una tabla HTML",
+        "Una pieza básica que permite que Bootstrap reorganice el contenido según el ancho de pantalla",
+        "Un formulario",
+        "Un módulo JavaScript"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace container-fluid en Bootstrap?",
+      "options": [
+        "Aplica todos los breakpoints",
+        "Hace que el div ocupe el 100% del ancho de pantalla",
+        "Oculta el contenido en móvil",
+        "Aplica estilos de tarjeta"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es un breakpoint en Bootstrap?",
+      "options": [
+        "Un error de la aplicación",
+        "Un punto de medida donde Bootstrap reorganiza el contenido",
+        "Un tipo de botón",
+        "Una clase CSS de color"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el valor del breakpoint pequeño (sm) en Bootstrap?",
+      "options": [
+        "320px",
+        "480px",
+        "540px",
+        "768px"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es el valor del breakpoint medio (m",
+      "options": [
+        "en Bootstrap?",
+        "540px",
+        "720px",
+        "960px",
+        "1140px"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el valor del breakpoint grande (lg) en Bootstrap?",
+      "options": [
+        "720px",
+        "840px",
+        "1140px",
+        "960px"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Cuál es el valor del breakpoint extra grande (xl) en Bootstrap?",
+      "options": [
+        "960px",
+        "1140px",
+        "1320px",
+        "1440px"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué clase Bootstrap aplica todos los puntos de corte?",
+      "options": [
+        "container-all",
+        "container-fluid",
+        "container-full",
+        "container"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué clase Bootstrap no aplica ningún punto de corte?",
+      "options": [
+        "container",
+        "container-sm",
+        "container-fluid",
+        "container-none"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se crea una tarjeta (car",
+      "options": [
+        "en Bootstrap?",
+        "<div class=\"card-container\">",
+        "<div class=\"box\">",
+        "<div class=\"card\">",
+        "<div class=\"panel\">"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué clase Bootstrap define la cabecera de una tarjeta?",
+      "options": [
+        "card-title",
+        "card-header",
+        "card-top",
+        "card-heading"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué clase Bootstrap define el cuerpo de una tarjeta?",
+      "options": [
+        "card-content",
+        "card-main",
+        "card-body",
+        "card-inner"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué clase Bootstrap convierte un ul en lista estilizada?",
+      "options": [
+        "list-styled",
+        "list-bootstrap",
+        "list-group",
+        "ul-group"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué clase Bootstrap debe añadirse a cada li de una lista?",
+      "options": [
+        "list-item",
+        "list-group-entry",
+        "list-element",
+        "list-group-item"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué clases adicionales necesita un ol para ser lista ordenada Bootstrap?",
+      "options": [
+        "list-group-ol",
+        "list-group y list-group-numbered",
+        "list-ordered",
+        "ol-group"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué clase Bootstrap define un botón básico?",
+      "options": [
+        "button",
+        "btn",
+        "bs-btn",
+        "b-button"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué clase Bootstrap define un botón de estilo primario?",
+      "options": [
+        "btn-default",
+        "btn-blue",
+        "btn-primary",
+        "btn-main"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué clase Bootstrap define un botón de estilo de peligro/error?",
+      "options": [
+        "btn-error",
+        "btn-warning",
+        "btn-red",
+        "btn-danger"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Cómo se convierte un enlace <a> en botón Bootstrap?",
+      "options": [
+        "Añadiendo class=\"btn btn-primary\" solo",
+        "Añadiendo class=\"btn btn-primary\" y role=\"button\"",
+        "Usando <button> en su lugar",
+        "Añadiendo type=\"button\""
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué formato de archivo usan los iconos de Bootstrap?",
+      "options": [
+        "PNG",
+        "JPG",
+        "ICO",
+        "SVG"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué significa SVG?",
+      "options": [
+        "Scalable Vector Graphics",
+        "Simple Visual Graphic",
+        "Standard Vector Group",
+        "Structured Visual Grammar"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Cómo se reutiliza un icono SVG definido con id en Bootstrap?",
+      "options": [
+        "Con <copy href='#id'>",
+        "Con <svg use='#id'>",
+        "Con <use href='#id'> dentro de un <svg>",
+        "Con <icon id='#id'>"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se oculta el div que contiene los iconos SVG de referencia?",
+      "options": [
+        "style=\"visibility: hidden\"",
+        "style=\"display: none\"",
+        "class=\"hidden\"",
+        "class=\"d-none\""
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué atributo SVG define el color de relleno de una forma?",
+      "options": [
+        "stroke",
+        "color",
+        "background",
+        "fill"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué atributo SVG define el color del trazo?",
+      "options": [
+        "fill",
+        "border",
+        "stroke",
+        "outline"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace la etiqueta SVG <circle>?",
+      "options": [
+        "Dibuja un rectángulo",
+        "Dibuja un círculo",
+        "Dibuja una línea",
+        "Dibuja un polígono"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué atributos definen el centro de un círculo SVG?",
+      "options": [
+        "x, y",
+        "left, top",
+        "cx, cy",
+        "center-x, center-y"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué atributo SVG define el radio de un círculo?",
+      "options": [
+        "radius",
+        "rad",
+        "r",
+        "size"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace la etiqueta SVG <path>?",
+      "options": [
+        "Solo dibuja líneas rectas",
+        "Define trazos complejos con comandos de dibujo",
+        "Solo dibuja círculos",
+        "Importa imágenes"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el comando 'm' en una etiqueta SVG path?",
+      "options": [
+        "Dibuja una línea",
+        "Define el color",
+        "Sitúa el puntero en coordenadas relativas",
+        "Cierra el trazo"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace el comando 'M' (mayúscul",
+      "options": [
+        "en SVG path frente a 'm' (minúscul",
+        "?",
+        "Son idénticos",
+        "M usa coordenadas absolutas, m usa relativas",
+        "M dibuja más rápido",
+        "M cierra el trazo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace el comando 'l' en SVG path?",
+      "options": [
+        "Cierra el trazo",
+        "Sitúa el puntero",
+        "Dibuja una línea hasta las coordenadas indicadas",
+        "Define el color"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué editor SVG se menciona en el texto?",
+      "options": [
+        "Adobe Illustrator",
+        "CorelDraw",
+        "Inkscape",
+        "GIMP Mixtas: Integración y aplicación"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Bootstrap está diseñado pensando primero en qué tipo de pantalla?",
+      "options": [
+        "Pantallas grandes de escritorio",
+        "Pantallas de televisión",
+        "Pantallas de móviles (mobile-first)",
+        "Proyectores"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es el flujo correcto de una petición web en Flask con JINJA2?",
+      "options": [
+        "Cliente → Plantilla → Servidor",
+        "Cliente → Servidor → Plantilla → Cliente",
+        "Plantilla → Cliente → Servidor",
+        "Servidor → Cliente → Plantilla"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿En qué directorio se sirven los archivos estáticos en Flask?",
+      "options": [
+        "templates/",
+        "static/",
+        "public/",
+        "files/"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace flask.send_from_directory(app.static_folder, 'index.html')?",
+      "options": [
+        "Renderiza index.html con JINJA2",
+        "Redirige a index.html",
+        "Devuelve el archivo estático index.html",
+        "Elimina index.html"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se obtiene el valor de un campo de formulario en Flask?",
+      "options": [
+        "flask.form[\"campo\"]",
+        "flask.request.form[\"campo\"]",
+        "flask.get_form(\"campo\")",
+        "request[\"campo\"]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método HTTP se usa generalmente para enviar formularios?",
+      "options": [
+        "GET",
+        "PUT",
+        "DELETE",
+        "POST"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Cuál es la diferencia entre GET y POST?",
+      "options": [
+        "GET es más seguro",
+        "POST envía datos en el cuerpo; GET en la URL",
+        "GET soporta más datos",
+        "No hay diferencia práctica"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace @app.route('/ruta', methods=['POST'])?",
+      "options": [
+        "La ruta solo acepta GET",
+        "La ruta acepta cualquier método",
+        "La ruta solo acepta POST",
+        "La ruta requiere autenticación"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué es render_template en Flask?",
+      "options": [
+        "Una función que envía archivos estáticos",
+        "Una función que procesa una plantilla JINJA2 y devuelve HTML",
+        "Una función que guarda en Redis",
+        "Una función que redirige"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué estructura de la aplicación separa lógica de negocio de la vista?",
+      "options": [
+        "Guardar todo en app.py",
+        "Usar JINJA2 para plantillas y funciones controladores en app.py",
+        "Mezclar Python y HTML en el mismo archivo",
+        "Usar solo archivos estáticos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué ventaja tiene separar las plantillas HTML del código Python?",
+      "options": [
+        "Las plantillas se ejecutan más rápido",
+        "Se pueden modificar sin tocar la lógica de negocio",
+        "Solo el diseñador puede modificarlas",
+        "Consume menos memoria"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace flask.Flask(__name__)?",
+      "options": [
+        "Inicia Redis",
+        "Crea la instancia de la aplicación Flask",
+        "Registra los Blueprints",
+        "Configura JINJA2"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Para qué sirve requirements.txt en un proyecto Flask?",
+      "options": [
+        "Lista los archivos Python del proyecto",
+        "Lista las dependencias necesarias para instalar con pip",
+        "Define las rutas de la aplicación",
+        "Configura la base de datos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se añade jinja2 a requirements.txt desde línea de comando?",
+      "options": [
+        "pip add jinja2 requirements.txt",
+        "echo jinja2 >> requirements.txt",
+        "requirements.add jinja2",
+        "pip install --save jinja2"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace flask.request.method?",
+      "options": [
+        "Devuelve la URL de la petición",
+        "Devuelve el método HTTP (GET, POST, etc.)",
+        "Devuelve los headers",
+        "Devuelve el body"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En Flask, ¿qué devuelve una función controladora típicamente?",
+      "options": [
+        "Un objeto Python",
+        "Un número",
+        "Una cadena HTML, una plantilla renderizada, o una redirección",
+        "Un objeto Redis"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace el patrón DTO en el contexto de Sirope?",
+      "options": [
+        "Mejora el rendimiento de Redis",
+        "Permite guardar objetos planos con tipos soportados",
+        "Gestiona usuarios automáticamente",
+        "Genera plantillas automáticamente"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la relación entre Redis, Sirope y Flask?",
+      "options": [
+        "Son lo mismo",
+        "Flask usa Sirope para manejar objetos Python sobre Redis como base de datos",
+        "Sirope sustituye a Flask",
+        "Redis genera las plantillas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace srp.save(MessageDto(message_txt)) en save_message()?",
+      "options": [
+        "Muestra el mensaje en pantalla",
+        "Guarda el mensaje en el almacenamiento Redis",
+        "Envía el mensaje por email",
+        "Añade el mensaje a la plantilla"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se pasan múltiples variables a una plantilla JINJA2?",
+      "options": [
+        "Con una lista",
+        "Con un diccionario usando **sust",
+        "Con varios argumentos posicionales",
+        "Con una tupla"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué diferencia hay entre container y container-fluid en Bootstrap?",
+      "options": [
+        "container usa más memoria",
+        "container usa breakpoints para reorganizarse; container-fluid ocupa siempre el 100% del ancho",
+        "container-fluid es más rápido",
+        "No hay diferencia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace {{ persona.nombre[0].upper() + persona.nombre[1:].lower() }} en JINJA2?",
+      "options": [
+        "Convierte a mayúsculas",
+        "Elimina el primer carácter",
+        "Capitaliza el nombre (primera letra mayúscula, resto minúsculas)",
+        "Invierte el nombre"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Para qué sirve el filtro center(s, w) en JINJA2?",
+      "options": [
+        "Centra la página",
+        "Centra un texto dado un ancho w",
+        "Justifica el texto",
+        "Añade padding"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace filesizeformat en JINJA2?",
+      "options": [
+        "Formatea una fecha",
+        "Muestra valores en bytes de forma legible",
+        "Convierte a megabytes",
+        "Redondea a entero"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué test de JINJA2 comprueba si una variable es una lista?",
+      "options": [
+        "list(v)",
+        "islist(v)",
+        "sequence(v)",
+        "array(v)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué test de JINJA2 comprueba si una variable es texto?",
+      "options": [
+        "text(v)",
+        "str(v)",
+        "string(v)",
+        "istext(v)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué test de JINJA2 comprueba si es divisible por un número?",
+      "options": [
+        "modulo(v, x)",
+        "divisible(v, x)",
+        "divisibleby(v, x)",
+        "divby(v, x)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace undefined(v) en un test JINJA2?",
+      "options": [
+        "True si v es None",
+        "True si v no está definida",
+        "True si v es una cadena vacía",
+        "True si v es 0"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se encadena elif en JINJA2?",
+      "options": [
+        "{% else if condicion %}",
+        "{% elif condicion %}",
+        "{% elseif condicion %}",
+        "{{ elif condicion }}"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Para qué sirve el filtro wordwrap en JINJA2?",
+      "options": [
+        "Cuenta las palabras",
+        "Elimina cortes de palabra en una columna x",
+        "Convierte a minúsculas",
+        "Divide por palabras"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace format(format, v1...) en JINJA2?",
+      "options": [
+        "Convierte a número",
+        "Formatea una cadena reemplazando marcadores por valores",
+        "Elimina espacios",
+        "Trunca la cadena"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué ventaja tiene usar Blueprints en proyectos grandes?",
+      "options": [
+        "Reducen el número de archivos",
+        "Permiten dividir funcionalidades en módulos mantenibles e independientes",
+        "Aceleran Redis",
+        "Evitan usar JINJA2"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace @lm.user_loader sobre una función?",
+      "options": [
+        "Registra una ruta de usuario",
+        "Indica a LoginManager cómo cargar un usuario a partir de su ID",
+        "Crea el usuario automáticamente",
+        "Gestiona el logout"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace @lm.unauthorized_handler sobre una función?",
+      "options": [
+        "Registra usuarios anónimos",
+        "Indica qué hacer cuando se accede sin autorización",
+        "Genera contraseñas",
+        "Lista rutas protegidas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el número mínimo de pasos para tener Bootstrap funcional en una página?",
+      "options": [
+        "5 pasos complejos",
+        "Solo añadir el CSS desde CDN y la meta viewport",
+        "Instalar con pip y configurar",
+        "Descargar y compilar"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué clase Bootstrap añade estilo de botón de éxito (verde)?",
+      "options": [
+        "btn-ok",
+        "btn-success",
+        "btn-green",
+        "btn-good"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué clase Bootstrap añade estilo de botón secundario?",
+      "options": [
+        "btn-alt",
+        "btn-second",
+        "btn-secondary",
+        "btn-gray"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace btn-info en Bootstrap?",
+      "options": [
+        "Muestra un tooltip",
+        "Aplica el estilo de botón de información (azul claro)",
+        "Muestra información del botón",
+        "Crea un botón de ayuda"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué atributo SVG define el ancho del trazo?",
+      "options": [
+        "stroke-size",
+        "border-width",
+        "stroke-width",
+        "line-width"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace viewBox='0 0 16 16' en SVG?",
+      "options": [
+        "Define la posición del SVG en la página",
+        "Define el sistema de coordenadas y tamaño del viewport del SVG",
+        "Establece el color de fondo",
+        "Define el borde"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Por qué se prefiere el uso de iconos SVG embebidos frente a imágenes PNG?",
+      "options": [
+        "Son más coloridos",
+        "Se escalan sin perder calidad y pesan menos",
+        "Son más compatibles con IE",
+        "Son más fáciles de crear"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace loop.revindex en un bucle JINJA2?",
+      "options": [
+        "Itera al revés",
+        "La iteración contada desde el final del bucle (desde 1)",
+        "Invierte la lista",
+        "Cuenta desde 0 desde el final"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace loop.revindex0 en un bucle JINJA2?",
+      "options": [
+        "La iteración contada desde el final desde 1",
+        "La iteración contada desde el final desde 0",
+        "Índice actual desde 0",
+        "Número total de iteraciones"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Dónde deben estar los archivos estáticos de un Blueprint?",
+      "options": [
+        "En la raíz del proyecto",
+        "En el directorio static/ del Blueprint",
+        "En templates/",
+        "En model/"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué módulo Python se usa para importar datetime en un DTO?",
+      "options": [
+        "import time",
+        "from datetime import datetime",
+        "import calendar",
+        "from time import datetime"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué atributo de MessageDto guarda la hora de creación?",
+      "options": [
+        "_date",
+        "_created",
+        "_time",
+        "_timestamp"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace datetime.now() en Python?",
+      "options": [
+        "Devuelve la hora del servidor Redis",
+        "Devuelve la fecha y hora actuales",
+        "Devuelve un timestamp Unix",
+        "Devuelve la zona horaria"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Por qué se usa list() al llamar a load_last()?",
+      "options": [
+        "Para ordenar la lista",
+        "Porque load_last devuelve un iterador y necesitamos convertirlo a lista",
+        "Para limitar a 10 elementos",
+        "Para evitar errores de tipo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es la clave del paquete Python '__init__.py'?",
+      "options": [
+        "Ejecuta código al iniciar",
+        "Indica a Python que el directorio es un paquete importable",
+        "Guarda la configuración del paquete",
+        "Define las rutas del paquete"
+      ],
+      "answer": 1
+    }
+  ]
+}
