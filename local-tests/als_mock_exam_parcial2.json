@@ -1,0 +1,2017 @@
+{
+  "title": "Mock Exam — Parcial 2 ALS",
+  "description": "Preguntas sobre gestión de errores, excepciones, programación funcional y ficheros.",
+  "questions": [
+    {
+      "question": "Dado el siguiente código: calc = Calculadora(5, 0); print(calc.divide()), ¿qué excepción se lanza?",
+      "options": [
+        "ValueError: operando incorrecto",
+        "ZeroDivisionError: division by zero",
+        "ArithmeticError: operación inválida",
+        "RuntimeError: error en tiempo de ejecución"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma correcta de capturar ZeroDivisionError e imprimir su mensaje?",
+      "options": [
+        "except ZeroDivisionError: print(ZeroDivisionError)",
+        "except ZeroDivisionError as e: print(e)",
+        "catch ZeroDivisionError as e: print(e)",
+        "except (ZeroDivisionError): print(\"error\")"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En un bloque try...except con varios bloques except, ¿en qué orden deben colocarse?",
+      "options": [
+        "De la excepción más general a la más concreta",
+        "De la excepción más concreta a la más general",
+        "El orden no importa, Python los evalúa todos igualmente",
+        "Primero el bloque except sin tipo, luego los tipados"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuándo se ejecuta el bloque finally en un try...except...finally?",
+      "options": [
+        "Solo si se produce una excepción",
+        "Solo si no se produce ninguna excepción",
+        "Siempre, se produzca excepción o no",
+        "Solo si la excepción fue capturada por algún except"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Dado: try: x = int(input()); except (ValueError, NameError): print(\"error\"), ¿qué ocurre si el usuario introduce una letra?",
+      "options": [
+        "Se lanza NameError y se imprime \"error\"",
+        "Se lanza ValueError y se imprime \"error\"",
+        "No se captura nada porque int() no lanza ValueError",
+        "Se lanza TypeError y no se captura"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dada la función def divide(a,",
+      "options": [
+        ": assert(b != 0); return a/b, ¿qué excepción se lanza si b vale 0?",
+        "ZeroDivisionError",
+        "ValueError",
+        "AssertionError",
+        "RuntimeError"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué ocurre con las sentencias assert al ejecutar Python con el parámetro -O?",
+      "options": [
+        "Se ejecutan normalmente pero sin lanzar excepciones",
+        "El intérprete las ignora completamente",
+        "Se convierten en simples comentarios en el bytecode",
+        "Solo se ignoran si están dentro de métodos privados"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué valor tiene la variable global __debug__ cuando Python se ejecuta sin el parámetro -O?",
+      "options": [
+        "False 1",
+        "None",
+        "0",
+        "True"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Para qué tipo de condiciones se recomienda usar assert?",
+      "options": [
+        "Para validar datos introducidos por el usuario",
+        "Para condiciones estrictas internas del programa, nunca datos de usuario",
+        "Para cualquier tipo de comprobación en tiempo de ejecución",
+        "Solo para comprobar valores de retorno de funciones externas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se denominan las condiciones que deben cumplirse para que una función pueda llevar a cabo su tarea?",
+      "options": [
+        "Postcondiciones",
+        "Invariantes de clase",
+        "Precondiciones",
+        "Contratos de ejecución"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué comprueban las postcondiciones en programación por contrato?",
+      "options": [
+        "Que los argumentos de entrada son correctos antes de ejecutar",
+        "Que el trabajo realizado por la función se ha llevado a buen término",
+        "Que los atributos del objeto son válidos en todo momento",
+        "Que no se han lanzado excepciones durante la ejecución"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuándo deben cumplirse las invariantes de clase?",
+      "options": [
+        "Solo al crear el objeto con __init__",
+        "Solo al destruir el objeto",
+        "Antes y después de la ejecución de cualquiera de sus métodos",
+        "Solo cuando se modifican atributos públicos"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En la clase Natural, ¿cuáles son las dos invariantes definidas en __chk_invariantes()?",
+      "options": [
+        "Que x sea float y mayor que cero",
+        "Que x sea entero y mayor o igual que cero",
+        "Que x sea numérico y diferente de None",
+        "Que x sea entero positivo estricto (mayor que cero)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En el código n = Natural(5); while n >= 0: n -= 1, ¿cuándo se lanza AssertionError?",
+      "options": [
+        "Cuando n vale 1",
+        "Cuando n vale 0",
+        "Cuando n intenta valer -1",
+        "No se lanza, el bucle termina solo"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En la programación por contrato exhaustiva, ¿cuál es el primer paso a seguir?",
+      "options": [
+        "Crear invariantes de clase",
+        "Añadir pre y postcondiciones a todas las funciones",
+        "Dividir el código entre preguntas y acciones",
+        "Separar funciones simples de complejas"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En la clase Pila con programación por contrato, ¿qué precondición se añade al método pop()?",
+      "options": [
+        "assert(len(self) < 100)",
+        "assert(self.v != None) 2",
+        "assert(len(self) > 0)",
+        "assert(self.top() != None)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es el problema con la versión inicial de pop() en la clase Pila antes de aplicar programación por contrato?",
+      "options": [
+        "No devuelve ningún valor",
+        "Devuelve un valor y además lo elimina, violando la separación entre preguntas y acciones",
+        "No comprueba el tipo del elemento almacenado",
+        "Usa self.v[-1] en lugar de self.v[0]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo deben llamarse los métodos de una clase TestCase para que sean reconocidos como tests por unittest?",
+      "options": [
+        "Empezando por el prefijo check_",
+        "Empezando por el prefijo test_",
+        "Empezando por el prefijo assert_",
+        "Empezando por el prefijo run_"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En unittest, ¿qué método se ejecuta antes de cada test?",
+      "options": [
+        "tearDown()",
+        "beforeEach()",
+        "setUp()",
+        "init_test()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la diferencia entre assertTrue(self.p1 == self.p2) y assertEqual(self.p1, self.p2) cuando fallan?",
+      "options": [
+        "No hay diferencia, ambos dan el mismo mensaje de error",
+        "assertTrue indica que el resultado fue falso; assertEqual muestra el valor esperado y el obtenido",
+        "assertEqual solo funciona con tipos numéricos",
+        "assertTrue es más eficiente porque no necesita comparar objetos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método de unittest comprueba que dos valores no son iguales?",
+      "options": [
+        "assertDifferent(a,",
+        "assertNotEqual(a,",
+        "assertFalse(a ==",
+        "assertDistinct(a,"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método de unittest comprueba que un objeto es None?",
+      "options": [
+        "assertNull(x)",
+        "assertNone(x)",
+        "assertIsNone(x)",
+        "assertEmpty(x)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué ventaja principal aportan las pruebas de unidad frente a las mod\u0002ificaciones del código?",
+      "options": [
+        "Permiten eliminar todos los assert del código de producción",
+        "Comprueban que nuevas modificaciones no introducen errores en código ex\u0002istente (regresión)",
+        "Sustituyen a los bloques try...except en producción",
+        "Generan automáticamente precondiciones y postcondiciones"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En unittest, ¿qué argumento debe ir primero en assertEqual(a,",
+      "options": [
+        "? 3",
+        "El valor real obtenido",
+        "El valor esperado",
+        "El valor más grande",
+        "El orden no importa"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En programación por contrato, ¿cómo se denominan las condiciones que deben cumplirse siempre en cualquier objeto de una clase?",
+      "options": [
+        "Precondiciones",
+        "Postcondiciones",
+        "Invariantes de clase",
+        "Contratos de instancia Tema 7: Archivos"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué función de Python se utiliza para crear o abrir un archivo?",
+      "options": [
+        "file()",
+        "create()",
+        "open()",
+        "read()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué combinación de caracteres en el modo de apertura se usa para escribir en un archivo de texto?",
+      "options": [
+        "\"rb\"",
+        "\"wt\"",
+        "\"at\"",
+        "\"rt\""
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace f.readlines() sobre un archivo abierto?",
+      "options": [
+        "Lee solo la primera línea",
+        "Lee el archivo carácter a carácter",
+        "Devuelve todas las líneas como una lista",
+        "Lee el archivo en modo binario"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la ventaja principal de usar la construcción with open(...) as f: frente a open() sin with?",
+      "options": [
+        "Es más rápida en archivos grandes",
+        "Evita la necesidad de llamar a f.close() manualmente",
+        "Permite abrir varios archivos simultáneamente",
+        "Solo funciona con archivos de texto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué significa el carácter \"a\" en el modo de apertura de open()?",
+      "options": [
+        "Abrir en modo binario",
+        "Abrir para lectura",
+        "Añadir contenido al final del archivo sin borrar lo existente",
+        "Abrir en modo de texto ASCII"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué significa el acrónimo CSV?",
+      "options": [
+        "Comma Structured Values",
+        "Comma Separated Values",
+        "Character Separated Values",
+        "Column Stored Values"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Por qué Excel en su versión española usa ; como delimitador en archivos CSV en lugar de ,?",
+      "options": [
+        "Porque , está reservada para cadenas de texto 4",
+        "Porque en países de habla hispana la , se usa como separador decimal",
+        "Porque el estándar RFC 4180 lo exige para idiomas latinos",
+        "Porque ; permite mayor velocidad de lectura"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dado csv.writer(f, quoting=csv.QUOTE_NONNUMERIC), ¿qué valores se entrecomillan en la salida?",
+      "options": [
+        "Solo los valores que contienen el delimitador",
+        "Todos los valores",
+        "Solo los valores no numéricos",
+        "Ningún valor"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método del escritor CSV escribe todas las filas de una lista de listas de una sola vez?",
+      "options": [
+        "writerow(l)",
+        "writelines(l)",
+        "writeall(l)",
+        "writerows(l)"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Al leer un archivo CSV con csv.reader, ¿cómo se procede para leer el contenido?",
+      "options": [
+        "Se puede leer todo de una vez con readall()",
+        "Es obligatorio hacerlo línea a línea iterando sobre el lector",
+        "Se lee mediante índices como una lista",
+        "Se usa readlines() directamente sobre el objeto reader"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué ventaja aporta csv.DictReader frente a csv.reader?",
+      "options": [
+        "Es más rápido al leer archivos grandes",
+        "Clasifica automáticamente los valores por nombre de columna sin depender del orden",
+        "Permite escribir y leer en el mismo objeto",
+        "Soporta archivos binarios además de texto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el valor por defecto del parámetro quoting en csv.writer?",
+      "options": [
+        "QUOTE_ALL",
+        "QUOTE_NONNUMERIC",
+        "QUOTE_NONE",
+        "QUOTE_MINIMAL"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué propiedad de un DataFrame de Pandas devuelve el par (filas, columnas)?",
+      "options": [
+        "df.size",
+        "df.shape",
+        "df.dimensions",
+        "df.info()"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se importa la librería Pandas por convención?",
+      "options": [
+        "import pandas",
+        "import pandas as p",
+        "import pandas as pd",
+        "from pandas import *"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método de DataFrame se utiliza para recorrer fila a fila devolviendo número de fila y fila como diccionario?",
+      "options": [
+        "df.rows()",
+        "df.iterrows() 5",
+        "df.forrows()",
+        "df.each()"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dado df[(df.Sex == \"female\") & (-(df.Pclass == 1))], ¿qué filas de\u0002vuelve?",
+      "options": [
+        "Mujeres que viajan en primera clase",
+        "Hombres que no viajan en primera clase",
+        "Mujeres que no viajan en primera clase",
+        "Todos los pasajeros excepto hombres en primera"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método de Pandas elimina filas que contienen valores nulos?",
+      "options": [
+        "df.fillna()",
+        "df.removenull()",
+        "df.dropna()",
+        "df.clean()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace df.Age.fillna(-1)?",
+      "options": [
+        "Elimina todas las filas donde Age es nulo",
+        "Reemplaza los valores nulos de la columna Age con -1",
+        "Comprueba si hay valores nulos en Age",
+        "Rellena la columna entera con -1"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método de Pandas ordena un DataFrame por los valores de una columna?",
+      "options": [
+        "df.order_by()",
+        "df.sort()",
+        "df.sort_values(by=\"columna\")",
+        "df.arrange()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método exporta un DataFrame a un archivo CSV?",
+      "options": [
+        "df.save_csv()",
+        "df.export()",
+        "df.write_csv()",
+        "df.to_csv()"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué devuelve df.groupby(\"Sex\").Survived.mean()?",
+      "options": [
+        "El número de supervivientes por sexo",
+        "La tasa de supervivencia media agrupada por sexo",
+        "Una lista de todos los supervivientes femeninos",
+        "El total de pasajeros por sexo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace Series.where(condicion, v) cuando la condición no se cumple?",
+      "options": [
+        "Mantiene el valor original de la serie",
+        "Sustituye el valor por v",
+        "Lanza una excepción",
+        "Devuelve None"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué módulo de Python permite guardar y recuperar estructuras de datos en formato JSON?",
+      "options": [
+        "pickle",
+        "marshal",
+        "json",
+        "struct 6"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué función del módulo json guarda datos en un archivo?",
+      "options": [
+        "json.save(datos, f)",
+        "json.write(datos, f)",
+        "json.dump(datos, f)",
+        "json.store(datos, f)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué función del módulo json carga datos desde un archivo?",
+      "options": [
+        "json.read(f)",
+        "json.load(f)",
+        "json.open(f)",
+        "json.parse(f)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la limitación principal del módulo json respecto a los tipos de datos que puede manejar directamente?",
+      "options": [
+        "No puede manejar cadenas de texto Unicode",
+        "Solo puede manejar directamente listas y diccionarios",
+        "Solo soporta valores numéricos enteros",
+        "No puede manejar objetos anidados"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Para serializar un objeto personalizado con json.dump(), ¿qué debe hacer el codificador personalizado que hereda de json.JSONEncoder?",
+      "options": [
+        "Sobreescribir __init__ para recibir el objeto",
+        "Sobreescribir el método default(self, o) devolviendo o.__dict__",
+        "Implementar el método encode(self, o) devolviendo una cadena",
+        "Sobreescribir __str__ para devolver JSON válido"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué atributo de un objeto Python contiene sus datos en formato de dic\u0002cionario, útil para serializar con JSON?",
+      "options": [
+        "__data__",
+        "__attrs__",
+        "__dict__",
+        "__json__"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué diferencia principal tiene pickle respecto a json para guardar obje\u0002tos?",
+      "options": [
+        "pickle guarda en texto legible, json en binario",
+        "pickle no requiere especificar ningún formato, Python lo gestiona de forma transparente",
+        "pickle solo puede guardar tipos primitivos",
+        "pickle es más adecuado para aplicaciones web"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué modo de apertura se debe usar para escribir un archivo pickle?",
+      "options": [
+        "\"wt\"",
+        "\"wb\"",
+        "\"at\"",
+        "\"rb\""
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué función del módulo json permite guardar datos en una cadena de texto en lugar de un archivo?",
+      "options": [
+        "json.encode()",
+        "json.stringify()",
+        "json.dumps() 7",
+        "json.tostring()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué parámetro de pd.read_csv() permite seleccionar solo ciertas colum\u0002nas al cargar el archivo?",
+      "options": [
+        "columns=[\"col1\", \"col2\"]",
+        "select=[\"col1\", \"col2\"]",
+        "usecols=[\"col1\", \"col2\"]",
+        "filter=[\"col1\", \"col2\"]"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué parámetro de pd.read_csv() permite cambiar el separador a punto y coma?",
+      "options": [
+        "delimiter=\";\"",
+        "sep=\";\"",
+        "split=\";\"",
+        "separator=\";\""
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método de Pandas muestra información estadística (media, mediana, etc.) de un DataFrame?",
+      "options": [
+        "df.info()",
+        "df.stats()",
+        "df.describe()",
+        "df.summary()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve df.Age.isnull().sum()?",
+      "options": [
+        "El número total de filas del DataFrame",
+        "El número de valores nulos en la columna Age",
+        "La suma de todos los valores de Age",
+        "Los índices de las filas con Age nulo Tema 8: Programación Funcional"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la sintaxis correcta para definir una función lambda en Python?",
+      "options": [
+        "def lambda [args]: <expresión>",
+        "lambda [args] => <expresión>",
+        "lambda [args]: <expresión>",
+        "func [args]: <expresión>"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Dada f = lambda x: x * 2, ¿qué devuelve f(5)?",
+      "options": [
+        "5",
+        "\"55\"",
+        "10",
+        "None"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la diferencia principal entre una función lambda y una función definida con def?",
+      "options": [
+        "Las lambdas pueden tener varias líneas de código",
+        "En una lambda el return está implícito; la expresión compuesta es lo que se devuelve",
+        "Las lambdas no aceptan parámetros",
+        "Las lambdas solo funcionan con tipos numéricos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué permite hacer el parámetro key de la función sorted()?",
+      "options": [
+        "Indicar si se ordena de forma ascendente o descendente",
+        "Pasar una función que define el criterio de ordenación para cada elemento 8",
+        "Filtrar elementos antes de ordenar",
+        "Limitar el número de elementos ordenados"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dado: sorted(lpts, key=lambda p: p.dist_centro()), ¿qué hace esta expresión?",
+      "options": [
+        "Ordena la lista lpts por el nombre de cada punto",
+        "Filtra los puntos cuya distancia al centro sea mayor que cero",
+        "Ordena la lista lpts según la distancia de cada punto al centro de coordenadas",
+        "Agrupa los puntos por su distancia al centro"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuáles son los dos recursos disponibles en una lambda para sustituir estructuras de control como if y for?",
+      "options": [
+        "Bucles while y operador ternario",
+        "Operador if ternario y recursividad",
+        "Comprensión de listas y operador or",
+        "Funciones map y filter"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dada list_to_str = lambda l: \"\" if not l else str(l[0]) if len(l) == 1 else str(l[0]) + \", \" + list_to_str(l[1:]), ¿qué de\u0002vuelve list_to_str([1,2,3])?",
+      "options": [
+        "\"[1, 2, 3]\"",
+        "\"1 2 3\"",
+        "\"1, 2, 3\"",
+        "\"1,2,3\""
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En una función lambda recursiva, ¿cuáles son los dos casos que siempre deben estar presentes?",
+      "options": [
+        "El caso de lista vacía y el caso de lista con un elemento",
+        "El caso base (cuando termina la recursión) y el caso regular",
+        "El caso de tipo incorrecto y el caso de tipo correcto",
+        "El caso de índice cero y el caso de índice negativo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace map(f, l) en Python?",
+      "options": [
+        "Filtra los elementos de l para los que f devuelve True",
+        "Aplica la función f a cada uno de los elementos de l",
+        "Reduce la lista l a un único valor usando f",
+        "Ordena la lista l usando f como criterio"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace filter(f, l) en Python?",
+      "options": [
+        "Aplica f a cada elemento y devuelve los resultados",
+        "Devuelve solo los elementos de l para los que f devuelve True",
+        "Reduce l a un valor usando f",
+        "Transforma cada elemento con f devolviendo un nuevo tipo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿En qué módulo de Python se encuentra la función reduce()?",
+      "options": [
+        "builtins",
+        "itertools",
+        "functools",
+        "operator"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Dado reduce(lambda x, y: x + y, [1, 2, 3, 4, 5]), ¿qué valor se devuelve?",
+      "options": [
+        "[1, 2, 3, 4, 5]",
+        "25",
+        "15",
+        "5 9"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo puede emularse map(f, l) usando comprensión de listas?",
+      "options": [
+        "[f for x in l]",
+        "[f(x) for x in l if f(x)]",
+        "[f(x) for x in l]",
+        "[x for x in l if f(x)]"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo puede emularse filter(f, l) usando comprensión de listas?",
+      "options": [
+        "[f(x) for x in l]",
+        "[x for x in l if f(x)]",
+        "[x for x in l if not f(x)]",
+        "[f for x in l if x]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve car(l) en la simulación de LISP con lambdas?",
+      "options": [
+        "El último elemento de la lista",
+        "El resto de la lista sin el primer elemento",
+        "El primer elemento de la lista",
+        "La longitud de la lista"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve cdr(l) en la simulación de LISP con lambdas?",
+      "options": [
+        "El primer elemento de la lista",
+        "La lista sin el primer elemento (equivalente a l[1:])",
+        "El último elemento de la lista",
+        "Una copia completa de la lista"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dada car = lambda l: None if l == None or l == [] else l[0], ¿qué devuelve car([])?",
+      "options": [
+        "[]",
+        "0",
+        "None",
+        "Lanza un IndexError"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Dada reverse = lambda l: [] if l == None or l == [] else reverse(cdr(l)) + [car(l)], ¿qué devuelve reverse([1, 2, 3])?",
+      "options": [
+        "[1, 2, 3]",
+        "[3, 2, 1]",
+        "[[3], [2], [1]]",
+        "None"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué tipo de funciones se denominan predicados en programación fun\u0002cional?",
+      "options": [
+        "Funciones que aceptan otra función como parámetro",
+        "Funciones que devuelven un valor booleano según el parámetro recibido",
+        "Funciones que transforman listas en valores únicos",
+        "Funciones que no tienen efectos secundarios"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En reduce(lambda d, p2: d + p2.dist_centro(), lpts, 0), ¿para qué sirve el tercer argumento 0?",
+      "options": [
+        "Limita la reducción a los primeros 0 elementos",
+        "Actúa como valor inicial del acumulador, permitiendo que f siempre reciba un número como primer parámetro",
+        "Indica que la lista debe recorrerse en orden inverso 10",
+        "Es el valor que se devuelve si la lista está vacía"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dada f1 = lambda x: x * 2 y l = [11, 12, 13], ¿qué devuelve list(map(f1, l))?",
+      "options": [
+        "[11, 12, 13]",
+        "[22, 24, 26]",
+        "[121, 144, 169]",
+        "[13]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dada f2 = lambda x: x % 3 == 0 y l = [11, 12, 13, 14, 15, 18], ¿qué devuelve list(filter(f2, l))?",
+      "options": [
+        "[12, 15, 18]",
+        "[11, 13, 14]",
+        "[12, 18]",
+        "[15, 18]"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿En qué se diferencia reduce() de map() y filter() en cuanto al valor que devuelven?",
+      "options": [
+        "reduce() devuelve una lista, mientras que map() y filter() devuelven un único valor",
+        "reduce() devuelve un único valor; map() y filter() devuelven una colección",
+        "No hay diferencia, los tres devuelven listas",
+        "reduce() devuelve un diccionario, los demás devuelven listas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál de las siguientes es una implementación correcta de map usando car y cdr?",
+      "options": [
+        "map = lambda f, l: [] if l == [] else map(f, cdr(l)) + [f(car(l))]",
+        "map = lambda f, l: [] if l == None or l == [] else [f(car(l))] + map(f, cdr(l))",
+        "map = lambda f, l: [f(x) for x in l]",
+        "map = lambda f, l: filter(f, l)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Por qué Python dice que las funciones son “ciudadanas de primera clase”?",
+      "options": [
+        "Porque se declaran antes que las variables",
+        "Porque pueden ser pasadas como parámetros a otras funciones",
+        "Porque no pueden ser redefinidas en tiempo de ejecución",
+        "Porque son inmutables una vez definidas Tema 9: Reflexión"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué función de Python devuelve una lista de cadenas con los miembros (métodos y atributos) de un objeto?",
+      "options": [
+        "members(obj)",
+        "inspect(obj)",
+        "dir(obj)",
+        "vars(obj)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué diferencia hay entre introspección y reflexión estructural?",
+      "options": [
+        "La introspección modifica los miembros; la reflexión los consulta",
+        "La introspección consulta los miembros de un objeto; la reflexión estructural permite modificarlos",
+        "Son términos equivalentes en Python",
+        "La introspección es solo para clases; la reflexión es para instancias 11"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace getattr(obj, s)?",
+      "options": [
+        "Elimina el atributo s del objeto obj",
+        "Devuelve el miembro del objeto obj cuyo nombre coincide con la cadena s",
+        "Comprueba si el objeto obj tiene un atributo llamado s",
+        "Asigna el valor s al objeto obj"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve callable(m) cuando m es un método?",
+      "options": [
+        "False",
+        "None",
+        "True",
+        "El número de parámetros del método"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En la función to_str(obj), ¿para qué se usa callable(m) durante la iteración sobre dir(obj)?",
+      "options": [
+        "Para ejecutar todos los métodos del objeto",
+        "Para distinguir entre atributos y métodos, imprimiendo solo los atributos",
+        "Para comprobar si el objeto es iterable",
+        "Para verificar que el objeto tiene un método __str__"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dado p = Punto(5, 6) con atributos privados __x y __y, ¿cómo aparece __x en la salida de dir(p)?",
+      "options": [
+        "\"__x\"",
+        "\"_x\"",
+        "\"_Punto__x\"",
+        "\"x\""
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuándo se llama a __getattr__(self, s) en un objeto Python?",
+      "options": [
+        "Siempre que se intenta acceder a cualquier miembro del objeto",
+        "Solo cuando s no se corresponde con ningún identificador dentro del objeto",
+        "Solo cuando se accede a atributos privados",
+        "Solo al crear el objeto con __init__"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuándo se llama a __getattribute__(self, s)?",
+      "options": [
+        "Solo cuando el atributo s no existe en el objeto",
+        "Solo para métodos, no para atributos",
+        "Siempre que se intenta acceder a cualquier miembro del objeto",
+        "Solo cuando s empieza por doble subrayado"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En el ejemplo de Punto con __getattribute__, al llamar a p.getX(), ¿qué devuelve el método?",
+      "options": [
+        "El valor de __x",
+        "El valor de __y",
+        "None (devuelve lambda: None)",
+        "Lanza AttributeError"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué permite hacer la reflexión estructural respecto a los miembros de un objeto?",
+      "options": [
+        "Solo consultarlos sin poder modificarlos",
+        "Añadir, modificar y eliminar miembros de un objeto o clase en tiempo de ejecución",
+        "Generar automáticamente métodos __str__ y __repr__",
+        "Convertir atributos privados en públicos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dado el siguiente código: class Punto: pass; Punto.x = 0; Punto.__str__ = lambda self: str(self.x), ¿es esto válido en Python?",
+      "options": [
+        "No, no se pueden añadir atributos a una clase ya definida 12",
+        "Sí, Python permite añadir miembros a una clase en cualquier momento",
+        "Solo es válido si la clase hereda de object explícitamente",
+        "No, las funciones lambda no pueden asignarse como métodos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dado: p = Punto(); p.x = 5; del p.y; print(p), si Punto.y = 0 y __str__ usa self.y, ¿qué imprime?",
+      "options": [
+        "Lanza AttributeError porque p.y no existe",
+        "Imprime el valor 0 porque por herencia por delegación se usa Punto.y",
+        "Imprime None",
+        "Imprime 5"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se denomina el modelo de herencia que usa Python, en el que cuando no se puede satisfacer un acceso en el objeto, se delega en el objeto padre?",
+      "options": [
+        "Herencia por concatenación",
+        "Herencia múltiple",
+        "Herencia por delegación",
+        "Herencia dinámica lineal"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué atributo de un objeto Python indica a qué clase pertenece?",
+      "options": [
+        "__type__",
+        "__class__",
+        "__parent__",
+        "__instance__"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En el ejemplo de herencia dinámica con Auxiliar y Directivo, ¿qué ocurre cuando el salario de un objeto Auxiliar supera los 100.000?",
+      "options": [
+        "Se lanza una excepción de tipo ValueError",
+        "El objeto cambia automáticamente su __class__ a Directivo",
+        "Se crea un nuevo objeto de tipo Directivo",
+        "El objeto es eliminado y reemplazado por uno nuevo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En la clase SmartList del ejercicio resuelto, ¿qué hace __getattribute__ cuando el nombre del método empieza por \"getValue\"?",
+      "options": [
+        "Lanza AttributeError",
+        "Devuelve una lambda que retorna el elemento en la posición indicada por el número tras \"getValue\"",
+        "Devuelve None directamente",
+        "Llama al método getValue() de la clase padre"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué función de Python comprueba si un objeto es una instancia de una clase determinada?",
+      "options": [
+        "type(obj) == Clase",
+        "isinstance(obj, Clase)",
+        "istype(obj, Clase)",
+        "checkinstance(obj, Clase)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Por qué Python añade el prefijo con el nombre de la clase a los atributos marcados como privados (con __)?",
+      "options": [
+        "Para que sean más fáciles de encontrar con dir()",
+        "Para evitar colisiones de nombres en herencia y que no sea inmediato acceder 13 a ellos desde fuera",
+        "Para mejorar el rendimiento al acceder a ellos",
+        "Para cumplir con el estándar PEP-8"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve dir(Punto) frente a dir(p) siendo p una instancia de Punto?",
+      "options": [
+        "dir(Punto) incluye los atributos de instancia como _Punto__x; dir(p) no",
+        "dir(p) incluye los atributos de instancia además de los de clase; dir(Punto) solo los de clase",
+        "Ambos devuelven exactamente lo mismo",
+        "dir(p) solo devuelve los métodos, no los atributos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En el modelo basado en prototipos de Python, ¿qué ocurre cuando se accede a un atributo que no existe en el objeto pero sí en la clase?",
+      "options": [
+        "Se lanza AttributeError inmediatamente",
+        "Por herencia por delegación, se busca en la clase (objeto padre)",
+        "Se crea automáticamente el atributo en el objeto con valor None",
+        "Se llama a __getattr__ con el nombre del atributo Preguntas Mixtas y de Integración"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones define correctamente un método __str__ usando lambda para la clase Punto?",
+      "options": [
+        "Punto.__str__ = lambda: str.format(\"({0}, {1})\", Punto.__x, Punto.__y)",
+        "Punto.__str__ = lambda self: str.format(\"({0}, {1})\", self.__x, self.__y)",
+        "Punto.str = lambda self: str.format(\"({0}, {1})\", self.x, self.y)",
+        "Punto.__str__(self) = lambda: f\"({self.x}, {self.y})\""
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dado que __debug__ es False, ¿qué hace el siguiente código? if __debug__: def __recorre(self): ... else: def __recorre(self): pass",
+      "options": [
+        "Define __recorre con su implementación real",
+        "Define __recorre como una función vacía que no hace nada",
+        "Lanza un error de sintaxis",
+        "No define __recorre en absoluto 14"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma correcta de capturar cualquier excepción en un bloque except?",
+      "options": [
+        "except Exception:",
+        "except *:",
+        "except:",
+        "Las opciones",
+        "y",
+        "son correctas"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Dado df.Age.apply(lambda age: 1 if age > 18 else 0), ¿qué pro\u0002duce esta expresión?",
+      "options": [
+        "Filtra las filas donde Age > 18",
+        "Devuelve una Series con 1 para adultos y 0 para menores",
+        "Modifica directamente la columna Age del DataFrame",
+        "Devuelve el número de adultos en el DataFrame"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Para leer un archivo pickle, ¿qué modo de apertura es correcto?",
+      "options": [
+        "open(\"f.pkl\", \"rt\")",
+        "open(\"f.pkl\", \"r\")",
+        "open(\"f.pkl\", \"rb\")",
+        "open(\"f.pkl\", \"br\")"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué módulo hay que importar para usar assert con captura de la ex\u0002cepción correspondiente?",
+      "options": [
+        "assertions",
+        "builtins",
+        "No hace falta importar nada, assert es una sentencia nativa",
+        "exceptions"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones sobre map() y comprensión de listas es correcta?",
+      "options": [
+        "map() es siempre más eficiente que la comprensión de listas",
+        "La comprensión de listas puede emular map() y además obtener mejor rendimiento",
+        "map() permite filtrar elementos; la comprensión de listas no",
+        "Solo map() funciona con objetos no iterables"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuándo es preferible usar json frente a pickle para guardar datos?",
+      "options": [
+        "Cuando se necesita guardar objetos complejos de forma más rápida",
+        "Cuando se necesita un formato de texto legible e intercambiable entre sis\u0002temas distintos",
+        "Cuando se trabaja con archivos binarios de gran tamaño",
+        "Cuando no se quiere especificar ningún tipo de formato"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace super().__getattribute__(s) dentro de un __getattribute__ personalizado?",
+      "options": [
+        "Llama al __getattr__ de la clase padre",
+        "Devuelve el comportamiento normal de acceso a miembro, “dejando pasar” el acceso",
+        "Elimina el atributo s del objeto",
+        "Lanza AttributeError si s no existe"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En unittest, ¿qué método comprueba que a in b?",
+      "options": [
+        "assertContains(a,",
+        "assertInside(a,",
+        "assertIn(a,",
+        "15",
+        "assertMember(a,"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué ocurre si en un try...except la excepción que se produce no coin\u0002cide con ninguno de los tipos especificados en los bloques except?",
+      "options": [
+        "Python la captura con el último except disponible",
+        "La excepción asciende por la pila de llamadas hasta encontrar un handler adecuado o terminar el programa",
+        "Se ejecuta el bloque finally y la excepción desaparece",
+        "Python convierte la excepción en una de tipo genérico"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el propósito del método tearDown() en unittest.TestCase?",
+      "options": [
+        "Ejecutarse antes de cada test para preparar el entorno",
+        "Ejecutarse después de cada test, normalmente para limpiar recursos",
+        "Ejecutarse una única vez al finalizar todos los tests",
+        "Marcar un test como fallido"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace df.groupby([\"Pclass\", \"Sex\"]).Survived.mean()?",
+      "options": [
+        "Agrupa solo por clase (Pclass) e ignora el sexo",
+        "Calcula la tasa de supervivencia media para cada combinación de clase y sexo",
+        "Devuelve el número de supervivientes por clase",
+        "Filtra el DataFrame manteniendo solo las columnas Pclass, Sex y Survived"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dado el codificador DefaultEncoder(json.JSONEncoder) con def default(self, o): return o.__dict__, ¿qué ocurre con objetos que tienen atributos privados como self.__nombre?",
+      "options": [
+        "Lanza TypeError porque los atributos privados no son serializables",
+        "Los guarda con el nombre transformado (p. ej. _Nota__nombre) tal como aparecen en __dict__",
+        "Los ignora completamente",
+        "Los guarda con el nombre original __nombre"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Por qué se recomienda separar el código de las pruebas de unidad del código de lógica de negocio?",
+      "options": [
+        "Porque las pruebas consumen demasiada memo\u0002ria si están en el mismo archivo",
+        "Para que en el código de negocio solo queden verificaciones de diseño por contrato, y las pruebas puedan ejecutarse independientemente",
+        "Porque unittest no puede importar clases del mismo archivo",
+        "Para que las pruebas no afecten al rendimiento en producción"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones sobre las funciones lambda recursivas es correcta?",
+      "options": [
+        "Las lambdas en Python no pueden ser recursivas",
+        "Una lambda puede referenciarse a sí misma si se asigna a una variable antes de llamarla",
+        "La recursividad en lambdas requiere importar el módulo recursion",
+        "Las lambdas recursivas solo funcionan con listas de enteros"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve df.Age.unique() en Pandas?",
+      "options": [
+        "El número de valores únicos en la columna 16",
+        "Los valores únicos presentes en la columna como un array",
+        "La media de la columna ignorando duplicados",
+        "Una Series sin duplicados ordenada"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En la clase Empleado con herencia dinámica, ¿qué imprime print(e) después de e = Auxiliar(\"Ana\", 1000); e.salario = 200000?",
+      "options": [
+        "Ana: 200000.00 (auxiliar)",
+        "Ana: 200000.00 (directivo)",
+        "Lanza AttributeError",
+        "Ana: 1000.00 (directivo)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Para qué sirve el parámetro subset en df.dropna(subset=[\"Age\"])?",
+      "options": [
+        "Para eliminar columnas vacías cuyo nombre esté en la lista",
+        "Para indicar las columnas a considerar al buscar filas con valores nulos",
+        "Para seleccionar un subconjunto de filas del DataFrame",
+        "Para reemplazar nulos solo en las columnas indicadas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace df[df.Pclass == 1].Age.hist() en Pandas con Matplotlib?",
+      "options": [
+        "Devuelve una lista de las edades de los pasajeros de primera clase",
+        "Configura un histograma de las edades de los pasajeros de primera clase",
+        "Calcula la media de las edades en primera clase",
+        "Filtra el DataFrame y muestra las primeras 5 filas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones crea correctamente un conjunto con los valores 11, 22 y 33?",
+      "options": [
+        "c1 = set(11, 22, 33)",
+        "c1 = {11, 22, 33} o equivalentemente c1 = set((11, 22, 33))",
+        "c1 = set[11, 22, 33]",
+        "c1 = Set(11, 22, 33)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dado n1 = Natural(4); n2 = Natural(3); print(n1 + n2), ¿qué im\u0002prime?",
+      "options": [
+        "Natural(7)",
+        "7",
+        "(4, 3)",
+        "Lanza TypeError"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En la función to_str(obj), ¿por qué se sigue la sintaxis de un diccionario Python en la cadena devuelta?",
+      "options": [
+        "Para que sea más fácil de leer por el progra\u0002mador",
+        "Para que la cadena pueda ser enviada a eval() y obtener un diccionario Python",
+        "Para cumplir el formato JSON automáticamente",
+        "Porque dir() devuelve un diccionario internamente"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma correcta de iterar sobre un archivo de texto línea a línea sin cargar todo el archivo en memoria?",
+      "options": [
+        "f.readlines() y luego iterar",
+        "Iterar directamente sobre el objeto archivo con for linea in f:",
+        "f.read().split('\\n')",
+        "f.readline() en un bucle while True:"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué comprueba assertIsInstance(a,",
+      "options": [
+        "en unittest?",
+        "Que a es 17 igual a b",
+        "Que a es instancia de la clase b",
+        "Que a y b son el mismo objeto en memoria",
+        "Que b es subclase de a"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la principal ventaja de escribir los tests antes que el código que se quiere comprobar (TDD)?",
+      "options": [
+        "Genera automáticamente el código a partir de los tests",
+        "Ayuda al programador a ponerse en el lugar del cliente de la clase, diseñando la API desde el uso",
+        "Elimina la necesidad de depurar el código",
+        "Permite compilar el código sin errores de sintaxis antes de implementarlo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dado filter(lambda p: p.dist_centro() < 4, lpts), siendo lpts = [Punto(0,0), Punto(1,3), Punto(2,4), Punto(5,7)], ¿qué puntos devuelve?",
+      "options": [
+        "[Punto(0,0), Punto(1,3), Punto(2,4)]",
+        "[Punto(0,0), Punto(1,3)]",
+        "[Punto(2,4), Punto(5,7)]",
+        "[Punto(0,0)]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace pickle.dump(p1, f) siendo f un archivo abierto en modo \"wb\"?",
+      "options": [
+        "Guarda la representación de texto de p1 en f",
+        "Serializa el objeto p1 y lo escribe en el archivo binario f",
+        "Guarda solo los atributos públicos de p1",
+        "Convierte p1 a JSON y lo escribe en f"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En Pandas, ¿cuál es la diferencia entre df[\"Age\"] y df[[\"Age\"]]?",
+      "options": [
+        "No hay diferencia, ambos devuelven lo mismo",
+        "df[\"Age\"] devuelve un objeto Series; df[[\"Age\"]] devuelve un DataFrame",
+        "df[\"Age\"] devuelve un DataFrame; df[[\"Age\"]] una Series",
+        "df[[\"Age\"]] lanza un error porque se usan dobles corchetes"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué significa que reduce() aplica la función con el valor inicial como primer parámetro cuando se le pasa un tercer argumento?",
+      "options": [
+        "La lista se recorre en orden inverso",
+        "El primer elemento de la lista se descarta",
+        "La función siempre recibe el acumulado como primer argumento y el elemento de la lista como segundo, comenzando desde el valor inicial",
+        "La función se aplica solo a los elementos pares de la lista"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál de las siguientes formas de escribir CSV en Python entrecomilla to\u0002dos los valores sin excepción?",
+      "options": [
+        "csv.writer(f, quoting=csv.QUOTE_MINIMAL)",
+        "csv.writer(f, quoting=csv.QUOTE_NONE)",
+        "csv.writer(f, quoting=csv.QUOTE_ALL)",
+        "csv.writer(f, quoting=csv.QUOTE_NONNUMERIC)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace os.path.isfile(\"datos.txt\") en Python?",
+      "options": [
+        "Crea el archivo datos.txt si no existe",
+        "Devuelve True si el archivo datos.txt existe; False en caso contrario 18",
+        "Devuelve la ruta absoluta del archivo",
+        "Elimina el archivo si existe"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la diferencia entre json.dumps() y json.dump()?",
+      "options": [
+        "json.dumps() guarda en un archivo; json.dump() en una cadena",
+        "json.dumps() guarda en una cadena de texto; json.dump() en un archivo",
+        "json.dumps() trabaja con listas; json.dump() con diccionarios",
+        "No hay diferencia funcional entre ambas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué módulo debe importarse para poder usar isinstance() con tipos numéricos abstractos como numbers.Integral?",
+      "options": [
+        "builtins",
+        "typing",
+        "numbers",
+        "math"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En la clase Natural, ¿qué hace __floordiv__ con dos objetos Natural?",
+      "options": [
+        "Realiza la división real y devuelve un float",
+        "Realiza la división entera y devuelve un nuevo Natural",
+        "Lanza TypeError porque los naturales no soportan división",
+        "Devuelve el resto de la división"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál sería la postcondición típica para verificar que dividePorDos(",
+      "options": [
+        "us\u0002ando desplazamiento de bits >> funciona correctamente?",
+        "assert(resultado != 0)",
+        "assert(resultado == (a / 2))",
+        "assert(a % 2 == 0)",
+        "assert(resultado >= 0)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En el contexto de Pandas, ¿qué devuelve df.columns.tolist()?",
+      "options": [
+        "El número de columnas del DataFrame",
+        "Una lista con los nombres de todas las columnas",
+        "Los tipos de datos de cada columna",
+        "Los valores únicos de cada columna"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué tipo de valor acepta df.Age.fillna() como argumento?",
+      "options": [
+        "Solo valores enteros",
+        "Solo NaN",
+        "Cualquier tipo de valor que reemplazará a los nulos",
+        "Solo la media o la mediana de la columna"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la salida de list_to_str([]) con la función list_to_str = lambda l: \"\" if not l else ...?",
+      "options": [
+        "\"[]\"",
+        "None",
+        "\"\"",
+        "Lanza IndexError"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuántos parámetros acepta la función f en reduce(f, l)?",
+      "options": [
+        "Uno",
+        "Dos (un acumulado y el elemento actual de la list",
+        "Tres",
+        "Un número variable de parámetros 19"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué problema tiene el siguiente bloque? except: print(\"error\"); except ValueError: print(\"valor incorrecto\")",
+      "options": [
+        "Ninguno, es perfecta\u0002mente válido",
+        "El except genérico debe ir después del específico, no antes",
+        "No se puede combinar except genérico con except tipado",
+        "except ValueError no existe en Python"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Al crear un lector CSV con csv.reader(f, quoting=csv.QUOTE_NONNUMERIC), ¿qué ocurre con los valores numéricos leídos?",
+      "options": [
+        "Se devuelven como cadenas de texto",
+        "Se devuelven como float",
+        "Se devuelven como int",
+        "Se lanza ValueError si hay números en el archivo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace df.sort_values(by=\"Fare\", ascending=False)?",
+      "options": [
+        "Ordena el DataFrame por tarifa de menor a mayor",
+        "Ordena el DataFrame por tarifa de mayor a menor",
+        "Filtra las filas con la tarifa más alta",
+        "Agrupa las filas por tarifa"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué significa sep='\\t' en pd.read_csv()?",
+      "options": [
+        "Que el archivo usa comas como separador",
+        "Que el archivo usa tabuladores como separador (formato TSV)",
+        "Que el archivo usa punto y coma como separador",
+        "Que se deben saltar las primeras \\t líneas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones sobre pickle es correcta respecto a la seguridad?",
+      "options": [
+        "pickle es el más seguro para aplicaciones web por su cifrado integrado",
+        "pickle no está pensado para ser manejado con garantías de seguridad en aplicaciones web",
+        "pickle valida automáticamente los datos antes de cargarlos",
+        "pickle y json tienen el mismo nivel de seguridad"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál sería el resultado de cdr([1]) con cdr = lambda l: [] if l == None or l == [] else l[1:]?",
+      "options": [
+        "[1]",
+        "None",
+        "[]",
+        "1"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué imprime print(p.getX()) en el ejemplo de __getattribute__ que devuelve lambda: None para métodos que empiezan por \"get\"?",
+      "options": [
+        "El valor de __x",
+        "La función lambda",
+        "None",
+        "Lanza AttributeError"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué ventaja aporta df.iterrows() respecto a un bucle for i in range(len(df))?",
+      "options": [
+        "Es más rápido en DataFrames grandes 20",
+        "Devuelve directamente el número de fila y la fila como objeto con atributos nombrados",
+        "Permite modificar el DataFrame durante la iteración",
+        "Solo recorre las filas que no tienen valores nulos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En el ejemplo de Natural.__sub__, ¿qué hace raise TypeError(\"Natural -?\")?",
+      "options": [
+        "Imprime un mensaje de error y continúa la ejecución",
+        "Lanza una excepción de tipo TypeError con el mensaje indicado cuando el operando no es Natural ni entero",
+        "Devuelve None cuando el tipo es incorrecto",
+        "Llama al método __sub__ de la clase padre"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones es la correcta para recuperar no\u0002tas guardadas con JSON usando DefaultEncoder?",
+      "options": [
+        "json.load(f, cls=DefaultEncoder)",
+        "Iterar sobre los diccionarios cargados y asignar n.__dict__ = d para cada objeto",
+        "Usar pickle.load(f) para recuperar objetos JSON",
+        "Llamar a json.loads(f.read(), object_hook=lambda d: Nota(**",
+        ")"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve len(df) en Pandas?",
+      "options": [
+        "El número de columnas",
+        "El número de filas",
+        "El número total de celdas",
+        "El número de valores no nulos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma correcta de abrir un archivo para añadir contenido sin borrar lo existente?",
+      "options": [
+        "open(\"f.txt\", \"wt\")",
+        "open(\"f.txt\", \"rt\")",
+        "open(\"f.txt\", \"at\")",
+        "open(\"f.txt\", \"bt\")"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método de la clase TestPoint crea los objetos usados en los tests de point_test.py?",
+      "options": [
+        "__init__()",
+        "test_setup()",
+        "setUp()",
+        "createObjects()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En la clase Pila tras aplicar programación por contrato, ¿en qué función se separó pop() original?",
+      "options": [
+        "get() y remove()",
+        "peek() y delete()",
+        "top() (devuelve el valor) y pop() (lo elimin",
+        "read() y pop()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué ocurre si se llama a unittest.main() en el archivo de tests?",
+      "options": [
+        "Solo ejecuta el primer test encontrado",
+        "Ejecuta todos los métodos que empiezan por test_ y muestra los resultados",
+        "Genera un informe HTML con los resultados",
+        "Solo ejecuta los tests que han fallado previamente"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la salida de print(reduce(lambda x, y: x * y, [1, 2, 3, 21 4])) ?",
+      "options": [
+        "10",
+        "24",
+        "[1, 2, 3, 4]",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál de los siguientes modos de apertura permite tanto leer como escribir un archivo de texto en Python?",
+      "options": [
+        "\"wt\" — escritura de texto",
+        "\"r+\" — lectura y escritura",
+        "\"at\" — añadir texto",
+        "\"bt\" — binario y texto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En Natural.__truediv__, ¿qué devuelve la división Natural(5) / Natural(2)?",
+      "options": [
+        "Natural(2) (división enter",
+        "Natural(2.5) — pero lanzaría AssertionError por la invariante",
+        "2.5 como float",
+        "Lanza TypeError"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el propósito del parámetro comment='#' en pd.read_csv()?",
+      "options": [
+        "Añade comentarios al DataFrame cargado",
+        "Omite las líneas del archivo CSV que comienzan por #",
+        "Usa # como delimitador en lugar de coma",
+        "Exporta los comentarios a una columna separada"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace df.FamilySize = df.SibSp + df.Parch + 1 en Pandas?",
+      "options": [
+        "Modifica las columnas SibSp y Parch",
+        "Crea una nueva columna FamilySize con el tamaño de la familia de cada pasajero",
+        "Lanza KeyError porque FamilySize no existe",
+        "Suma los valores totales de ambas columnas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuántos elementos tiene la lista devuelta por dir(p) respecto a dir(Punto) para un objeto con atributos de instancia?",
+      "options": [
+        "Siempre el mismo número",
+        "dir(p) tiene más elementos porque incluye también los atributos de instancia",
+        "dir(Punto) siempre tiene más elementos",
+        "Depende de si la clase tiene métodos privados"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace del p.y en reflexión estructural de Python?",
+      "options": [
+        "Elimina el atributo y de la clase Punto",
+        "Elimina el atributo y del objeto p, sin afectar al atributo y de la clase",
+        "Establece p.y = None",
+        "Lanza AttributeError porque los atributos no pueden eliminarse"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dada Punto.__str__ = lambda self: str.format(\"[{0}, {1}]\", self.x, self.y), ¿qué imprime print(p) si p.x = 5 y p.y = 8?",
+      "options": [
+        "(5, 8)",
+        "{5, 8}",
+        "[5, 8]",
+        "5, 8 22"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la diferencia entre assertIs(a,",
+      "options": [
+        "y assertEqual(a,",
+        "en unittest?",
+        "assertIs comprueba que a == b; assertEqual que a is b",
+        "assertIs comprueba que son el mismo objeto en memoria (a is",
+        "; assertEqual que tienen el mismo valor (a ==",
+        "No hay diferencia funcional",
+        "assertIs solo funciona con tipos primitivos"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué ocurre al ejecutar Nota.guarda_notas(\"notas.txt\", [nota]) si ya existe el archivo?",
+      "options": [
+        "Lanza FileExistsError",
+        "Añade la nota al final del archivo existente",
+        "Sobreescribe el archivo con el nuevo contenido",
+        "No hace nada porque el archivo ya existe"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué módulo de Python proporciona la función math.sqrt() usada en la clase Point?",
+      "options": [
+        "numbers",
+        "builtins",
+        "math",
+        "operator"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve isinstance(Natural(3), numbers.Integral) siendo Natural la clase definida en el tema 6?",
+      "options": [
+        "True, porque Natural hereda de numbers.Integral",
+        "False, porque Natural no es un entero de Python nativo",
+        "Lanza TypeError",
+        "Depende del valor almacenado en el objeto"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Cuál sería la precondición adecuada para el método inserta(self, x) de la clase Lista del ejercicio resuelto?",
+      "options": [
+        "assert(x > 0)",
+        "assert(x != None)",
+        "assert(isinstance(x, int))",
+        "assert(len(self) < 100)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve df.head() en Pandas?",
+      "options": [
+        "La primera fila del DataFrame",
+        "Las primeras 5 filas del DataFrame por defecto",
+        "Las primeras 10 filas",
+        "El encabezado con los nombres de las columnas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En la serialización JSON con DefaultEncoder, ¿qué ocurriría si un objeto tiene atributos que no son serializables directamente (como un objeto datetime)?",
+      "options": [
+        "Python los serializa automáticamente",
+        "Se lanzaría TypeError porque json no sabe cómo serializar ese tipo",
+        "Se omiten silenciosamente",
+        "Se convierten a None"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál sería la salida del siguiente código? try: x = 1 / 0 except ZeroDivisionError: print(\"A\") 23 finally: print(\"B\")",
+      "options": [
+        "Solo A",
+        "Solo B",
+        "A seguido de B",
+        "B seguido de A"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es el propósito de df.describe() frente a df.info()?",
+      "options": [
+        "df.describe() muestra información genérica sobre tipos; df.info() informa\u0002ción estadística",
+        "df.info() muestra información genérica sobre tipos y nulls; df.describe() muestra estadísticas (media, mediana, etc.)",
+        "Son equivalentes, muestran lo mismo",
+        "df.describe() solo funciona con columnas de texto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve car(cdr([1, 2, 3]))?",
+      "options": [
+        "1",
+        "[2, 3]",
+        "2",
+        "[1, 2]"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método de unittest ejecuta todos los tests de la clase y proporciona información por pantalla?",
+      "options": [
+        "run()",
+        "execute()",
+        "unittest.main()",
+        "TestCase.runAll()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En el modelo de prototipos de Python, ¿cuál es el objeto padre de cualquier objeto de usuario?",
+      "options": [
+        "object",
+        "type",
+        "El objeto class correspondiente",
+        "None"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones imprimiría los 100 primeros cuadra\u0002dos perfectos usando programación funcional?",
+      "options": [
+        "print([x * x for x in range(1, 101)])",
+        "print(map(lambda x: x * x, range(1, 100)))",
+        "print(list(map(lambda x: x * x, range(1, 101))))",
+        "print(filter(lambda x: x ** 0.5 == int(x ** 0.5), range(1, 10001)))"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué pasa al ejecutar e.salario = 50000 después de que e había cambi\u0002ado a clase Directivo?",
+      "options": [
+        "e mantiene la clase Directivo",
+        "e vuelve a ser de clase Auxiliar porque su salario baja de 100.000",
+        "Lanza AttributeError",
+        "e pasa a ser de clase Empleado 24"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la ventaja de usar with open(...) as f para archivos CSV respecto a abrir y cerrar manualmente?",
+      "options": [
+        "Aumenta la velocidad de lectura",
+        "Garantiza que el archivo se cierra aunque ocurra una excepción",
+        "Permite abrir múltiples archivos al mismo tiempo",
+        "Convierte automáticamente los valores numéricos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En SmartList, si l.add(1); l.add(2); l.add(3), ¿qué devuelve l.getValue1()?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Lanza IndexError"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál de las siguientes formas de leer un archivo no carga todo el contenido en memoria de una vez?",
+      "options": [
+        "f.read()",
+        "f.readlines()",
+        "Iterar con for linea in f:",
+        "list(f)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué ocurre si se pasa axis=1 a df.dropna(axis=1)?",
+      "options": [
+        "Elimina filas con valores nulos",
+        "Elimina columnas con valores nulos",
+        "Elimina el primer eje del DataFrame",
+        "Lanza ValueError porque axis=1 no está soportado"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál de las siguientes lambdas calcula correctamente el elemento n\u0002ésimo de Fibonacci de forma recursiva?",
+      "options": [
+        "fib = lambda n: n if n <= 1 else fib(n-1) + fib(n-2)",
+        "fib = lambda n: fib(n-1) + fib(n-2)",
+        "fib = lambda n: n + fib(n-1)",
+        "fib = lambda n: 1 if n == 0 else fib(n-1) * 2"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué método de DataFrame de Pandas convierte el resultado de groupby() en un DataFrame?",
+      "options": [
+        "dfg.toDataFrame()",
+        "pd.DataFrame(dfg)",
+        "dfg.reset_index()",
+        "dfg.to_frame()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En el ejemplo de la clase Nota, ¿qué devuelve n1.__dict__ siendo n1 = Nota(2018, 3, 23, 9, \"Ir a clases\")?",
+      "options": [
+        "Una lista con los valores del objeto",
+        "Un diccionario con los atributos del objeto y sus valores, p. ej. {\"_anyo\": 2018, ...}",
+        "Una cadena JSON con los datos del objeto",
+        "Solo los atributos públicos del objeto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuándo se lanza AttributeError en SmartList.__getattribute__ al pedir l.getValue2()?",
+      "options": [
+        "Siempre que el índice sea mayor que el tamaño de la lista",
+        "Cuando el número tras getValue no puede convertirse a entero 25",
+        "Cuando la lista está vacía",
+        "Cuando el nombre tiene menos de 8 caracteres"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué pasaría si se llama a p.getX() en el ejemplo de __getattribute__ pero sin la condición que intercepta métodos get*?",
+      "options": [
+        "Devolvería None",
+        "Devolvería el valor real de __x",
+        "Lanzaría AttributeError",
+        "Devolvería la lambda lambda: None"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la salida de print(Natural(4) + Natural(3))?",
+      "options": [
+        "Natural(7)",
+        "7",
+        "(4, 3)",
+        "Lanza AssertionError"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué comprueba assertFalse(x) en unittest?",
+      "options": [
+        "Que x is False",
+        "Que bool(x) is False",
+        "Que x == 0",
+        "Que x is None"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En Pandas, ¿qué propiedad tiene un objeto Series para obtener su nombre de columna?",
+      "options": [
+        "Series.column",
+        "Series.label",
+        "Series.name",
+        "Series.title"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál de los siguientes códigos es la forma correcta de recuperar objetos guardados con pickle?",
+      "options": [
+        "p = pickle.loads(f)",
+        "p = pickle.read(f)",
+        "p = pickle.load(f)",
+        "p = pickle.decode(f)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Si df.Age.mean() y df.Age.median() dan el mismo resultado con y sin dropna(), ¿qué indica esto?",
+      "options": [
+        "Que no hay valores nulos en la columna",
+        "Que mean() y median() ya tienen en cuenta los valores nulos y los ignoran en sus cálculos",
+        "Que todos los valores nulos son cero",
+        "Que el DataFrame está mal configurado"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué ocurre al ejecutar Punto.__str__ = lambda self: str.format(\"[{0}]\", self.x) después de haber imprimido p con la versión anterior?",
+      "options": [
+        "El objeto p sigue usando el __str__ anterior porque se asignó antes",
+        "A partir de ese momento, todos los objetos Punto usarán el nuevo __str__",
+        "Solo afecta a los objetos creados después del cambio",
+        "Lanza TypeError porque __str__ no puede reasignarse"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la precondición correcta para la función inserta(self, x) de la clase Lista que además verifica la consistencia interna de org y fin?",
+      "options": [
+        "assert(x != None and len(self) >= 0)",
+        "assert(x != None); assert((self.org != None and self.fin != None) or (self.org == None and self.fin == None)) 26",
+        "assert(isinstance(x, object))",
+        "assert(self.org == self.fin)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método de DataFrame en Pandas exporta los datos a formato Excel?",
+      "options": [
+        "df.to_csv()",
+        "df.to_json()",
+        "df.to_excel()",
+        "df.save_xlsx()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Dado el siguiente código con herencia dinámica: e = Auxiliar(\"Laura\", 50000) e.salario = 120000 e.salario = 80000 print(e) ¿Cuál es la salida?",
+      "options": [
+        "Laura: 80000.00 (directivo)",
+        "Laura: 80000.00 (auxiliar)",
+        "Laura: 120000.00 (directivo)",
+        "Lanza AttributeError 27"
+      ],
+      "answer": 0
+    }
+  ]
+}

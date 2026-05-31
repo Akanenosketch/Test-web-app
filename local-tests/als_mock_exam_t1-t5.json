@@ -1,0 +1,3110 @@
+{
+  "title": "Mock Exam — Introducción a Python (Temas 1–5)",
+  "questions": [
+    {
+      "question": "¿Qué año se creó Python?",
+      "options": [
+        "1985",
+        "1991",
+        "1998",
+        "2001"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el punto de entrada de un programa Python?",
+      "options": [
+        "La función main()",
+        "El método __init__",
+        "La primera instrucción fuera de función/método",
+        "La función start()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué función se usa para mostrar texto en consola?",
+      "options": [
+        "input()",
+        "show()",
+        "print()",
+        "display()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué función se usa para leer texto desde teclado?",
+      "options": [
+        "read()",
+        "scan()",
+        "input()",
+        "raw()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es el tipo devuelto por input()?",
+      "options": [
+        "int",
+        "float",
+        "bool",
+        "str"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué operador se usa para potencia en Python?",
+      "options": [
+        "^",
+        "**",
+        "pow",
+        "^^"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál de estos operadores NO existe en Python?",
+      "options": [
+        "+=",
+        "-=",
+        "++",
+        "*="
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve 8 % 3?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "0"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Cómo se inicia un comentario en Python?",
+      "options": [
+        "//",
+        "/*",
+        "#",
+        "--"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se indica un bloque de código en Python?",
+      "options": [
+        "Con llaves {}",
+        "Con BEGIN/END",
+        "Con indentación",
+        "Con paréntesis ()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué valor especial devuelve una función que no retorna nada?",
+      "options": [
+        "null",
+        "undefined",
+        "None",
+        "void"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la forma correcta de asignación múltiple?",
+      "options": [
+        "i = 4; j = 5.8",
+        "i, j = 4, 5.8",
+        "i = 4 | j = 5.8",
+        "i := 4, j := 5.8"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace str(5)?",
+      "options": [
+        "Convierte 5 a booleano",
+        "Convierte 5 a lista",
+        "Convierte 5 a cadena",
+        "Convierte 5 a float"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace int('78')?",
+      "options": [
+        "Devuelve el carácter '78'",
+        "Lanza excepción",
+        "Devuelve el entero 78",
+        "Devuelve 7.8"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve len('Python')?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la sintaxis correcta de un if en Python?",
+      "options": [
+        "if (n > 0) { }",
+        "if n > 0:",
+        "if n > 0 then",
+        "if n > 0;"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Para qué sirve elif?",
+      "options": [
+        "Fin de bucle",
+        "Condición encadenada evitando indentación excesiva",
+        "Equivale a else",
+        "Inicia un bucle"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la sintaxis de un bucle while?",
+      "options": [
+        "while n < 10 do:",
+        "while (n < 10):",
+        "while n < 10:",
+        "while n < 10 then:"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace range(1, 10, 2)?",
+      "options": [
+        "[1,2,3,4,5,6,7,8,9,10]",
+        "[1,3,5,7,9]",
+        "[2,4,6,8,10]",
+        "[1,2,3,4,5]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se define una función en Python?",
+      "options": [
+        "function nombre():",
+        "def nombre():",
+        "func nombre():",
+        "define nombre():"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué palabra clave se usa para devolver un valor?",
+      "options": [
+        "give",
+        "send",
+        "return",
+        "yield"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se documenta una función con docstring?",
+      "options": [
+        "Con // al inicio",
+        "Con /* */",
+        "Con triple comillas \"\"\"\"\"\"",
+        "Con # al inicio"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué prefijo se usa para parámetros en docstrings?",
+      "options": [
+        ":arg:",
+        ":param:",
+        ":var:",
+        ":input:"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué prefijo se usa para el retorno en docstrings?",
+      "options": [
+        ":out:",
+        ":result:",
+        ":return:",
+        ":output:"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué función muestra la documentación de una función?",
+      "options": [
+        "doc()",
+        "info()",
+        "help()",
+        "man()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Los parámetros de tipo lista se pasan por...?",
+      "options": [
+        "valor",
+        "copia",
+        "referencia",
+        "nombre"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Los parámetros de tipo número se pasan por...?",
+      "options": [
+        "referencia",
+        "valor (copi",
+        "puntero",
+        "nombre"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Puede Python devolver más de un valor desde una función?",
+      "options": [
+        "No",
+        "Sí, separados por comas",
+        "Solo con listas",
+        "Solo con tuplas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué excepción lanza Python con indentación inconsistente?",
+      "options": [
+        "SyntaxError",
+        "IndentationError",
+        "TabError",
+        "BlockError"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué versión de Python acepta solo espacios como indentación?",
+      "options": [
+        "Python 1",
+        "Python 2",
+        "Python 3",
+        "Ambas versiones"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es el operador de división entera en Python 3?",
+      "options": [
+        "÷",
+        "//",
+        "%",
+        "/"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve 4 / 2 en Python 3?",
+      "options": [
+        "2",
+        "2.0",
+        "Error",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace abs(-5)?",
+      "options": [
+        "Devuelve -5",
+        "Devuelve 5",
+        "Devuelve 0",
+        "Lanza excepción"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuáles son los tres tipos básicos de Python mencionados en el tema 1?",
+      "options": [
+        "int, float, str",
+        "números, cadenas, listas",
+        "bool, str, list",
+        "int, str, dict"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se concatenan cadenas?",
+      "options": [
+        "Con &",
+        "Con +",
+        "Con .",
+        "Con ,"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se repite una cadena n veces?",
+      "options": [
+        "cadena ** n",
+        "cadena * n",
+        "cadena + n",
+        "cadena ^ n"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace 'Hola'[0:2]?",
+      "options": [
+        "'Hol'",
+        "'Ho'",
+        "'la'",
+        "'H'"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace 'PyTHon'.lower()?",
+      "options": [
+        "'PYTHON'",
+        "'python'",
+        "'Python'",
+        "'pyTHon'"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace 'PyTHon'.upper()?",
+      "options": [
+        "'PYTHON'",
+        "'python'",
+        "'Python'",
+        "'pyTHon'"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace 'PyTHon'.capitalize()?",
+      "options": [
+        "'PYTHON'",
+        "'python'",
+        "'Python'",
+        "'pyTHon' Tema 2: Listas y diccionarios"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se crea una lista vacía?",
+      "options": [
+        "list{}",
+        "[]",
+        "()",
+        "{}"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve l[-1] para l = [1,2,3]?",
+      "options": [
+        "1",
+        "-1",
+        "3",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve l[1:3] para l = [1,2,3,4]?",
+      "options": [
+        "[1,2]",
+        "[2,3]",
+        "[2,3,4]",
+        "[1,2,3]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace l += [4] si l = [1,2,3]?",
+      "options": [
+        "Añade la lista [4] como un elemento",
+        "Añade el elemento 4",
+        "Suma 4 a todos los elementos",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve 4 in [1,2,3]?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "Error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve [1,2] + [3,4]?",
+      "options": [
+        "[1,2,3,4]",
+        "[4,6]",
+        "[[1,2],[3,4]]",
+        "Error"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace [1,2,3] * 2?",
+      "options": [
+        "[2,4,6]",
+        "[1,2,3,1,2,3]",
+        "[[1,2,3],[1,2,3]]",
+        "Error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué función devuelve el tamaño de una lista?",
+      "options": [
+        "size()",
+        "count()",
+        "length()",
+        "len()"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué hace enumerate([1,2,3])?",
+      "options": [
+        "Devuelve solo índices",
+        "Devuelve pares (índice, elemento)",
+        "Devuelve solo elementos",
+        "Convierte a diccionario"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la sintaxis de comprensión de lista para filtrar pares?",
+      "options": [
+        "[x if x%2==0 for x in l]",
+        "[x for x in l if x%2==0]",
+        "filter(x%2==0, l)",
+        "[x%2==0 for x in l]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se crea un diccionario vacío?",
+      "options": [
+        "dict[]",
+        "[]",
+        "{}",
+        "()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se accede al valor con clave 'a' en un diccionario d?",
+      "options": [
+        "d.a",
+        "d[a]",
+        "d['a']",
+        "d->a"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve d.get('clave') si la clave no existe?",
+      "options": [
+        "Error",
+        "False",
+        "0",
+        "None"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué método devuelve todos los pares clave-valor de un diccionario?",
+      "options": [
+        "d.pairs()",
+        "d.items()",
+        "d.entries()",
+        "d.tuples()"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método devuelve solo las claves?",
+      "options": [
+        "d.keys()",
+        "d.names()",
+        "d.index()",
+        "d.claves()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué método devuelve solo los valores?",
+      "options": [
+        "d.vals()",
+        "d.data()",
+        "d.values()",
+        "d.items()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace del d[1] en un diccionario?",
+      "options": [
+        "Elimina el diccionario",
+        "Elimina la clave 1 y su valor",
+        "Pone el valor a None",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se simula un switch en Python?",
+      "options": [
+        "Con elif encadenados",
+        "Con un diccionario",
+        "Con select/case",
+        "Con match únicamente"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace d.clear()?",
+      "options": [
+        "Elimina el diccionario",
+        "Borra todos los elementos",
+        "Reinicia las claves",
+        "Devuelve copia vacía"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve min({'a':1,'b':2})?",
+      "options": [
+        "1",
+        "'a'",
+        "{'a':1}",
+        "Error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace l.count(4) si l=[1,4,2,4]?",
+      "options": [
+        "Devuelve 2",
+        "Devuelve True",
+        "Devuelve [4,4]",
+        "Devuelve 4"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué devuelve l[0:-1:2] para l=[1,2,3,4,5]?",
+      "options": [
+        "[1,3]",
+        "[1,3,5]",
+        "[2,4]",
+        "[1,2,3,4]"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace del l[0:2] para l=[1,2,3,4]?",
+      "options": [
+        "Elimina los dos últimos",
+        "Elimina los dos primeros",
+        "Devuelve [1,2]",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma preferida de recorrer un diccionario con clave y valor?",
+      "options": [
+        "for k in d.keys()",
+        "for k,v in d.items()",
+        "for v in d.values()",
+        "for k,v in d"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve [float(x) for x in [1,2,3] if x%3==0]?",
+      "options": [
+        "[3.0]",
+        "[1.0,2.0,3.0]",
+        "[]",
+        "[0.0]"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Pueden anidarse las comprensiones de listas?",
+      "options": [
+        "No",
+        "Solo dos niveles",
+        "Sí",
+        "Solo en Python 3"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es el resultado de range(3)?",
+      "options": [
+        "[1,2,3]",
+        "[0,1,2]",
+        "[0,1,2,3]",
+        "[1,2]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace for x in l directamente?",
+      "options": [
+        "Itera sobre índices",
+        "Itera sobre elementos",
+        "Itera sobre pares",
+        "Itera sobre copias"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve max([3,1,4,1,5])?",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Se pueden mezclar tipos en una lista?",
+      "options": [
+        "No, deben ser homogéneos",
+        "Solo números y cadenas",
+        "Sí, los elementos pueden ser de distinto tipo",
+        "Solo en Python 3"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se añade un elemento al final de una lista l con el operador +=?",
+      "options": [
+        "l += elemento",
+        "l += [elemento]",
+        "l += (elemento)",
+        "l += {elemento}"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve list(enumerate(['a','b'], 1))?",
+      "options": [
+        "[(0,'a'),(1,'b')]",
+        "[(1,'a'),(2,'b')]",
+        "[('a',1),('b',2)]",
+        "[1,2]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Para obtener [44,55,66,77] de l=[11,22,33,44,55,66,77,88,99], ¿qué expresión es correcta?",
+      "options": [
+        "l[3:7]",
+        "l[3:]",
+        "l[:7]-l[:3]",
+        "l[4:8]"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace l[::−1]?",
+      "options": [
+        "Elimina todos los elementos",
+        "Devuelve la lista al revés",
+        "Devuelve el último elemento",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la diferencia entre d[clave] y d.get(clave)?",
+      "options": [
+        "No hay diferencia",
+        "d[clave] lanza error si no existe; get devuelve None",
+        "get es más lento",
+        "d[clave] devuelve None si no existe"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se comprueba si una clave existe en un diccionario?",
+      "options": [
+        "d.has(clave)",
+        "clave in d",
+        "d.exists(clave)",
+        "clave == d"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace {1: fn1, 2: fn2}[2]()?",
+      "options": [
+        "Crea un diccionario",
+        "Llama a fn2",
+        "Llama a fn1",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método divide una cadena usando espacios por defecto?",
+      "options": [
+        "split()",
+        "divide()",
+        "partition()",
+        "separate()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace str.join('\\n', ['a','b'])?",
+      "options": [
+        "'a\\nb'",
+        "'ab'",
+        "['a','b']",
+        "Error"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué construye list(range(5))?",
+      "options": [
+        "[1,2,3,4,5]",
+        "[0,1,2,3,4]",
+        "[0,1,2,3,4,5]",
+        "range(5) Tema 3: Tuplas y conjuntos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el resultado de [x*2 for x in [1,2,3]]?",
+      "options": [
+        "[1,2,3]",
+        "[2,4,6]",
+        "[1,4,9]",
+        "[3,6,9]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es una tupla en Python?",
+      "options": [
+        "Una lista mutable",
+        "Una secuencia inmutable",
+        "Un diccionario ordenado",
+        "Un conjunto sin repetidos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se crea una tupla vacía?",
+      "options": [
+        "{}",
+        "[]",
+        "()",
+        "set()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se crea una tupla con un solo elemento?",
+      "options": [
+        "(1)",
+        "(1,)",
+        "[1]",
+        "{1}"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Se pueden modificar los elementos de una tupla?",
+      "options": [
+        "Sí",
+        "No",
+        "Solo en Python 3",
+        "Solo con métodos especiales"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Se puede obtener un slice de una tupla?",
+      "options": [
+        "No",
+        "Solo con list()",
+        "Sí",
+        "Solo en Python 2"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve (1,2,3) + (4,5,6)?",
+      "options": [
+        "[1,2,3,4,5,6]",
+        "(1,2,3,4,5,6)",
+        "(5,7,9)",
+        "Error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve (4,5,6) * 2?",
+      "options": [
+        "(8,10,12)",
+        "(4,5,6,4,5,6)",
+        "[(4,5,6),(4,5,6)]",
+        "Error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es el desempaquetado de tuplas?",
+      "options": [
+        "Convertir tupla a lista",
+        "Extraer valores individuales en variables",
+        "Ordenar la tupla",
+        "Copiar la tupla"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace x, y = (3, 4)?",
+      "options": [
+        "Crea una lista",
+        "Asigna x=3 e y=4",
+        "Crea un diccionario",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuándo es obligatorio usar paréntesis al devolver una tupla?",
+      "options": [
+        "Nunca",
+        "Siempre al devolverla desde una función",
+        "Solo con más de 2 elementos",
+        "Solo en Python 3"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es un conjunto (set) en Python?",
+      "options": [
+        "Una lista con índices",
+        "Una secuencia sin elementos repetidos",
+        "Un diccionario sin valores",
+        "Una tupla ordenada"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se crea un conjunto vacío?",
+      "options": [
+        "{}",
+        "[]",
+        "()",
+        "set()"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Por qué {} no crea un conjunto vacío?",
+      "options": [
+        "Es un error de sintaxis",
+        "Crea un diccionario vacío",
+        "Crea una tupla",
+        "Crea una lista"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve {1,2,3} | {3,4,5}?",
+      "options": [
+        "{3}",
+        "{1,2,4,5}",
+        "{1,2,3,4,5}",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve {1,2,3} & {3,4,5}?",
+      "options": [
+        "{3}",
+        "{1,2,4,5}",
+        "{1,2,3,4,5}",
+        "Error"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué devuelve {1,2,3} - {3,4,5}?",
+      "options": [
+        "{1,2}",
+        "{4,5}",
+        "{1,2,4,5}",
+        "Error"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué devuelve {1,2,3} ^ {3,4,5}?",
+      "options": [
+        "{3}",
+        "{1,2,4,5}",
+        "{1,2,3,4,5}",
+        "Error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se eliminan duplicados de una lista l usando conjuntos?",
+      "options": [
+        "list(sort(l))",
+        "set(l)",
+        "l.unique()",
+        "dict(l)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Es posible indexar directamente un conjunto?",
+      "options": [
+        "Sí",
+        "No, hay que convertirlo a lista primero",
+        "Solo con índice 0",
+        "Solo en Python 3"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace set([1,1,1,2,2,3])?",
+      "options": [
+        "[1,2,3]",
+        "(1,2,3)",
+        "{1,2,3}",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuántos elementos tiene {1,1,2,2,3}?",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve min({3,1,4})?",
+      "options": [
+        "3",
+        "4",
+        "1",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué operación de conjuntos equivale a la unión?",
+      "options": [
+        "&",
+        "^",
+        "|",
+        "-"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué operación de conjuntos equivale a la intersección?",
+      "options": [
+        "&",
+        "^",
+        "|",
+        "-"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Se puede usar for directamente sobre un conjunto?",
+      "options": [
+        "No",
+        "Sí",
+        "Solo con enumerate",
+        "Solo convirtiendo a tupla"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve (1,2,3)[1:2]?",
+      "options": [
+        "(2,)",
+        "(1,2)",
+        "[2]",
+        "2"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace t.count(4) para t=(1,4,2,4)?",
+      "options": [
+        "Devuelve True",
+        "Devuelve 2",
+        "Devuelve [4,4]",
+        "Devuelve 4"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la diferencia principal entre lista y tupla?",
+      "options": [
+        "La lista admite más tipos",
+        "La tupla es inmutable",
+        "La lista tiene más métodos especiales",
+        "No hay diferencia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué función convierte una lista en conjunto?",
+      "options": [
+        "frozenset()",
+        "set()",
+        "tuple()",
+        "dict() Tema 4: Clases y objetos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se concatenan dos conjuntos sin repetir elementos?",
+      "options": [
+        "s1 + s2",
+        "set(s1) | set(s2)",
+        "s1 & s2",
+        "list(s1) + list(s2)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se define una clase en Python?",
+      "options": [
+        "class NombreClase {}",
+        "class NombreClase:",
+        "def NombreClase():",
+        "object NombreClase:"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se llama el constructor de una clase?",
+      "options": [
+        "__new__",
+        "__create__",
+        "__init__",
+        "__build__"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué parámetro siempre recibe el constructor como mínimo?",
+      "options": [
+        "cls",
+        "this",
+        "self",
+        "me"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se accede a los atributos de un objeto dentro de la clase?",
+      "options": [
+        "this.atributo",
+        "object.atributo",
+        "self.atributo",
+        "cls.atributo"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué prefijo se usa para indicar atributos privados en Python?",
+      "options": [
+        "_",
+        "__",
+        "#",
+        "private_"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es una propiedad (@property)?",
+      "options": [
+        "Un método estático",
+        "Un método que actúa como atributo con getter",
+        "Una variable global",
+        "Un alias de clase"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma correcta de crear un setter para una propiedad nombre?",
+      "options": [
+        "@nombre.set",
+        "@nombre.setter",
+        "@set.nombre",
+        "@property.setter"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué se usa para crear métodos estáticos?",
+      "options": [
+        "@static",
+        "@staticmethod",
+        "@classmethod",
+        "@noself"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la diferencia entre método estático y método de instancia?",
+      "options": [
+        "El estático usa cls",
+        "El estático no recibe self",
+        "El estático no se puede llamar",
+        "No hay diferencia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve isinstance(5, int)?",
+      "options": [
+        "False",
+        "None",
+        "True",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve isinstance('hola', int)?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "Error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿A qué equivale obj.__dict__['x']?",
+      "options": [
+        "obj.x()",
+        "obj.x",
+        "obj['x']",
+        "obj->x"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace __str__(self)?",
+      "options": [
+        "Convierte a número",
+        "Define la representación textual del objeto",
+        "Inicializa el objeto",
+        "Destruye el objeto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método especial se usa para el operador >?",
+      "options": [
+        "__greater__",
+        "__gt__",
+        "__more__",
+        "__cmp__"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método especial se usa para el operador ==?",
+      "options": [
+        "__equal__",
+        "__same__",
+        "__eq__",
+        "__cmp__"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método especial define el operador +?",
+      "options": [
+        "__plus__",
+        "__sum__",
+        "__add__",
+        "__concat__"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método especial define el operador - ?",
+      "options": [
+        "__minus__",
+        "__sub__",
+        "__rest__",
+        "__diff__"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método especial define el operador * ?",
+      "options": [
+        "__times__",
+        "__product__",
+        "__mul__",
+        "__mult__"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método especial define la división entera //?",
+      "options": [
+        "__idiv__",
+        "__floordiv__",
+        "__intdiv__",
+        "__div__"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método especial define len(obj)?",
+      "options": [
+        "__size__",
+        "__count__",
+        "__length__",
+        "__len__"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué método especial define obj[i]?",
+      "options": [
+        "__index__",
+        "__get__",
+        "__getitem__",
+        "__access__"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué método especial define obj[i] = x?",
+      "options": [
+        "__setitem__",
+        "__assign__",
+        "__set__",
+        "__put__"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué método especial define x in obj?",
+      "options": [
+        "__has__",
+        "__search__",
+        "__in__",
+        "__contains__"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué hace la función dir(obj)?",
+      "options": [
+        "Muestra el directorio de archivos",
+        "Lista los miembros del objeto/clase",
+        "Borra el objeto",
+        "Copia el objeto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace callable(miembro)?",
+      "options": [
+        "Comprueba si es un método llamable",
+        "Lista los parámetros",
+        "Llama al método",
+        "Devuelve el tipo"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Cuándo se llama __getattr__(self, nombre)?",
+      "options": [
+        "Al crear el objeto",
+        "Cuando se accede a un atributo que no existe",
+        "Al destruir el objeto",
+        "Al imprimir el objeto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se importa un módulo llamado math en Python?",
+      "options": [
+        "include math",
+        "require math",
+        "import math",
+        "use math"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se accede a la función sqrt del módulo math?",
+      "options": [
+        "math->sqrt()",
+        "math.sqrt()",
+        "sqrt(math)",
+        "math[sqrt]()"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se sabe si un archivo Python se está ejecutando directamente?",
+      "options": [
+        "if __file__ == '__main__':",
+        "if __name__ == '__main__':",
+        "if main():",
+        "if __run__:"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué clase de Python equivale a los enteros?",
+      "options": [
+        "integer",
+        "Integer",
+        "int",
+        "INT"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué clase representa números reales?",
+      "options": [
+        "real",
+        "double",
+        "float",
+        "decimal"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué clase representa booleanos?",
+      "options": [
+        "boolean",
+        "Boolean",
+        "bool",
+        "BOOL"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué atributo especial almacena los miembros de un objeto?",
+      "options": [
+        "__members__",
+        "__attrs__",
+        "__dict__",
+        "__vars__"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Se pueden añadir métodos a una clase en tiempo de ejecución?",
+      "options": [
+        "No",
+        "Sí",
+        "Solo en Python 2",
+        "Solo métodos estáticos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace raise AttributeError('msg')?",
+      "options": [
+        "Imprime el error",
+        "Lanza una excepción AttributeError",
+        "Registra el error",
+        "Ignora el error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve __name__ dentro de un módulo importado?",
+      "options": [
+        "'__main__'",
+        "El nombre del módulo",
+        "None",
+        "El nombre del archivo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método especial define el módulo % ?",
+      "options": [
+        "__mod__",
+        "__percent__",
+        "__remainder__",
+        "__rest__"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace @property sobre un método?",
+      "options": [
+        "Lo hace estático",
+        "Lo convierte en un atributo de solo lectura por defecto",
+        "Lo hace privado",
+        "Lo hace abstracto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la clase del módulo numbers para cualquier número?",
+      "options": [
+        "numbers.Any",
+        "numbers.Number",
+        "numbers.Numeric",
+        "numbers.All Tema 5: Composición, herencia y polimorfismo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la clase del módulo numbers para enteros?",
+      "options": [
+        "numbers.Integer",
+        "numbers.Int",
+        "numbers.Integral",
+        "numbers.Whole"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace numbers.Real?",
+      "options": [
+        "Solo enteros",
+        "Números reales",
+        "Solo flotantes",
+        "Solo complejos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es la composición en POO?",
+      "options": [
+        "Una clase hereda de otra",
+        "Una clase contiene objetos de otra clase como atributos",
+        "Dos clases implementan la misma interfaz",
+        "Una clase reescribe métodos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la diferencia entre composición y asociación en UML?",
+      "options": [
+        "No hay diferencia",
+        "En composición los objetos contenidos no existen sin el contenedor",
+        "En asociación los objetos son inmutables",
+        "En composición se usa herencia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se indica que una clase hereda de otra en Python?",
+      "options": [
+        "class Hijo extends Padre:",
+        "class Hijo(Padre):",
+        "class Hijo inherits Padre:",
+        "class Hijo: Padre"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Python soporta herencia múltiple?",
+      "options": [
+        "No",
+        "Sí",
+        "Solo con interfaces",
+        "Solo en Python 3"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se indica herencia múltiple?",
+      "options": [
+        "class C(A, B):",
+        "class C extends A, B:",
+        "class C(A) and (B):",
+        "class C: A, B"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace super().__init__() en Python 3?",
+      "options": [
+        "Crea una nueva clase",
+        "Llama al constructor de la superclase",
+        "Destruye el objeto",
+        "Inicializa atributos estáticos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la diferencia entre super().__init__() y Padre.__init__(self,...)?",
+      "options": [
+        "No hay diferencia",
+        "super() solo funciona en Python 3",
+        "Padre.__init__ no necesita self",
+        "super() llama al padre incorrecto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es el polimorfismo?",
+      "options": [
+        "Una clase con múltiples constructores",
+        "Usar un objeto correctamente sin conocer su clase exacta",
+        "Heredar de múltiples clases",
+        "Crear objetos dinámicamente"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se logra el polimorfismo en Python?",
+      "options": [
+        "Con interfaces explícitas",
+        "Automáticamente al reescribir métodos en clases derivadas",
+        "Con casting",
+        "Con decoradores"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué módulo permite generar números pseudoaleatorios?",
+      "options": [
+        "math",
+        "random",
+        "numbers",
+        "time"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace random.choice([p1, p2])?",
+      "options": [
+        "Devuelve siempre p1",
+        "Devuelve al azar p1 o p2",
+        "Mezcla p1 y p2",
+        "Devuelve None"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace random.seed(valor)?",
+      "options": [
+        "Genera un número",
+        "Inicia la semilla de aleatoriedad",
+        "Ordena la secuencia",
+        "Resetea el módulo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Todas las llamadas en Python se enlazan en tiempo de...?",
+      "options": [
+        "compilación",
+        "ejecución",
+        "importación",
+        "carga"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué atributo especial indica la clase de un objeto?",
+      "options": [
+        "__type__",
+        "__class__",
+        "__kind__",
+        "__instance__"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Se puede cambiar __class__ de un objeto en tiempo de ejecución?",
+      "options": [
+        "No",
+        "Sí",
+        "Solo en Python 2",
+        "Solo para clases internas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace Empleado.__str__(self) dentro de una subclase?",
+      "options": [
+        "Llama al __str__ de la subclase",
+        "Llama al __str__ de Empleado explícitamente",
+        "Lanza error",
+        "Devuelve None"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué característica de POO engloba a la encapsulación?",
+      "options": [
+        "Composición",
+        "Polimorfismo",
+        "Herencia",
+        "Todas forman el modelo POO"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué método se reescribe para personalizar str(objeto)?",
+      "options": [
+        "__repr__",
+        "__str__",
+        "__format__",
+        "__text__"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En la herencia, ¿qué pasa si la subclase no reescribe __init__?",
+      "options": [
+        "Usa el __init__ de la superclase",
+        "Lanza error",
+        "Usa un __init__ vacío",
+        "No se puede instanciar"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué palabra clave usa Python para omitir el cuerpo de una clase vacía?",
+      "options": [
+        "skip",
+        "empty",
+        "pass",
+        "none"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Puede una subclase reescribir propiedades heredadas?",
+      "options": [
+        "No",
+        "Sí",
+        "Solo atributos, no propiedades",
+        "Solo métodos normales"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es la ligadura dinámica?",
+      "options": [
+        "Vincular métodos en tiempo de compilación",
+        "Seleccionar el método correcto en tiempo de ejecución",
+        "Crear clases en tiempo de ejecución",
+        "Cambiar el tipo de una variable"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿En Python, la ligadura dinámica es...?",
+      "options": [
+        "Opcional",
+        "Automática para todas las llamadas",
+        "Solo para métodos especiales",
+        "Solo para clases derivadas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué representa la flecha con triángulo hueco en UML?",
+      "options": [
+        "Composición",
+        "Asociación",
+        "Herencia",
+        "Dependencia"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué representa el diamante relleno en UML?",
+      "options": [
+        "Herencia",
+        "Asociación",
+        "Composición fuerte",
+        "Interfaz"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace time.clock() en el ejemplo de polimorfismo?",
+      "options": [
+        "Pausa el programa",
+        "Devuelve el tiempo actual para semilla aleatoria",
+        "Mide rendimiento",
+        "Formatea la hora"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el nombre correcto del método para eliminar un elemento por índice?",
+      "options": [
+        "__remove__",
+        "__del__",
+        "__delitem__",
+        "__pop__"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace isinstance(obj, Empleado) si obj es instancia de Auxiliar(Empleado)?",
+      "options": [
+        "False",
+        "True",
+        "Error",
+        "None Mixtas: Aplicación y conceptos combinados"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se llama el patrón de tener objetos que se conocen pero no se contienen?",
+      "options": [
+        "Composición",
+        "Herencia",
+        "Asociación",
+        "Polimorfismo"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué módulo se usa con math.sqrt()?",
+      "options": [
+        "numbers",
+        "math",
+        "cmath",
+        "numpy"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál de estos accesos a diccionario anidado es correcto para datos = {'notas': {'parcial1': 5.5}}?",
+      "options": [
+        "datos[notas][parcial1]",
+        "datos['notas']['parcial1']",
+        "datos.notas.parcial1",
+        "datos['notas', 'parcial1']"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma correcta de calcular la media de una lista notas?",
+      "options": [
+        "sum(notas)/len(notas)",
+        "avg(notas)",
+        "mean(notas)",
+        "notas.average()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Para l = [1,2], ¿cuál añade el elemento 3 correctamente?",
+      "options": [
+        "l += 3",
+        "l += [3]",
+        "l += (3)",
+        "l += {3}"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace 1 + int(bool('1'))?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve 1 + (float('3') // 2)?",
+      "options": [
+        "1.0",
+        "2.0",
+        "2",
+        "2.5"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma correcta de definir __str__ en una clase Persona con nombre y apellidos?",
+      "options": [
+        "def str(self): return self.apellidos",
+        "def __str__(): return f'{Persona.apellidos}'",
+        "def __str__(self): return self.apellidos + ', ' + self.nombre",
+        "def __str__(self): return str(self.nombre)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la forma correcta de __getitem__ para acceder a nombre (i=0) y apellidos (i=1)?",
+      "options": [
+        "def __index__(self,i): return self.nombre if i==0 else self.apellidos",
+        "def __getitem__(self,i): return self.nombre if i==0 else self.apellidos",
+        "def __operator[](self,i): return self.nombre if i==0 else self.apellidos",
+        "def get(self,i): return self.nombre if i==0 else self.apellidos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma correcta de __contains__ para buscar en nombre y apellidos?",
+      "options": [
+        "def __in__(self,x): return x.lower() in self.apellidos.lower()",
+        "def __bool__(self,x): return x.lower() in self.apellidos.lower()",
+        "def __contains__(self,x): return x.lower() in self.apellidos.lower() or x.lower() in self.nombre.lower()",
+        "def __search__(self,x): return x in self.apellidos"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Para obtener una lista telefónica como 'Apellido Nombre: teléfono' a partir de l=[('apellido.nombre.',tel),...], ¿cuál es correcto?",
+      "options": [
+        "str.join(\"\\n\",[str(pair) for pair in l])",
+        "str.join(\"\\n\",[f\"{pair[0].replace('.',' ').title()}: {pair[1]}\" for pair in l])",
+        "str.join(\"\\n\",[pair.replace('.',' ') for pair in l])",
+        "str.join(\"\\n\",[f\"{pair.title()}\" for pair in l])"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma correcta de buscar por apellido exacto 'ap' en el listín telefónico l?",
+      "options": [
+        "...for prof in l if ap.lower() in prof",
+        "...for prof in l if ('.' + ap.lower() + '.') in prof[0]",
+        "...for prof in l if ap in prof[1]",
+        "...for prof in l if ap in prof[0]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Para d = {'fecha': [2001,1,1]}, f2 = [2024,5,1], ¿cómo se actualiza la fecha?",
+      "options": [
+        "d += f2",
+        "d['fecha'] = f2",
+        "d[1] = f2",
+        "d.fecha = f2"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma correcta de crear un conjunto con 11, 22 y 33?",
+      "options": [
+        "set(11,22,33)",
+        "set(11)+set(22)+set(33)",
+        "set((11,22,33))",
+        "list(set(11,22,33))"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál muestra enteros impares de 101 a 199?",
+      "options": [
+        "print(list(range(101,201,2)))",
+        "print([x for x in range(101,201) if x%2!=0])",
+        "Ambas son correctas",
+        "Ninguna es correcta"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Para ip={'pontevedra':200,'coruña':300,'lugo':130,'ourense':120}, ¿cómo se obtiene la provincia con menos infectados?",
+      "options": [
+        "ip[min(ip.values())]",
+        "[data for data in ip if ip[data]==min(ip.values())]",
+        "min(ip)",
+        "[data[0] for data in ip if data[1]==min(ip.values())]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace infectados = ip.get(clave.lower()); print('Infectados:' + str(infectados)) if infectados else 'Sin datos.'?",
+      "options": [
+        "Imprime siempre",
+        "Lanza error si la clave no existe",
+        "Imprime el valor si existe o 'Sin datos' si no",
+        "Devuelve None siempre"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la expresión correcta para obtener la lista l en orden inverso sin modificar l?",
+      "options": [
+        "l[::-1] devuelve una nueva lista al revés",
+        "l.sort(reverse=True)",
+        "l.reverse()",
+        "sorted(l, reverse=False)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Si l1=[11,22,33] y l2=[44,55,66], ¿cuál visualiza la concatenación?",
+      "options": [
+        "Todas son correctas",
+        "print(l1[:]+l2[:])",
+        "print([x for x in l1]+[y for y in l2])",
+        "print(l1+l2)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Cuál es la forma correcta de crear Empleado(Person",
+      "options": [
+        "con __init__ que llame al padre?",
+        "class Empleado(Person",
+        ": def __init__(self,ap,n,email): self.__nombre=n; self.__email=email",
+        "class Empleado: def __init__(self,ap,n,email): super(Person",
+        ".__init__(ap,n); self.__email=email",
+        "class Empleado(Person",
+        ": def __init__(self,ap,n,email): super().__init__(ap,n); self.__email=email",
+        "class Empleado(Person",
+        ": def __init__(self,ap,n,email): Persona(ap,n); self.__email=email"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la forma correcta de __str__ en Empleado que reutilice el __str__ de Persona?",
+      "options": [
+        "def __str__(self): return str.format('{}',self.apellidos,self.nombre,self.email)",
+        "def __str__(self): return super().__str__() + ' (' + self.email + ')'",
+        "def __str__(self): return self.apellidos+self.nombre+self.email",
+        "def __str__(self): return str.format('{} {} ({})',apellidos,nombre,email)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma correcta de acceder a la nota del proyecto de Pablo (índice 2) en la lista alumnos?",
+      "options": [
+        "alumnos[3]['notas']['proyecto']",
+        "alumnos[3,notas,proyecto]",
+        "alumnos.pablo.notas.proyecto",
+        "alumnos[2]['notas']['proyecto']"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué significa que Python sea un lenguaje dinámico?",
+      "options": [
+        "Las variables tienen tipo fijo",
+        "Los errores se detectan en ejecución, no en compilación",
+        "Es interpretado línea a línea siempre",
+        "No admite clases"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace l = list(reversed(l))?",
+      "options": [
+        "Modifica l en su lugar",
+        "Devuelve una nueva lista al revés",
+        "Lanza error",
+        "Ordena la lista"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace l.reverse()?",
+      "options": [
+        "Devuelve nueva lista invertida",
+        "Modifica l en su lugar",
+        "Devuelve None y no modifica nada",
+        "Ordena en orden inverso"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve bool('') ?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "Error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve bool('hola')?",
+      "options": [
+        "False",
+        "None",
+        "True",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve int(True)?",
+      "options": [
+        "0",
+        "True",
+        "1",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve int(False)?",
+      "options": [
+        "False",
+        "1",
+        "0",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Se puede definir una propiedad de solo lectura (sin setter)?",
+      "options": [
+        "No, siempre necesita setter",
+        "Sí, usando solo @property sin @nombre.setter",
+        "Solo en Python 3",
+        "Solo con métodos estáticos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuántos argumentos mínimos recibe siempre un método de instancia?",
+      "options": [
+        "0",
+        "1 (self)",
+        "2",
+        "Depende del constructor"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace @staticmethod?",
+      "options": [
+        "Define una propiedad",
+        "Define un método sin self ni cls",
+        "Define un método de clase",
+        "Define un método abstracto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el método especial para el operador >=?",
+      "options": [
+        "__gte__",
+        "__ge__",
+        "__greateq__",
+        "__moreq__"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el método especial para el operador <=?",
+      "options": [
+        "__lte__",
+        "__le__",
+        "__lesseq__",
+        "__minoreq__"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el método especial para el operador !=?",
+      "options": [
+        "__ne__",
+        "__neq__",
+        "__notequal__",
+        "__diff__"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace d1 == d2 para dos diccionarios?",
+      "options": [
+        "Compara referencias",
+        "Compara contenido (claves y valores)",
+        "Siempre devuelve False",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Para qué sirve el método wc(s)?",
+      "options": [
+        "Cuenta caracteres",
+        "Cuenta líneas",
+        "Calcula la frecuencia de cada palabra",
+        "Cuenta espacios"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué estructura de datos es más eficiente para contar frecuencias de palabras?",
+      "options": [
+        "Lista",
+        "Tupla",
+        "Diccionario",
+        "Conjunto"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace s.strip().lower().split() ?",
+      "options": [
+        "Solo divide en palabras",
+        "Quita espacios, pasa a minúsculas y divide en palabras",
+        "Solo pasa a minúsculas",
+        "Elimina puntuación"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma correcta de generar la sucesión de Fibonacci con listas?",
+      "options": [
+        "l += [l[-1] + l[-2]]",
+        "l.append(l[0]+l[1])",
+        "l[i] = l[i-1]+l[i-2]",
+        "Todas son equivalentes"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Dos cadenas son anagramas si...?",
+      "options": [
+        "Tienen la misma longitud",
+        "Tienen las mismas letras con la misma frecuencia",
+        "Solo difieren en mayúsculas",
+        "Son iguales"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué estructura permite verificar anagramas eficientemente?",
+      "options": [
+        "Lista ordenada",
+        "Conjunto",
+        "Diccionario de frecuencias",
+        "Tupla"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo se crea la clase Línea usando Puntos como atributos?",
+      "options": [
+        "Heredando de Punto",
+        "Teniendo dos atributos de tipo Punto en su __init__",
+        "Con herencia múltiple",
+        "Importando Punto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma estándar de calcular distancia entre dos puntos 2D?",
+      "options": [
+        "abs(p1-p2)",
+        "math.sqrt((p1.x-p2.x)**2 + (p1.y-p2.y)**2)",
+        "(p1.x-p2.x)+(p1.y-p2.y)",
+        "math.dist(p1,p2)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace p0 = Punto.get_org() si get_org es @staticmethod?",
+      "options": [
+        "Lanza error porque no hay instancia",
+        "Llama al método estático y devuelve Punto(0,0)",
+        "Crea una nueva clase",
+        "Devuelve None"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace isinstance(k, numbers.Number) antes de una operación aritmética?",
+      "options": [
+        "Convierte k a número",
+        "Verifica que k es un número antes de operar",
+        "Lanza excepción si no es número",
+        "Redondea k"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Puede Python ejecutar código al importar un módulo?",
+      "options": [
+        "No",
+        "Sí, el código fuera de funciones se ejecuta al importar",
+        "Solo el __init__",
+        "Solo las clases"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué ventaja tiene usar propiedades sobre getters/setters?",
+      "options": [
+        "Son más rápidos",
+        "Permiten usar la sintaxis obj.atributo manteniendo control interno",
+        "Son obligatorios en Python 3",
+        "Evitan errores de tipo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace d.get('clave', 'default')?",
+      "options": [
+        "Lanza error si no existe",
+        "Devuelve 'default' si la clave no existe",
+        "Devuelve None siempre",
+        "Añade 'clave':'default' al diccionario"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la salida de print([x for x in range(5) if x%2==0])?",
+      "options": [
+        "[1,3,5]",
+        "[0,2,4]",
+        "[0,1,2,3,4]",
+        "[2,4]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la salida de [101+x for x in range(5) if x%2==0]?",
+      "options": [
+        "[101,103,105]",
+        "[102,104,106]",
+        "[101,102,103,104,105]",
+        "[103,105]"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué devuelve {'a':1,'b':2}.get('c')?",
+      "options": [
+        "Error",
+        "0",
+        "'c'",
+        "None"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué hace for k,v in {'a':1}.items(): print(k,v)?",
+      "options": [
+        "Imprime solo claves",
+        "Imprime solo valores",
+        "Imprime 'a 1'",
+        "Imprime ('a',1)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuándo se usa super() en lugar de NombreClase.__init__(self,...)?",
+      "options": [
+        "Son equivalentes, pero super() es la forma recomendada en Python 3",
+        "super() solo funciona en Python 2",
+        "NombreClase.__init__ es siempre preferible",
+        "No se puede usar super() con herencia múltiple"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué pasa si se accede a un atributo que no existe y hay __getattr__ definido?",
+      "options": [
+        "Siempre lanza AttributeError",
+        "Se llama a __getattr__ para proporcionar la respuesta",
+        "Se devuelve None",
+        "Se crea el atributo automáticamente"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace list(set(l1) | set(l2))?",
+      "options": [
+        "Concatena sin repetidos",
+        "Intersecta",
+        "Resta",
+        "Ordena"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Cuál es la salida de print(Persona('Baltasar', 18)) si __str__ devuelve self.nombre+' ('+str(self.eda",
+      "options": [
+        "+')'?",
+        "Baltasar",
+        "Baltasar (18)",
+        "18"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Puede una clase en Python tener varios constructores __init__?",
+      "options": [
+        "Sí, con diferentes firmas",
+        "No, solo puede haber uno",
+        "Sí, usando decoradores",
+        "Solo dos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace Punto.get_org() si es @staticmethod que devuelve Punto(0,0)?",
+      "options": [
+        "Necesita una instancia para llamarse",
+        "Se puede llamar sin instancia y devuelve (0,0)",
+        "Lanza error",
+        "Devuelve None"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace p1.x += 1 si x es una propiedad con getter y setter?",
+      "options": [
+        "Error porque las propiedades son de solo lectura",
+        "Llama al getter para leer y al setter para escribir",
+        "Solo actualiza la interfaz",
+        "Crea un nuevo atributo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el resultado de set([1,2,3]) | set([3,4,5])?",
+      "options": [
+        "{3}",
+        "{1,2,4,5}",
+        "{1,2,3,4,5}",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es el resultado de set([1,2,3]) & set([3,4,5])?",
+      "options": [
+        "{3}",
+        "{1,2,4,5}",
+        "{1,2,3}",
+        "Error"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace for i,x in enumerate(l,1): cuando l=['a','b']?",
+      "options": [
+        "i empieza en 0",
+        "i empieza en 1",
+        "i empieza en 2",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma de recorrer solo los valores de un diccionario?",
+      "options": [
+        "for v in d.keys()",
+        "for v in d.values()",
+        "for v in d.items()",
+        "for k,v in d"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace str.format('{0}: {1}', k, v)?",
+      "options": [
+        "Convierte a lista",
+        "Formatea la cadena reemplazando {0} por k y {1} por v",
+        "Crea un diccionario",
+        "Lanza error si k o v son números"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace f'{pair[0].replace(\".\", \" \").title()}'?",
+      "options": [
+        "Reemplaza puntos por espacios y pone en mayúscula cada palabra",
+        "Elimina todos los caracteres",
+        "Convierte a minúsculas",
+        "Divide en palabras"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué método de cadena convierte la primera letra a mayúscula?",
+      "options": [
+        "upper()",
+        "capitalize()",
+        "title()",
+        "lower()"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace title() sobre una cadena?",
+      "options": [
+        "Primera letra en mayúscula",
+        "Cada palabra con primera letra en mayúscula",
+        "Todo en mayúsculas",
+        "Primera letra de cada frase"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace replace('.', ' ') sobre 'baltasar.garcia.'?",
+      "options": [
+        "'baltasar garcia '",
+        "'baltasar.garcia.'",
+        "'baltasargarcia'",
+        "Error"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Cómo se comprueba si el valor 4 NO está en la lista l?",
+      "options": [
+        "4 not l",
+        "not 4 in l",
+        "4 not in l",
+        "!(4 in l)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuánto devuelve len((1,2,3))?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "Error porque es tupla"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace tuple([1,2,3])?",
+      "options": [
+        "Devuelve [1,2,3]",
+        "Devuelve (1,2,3)",
+        "Devuelve {1,2,3}",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace list((1,2,3))?",
+      "options": [
+        "(1,2,3)",
+        "[1,2,3]",
+        "{1,2,3}",
+        "Error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace dict([(1,'a'),(2,'b')])?",
+      "options": [
+        "{1,2}",
+        "{1:'a',2:'b'}",
+        "[(1,'a'),(2,'b')]",
+        "Error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Puede una función Python definir funciones internas?",
+      "options": [
+        "No",
+        "Sí, y son privadas a la función contenedora",
+        "Solo en Python 3",
+        "Solo con decoradores"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace return nombre, apellidos, edad en una función?",
+      "options": [
+        "Devuelve una lista",
+        "Devuelve una tupla con tres valores",
+        "Devuelve un diccionario",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se desempaqueta el retorno múltiple nombre, ap, edad = f()?",
+      "options": [
+        "Solo si f devuelve lista",
+        "Funciona con cualquier iterable de 3 elementos",
+        "Solo con tuplas",
+        "Solo en Python 3"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Para qué sirve el método split() de una cadena?",
+      "options": [
+        "Une elementos",
+        "Divide en subcadenas",
+        "Elimina espacios",
+        "Cuenta caracteres"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace '\\n'.join(['a','b','c'])?",
+      "options": [
+        "'abc'",
+        "'a b c'",
+        "'a\\nb\\nc'",
+        "['a','b','c']"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve 'hola mundo'.split()?",
+      "options": [
+        "'hola','mundo'",
+        "['hola','mundo']",
+        "['hola mundo']",
+        "'hola mundo'"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace range(101, 201) si se quieren los números de 101 a 200?",
+      "options": [
+        "Incluye 201",
+        "Incluye 101 y 200 (no 201)",
+        "Solo incluye impares",
+        "Empieza en 100"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace print([x for x in range(101,201) if x%2 != 0])?",
+      "options": [
+        "Impares de 100 a 200",
+        "Impares de 101 a 199",
+        "Pares de 101 a 199",
+        "Todos de 101 a 200"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la diferencia entre l.sort() y sorted(l)?",
+      "options": [
+        "No hay diferencia",
+        "l.sort() modifica l; sorted(l) devuelve nueva lista",
+        "sorted es más lento",
+        "l.sort() devuelve la lista ordenada"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace del d['clave'] si la clave no existe?",
+      "options": [
+        "Devuelve None",
+        "No hace nada",
+        "Lanza KeyError",
+        "Crea la clave"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la forma correcta de añadir una nueva clave 'x' con valor 10 a un diccionario d?",
+      "options": [
+        "d.add('x', 10)",
+        "d['x'] = 10",
+        "d.insert('x', 10)",
+        "d.put('x', 10)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace {k: v*2 for k,v in d.items()}?",
+      "options": [
+        "Filtra el diccionario",
+        "Crea un nuevo diccionario con los valores duplicados",
+        "Modifica d en su lugar",
+        "Lanza error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué método de lista elimina y devuelve el último elemento?",
+      "options": [
+        "remove()",
+        "del()",
+        "pop()",
+        "discard()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace l.append(x) vs l += [x]?",
+      "options": [
+        "Son equivalentes en resultado",
+        "append modifica en lugar, += puede crear nueva referencia",
+        "append devuelve la lista",
+        "No hay diferencia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace sorted({'b':2,'a':1})?",
+      "options": [
+        "Ordena por valores",
+        "Ordena las claves",
+        "Devuelve ['a','b']",
+        "Lanza error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace l[1:3] = [10,20] para l=[1,2,3,4]?",
+      "options": [
+        "Lanza error",
+        "Reemplaza los elementos 1 y 2 por 10 y 20",
+        "Inserta 10 y 20 después del índice 1",
+        "Elimina elementos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma de obtener todos los valores únicos de una lista l?",
+      "options": [
+        "l.unique()",
+        "set(l)",
+        "dict(l)",
+        "frozenset()"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace frozenset({1,2,3})?",
+      "options": [
+        "Crea un conjunto mutable",
+        "Crea un conjunto inmutable",
+        "Convierte a tupla",
+        "Ordena el conjunto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Puede una tupla contener listas?",
+      "options": [
+        "No",
+        "Sí, los elementos pueden ser de cualquier tipo",
+        "Solo números",
+        "Solo cadenas"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Puede una lista contener tuplas?",
+      "options": [
+        "No",
+        "Sí",
+        "Solo en Python 3",
+        "Solo con cast"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace math.sqrt(16)?",
+      "options": [
+        "4",
+        "4.0",
+        "2",
+        "Error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace math.sqrt(2) aproximadamente?",
+      "options": [
+        "1",
+        "1.41",
+        "1.73",
+        "2.0"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace abs(-3.5)?",
+      "options": [
+        "-3.5",
+        "3",
+        "3.5",
+        "4"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve float('3')?",
+      "options": [
+        "3",
+        "'3.0'",
+        "3.0",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve bool(0)?",
+      "options": [
+        "True",
+        "None",
+        "False",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve bool(1)?",
+      "options": [
+        "False",
+        "None",
+        "True",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué pasa si se accede a d['clave'] y la clave no existe?",
+      "options": [
+        "Devuelve None",
+        "Devuelve False",
+        "Lanza KeyError",
+        "Devuelve 0"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es la ventaja de usar d.get('clave') sobre d['clave']?",
+      "options": [
+        "Es más rápido",
+        "No lanza excepción si la clave no existe",
+        "Devuelve siempre un valor",
+        "Permite valores por defecto cuando se añade segundo parámetro"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué hace ',' .join(['a','b','c'])?",
+      "options": [
+        "['a,b,c']",
+        "'a,b,c'",
+        "'a','b','c'",
+        "Error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se concatena una cadena con un número en Python?",
+      "options": [
+        "'valor: ' + 5",
+        "'valor: ' + str(5)",
+        "str('valor: ') + 5",
+        "'valor: ' & 5"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace format('{0:.2f}', 3.14159)?",
+      "options": [
+        "'3.14159'",
+        "'3.14'",
+        "'3.1'",
+        "Error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace f'{3.14159:.2f}'?",
+      "options": [
+        "'3.14159'",
+        "'3.14'",
+        "'3.1'",
+        "Error"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace str.format('{0:03d}', 5)?",
+      "options": [
+        "'005'",
+        "'5'",
+        "'500'",
+        "Error"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Cuál es la sintaxis correcta de una f-string?",
+      "options": [
+        "f('hola {nombre}')",
+        "f'hola {nombre}'",
+        "format('hola {nombre}')",
+        "'hola'.format(nombre)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace range(0, 10, 2)?",
+      "options": [
+        "[0,2,4,6,8,10]",
+        "[0,2,4,6,8]",
+        "[2,4,6,8,10]",
+        "[1,3,5,7,9]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuánto vale 2 ** 10?",
+      "options": [
+        "20",
+        "100",
+        "1024",
+        "512"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace x = 5; x **= 2?",
+      "options": [
+        "x vale 10",
+        "x vale 25",
+        "x vale 7",
+        "x vale 52"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace x = 10; x //= 3?",
+      "options": [
+        "x vale 3.33",
+        "x vale 3",
+        "x vale 4",
+        "x vale 1"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace x = 10; x %= 3?",
+      "options": [
+        "x vale 1",
+        "x vale 3",
+        "x vale 0",
+        "x vale 10"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué pasa si se define def fn(): sin indentación del cuerpo?",
+      "options": [
+        "Funciona igual",
+        "Lanza IndentationError",
+        "Crea función vacía",
+        "Lanza SyntaxError"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Cuál es la forma de crear una lista con los cuadrados de 1 a 5?",
+      "options": [
+        "[x**2 for x in range(1,6)]",
+        "[x^2 for x in range(5)]",
+        "[x*x for x in range(5,1)]",
+        "squares(5)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace [x for x in range(10) if x**2 > 50]?",
+      "options": [
+        "[8,9]",
+        "[7,8,9]",
+        "[6,7,8,9]",
+        "[49,64,81]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace list(map(str, [1,2,3]))?",
+      "options": [
+        "[1,2,3]",
+        "['1','2','3']",
+        "Error",
+        "[str,str,str]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace list(filter(lambda x: x>2, [1,2,3,4]))?",
+      "options": [
+        "[1,2]",
+        "[3,4]",
+        "[2,3,4]",
+        "[1,2,3]"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuántos temas tiene el curso según los documentos?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es el nombre completo de la asignatura según los documentos?",
+      "options": [
+        "Programación en Python",
+        "Introducción a la programación en GAE con Python",
+        "Python avanzado",
+        "Algoritmia con Python"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál de los siguientes NO es un método especial de contenedor?",
+      "options": [
+        "__len__",
+        "__getitem__",
+        "__contains__",
+        "__format__"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Cuál de los siguientes NO es un operador de comparación implementable como método especial?",
+      "options": [
+        "__gt__",
+        "__le__",
+        "__ne__",
+        "__and__"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué hace Auxiliar(Empleado) en el ejemplo de reflexión del tema 5?",
+      "options": [
+        "Crea una copia",
+        "Es una subclase de Empleado",
+        "Hereda de dos clases",
+        "Es una composición"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué ocurre cuando el salario de un Auxiliar supera 100000 en el ejemplo de reflexión?",
+      "options": [
+        "Lanza error",
+        "Su __class__ cambia a Directivo",
+        "Se crea un nuevo objeto",
+        "Se llama a __init__ de Directivo"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la herramienta recomendada para documentar parámetros según el tema 1?",
+      "options": [
+        "/* */",
+        "# comentario",
+        "Docstrings con :param: y :return:",
+        "Anotaciones de tipo"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace help(función) en Python?",
+      "options": [
+        "Ejecuta la función",
+        "Muestra la docstring de la función",
+        "Lista los parámetros",
+        "Muestra el código fuente"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace ''.join(['a','b','c'])?",
+      "options": [
+        "['abc']",
+        "'a b c'",
+        "'abc'",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace 'hola'.replace('l','r')?",
+      "options": [
+        "'hora'",
+        "'hola'",
+        "'hora'",
+        "'holla'"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué hace 'HOLA'.lower()?",
+      "options": [
+        "'HOLA'",
+        "'Hola'",
+        "'hola'",
+        "Error"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace ' hola '.strip()?",
+      "options": [
+        "'hola '",
+        "' hola'",
+        "'hola'",
+        "' hola '"
+      ],
+      "answer": 2
+    }
+  ]
+}

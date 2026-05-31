@@ -19,6 +19,34 @@
         {
             "id": "test-t5-temario",
             "file": "local-tests/als_test_t5.json"
-        }
+        },
+        {
+            "id": "test-t8-temario",
+            "file": "local-tests/als_test_t8.json"
+        },
+        {
+            "id": "test-t9-temario",
+            "file": "local-tests/als_test_t9.json"
+        },
+        {
+            "id": "test-parcial-1",
+            "file": "local-tests/als_p1.json"
+        },
+        {
+            "id": "test-parcial-2",
+            "file": "local-tests/als_p2.json"
+        },
+        {
+            "id": "mock-exam-1",
+            "file": "local-tests/als_mock_exam_t1-5.json"
+        },
+        {
+            "id": "test-t5-temario",
+            "file": "local-tests/als_mock_exam_t10-16.json"
+        },
+        {
+            "id": "test-t4-temario",
+            "file": "local-tests/als_mock_exam_parcial2.json"
+        }  
     ]
 }

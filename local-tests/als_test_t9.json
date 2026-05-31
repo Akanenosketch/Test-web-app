@@ -1,0 +1,607 @@
+{
+  "title": "Test Tema 9 — Reflexión en Python",
+  "description": "Test sobre introspección, reflexión estructural, dir(), getattr() y __getattribute__.",
+  "author": "ESEI - Universidad de Vigo",
+  "questions": [
+    {
+      "question": "¿Qué es la introspección en el contexto de un lenguaje de programación?",
+      "options": [
+        "La capacidad de compilar código en tiempo de ejecución",
+        "La capacidad de consultar los miembros que ofrece un objeto en tiempo de ejecución",
+        "La capacidad de eliminar clases dinámicamente",
+        "La capacidad de importar módulos de forma automática"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué es la reflexión estructural en Python?",
+      "options": [
+        "La capacidad de consultar los miembros de un objeto",
+        "La capacidad de heredar de múltiples clases",
+        "La capacidad de modificar los miembros de un objeto en tiempo de ejecución",
+        "La capacidad de capturar excepciones dinámicamente"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué función devuelve una lista de cadenas con los miembros de un objeto?",
+      "options": [
+        "members()",
+        "inspect()",
+        "list()",
+        "dir()"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué devuelve dir(p) para una instancia p de una clase?",
+      "options": [
+        "Un diccionario con los valores de los atributos",
+        "Una lista de cadenas con los nombres de los miembros del objeto",
+        "La clase de p",
+        "Una lista con los valores de los atributos del objeto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve getattr(obj, s) ?",
+      "options": [
+        "El tipo de obj",
+        "True si obj tiene un atributo llamado s",
+        "El miembro de obj cuyo nombre coincide con la cadena s",
+        "La representación en cadena de obj"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve callable(m) ?",
+      "options": [
+        "El número de argumentos que acepta m",
+        "True si m es invocable (método o función)",
+        "El tipo de retorno de m",
+        "True si m es un atributo 7. En to_str(obj) , ¿cómo se distinguen los métodos de los atributos? 8. ¿Qué mecanismo de Python transforma __x (definido dentro de Punto ) en _Punto__x ? 9. ¿Cuál es el propósito de la desfiguración de nombres en Python?10. ¿Qué función puede procesar la salida de to_str(obj) si está formateada como un diccionario Python?11. ¿Cuándo se llama a __getattr__(self, s) ? 12. ¿Cuándo se llama a __getattribute__(self, s) ? 13. En el ejemplo de Punto que usa __getattribute__ , ¿qué devuelve p.getX() ?"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En to_str(obj) , ¿cómo se distinguen los métodos de los atributos?",
+      "options": [
+        "Comprobando si su nombre empieza por __",
+        "Usando isinstance(m, str)",
+        "Comprobando callable(m) — los métodos son invocables, los atributos no",
+        "Comprobando la longitud del nombre del miembro"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué mecanismo de Python transforma __x (definido dentro de Punto ) en _Punto__x ?",
+      "options": [
+        "Encapsulación",
+        "Desfiguración de nombres (name mangling)",
+        "Sombreado (shadowing)",
+        "Monkey patching"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el propósito de la desfiguración de nombres en Python?",
+      "options": [
+        "Hacer los atributos verdaderamente privados e inaccesibles",
+        "Mejorar el rendimiento del acceso a atributos",
+        "Dificultar el acceso accidental a atributos \"privados\"",
+        "Generar métodos getter automáticamente"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué función puede procesar la salida de to_str(obj) si está formateada como un diccionario Python?",
+      "options": [
+        "compile()",
+        "exec()",
+        "repr()",
+        "eval()"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Cuándo se llama a __getattr__(self, s) ?",
+      "options": [
+        "En cada acceso a un atributo",
+        "Solo cuando el atributo s no se encuentra por los medios habituales",
+        "Solo cuando s empieza por __",
+        "Solo cuando el atributo es privado"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuándo se llama a __getattribute__(self, s) ?",
+      "options": [
+        "Solo para atributos inexistentes",
+        "Solo para llamadas a métodos",
+        "Solo cuando s es una cadena",
+        "En cada acceso a cualquier atributo o método, sin excepción 14. ¿Qué representa return lambda: None dentro de __getattribute__ ? 15. ¿Por qué debe __getattribute__ llamar a super().__getattribute__(s) para los miembros no interceptados?16. ¿Qué ocurre si __getattribute__ nunca llama a super().__getattribute__(s) ?17. En el ejemplo de SmartList , ¿qué devuelve l.getValue0() ? 18. En SmartList.__getattribute__ , ¿qué excepción se lanza si el sufijo tras \"getValue\"no es un entero?"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "En el ejemplo de Punto que usa __getattribute__ , ¿qué devuelve p.getX() ?",
+      "options": [
+        "El valor de __x",
+        "Una función lambda",
+        "None",
+        "Un AttributeError"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué representa return lambda: None dentro de __getattribute__ ?",
+      "options": [
+        "Una función que devuelve None y no acepta argumentos",
+        "Una función que elimina el atributo",
+        "Una función que lanza AttributeError",
+        "Una clase vacía"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Por qué debe __getattribute__ llamar a super().__getattribute__(s) para los miembros no interceptados?",
+      "options": [
+        "Para activar __getattr__ en su lugar",
+        "Para recargar la clase",
+        "Para delegar en el comportamiento por defecto de Python en la búsqueda deatributos",
+        "Para evitar recursión infinita en dir()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué ocurre si __getattribute__ nunca llama a super().__getattribute__(s) ?",
+      "options": [
+        "Python usa __getattr__ como alternativa",
+        "Todos los accesos a atributos devuelven None",
+        "Todos los accesos a atributos son interceptados y se pierde el comportamiento pordefecto",
+        "El objeto se vuelve inmutable"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En el ejemplo de SmartList , ¿qué devuelve l.getValue0() ?",
+      "options": [
+        "0",
+        "None",
+        "El primer elemento de la lista interna",
+        "La longitud de la lista"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En SmartList.__getattribute__ , ¿qué excepción se lanza si el sufijo tras \"getValue\"no es un entero?",
+      "options": [
+        "TypeError",
+        "IndexError",
+        "AttributeError",
+        "ValueError 19. ¿Cómo soporta SmartList los métodos getValue0() , getValue1() , etc. sindefinirlos explícitamente?20. ¿Cuál de estas afirmaciones sobre la reflexión estructural en Python es VERDADERA?21. ¿Qué hace Punto.x = 0 cuando Punto es una clase completamente vacía?22. ¿Qué hace Punto.__str__ = lambda self: f\"({self.x}, {self.y})\" ?23. ¿Qué ocurre cuando se llama a del p.y en una instancia p que tiene su propioatributo y ?24. Tras del p.y , si Punto.y vale 0 , ¿qué devuelve el acceso a p.y ?"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cómo soporta SmartList los métodos getValue0() , getValue1() , etc. sindefinirlos explícitamente?",
+      "options": [
+        "Usando __getattr__",
+        "Sobreescribiendo __getattribute__ para analizar el nombre del método dinámicamente",
+        "Heredando de list",
+        "Usando map() y filter()"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál de estas afirmaciones sobre la reflexión estructural en Python es VERDADERA?",
+      "options": [
+        "Los miembros de una clase nunca pueden añadirse tras su definición",
+        "Solo se pueden añadir atributos; no métodos",
+        "Los miembros pueden añadirse, modificarse o eliminarse en tiempo de ejecución",
+        "La reflexión estructural requiere un decorador especial"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace Punto.x = 0 cuando Punto es una clase completamente vacía?",
+      "options": [
+        "Lanza un TypeError",
+        "Añade un atributo de clase x con valor 0 a Punto",
+        "Crea una nueva clase llamada x",
+        "Inicializa una instancia de Punto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace Punto.__str__ = lambda self: f\"({self.x}, {self.y})\" ?",
+      "options": [
+        "Llama a __str__ inmediatamente",
+        "Sobreescribe dinámicamente el método __str__ de todas las instancias de Punto ✓",
+        "Crea un nuevo atributo llamado __str__",
+        "Lanza un NameError"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué ocurre cuando se llama a del p.y en una instancia p que tiene su propioatributo y ?",
+      "options": [
+        "El atributo y de la clase también se elimina",
+        "p.y lanza AttributeError a partir de ese momento",
+        "Se elimina el atributo de instancia y ; las búsquedas posteriores recurren al atributo de clase",
+        "No ocurre nada"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Tras del p.y , si Punto.y vale 0 , ¿qué devuelve el acceso a p.y ?",
+      "options": [
+        "AttributeError",
+        "None",
+        "0",
+        "El último valor que tenía p.y antes de ser eliminado 25. ¿Qué modelo de objetos usa Python en lugar del modelo clásico basado en clases? 26. En el modelo de prototipos de Python, ¿qué ocurre cuando no se encuentra un atributoen una instancia?27. ¿Qué atributo de todo objeto Python indica a qué clase pertenece?28. ¿Qué tipo de herencia utiliza el modelo de prototipos de Python?29. ¿Qué es la herencia dinámica en Python?30. En el ejemplo Auxiliar / Directivo , ¿qué desencadena el cambio de Auxiliar a Directivo ?"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué modelo de objetos usa Python en lugar del modelo clásico basado en clases?",
+      "options": [
+        "Modelo basado en plantillas",
+        "Modelo basado en actores",
+        "Modelo basado en esquemas",
+        "Modelo basado en prototipos"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "En el modelo de prototipos de Python, ¿qué ocurre cuando no se encuentra un atributoen una instancia?",
+      "options": [
+        "Se lanza una excepción inmediatamente",
+        "Python devuelve None",
+        "La búsqueda se delega en la clase (y hacia arriba en la cadena)",
+        "Python crea el atributo automáticamente con un valor por defecto"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué atributo de todo objeto Python indica a qué clase pertenece?",
+      "options": [
+        "__type__",
+        "__class__",
+        "__base__",
+        "__proto__"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué tipo de herencia utiliza el modelo de prototipos de Python?",
+      "options": [
+        "Herencia por concatenación",
+        "Herencia por composición",
+        "Herencia por delegación",
+        "Herencia por copia"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué es la herencia dinámica en Python?",
+      "options": [
+        "Heredar de una clase definida en tiempo de ejecución",
+        "Usar super() en múltiples niveles",
+        "Cambiar el atributo __class__ de un objeto en tiempo de ejecución según una condición",
+        "Crear subclases dentro de funciones"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En el ejemplo Auxiliar / Directivo , ¿qué desencadena el cambio de Auxiliar a Directivo ?",
+      "options": [
+        "Llamar explícitamente a un constructor",
+        "Establecer el salario en 100.000 o más",
+        "Cambiar el nombre del empleado",
+        "Eliminar el atributo salario 31. En el ejemplo Auxiliar / Directivo , ¿qué hace self.__class__ = Directivo ?32. Tras e.salario = 150000 , ¿qué imprime print(e) para el nombre \"Baltasar\"?33. Tras e.salario = 50000 (después de un salario de 150000), ¿qué imprime print(e) ? 34. ¿Por qué métodos como getX() y getY() no siguen las buenas prácticas de Python?35. ¿Cuál es la diferencia entre la salida de dir(Punto) y dir(p) para una instancia p ?36. ¿Qué devuelve eval(to_str(p)) cuando to_str formatea la salida como undiccionario Python?"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En el ejemplo Auxiliar / Directivo , ¿qué hace self.__class__ = Directivo ?",
+      "options": [
+        "Crea un nuevo objeto Directivo",
+        "Llama a Directivo.__init__",
+        "Cambia dinámicamente la clase de la instancia actual a Directivo",
+        "Copia todos los atributos de Directivo"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Tras e.salario = 150000 , ¿qué imprime print(e) para el nombre \"Baltasar\"?",
+      "options": [
+        "Baltasar: 150000.00 (auxiliar)",
+        "Baltasar: 150000.00 (directivo)",
+        "Baltasar: 1000.00 (directivo)",
+        "Baltasar: 150000.00"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Tras e.salario = 50000 (después de un salario de 150000), ¿qué imprime print(e) ?",
+      "options": [
+        "Baltasar: 50000.00 (directivo)",
+        "Baltasar: 1000.00 (auxiliar)",
+        "Se lanza una excepción",
+        "Baltasar: 50000.00 (auxiliar)"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Por qué métodos como getX() y getY() no siguen las buenas prácticas de Python?",
+      "options": [
+        "Son demasiado lentos",
+        "Python prefiere el acceso directo a atributos o propiedades sobre métodos getterexplícitos",
+        "No pueden definirse dentro de clases",
+        "Entran en conflicto con __getattribute__"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la diferencia entre la salida de dir(Punto) y dir(p) para una instancia p ?",
+      "options": [
+        "Son siempre idénticas",
+        "dir(p) muestra adicionalmente los atributos de instancia como _Punto__x",
+        "dir(Punto) muestra los atributos de instancia; dir(p) muestra los miembros de clase",
+        "dir(p) devuelve una lista vacía"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve eval(to_str(p)) cuando to_str formatea la salida como undiccionario Python?",
+      "options": [
+        "La representación en cadena de p",
+        "Un diccionario Python con los nombres y valores de los atributos de p",
+        "Una nueva instancia de Punto",
+        "Una lista de valores de atributos 37. ¿Cuál de estas opciones añade correctamente un método a una clase después de su definición?38. En to_str(obj) , ¿por qué se comprueba isinstance(m, str) ? 39. ¿Qué devuelve p.__class__ para una instancia p de Punto ? 40. ¿Puede modificarse __class__ dentro de un constructor?41. ¿Qué ocurriría si __getattribute__ interceptara accidentalmente self.__l en SmartList ? 42. ¿Qué hace el modelo de delegación de Python cuando no se encuentra un método enuna instancia?"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál de estas opciones añade correctamente un método a una clase después de su definición?",
+      "options": [
+        "Punto.method = def m(self): pass",
+        "Punto.method = lambda self: self.x + self.y",
+        "add_method(Punto, \"method\")",
+        "Punto.append(lambda self: self.x)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "En to_str(obj) , ¿por qué se comprueba isinstance(m, str) ?",
+      "options": [
+        "Para omitir los atributos de tipo cadena",
+        "Para añadir comillas alrededor de los valores de tipo cadena y mantener el formatode diccionario correcto",
+        "Para convertir valores numéricos a cadena",
+        "Para filtrar los atributos privados"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve p.__class__ para una instancia p de Punto ?",
+      "options": [
+        "La cadena \"Punto\"",
+        "El objeto clase Punto",
+        "Una lista de todas las clases en la jerarquía",
+        "None"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Puede modificarse __class__ dentro de un constructor?",
+      "options": [
+        "No, los constructores son inmutables tras __new__",
+        "No, solo fuera de la clase",
+        "Solo si se usa super()",
+        "Sí, self.__class__ puede reasignarse dentro de cualquier método, incluido __init__"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué ocurriría si __getattribute__ interceptara accidentalmente self.__l en SmartList ?",
+      "options": [
+        "Nada, Python protege automáticamente los atributos dunder",
+        "self.__l devolvería None",
+        "Se produciría recursión infinita a menos que se use super().__getattribute__",
+        "Python lanza un RecursionError inmediatamente"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué hace el modelo de delegación de Python cuando no se encuentra un método enuna instancia?",
+      "options": [
+        "Lanza AttributeError inmediatamente",
+        "Devuelve None",
+        "Busca el método en la clase de la instancia y luego hacia arriba en el MRO 43. ¿Cuál de estas afirmaciones sobre las clases de Python es VERDADERA?44. ¿Cuál es la diferencia entre __getattr__ y __getattribute__ ?45. En el ejemplo de Punto que usa __getattribute__ , ¿qué comprueba la condición s[:3] == \"get\" ? 46. ¿Qué devuelve super().__getattribute__(s) en el contexto de Punto.__getattribute__ ? 47. ¿Por qué es útil dir() dentro de un programa (no solo en la consola interactiva)?48. ¿Qué término describe la capacidad de Python de ser tanto introspectivo comoestructuralmente reflexivo?",
+        "Crea el método dinámicamente"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál de estas afirmaciones sobre las clases de Python es VERDADERA?",
+      "options": [
+        "Las clases son plantillas inmutables",
+        "Las clases son objetos y sus miembros pueden modificarse en tiempo de ejecución",
+        "Los atributos de clase no pueden eliminarse",
+        "Las clases no pueden tener funciones lambda como métodos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la diferencia entre __getattr__ y __getattribute__ ?",
+      "options": [
+        "__getattr__ intercepta todos los accesos; __getattribute__ solo los que fallan",
+        "Se comportan de forma idéntica",
+        "__getattribute__ intercepta todos los accesos; __getattr__ solo gestiona los atributos ausentes",
+        "__getattr__ funciona solo para atributos de clase; __getattribute__ paraatributos de instancia"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En el ejemplo de Punto que usa __getattribute__ , ¿qué comprueba la condición s[:3] == \"get\" ?",
+      "options": [
+        "Si s es un atributo privado",
+        "Si s es exactamente \"get\"",
+        "Si el nombre del miembro al que se accede empieza por \"get\"",
+        "Si s tiene al menos 3 caracteres"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué devuelve super().__getattribute__(s) en el contexto de Punto.__getattribute__ ?",
+      "options": [
+        "None",
+        "El resultado de la búsqueda de atributos por defecto de Python para s",
+        "Una nueva función lambda",
+        "La cadena s en sí misma"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Por qué es útil dir() dentro de un programa (no solo en la consola interactiv",
+      "options": [
+        "Acelera la ejecución del programa",
+        "Permite enumerar los miembros de un objeto en tiempo de ejecución paraintrospección y reflexión",
+        "Sustituye la necesidad de __str__",
+        "Genera automáticamente getters y setters"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué término describe la capacidad de Python de ser tanto introspectivo comoestructuralmente reflexivo? d) Crea el método dinámicamente",
+      "options": [
+        "Tipado estático 49. Tras estas líneas, ¿qué imprime print(p) ? 50. ¿Cuál es la razón, según el modelo de objetos, por la que del p.y no provoca un error al acceder a p.y después? 51. En el ejemplo de SmartList , ¿qué devuelve return lambda: self.__l[num] ? 52. ¿Qué devuelve to_str(p) para Punto(5, 6) cuando __doc__ es None ? 53. ¿Qué hace la línea salario = property(get_salario, set_salario) en Auxiliar ?",
+        "Metaprogramación",
+        "Lenguaje dinámico",
+        "Duck typing class Punto: passPunto.x = 0; Punto.y = 0Punto.__str__ = lambda self: f\"({self.x}, {self.y})\"p = Punto(); p.x = 5; p.y = 6del p.y"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Tras estas líneas, ¿qué imprime print(p) ?",
+      "options": [
+        "(5, 6)",
+        "(5, None)",
+        "AttributeError",
+        "(5, 0)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "¿Cuál es la razón, según el modelo de objetos, por la que del p.y no provoca un error al acceder a p.y después?",
+      "options": [
+        "Python recrea automáticamente los atributos eliminados",
+        "La eliminación establece el atributo a None",
+        "La delegación recurre al atributo de clase Punto.y",
+        "del sobre un atributo de instancia elimina solo la referencia, no el valor"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En el ejemplo de SmartList , ¿qué devuelve return lambda: self.__l[num] ?",
+      "options": [
+        "El elemento en el índice num directamente",
+        "Un invocable sin argumentos que, al ser llamado, devuelve self.__l[num]",
+        "Un generador sobre la lista",
+        "None"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué devuelve to_str(p) para Punto(5, 6) cuando __doc__ es None ?",
+      "options": [
+        "{'x': 5, 'y': 6}",
+        "{'_Punto__x': 5, '_Punto__y': 6, '__doc__': None, '__module__': '__main__'}",
+        "{'__x': 5, '__y': 6}",
+        "(5, 6)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué hace la línea salario = property(get_salario, set_salario) en Auxiliar ? b) Metaprogramaciónc) Lenguaje dinámicod) Duck typing class Punto: passPunto.x = 0; Punto.y = 0Punto.__str__ = lambda self: f\"({self.x}, {self.y})\"p = Punto(); p.x = 5; p.y = 6del p.y",
+      "options": [
+        "Llama a set_salario inmediatamente",
+        "Oculta el atributo salario 54. ¿Por qué deben Auxiliar y Directivo redefinir cada uno salario = property(...) en lugar de heredarla? 55. ¿A qué paradigma se acerca más la herencia dinámica de Python?56. ¿Cuál de estas opciones elimina correctamente un atributo de una clase (no de unainstancia)?57. En to_str(obj) , ¿cuál es el papel de la variable valor ?58. ¿Qué mostraría dir() para una clase completamente vacía ( class Foo: pass )? 59. ¿Qué es el \"monkey patching\" en Python?",
+        "Crea una propiedad que usa el propio set_salario de Auxiliar , habilitando la lógica de cambio de clase",
+        "Sobreescribe el constructor de Empleado"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Por qué deben Auxiliar y Directivo redefinir cada uno salario = property(...) en lugar de heredarla?",
+      "options": [
+        "Las propiedades no pueden heredarse en Python",
+        "Para asegurar que se usa su propio set_salario (con la lógica de cambio de clase)",
+        "Python prohíbe heredar propiedades de clases abstractas",
+        "Para evitar llamar a Empleado.__init__ dos veces"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿A qué paradigma se acerca más la herencia dinámica de Python?",
+      "options": [
+        "Tipado estático estricto",
+        "Programación orientada a aspectos",
+        "Programación orientada a objetos basada en prototipos",
+        "Programación procedimental"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál de estas opciones elimina correctamente un atributo de una clase (no de unainstanci",
+      "options": [
+        "remove(Punto, 'x')",
+        "Punto.x = None",
+        "del Punto.x",
+        "Punto.__del__('x')"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "En to_str(obj) , ¿cuál es el papel de la variable valor ?",
+      "options": [
+        "Almacenar el tipo del atributo",
+        "Construir la representación en cadena del valor de cada atributo",
+        "Contar el número de atributos",
+        "Comprobar si el atributo es invocable"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué mostraría dir() para una clase completamente vacía ( class Foo: pass )?",
+      "options": [
+        "Una lista vacía []",
+        "Solo ['__init__']",
+        "Una lista de miembros dunder por defecto heredados de object",
+        "Un TypeError"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué es el \"monkey patching\" en Python? c) Crea una propiedad que usa el propio set_salario de Auxiliar , habilitando la lógica de cambio de clase d) Sobreescribe el constructor de Empleado",
+      "options": [
+        "Un patrón de diseño para algoritmos recursivos 60. ¿Qué combinación de herramientas permite construir una función de serialización introspectiva completamente genérica para cualquier objeto Python?",
+        "Modificar o reemplazar dinámicamente miembros de una clase u objeto en tiempo deejecución",
+        "Usar lambdas dentro de definiciones de clases",
+        "Escribir tests que simulan el comportamiento de un objeto"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué combinación de herramientas permite construir una función de serialización introspectiva completamente genérica para cualquier objeto Python? b) Modificar o reemplazar dinámicamente miembros de una clase u objeto en tiempo deejecuciónc) Usar lambdas dentro de definiciones de clasesd) Escribir tests que simulan el comportamiento de un objeto",
+      "options": [
+        "print() y str()",
+        "type() y id()",
+        "dir() , getattr() y callable()",
+        "vars() y repr() únicamente"
+      ],
+      "answer": 2
+    }
+  ]
+}

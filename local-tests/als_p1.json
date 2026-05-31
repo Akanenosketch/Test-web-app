@@ -1,0 +1,212 @@
+{
+  "title": "Cuestionario Python (P1)",
+  "description": "Preguntas sobre listas, diccionarios, clases y POO en Python.",
+  "questions": [
+    {
+      "question": "Suponiendo la siguiente lista, ¿cómo se puede hacer una media del primer parcial? alumnos = [ {\"nombre\": \"Lucas\", \"notas\": { \"parcial1\": 5.5, \"parcial2\": 7.8, \"proyecto\": 8.5}}, {\"nombre\": \"Pedro\", \"notas\": {\"parcial1\": 9.5, \"parcial2\": 4.5, \"proyecto\": 7.2}}, {\"nombre\": \"Pablo\", \"notas\": { \"parcial1\": 6.5, \"parcial2\": 7.8, \"proyecto\": 9.3 }, {\"nombre\": \"Samuel\", \"notas\": {\"parcial1\": 7, \"parcial2\": 5.6, \"proyecto\": 6.4}}, ]",
+      "options": [
+        "notas [al[\"notas\", \"parcial1\"] for al in alumnos]; print(sum(notas)/len (notas))",
+        "notas [al[\"notas\"] [\"parcial1\"] for al in alumnos]; print(sum(notas)/len (notas))",
+        "notas [al [notas] [parcial1] for al in alumnos]; print(sum(notas)/len(notas))",
+        "notas = [al.notas.parcialı for al in alumnos]; print(sum(notas)/len(notas))"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "El listín telefónico de la ESEI se configura de la siguiente forma... ¿Cómo obtener un listado de profesores con sus teléfonos? L = [(\"baltasar.garcia.perez-schofield.\", 988368891), (\"lourdes.borrajo.diz.\", 988387028), ...]",
+      "options": [
+        "str.join(\"\\n\", [f\"{pair.replace('.', '').title()}\" for pair in l])",
+        "str.join(\"\\n\", [str(pair).title() for pair in 1])",
+        "str.join(\"\\n\",[f\"{pair[0].replace('.', ' ').title()}: {pair[1]}\" for pair in l])",
+        "str.join(\"\\n\", [str(pair) for pair in l])"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Dadas las siguientes instrucciones, ¿cómo se puede cambiar la fecha en d por la actual almacenada en f2? d = {\"fecha\": [2001, 1, 1]}; f = datetime.now(); f2 = [f.year, f.month, f.day]",
+      "options": [
+        "d+=f2",
+        "d[\"fecha\"]=f2",
+        "d[1]=f2",
+        "1.fecha=f2"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dada una clase Empleado, derivada de Persona, que aporta la propiedad de solo lectura \"email\", ¿cómo se crea el método __str__?",
+      "options": [
+        "def __str__(self): return str.format(\"{ , {} ({})\", self.apellidos, self.nombre, self.email)",
+        "def __str__(self): return str.format(\"{} ({})\", super().__str__(), self.email)",
+        "def __str__(): return str.format(\"{}, {} ({})\", apellidos, nombre, email)",
+        "def __str__(self): return self.apellidos + self.nombre + self.email"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dada la expresión: 1+int(bool('1'))",
+      "options": [
+        "Un texto no se puede convertir a booleano, por lo que se devuelve False, que se evalúa como 1, por lo que el resultado final es 0.",
+        "Cualquier texto no vacío vale True, por lo que se evalúa como 1, que es el valor entero de True, y el resultado final es 2.",
+        "El valor de la cadena de caracteres es 1, que se convierte a False y False también es 1 como entero, por lo que el resultado final es 2.",
+        "Cualquier texto vale True, por lo que se evalúa como 1, que es el valor entero de True, y el resultado final es 2."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "La expresión 1+(float(\"3\")//2)",
+      "options": [
+        "El 3 es un número entero, por lo que float(\"3\") lanza una excepción.",
+        "Ni siquiera compila, ya que repite el operador de división dos veces.",
+        "Devuelve 2.5, al dividir 3 (convertido desde una caden",
+        "entre 2 y sumarle 1.",
+        "Devuelve 2, al dividir 3 (convertido desde una caden",
+        "entre 2, de forma entera, y sumarle 1."
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Dada una clase Persona, con las propiedades de solo lectura \"nombre\" y \"apellidos\", ¿cómo se crea un método especial que permita acceder a ambos datos como si se tratara de una lista (operador [])?",
+      "options": [
+        "def __index__(self, i): return self.nombre if i==0 else self.apellidos",
+        "def __getitem__(self, i): return self.nombre if i==0 else self.apellidos",
+        "def __operator__ () (i): return Persona.nombre if i==0 else Persona.apellidos",
+        "def __operator__ [ _(self, i): return self.nombre if i==0 else self.apellidos"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dada la lista l = [1, 2], y si queremos añadir un nuevo elemento: 3, ¿cuál sería la opción correcta?",
+      "options": [
+        "l+=[3]",
+        "L+=list(3)",
+        "l+=3",
+        "L+=(3)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "El listín telefónico de la ESEI se configura de la siguiente forma... ¿Cómo localizar a profesores con el apellido exacto guardado en la variable de texto 'ap'? L = [(\"baltasar.garcia.perez-schofield.\", 988368891), (\"lourdes.borrajo.diz.\", 988387028), ...]",
+      "options": [
+        "...for prof in if ap.lower() in prof])",
+        "...for prof in if (\".\" + ap.lower() + \".\") in prof[0]])",
+        "...for prof... if ap in prof[1]])",
+        "...for prof in... if (\".\"+ap+\".\") in prof[0]])"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dada una clase Persona, con las propiedades de solo lectura \"nombre\" y \"apellidos\", ¿cómo soportar \"in\", de manera que se pueda buscar un apellido o nombre en los apellidos y nombre de un objeto Persona?",
+      "options": [
+        "def __in__(self, x): return x.lower() in self.apellidos.lower() or x.lower() in self.nombre.lower()",
+        "def __bool__(self, x): return x.lower() in self.apellidos.lower() or x.lower() in self.nombre.lower()",
+        "def __search__(self, x): return x.lower() in self.apellidos.lower() or x.lower() in self.nombre.lower()",
+        "def __contains__(self, x): return x.lower() in self.apellidos.lower() or x.lower() in self.nombre.lower()"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Suponiendo la siguiente lista, ¿cómo se accede a la nota del proyecto de Pablo? alumnos = [ {\"nombre\": \"Lucas\", \"notas\": { \"parcial1\": 5.5, \"parcial2\": 7.8, \"proyecto\": 8.5}}, {\"nombre\": \"Pedro\", \"notas\": {\"parcial1\": 9.5, \"parcial2\": 4.5, \"proyecto\": 7.2}}, {\"nombre\": \"Pablo\", \"notas\": { \"parcialı\": 6.5, \"parcial2\": 7.8, \"proyecto\": 9.3}}, {\"nombre\": \"Samuel\", \"notas\": {\"parcial1\": 7, \"parcial2\": 5.6, \"proyecto\": 6.4}}, ]",
+      "options": [
+        "alumnos [3] [notas) [proyecto]",
+        "alumnos [3, notas, proyecto]",
+        "alumnos.pablo.notas.proyecto",
+        "alumnos [2] [\"notas\"][\"proyecto\"]"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Si tenemos l1 = [11, 22, 33, 44, 55, 66, 77, 88, 99], si se desea obtener la lista [44, 55, 66, 77] en l2...",
+      "options": [
+        "l2=l1[3:7]",
+        "l2= list(l1)",
+        "l2=l1[3:]",
+        "l2=l1[:7]-l1[:3]"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Dada una clase Persona, con un método __init__() que acepta el nombre y apellidos de una persona, ¿cómo crear la clase derivada Empleado, que además define el e-mail?",
+      "options": [
+        "class Empleado (Person",
+        ": def __init__(self, apellidos, nombre, email): self._nombre = nombre; self._apellidos = apellidos; self._email = email",
+        "class Empleado: def __init__(self, apellidos, nombre, email): super (Person",
+        ".__init__(apellidos, nombre); self._email = email",
+        "class Empleado (Person",
+        ": def __init__(self, apellidos, nombre, email): super().__init__(apellidos, nombre); self._email = email",
+        "class Empleado (Person",
+        ": def __init__(self, apellidos, nombre, email): super().__init__(self, apellidos, nombre); self._email = email"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "El siguiente diccionario lleva el número de infectados por gripe en Galicia. ¿Cómo puedo visualizar el número de infectados para una clave obtenida por el usuario? ip = {\"pontevedra\": 200, \"coruña\": 300, \"lugo\": 130, \"ourense\": 120}",
+      "options": [
+        "infectados = ip.get(clave.lower()); print(\"Infectados:\", infectados)",
+        "infectados = ip[clave.lower()]; print((\"Infectados: \" + str(infectados)) if infectados else \"Sin datos.\")",
+        "print(\"Infectados:\", ip [clave])",
+        "infectados = ip.get(clave.lower()); print((\"Infectados:\" + str(infectados)) if infectados else \"Sin datos.\")"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Para crear un conjunto ci con los valores 11, 22 y 33...",
+      "options": [
+        "c1=set(11,22,33)",
+        "c1=set(11)+set(22)+set(33)",
+        "c1=list(set(11,22,33))",
+        "c1=set((11,22,33))"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Para mostrar una lista con los enteros impares desde 100 a 200...",
+      "options": [
+        "print(list(range(101,201,2))",
+        "print([x for x in range(101, 201) if x%2!=0])",
+        "Todas son correctas.",
+        "print([101+x for x in range(101) if x%2==0])"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Dada una clase Persona, con las propiedades de solo lectura \"nombre\" y \"apellidos\", ¿cómo se crea un método especial que permita convertir los datos de un objeto persona en texto?",
+      "options": [
+        "def __str__(): return f\" {Persona.apellidos}, {Persona.nombre}\"",
+        "def str(self): return self.apellidos + \",\" + self.nombre",
+        "def str(): return f\" {Persona.apellidos}, {Persona.nombre}\"",
+        "def __str__(self): return self.apellidos + \", \"+ self.nombre"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "El siguiente diccionario lleva el número de infectados en Galicia por gripe. ¿Cómo puedo visualizar el nombre de la provincia con menos casos? ip = {\"pontevedra\": 200, \"coruña\": 300, \"lugo\": 130, \"ourense\": 120}",
+      "options": [
+        "[data for data in ip if ip[data]==min(ip.values())]",
+        "ip[min(ip.values())]",
+        "min(ip)",
+        "[data for data in ip if ip[data]==min(ip.values())]"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Si deseamos obtener una lista l con sus elementos en orden inverso, debemos ejecutar...",
+      "options": [
+        "Todas son correctas.",
+        "l=l[::-1]",
+        "l=list(reversed(l))",
+        "l.reverse()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Si tenemos dos listas, l1 = [11, 22, 33] y l2 = [44, 55, 66], ¿cómo se puede visualizar la concatenación de ambas?",
+      "options": [
+        "Todas son correctas.",
+        "print(l1[:]+l2[:])",
+        "print([x for x in l1]+[y for y in l2])",
+        "print(l1+l2)"
+      ],
+      "answer": 0
+    }
+  ]
+}
